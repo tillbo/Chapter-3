@@ -15,5 +15,57 @@ two waves. The sample we use is restricted to the working age population
 between age 15 and 64. For our main analysis using self-reported diabetes
 we make use of all three waves in order to take advantage of the large
 amount of observations and the panel data structure of the data.
+\subsection{Data inconsistencies}
+
+An apparent issue in the use of self-reported data is reporting error.
+However, one of the advantages of panel data is that it provides repeated
+measures for many of the individuals, allowing to uncover inconsistencies
+and the extend thereof for those individuals with at least two observations.
+While we could not find any literature investigating this issue for
+self-reported diabetes, a study by \citet{Zajacova2010} on the consistency
+of a self-reported cancer diagnosis over time in a US population found
+that 30 percent who had reported a cancer diagnosis at an earlier
+point, reported at a later point that they never had received a cancer
+diagnosis. They also found that a more recent diagnosis was reported
+with greater consistency possibly due to increasing recall problems
+or lower salience as time since diagnosis advances. 
+
+We find similar inconsistencies in the diabetes self-reports over
+the three waves of the \ac{MxFLS} data, with between 10 to 20 percent
+of those reporting diabetes in one wave not reporting diabetes in
+the one of the ensuing waves. While we could not find a study assessing
+the validity of self-reported diabetes in Mexico, a study from China
+has shown that specificity -meaning the correct self-report of a diabetes
+diagnosis- was very high (>98 percent for China), while sensitivity
+-that is the awareness of the disease- was low (40 percent for China)
+\citep{Yuan2015a}. This indicates that people who report a diagnosis
+of diabetes are likely to have it while many of those reporting no
+diagnosis have diabetes as well but are not diagnosed. 
+
+Thanks to the biomarker data provided in the third wave of the \ac{MxFLS},
+we are also able to assess the validity of self-reported diabetes
+by using \ac{HbA1c} levels as well as the report of diabetes related
+medicine use as a confirmation of self-reports. The \ac{WHO} recommends
+a cut-off value of an \ac{HbA1c} $\geqslant6.5$percent, to diagnose
+a person with diabetes \citep{WorldHealthOrganization2011}. Of the
+subsample selected for biomarker measurements and answering the diabetes
+question (n=6895), 705 reported a diabetes diagnosis and of those
+also 632 (90\%) had an \ac{HbA1c} $\geqslant6.5$percent or reported
+taking diabetes medication. Further, the biomarker data shows that
+of the 1803 having an \ac{HbA1c} $\geqslant6.5$percent, 1265 did
+not self-report a diabetes diagnosis in the third wave, indicating
+that 70 percent of the people with diabetes are undiagnosed in the
+subsample. These results support those from China indicating that
+diabetes self-report has a high specificity but a low sensitivity.
+
+Due to the high specificity in the reporting of a diabetes diagnosis,
+we assume for people with information from only two waves, that if
+they reported a diabetes diagnosis in a prior wave they also had diabetes
+in the ensuing wave even if they did not report a diabetes diagnosis.
+For people where we had information on all three waves, we used that
+additional information to make a decision on how to deal with inconsistencies
+using the following rules:
+
+  
   
   
