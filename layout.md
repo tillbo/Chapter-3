@@ -2,4 +2,3 @@ Methodology.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
 def_sym_1_ifmmode_1__.tex
-figures/figure_1/figure_1.jpg
