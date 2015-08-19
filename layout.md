@@ -8,3 +8,4 @@ figures/lpoly_workhrs_diabetesduration/lpoly_workhrs_diabetesduration.png
 First_models_with_a_linear__.tex
 Using_the_splines_we_find__.tex
 subsection_Cross_sectional_biomarker_analysis__.tex
+subsection_Diagnosed_and_undiagnosed_diabetes__.tex
