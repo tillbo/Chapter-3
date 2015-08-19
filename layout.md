@@ -4,3 +4,4 @@ For_the_pooled_data_of__.tex
 Results-FE.tex
 figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration.png
 figures/lpoly_wage_diabetesduration/lpoly_wage_diabetesduration.png
+figures/lpoly_workhrs_diabetesduration/lpoly_workhrs_diabetesduration.png
