@@ -1,5 +1,6 @@
 Methodology.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
+begin_table_ph_caption_label__.tex
 results_table.tex
 figures/figure_1/figure_1.jpg
