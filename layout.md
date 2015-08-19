@@ -3,3 +3,4 @@ figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
 Results-FE.tex
 figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration.png
+figures/lpoly_wage_diabetesduration/lpoly_wage_diabetesduration.png
