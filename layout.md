@@ -6,3 +6,4 @@ figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration.png
 figures/lpoly_wage_diabetesduration/lpoly_wage_diabetesduration.png
 figures/lpoly_workhrs_diabetesduration/lpoly_workhrs_diabetesduration.png
 First_models_with_a_linear__.tex
+Using_the_splines_we_find__.tex
