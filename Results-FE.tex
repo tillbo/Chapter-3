@@ -44,7 +44,48 @@ the base. There could be good reason for a heterogeneous relationships
 of self-reported diabetes and worktype: The health consequences of
 diabetes could have bigger consequences for those doing strenuous
 agricultural labour compared to working in an office job.   
-  
+
+\begin{table}[H]
+\caption{\label{tab:Self-reported-diabetes-interaction}Relationship of self-reported
+diabetes by worktype and wages and working hours (fixed effects)}
+
+
+\begin{center}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{D{.}{.}{-1}l}}
+\toprule
+                &\multicolumn{3}{c}{Log monthly wages}                   &\multicolumn{3}{c}{Monthly work hours}                  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+agricultural worker&    -.109\sym{**} &    -.090\sym{**} &    -.280         &   -4.370\sym{***}&   -4.122\sym{***}&   -3.910         \\
+                &   (.043)         &   (.044)         &   (.190)         &   (.792)         &   (.835)         &  (2.628)         \\
+\addlinespace
+self-employed   &    -.039         &    -.005         &    -.129         &   -2.852\sym{***}&   -1.766\sym{**} &   -5.748\sym{***}\\
+                &   (.041)         &   (.045)         &   (.092)         &   (.663)         &   (.726)         &  (1.452)         \\
+\addlinespace
+Diabetes=1      &     .068         &     .057         &     .084         &     .239         &     .697         &    -.590         \\
+                &   (.072)         &   (.075)         &   (.167)         &  (1.382)         &  (1.693)         &  (2.251)         \\
+\addlinespace
+Diabetes=1 $\times$ agricultural worker&    -.191         &    -.194         &    -.005         &   -6.198\sym{**} &   -5.821\sym{*}  &   -8.628         \\
+                &   (.191)         &   (.199)         &   (.398)         &  (3.113)         &  (3.270)         & (15.633)         \\
+\addlinespace
+Diabetes=1 $\times$ self-employed&     .052         &    -.110         &     .487         &   -1.073         &     .589         &   -5.253         \\
+                &   (.166)         &   (.186)         &   (.354)         &  (2.243)         &  (2.519)         &  (4.466)         \\
+\midrule
+R2              &     .018         &     .018         &     .023         &     .010         &     .010         &     .021         \\
+N               &    21242         &    13976         &     7266         &    27246         &    17877         &     9369         \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize Other control variables: age, region, urban, education, indigenous, marital status, children, wealth}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}  
+\end{center}
+
+\end{table}  
   
   
   
