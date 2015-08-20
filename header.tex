@@ -38,10 +38,14 @@
 %limiting tables to only float within section
 \usepackage[section]{placeins}
   
+%use for commands only working with pdf
+\def\onlyHTML#1{\iflatexml #1\fi} %only html
+\def\onlyPDF#1{\iflatexml\else #1\fi}  %only pdf
   
 
   
 
+  
   
   
   
