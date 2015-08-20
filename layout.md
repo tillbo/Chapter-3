@@ -1,5 +1,5 @@
 .tex
-Methodology.tex
+Introduction1.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
 Results-FE.tex
