@@ -68,7 +68,8 @@ using the following rules (Table \ref{tab:Inconsistencies}):
 
 \begin{table}[h!]
 \begin{center}
-%\resizebox{\textwidth}{!}{%
+ 
+\onlyPDF{\resizebox{\textwidth}{!}{%}
 \begin{tabular}{llc}
 Inconsistency & Assumption & Number of observations replaced\tabularnewline
 \hline 
@@ -80,7 +81,7 @@ Diabetes self report in 2002, but not in 2005. Not in survey in 2009 & Has diabe
 Diabetes self report in 2005, but not in 2009. Not in survey in 2002 & Has diabetes in 2009 as well & 32\tabularnewline
 \hline 
 \end{tabular}
-%}
+\onlyPDF{}}
 \end{center}
 \caption{\label{tab:Inconsistencies}\textbf{Inconsistencies in diabetes self-report in MxFLS}}
 \end{table}
@@ -316,6 +317,7 @@ are not aware of their diabetes. This difference in self-reported
 and undiagnosed diabetes should, together with the different age groups
 used, explain the differences between the self-reported diabetes prevalence
 in the \ac{MxFLS} and the actual diabetes prevalence in Mexico.  
+  
   
   
   
