@@ -1,3 +1,4 @@
+.tex
 Introduction1.tex
 Methodology.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
@@ -13,5 +14,6 @@ subsection_Diagnosed_and_undiagnosed_diabetes__.tex
 subsection_HbA1c_levels_and_labour__.tex
 section_noindent_label_sec_Conclusion__.tex
 
+  
   
   
