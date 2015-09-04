@@ -86,13 +86,19 @@ develop diabetes.
 Additionally, we reestimate the above models using a self-reported
 measure of the years since diagnosis. First, using a linear specification
 indicating the association of our outcomes with each additional year
-since diagnosis. 
+since diagnosis using the following specification
+\noindent 
+\begin{equation}
+Y_{it}=\beta_{0}+\beta_{1}D_d{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
+\end{equation}
+
+where $\beta_{1}D_d{it}$ is a continuous variable indicates years since first diabetes diagnosis.
 
 Second, we use a linear spline function that allows the effect of an additional year with diabetes to vary over time time. Doing this we hope to capture any possible non-linearities in the relationship of diabetes duration
 and labour market outcomes.
 \noindent 
 \begin{equation}
-Y_{it}=\delta_{0}+g(\DD_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
+Y_{it}=\delta_{0}+g(\D_d_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
 \end{equation}
 
 
