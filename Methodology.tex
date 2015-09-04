@@ -86,9 +86,21 @@ develop diabetes.
 Additionally, we reestimate the above models using a self-reported
 measure of the years since diagnosis. First, using a linear specification
 indicating the association of our outcomes with each additional year
-since diagnosis. Second, using linear splines of time since diagnosis
-to capture non-linearities in the relationship of diabetes duration
-and labour market outcomes. Because the year of diagnosis was only
+since diagnosis. 
+
+Second, we use a linear spline function that allows the effect of an additional year with diabetes to vary over time time. Doing this we hope to capture any possible non-linearities in the relationship of diabetes duration
+and labour market outcomes.
+\noindent 
+\begin{equation}
+Y_{it}=\delta_{0}+g(\DD_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
+\end{equation}
+
+
+with $g(Dyears_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
+and $I_{in}=1[\eta_{n-1}\leq Dyears_{it}<\eta_{n}]$, with $\eta_{n}$ being
+the place of the $n$-th node for $n=1,2,\ldots,N$. We choose three nodes that we think best capture any possible non-linearities in the relationship of diabetes duration and our dependent variables (see Figure Graph in result section). These are located at four, eleven and twenty years after diagnosis. The first four years should capture any immediate effects of the diagnosis, the years five to ten should capture any effects of adaptation to the disease. After eleven years it is conceivable that many of the debilitating complications of diabetes appear that could deteriorate health and lead to adverse effects on our labour market outcomes.  $\delta_{n}$ stands then for the effect of diabetes for the $n$-th interval. Returns are linear if $\delta_{1}=\delta_{2}=,\ldots,=\delta_{n}$.
+
+Because the year of diagnosis was only
 reported in the third wave, we could only calculate the duration of
 diabetes (or time since diagnosis) for the earlier waves for those
 that had also responded to the third wave. To arrive at the time passed
@@ -105,19 +117,26 @@ the exploration of the relationship of undiagnosed diabetes as well
 as diabetes severity with labour market outcomes, as measured by \ac{HbA1c}
 values. Because this data is only available in the last wave and it
 is not possible to use the information in a meaningful way for the
-earlier waves, we have to rely on cross-sectional methods. This has
-obviously drawbacks in that we are not able to account for unobserved
+earlier waves, we have to rely on cross-sectional methods. This has the
+obvious drawback that we are not able to account for unobserved
 heterogeneity using fixed effects. Further, as mentioned before, biomarkers
-were only taken from a subsample of about 1/3 of our original sample
+were only taken from a subsample of about one-third of our original sample
 for the third wave, which leaves us with information on 6994 survey
 participants. Therefore the analyses cannot be directly compared to
-the other results in this paper. Nonetheless, in allows for a first
+the other results in this paper. Nonetheless, it allows for a first
 exploration of the relationships of undiagnosed diabetes as well as
 disease severity with labour market outcomes. This is important as
 the undiagnosed represent a large part of the diabetes population
 in Mexico which has not been explored so far. It further allows us
 to explore some of the heterogeneity that exists within the diabetes
-population in terms of how well people's diabetes is managed.
+population in terms of how well people's diabetes is managed. We first estimate a model to investigate the association of objectively measured diabetes (HbA1c $\leq 6.5%$) with labour market outcomes taking the following form:
+Y_{i}=\beta_{0}+\beta_{1}D_obj_{i}+\beta_{2}X_{i}+u_{i}\label{eq:diab_objective}
+where $\beta_{1}D_obj_{i}$ is equal to $1$ if HbA1c $\leq 6.5%$.
+In a further step we estimate the following equation
+Y_{i}=\beta_{0}+\beta_{1}D_sr_{i}+\beta_{1}D_ud_{i}+\beta_{2}X_{i}+u_{i}.\label{eq:diab_objective}
+to investigate how the associations differ between people with diagnosed and undiagnosed diabetes. $\beta_{1}D_sr_{i}$ identifies those diagnosed and is equal to $1$ if the person self-reported a diabetes diagnosis.  $\beta_{1}D_ud_{i}$ identifies those undiagnosed and is equal to $1$ if the person did not self-report a diabetes diagnosis but has an HbA1c $\leq 6.5%$.
+
+
 
 \subsection{Data inconsistencies}
 
