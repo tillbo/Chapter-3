@@ -89,16 +89,16 @@ indicating the association of our outcomes with each additional year
 since diagnosis using the following specification
 \noindent 
 \begin{equation}
-Y_{it}=\beta_{0}+\beta_{1}D_d_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
+Y_{it}=\beta_{0}+\beta_{1}Dduration_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
 \end{equation}
 
-where $\beta_{1}D_d_{it}$ is a continuous variable indicates years since first diabetes diagnosis.
+where $\beta_{1}Dduration_{it}$ is a continuous variable indicates years since first diabetes diagnosis.
 
 Second, we use a linear spline function that allows the effect of an additional year with diabetes to vary over time. Doing this we hope to capture any possible non-linearities in the relationship of diabetes duration
 and labour market outcomes.
 \noindent 
 \begin{equation}
-Y_{it}=\delta_{0}+g(\D_d_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
+Y_{it}=\delta_{0}+g(\Dyears_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
 \end{equation}
 
 
@@ -135,11 +135,11 @@ the undiagnosed represent a large part of the diabetes population
 in Mexico which has not been explored so far. It further allows us
 to explore some of the heterogeneity that exists within the diabetes
 population in terms of how well people's diabetes is managed. We first estimate a model to investigate the association of objectively measured diabetes (HbA1c $\leq 6.5%$) with labour market outcomes taking the following form:
-Y_{i}=\beta_{0}+\beta_{1}D_obj_{i}+\beta_{2}X_{i}+u_{i}\label{eq:diab_objective}
-where $\beta_{1}D_obj_{i}$ is equal to $1$ if HbA1c $\leq 6.5%$.
+Y_{i}=\beta_{0}+\beta_{1}Dobj_{i}+\beta_{2}X_{i}+u_{i}\label{eq:diab_objective}
+where $\beta_{1}Dobj_{i}$ is equal to $1$ if HbA1c $\leq 6.5%$.
 In a further step we estimate the following equation
-Y_{i}=\beta_{0}+\beta_{1}D_sr_{i}+\beta_{1}D_ud_{i}+\beta_{2}X_{i}+u_{i}.\label{eq:diab_objective}
-to investigate how the associations differ between people with diagnosed and undiagnosed diabetes. $\beta_{1}D_sr_{i}$ identifies those diagnosed and is equal to $1$ if the person self-reported a diabetes diagnosis.  $\beta_{1}D_ud_{i}$ identifies those undiagnosed and is equal to $1$ if the person did not self-report a diabetes diagnosis but has an HbA1c $\leq 6.5%$.
+Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{1}Dud_{i}+\beta_{2}X_{i}+u_{i}.\label{eq:diab_objective}
+to investigate how the associations differ between people with diagnosed and undiagnosed diabetes. $\beta_{1}Dsr_{i}$ identifies those diagnosed and is equal to $1$ if the person self-reported a diabetes diagnosis.  $\beta_{1}Dud_{i}$ identifies those undiagnosed and is equal to $1$ if the person did not self-report a diabetes diagnosis but has an HbA1c $\leq 6.5%$.
 
 
 
@@ -318,6 +318,7 @@ are not aware of their diabetes. This difference in self-reported
 and undiagnosed diabetes should, together with the different age groups
 used, explain the differences between the self-reported diabetes prevalence
 in the \ac{MxFLS} and the actual diabetes prevalence in Mexico.  
+  
   
   
   
