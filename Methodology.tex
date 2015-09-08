@@ -89,20 +89,20 @@ indicating the association of our outcomes with each additional year
 since diagnosis using the following specification
 \noindent 
 \begin{equation}
-Y_{it}=\beta_{0}+\beta_{1}Dduration_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
+Y_{it}=\beta_{0}+\beta_{1}Dyears_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
 \end{equation}
 
-where $\beta_{1}Dduration_{it}$ is a continuous variable indicating years since first diabetes diagnosis.
+where $\beta_{1}Dyears_{it}$ is a continuous variable indicating years since first diabetes diagnosis.
 
 Second, we use a linear spline function that allows the effect of an additional year with diabetes to vary over time. Doing this we hope to capture possible non-linearities in the relationship of diabetes duration
 and labour market outcomes.
 \noindent 
 \begin{equation}
-Y_{it}=\delta_{0}+g(Dduration_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
+Y_{it}=\delta_{0}+g(Dyears_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
 \end{equation}
 
 
-with $g(Dduration_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
+with $g(Dyears_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
 and $I_{in}=1[\eta_{n-1}\leq Dyears_{it}<\eta_{n}]$, with $\eta_{n}$ being the place of the $n$-th node for $n=1,2,\ldots,N$. We choose three nodes that we think best capture any possible non-linearities in the relationship of diabetes duration and our dependent variables (see Figure Graph in result section). These are located at four, eleven and twenty years after diagnosis. The first four years should capture any immediate effects of the diagnosis, the years five to ten should capture any effects of adaptation to the disease. After eleven years it is conceivable that many of the debilitating complications of diabetes appear that could deteriorate health and lead to adverse effects on our labour market outcomes.  $\delta_{n}$ stands then for the effect of diabetes for the $n$-th interval. Returns are linear if $\delta_{1}=\delta_{2}=,\ldots,=\delta_{n}$.
 
 Because the year of diagnosis was only
@@ -324,6 +324,7 @@ are not aware of their diabetes. This difference in self-reported
 and undiagnosed diabetes should, together with the different age groups
 used, explain the differences between the self-reported diabetes prevalence
 in the \ac{MxFLS} and the actual diabetes prevalence in Mexico.  
+  
   
   
   
