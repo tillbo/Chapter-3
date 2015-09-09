@@ -3,9 +3,11 @@
 
 \subsection{Panel data analysis}
 
-Using fixed effects, the results indicate significant and substantial
+\textbf{a) Self-reported diabetes}
+
+Table (Table \ref{tab:Self-reported-diabetes-and}) presents the estimation results of the \ac{FE} model presented in equation \ref{eq:employed}. The results indicate significant and substantial
 reductions in employment chances for people with self-reported diabetes
-(Table \ref{tab:Self-reported-diabetes-and}). The effects themselves
+. The effects themselves
 differ little between males and females indicating a reduction in
 employment chances by between 5 and 6 percentage points. 
 \begin{table}[h]
@@ -35,15 +37,14 @@ N               &    49844         &    21710         &    28134         &    21
 
 While the adverse relationship between self-reported diabetes and
 employment chances appears to be quite strong we find no evidence
-for any relationship with wages or working hours. To investigate if
+for any relationship with wages or working hours even after controlling for type of work. To investigate if
 there are differences in wages and working hours between different
-worktypes, we estimate a model including interaction terms between
+types of work, we estimate a model including interaction terms between
 self-reported diabetes and agricultural employment and self-reported
-diabetes and self-employment, using non-agricultural employment as
+diabetes and self-employment, respectively, using non-agricultural employment as
 the base. There could be good reason for a heterogeneous relationships
 of self-reported diabetes and worktype: The health consequences of
-diabetes could have bigger consequences for those doing strenuous
-agricultural labour compared to working in an office job.   
+diabetes could affect the productivity of workers by reducing their physical abilities.  Accordingly, people with diabetes working in an agricultural job where doing strenuous labour is needed to work the land could see their productivity to be more adversely affected by diabetes than those working in an office where being physically active is of less importance.   
 
 \begin{table}[h]
 \caption{\label{tab:Self-reported-diabetes-interaction}Relationship of self-reported
@@ -87,7 +88,7 @@ N               &    21242         &    13976         &     7266         &    27
 \end{table}  
   
  As Table \ref{tab:Self-reported-diabetes-interaction} shows, male
-agricultural workers seem to have lower wages generally, but there
+agricultural workers have lower wages generally, but there
 does not seem to be a strong additional relationship with diabetes
 though the coefficient signs for male and female agricultural workers
 are negative. The only statistically more relevant relationship we
@@ -100,6 +101,8 @@ be explained by the small number of observations of females with diabetes
 reporting working hours in agricultural employment (n=10) compared
 to men (n=139). Overall, we find no evidence for any association of
 self-reported diabetes and wages or working hours.
+
+\textbf{a) Self-reported diabetes duration}
 
 Because diabetes is a chronic and generally life-long disease, it
 is worthwhile to investigate at what points in time after the first
@@ -129,6 +132,7 @@ years. In an effort to best capture any non-linearities for the pooled
 and gender stratifies samples, we create the following splines to
 capture the immediate, intermediate and long-term relationships: 0--4,
 4--11, 11--20 and 20+.   
+  
   
   
   
