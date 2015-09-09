@@ -1,0 +1,132 @@
+\subsection{\noindent \label{sec:Estimation_Strategy}Estimation strategy}
+
+We investigate the relationship of self-reported diabetes and three labour
+market outcomes, i.e. employment chances, log hourly wages  and normal
+weekly working hours using a fixed effects model. The fixed effect model deals with the problem of unobserved time-invariant
+confounders by taking away the group mean for each individual from
+both sides of the estimated equation. This will be the main way we investigate the relationship of self-reported
+diabetes with labour market outcomes. While using fixed-effects
+does not identify a causal relationship as other forms of heterogeneity
+could affect our estimates, i.e. time-variant unobserved heterogeneity
+or simultaneity, it gives us a better idea of the relationship than
+simple cross-sectional data and does allow to control for unobserved
+personal characteristics that could bias the estimates without the
+drawbacks of an \ac{IV} strategy. We estimate a two-part model where
+the model for employment chances takes the following form:
+
+\noindent 
+\begin{equation}
+Y_{it}=\beta_{0}+\beta_{1}Diabetes_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:employed}
+\end{equation}
+
+
+where $Y_{it}$ is a binary variable taking a value of $1$ if respondent
+$i$ reports being employed at time $t$ and $0$ otherwise, $Diabetes_{it}$
+is a binary variable taking a value of $1$ if the respondent reports
+having ever received a diagnosis of diabetes, $X_{it}$ is a vector
+of control variables, $c_{i}$ represents an individual fixed effect,
+$\gamma_{t}$ represents a year fixed effect, and $u_{it}$ is the
+error term.
+
+For the relationship of self-reported diabetes with log hourly wages
+ and weekly working hours models are estimated conditional on being
+employed:
+
+\noindent 
+\begin{equation}
+Y_{it}=\beta_{0}+\beta_{1}Diabetes_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:income_working-hours}
+\end{equation}
+
+
+where $Y_{it}$ is the log hourly wage of respondent $i$ at time
+$t$ or in the case of working hours the usual weekly working hours
+over the last year. The log hourly wage was calculated by adding up the reported monthly income from the first and potential second job and dividing it by 4.33 which corresponds to the average number of weeks per month in a year with 52 weeks. This gave us the average income per week which we divided by the usual weekly working hours to arrive at an hourly wage estimate\footnote{Labour income was either reported as the total amount for the whole month or if possible more detailed containing information on the monthly wage, income from piecework, tips, extra hours, meals, housing, transport, medical benefits and other earnings. Over 80 percent of respondents reported the total amount instead of a detailed amount. Respondents were also asked for their yearly income and we used that information to arrive at an hourly wage if information for monthly labour income was missing.} Finally, we adjusted the calculated wage for inflation from the year of the interview to 2013.  Working hours are calculated summing up the self-reported usual working hours of the first and potential second job. We dropped observations where the sum of working hours exceeded 112 hours per week, i.e. more than 16 hours of work per day on each day of the week. We deemed these reports to be unreliable and unrealistic and decided to drop them as only 39 observations  where affected. The control variables in both specifications include
+age and age squared to capture any non-linearities between age and
+labour market outcomes, dummy variables for the effects of any changes
+in the living environment of living in a small, medium or large city
+with rural and regional dummies for five different Mexican regions\footnote{The region variables have been constructed after recommendations on
+the MxFLS-Homepage. South-southeastern Mexico: Oaxaca, Veracruz, Yucatan;
+Central Mexico: Federal District of Mexico, State of Mexico, Morelos,
+Puebla; Central northeast Mexico: Coahuila, Durango, Nuevo Leon; Central
+western Mexico: Guanajuato, Jalisco, Michoacan; Northwest Mexico:
+Baja California Sur, Sinaloa, Sonora.} with living in the northeast being the base. We also include a martial
+status dummy to control for the impact of marriage on employment chance.
+A variable capturing the number of children residing in the household
+below the age of 18 is used to control for the impact of children
+on labour market outcomes and the effect of childbearing and related
+gestational diabetes on the probabilities of developing type 2 diabetes
+\citep{Bellamy2009}. To account for the effect that changes in household
+wealth might have on diabetes and employment chances, we use the well
+established method of principal component analysis of multiple indicators
+of household assets and housing conditions to create an indicator
+for household wealth \citep{Filmer2001}. The components used for
+the construction of the wealth index are detailed in \citet{Seuring2015}.
+Year fixed effects are included to capture any changes in the macroeconomic
+environment in Mexico over the observed period that could affect employment
+chances, wages or working hours and simultaneously the chances to
+develop diabetes.
+
+Additionally, we reestimate the above models using a self-reported
+measure of the years since diagnosis. First, using a linear specification
+indicating the association of our outcomes with each additional year
+since diagnosis using the following specification
+\noindent 
+\begin{equation}
+Y_{it}=\beta_{0}+\beta_{1}Dyears_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it},\label{eq:duration_linear}
+\end{equation}
+
+where $\beta_{1}Dyears_{it}$ is a continuous variable indicating years since first diabetes diagnosis.
+
+Second, we use a linear spline function that allows the effect of an additional year with diabetes to vary over time. Doing this we hope to capture possible non-linearities in the relationship of diabetes duration
+and labour market outcomes.
+\noindent 
+\begin{equation}
+Y_{it}=\delta_{0}+g(Dyears_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label{eq:splines}
+\end{equation}
+
+
+with $g(Dyears_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
+and $I_{in}=1[\eta_{n-1}\leq Dyears_{it}<\eta_{n}]$, with $\eta_{n}$ being the place of the $n$-th node for $n=1,2,\ldots,N$. We choose three nodes that we think best capture any possible non-linearities in the relationship of diabetes duration and our dependent variables (see Figure Graph in result section). These are located at four, eleven and twenty years after diagnosis. The first four years should capture any immediate effects of the diagnosis, the years five to ten should capture any effects of adaptation to the disease. After eleven years it is conceivable that many of the debilitating complications of diabetes appear that could deteriorate health and lead to adverse effects on our labour market outcomes.  $\delta_{n}$ stands then for the effect of diabetes for the $n$-th interval. Returns are linear if $\delta_{1}=\delta_{2}=,\ldots,=\delta_{n}$.
+
+Because the year of diagnosis was only
+reported in the third wave, we could only calculate the duration of
+diabetes (or time since diagnosis) for the earlier waves for those
+that had also responded to the third wave. To arrive at the time passed
+since diagnosis, the year of diagnosis was subtracted from the year
+of the interview. Those that reported a diagnosis in the year of the
+interview were counted as one year since diagnosis. Accordingly, if
+the respondent reported to having been diagnosed in the year before
+the interview he was counted as two years since diagnosis. This was
+done to have zero years representing people without diabetes and to
+use them as the reference category.
+
+Finally, we make use of the biomarker data in wave three, which allows
+the exploration of the relationship of undiagnosed diabetes as well
+as diabetes severity with labour market outcomes, as measured by \ac{HbA1c}
+values. Because this data is only available in the last wave and it
+is not possible to use the information in a meaningful way for the
+earlier waves, we have to rely on cross-sectional methods. This has the
+obvious drawback that we are not able to account for unobserved
+heterogeneity using fixed effects. Further, as mentioned before, biomarkers
+were only taken from a subsample of about one-third of our original sample
+for the third wave, which leaves us with information on 6994 survey
+participants. Therefore the analyses cannot be directly compared to
+the other results in this paper. Nonetheless, it allows for a first
+exploration of the relationships of undiagnosed diabetes as well as
+disease severity with labour market outcomes. This is important as
+the undiagnosed represent a large part of the diabetes population
+in Mexico which has not been explored so far. It further allows us
+to explore some of the heterogeneity that exists within the diabetes
+population in terms of how well people's diabetes is managed. We first estimate a model to investigate the association of objectively measured diabetes (HbA1c $\leq6.5\%$) with labour market outcomes taking the following form:
+\noindent 
+\begin{equation}
+Y_{i}=\beta_{0}+\beta_{1}Dobj_{i}+\beta_{2}X_{i}+u_{i}\label{eq:diab_objective}
+\end{equation}
+where $\beta_{1}Dobj_{i}$ is equal to $1$ if HbA1c $\leq6.5\%$.
+In a further step we estimate the following equation
+\noindent 
+\begin{equation}
+Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{1}Dud_{i}+\beta_{2}X_{i}+u_{i}.\label{eq:diab_sr_ud}
+\end{equation}
+to investigate how the associations differ between people with diagnosed and undiagnosed diabetes. $\beta_{1}Dsr_{i}$ identifies those diagnosed and is equal to $1$ if the person self-reported a diabetes diagnosis.  $\beta_{1}Dud_{i}$ identifies those undiagnosed and is equal to $1$ if the person did not self-report a diabetes diagnosis but has an HbA1c $\leq6.5\%$.
+  
