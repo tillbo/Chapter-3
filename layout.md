@@ -2,6 +2,7 @@ Abstract.tex
 Introduction.tex
 section Framework.tex
 Methodology.tex
+subsection_noindent_label_sec_Estimation_Strategy__.tex
 subsection_Sample_characteristics.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
