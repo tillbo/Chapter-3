@@ -3,9 +3,9 @@ Introduction.tex
 section Framework.tex
 Methodology.tex
 subsection_Sample_characteristics.tex
+figures/diabetes_prevalence1/diabetes_prevalence1.png
 subsection_Estimation_bias_Self_reported__.tex
 subsection_Strategies_to_deal_with__.tex
-figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
 Results-FE.tex
 figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration.png
