@@ -3,8 +3,8 @@ Introduction.tex
 section Framework.tex
 Methodology.tex
 subsection_Sample_characteristics.tex
-For_the_pooled_data_of__.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
+For_the_pooled_data_of__.tex
 subsection_Estimation_bias_Self_reported__.tex
 subsection_Strategies_to_deal_with__.tex
 Results-FE.tex
