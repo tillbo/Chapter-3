@@ -3,7 +3,7 @@ Introduction.tex
 section Framework.tex
 Methodology.tex
 subsection_Estimation_bias_Self_reported__.tex
-subsection_Data_inconsistencies_An_apparent__.tex
+subsection_Data_inconsistencies_As_already__.tex
 subsection_Sample_characteristics.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
 For_the_pooled_data_of__.tex
