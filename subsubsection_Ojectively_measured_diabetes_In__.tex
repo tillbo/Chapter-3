@@ -1,5 +1,32 @@
 \subsubsection*{Ojectively measured diabetes}
-In a first step we investigate the association of objectively measured diabetes and labour market outcomes by estimating equation \ref{eq:diab_objective}. This should give an indication of the effect of including those undiagnosed in the diabetes indicator on the association of diabetes with labour outcomes. The diabetes indicator variable still also contains those that self-reported a diabetes diagnosis but had \ac{HbA1c} levels below the diabetes threshold. This is to make the estimate more comparable to models with only self-reported diabetes.\footnote{Robustness checks where we specifically accounted for this subpopulation did not show qualitatively different results.}
+In a first step we investigate the association of objectively measured diabetes and labour market outcomes by estimating equation \ref{eq:diab_objective}. This should give an indication of the effect of including those undiagnosed in the diabetes indicator on the association of diabetes with labour outcomes. The diabetes indicator variable still also contains those that self-reported a diabetes diagnosis but had \ac{HbA1c} levels below the diabetes threshold. This is to make the estimate more comparable to models with only self-reported diabetes.\footnote{Robustness checks where we specifically accounted for this subpopulation did not show qualitatively different results.} In order to have a comparison for the results using objectively measured diabetes, we first present the results of the model as previously used, taking only self-reported diabetes as our diabetes measure. 
+\begin{table}[h]
+\begin{center}
+{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+\toprule
+                &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+Diagnosed diabetes&    -.060\sym{***}&    -.039         &    -.048\sym{**} &     .013         &     .030         &    -.010         &   -1.128         &    -.426         &   -2.489         \\
+                &   (.017)         &   (.025)         &   (.022)         &   (.053)         &   (.061)         &   (.103)         &  (1.129)         &  (1.312)         &  (2.154)         \\
+\midrule
+R2              &     .325         &     .074         &     .138         &     .256         &     .247         &     .303         &     .072         &     .047         &     .048         \\
+N               &     6476         &     2786         &     3690         &     2694         &     1802         &      892         &     3455         &     2301         &     1154         \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses.}\\
+\multicolumn{10}{l}{\footnotesize Other control variables: age, region, urban, education, indigenous, marital status, children, wealth.}\\
+\multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
+\caption{\label{tab:Objective_diabetes}\textbf{Self-reported diabetes and labour market outcomes in biomarker subsample}}
+\end{center}
+\end{table}  
+
+
+The results of table \ref{tab:Objective_diabetes} indicate that including 
+
+
 
 \begin{table}[h]
 \begin{center}
@@ -24,4 +51,5 @@ N               &     6487         &     2792         &     3695         &     2
 \end{center}
 
 \end{table}  
+  
   
