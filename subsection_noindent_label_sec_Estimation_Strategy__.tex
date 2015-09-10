@@ -1,5 +1,7 @@
 \subsection{\noindent \label{sec:Estimation_Strategy}Estimation strategy}
 
+\subsubsection{\noindent \label{sec:{Panel_data_specifications}Panel data strategy}
+
 We investigate the relationship of self-reported diabetes and three labour
 market outcomes, i.e. employment chances, log hourly wages  and normal
 weekly working hours using a fixed effects model. The fixed effect model deals with the problem of unobserved time-invariant
@@ -96,6 +98,32 @@ the interview he was counted as two years since diagnosis. This was
 done to have zero years representing people without diabetes and to
 use them as the reference category.
 
+To specifically account for the binary nature of employment, all employment
+models are also estimated using a population-averaged panel-data
+model with the probit link function. To account for fixed unobserved
+heterogeneity a specification proposed by \citet{Bell2015} is used
+which itself draws from \citet{Mundlak1978}. \citet{Mundlak1978}
+showed that by including group means for each time varying explanatory
+variable additionally to the normal covariates, it is possible to capture
+the time invariant component of the variable, instead of restricting
+analysis to the within variation as in the fixed effects model. Doing
+this allows to control for any unobserved time-invariant confounders
+just as in the fixed-effects model. This approach has been further
+advanced by \citet{Bell2015} to differentiate clearly between the
+within and the between effects of the used variables. They suggest
+demeaning the individual observation from the group mean and including
+it in the model instead of the full observation. We use this strategy
+because it allows the estimation of a population-averaged panel-data
+model using the probit link function in the panel context while accounting
+for fixed unobserved heterogeneity \citep{Dieleman2014}. Using this
+strategy has yielded qualitatively similar results to those of the
+linear fixed effects specifications and the results are available
+on request.
+
+
+\subsubsection{\noindent \label{sec:{OLS_specifications}Cross-sectional data strategy}
+
+
 Finally, we make use of the biomarker data in wave three, which allows
 the exploration of the relationship of undiagnosed diabetes as well
 as diabetes severity with labour market outcomes, as measured by \ac{HbA1c}
@@ -125,6 +153,7 @@ In a further step we estimate the following equation
 Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{1}Dud_{i}+\beta_{2}X_{i}+u_{i}.\label{eq:diab_sr_ud}
 \end{equation}
 to investigate how the associations differ between people with diagnosed and undiagnosed diabetes. $\beta_{1}Dsr_{i}$ identifies those diagnosed and is equal to $1$ if the person self-reported a diabetes diagnosis.  $\beta_{1}Dud_{i}$ identifies those undiagnosed and is equal to $1$ if the person did not self-report a diabetes diagnosis but has an HbA1c $\leq6.5\%$.
+  
   
   
   
