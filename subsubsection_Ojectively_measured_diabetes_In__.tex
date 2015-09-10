@@ -1,0 +1,29 @@
+\subsubsection*{Ojectively measured diabetes}
+In a first step we investigate the association of objectively measured diabetes and labour market outcomes by estimating equation \ref{eq:diab_objective}. This should give an indication of the effect of including those undiagnosed in the diabetes indicator on the association of diabetes with labour outcomes. The diabetes indicator variable still also contains those that self-reported a diabetes diagnosis but had \ac{HbA1c} levels below the diabetes threshold. This is to make the estimate more comparable to models with only self-reported diabetes.\footnote{Robustness checks where we specifically accounted for this subpopulation did not show qualitatively different results.}
+
+\begin{table}[h]
+\begin{center}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
+\toprule
+                &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+HbA1c \geq 6.5\%    &    -.025\sym{**} &    -.003         &    -.029\sym{*}  &    -.023         &    -.022         &    -.040         &     .599         &     .477         &     .993         \\
+                &   (.011)         &   (.015)         &   (.016)         &   (.034)         &   (.040)         &   (.060)         &   (.692)         &   (.784)         &  (1.343)         \\
+\midrule
+R2              &     .325         &     .073         &     .137         &     .256         &     .246         &     .305         &     .072         &     .047         &     .047         \\
+N               &     6487         &     2792         &     3695         &     2698         &     1805         &      893         &     3461         &     2306         &     1155         \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses.}\\
+\multicolumn{10}{l}{\footnotesize Other control variables: age, region, urban, education, indigenous, marital status, children, wealth.}\\
+\multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
+\caption{\label{tab:Objective_diabetes}\textbf{Objectively measured diabetes and labour market outcomes}}
+\end{center}
+
+\end{table}  
