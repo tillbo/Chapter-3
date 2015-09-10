@@ -5,7 +5,7 @@
 
 \subsubsection*{Self-reported diabetes}
 
-Table (Table \ref{tab:Self-reported-diabetes-and}) presents the estimation results of the \ac{FE} model presented in equation \ref{eq:employed}. The results indicate significant and substantial
+Table \ref{tab:Self-reported-diabetes-and} presents the estimation results of the \ac{FE} model presented in equation \ref{eq:employed}. The results indicate significant and substantial
 reductions in employment chances for people with self-reported diabetes
 . The effects themselves
 differ little between males and females indicating a reduction in
@@ -88,24 +88,21 @@ N               &    21242         &    13976         &     7266         &    27
 \end{table}  
   
  As Table \ref{tab:Self-reported-diabetes-interaction} shows, male
-agricultural workers have lower wages generally, but there
-does not seem to be a strong additional relationship with diabetes
-though the coefficient signs for male and female agricultural workers
-are negative. The only statistically more relevant relationship we
+agricultural workers have lower wages generally, but the
+relationship between diabetes does not seem to depend on type of work. The only statistically more relevant relationship we
 find for working hours of agricultural workers with diabetes, who
 appear to work about 6 hours less than non-agricultural workers without
-self-reported diabetes. However, compared to agricultural workers
-without self-reported diabetes, no significant difference can be found.
+self-reported diabetes. However, because we have more than two work types we cannot simply look at the t-statistic to determine if the intercepts differ between types of work. We therefore perform a Wald test for the overall significance of the interaction term which does not reject the null of no interaction effects, suggesting that the effect of diabetes on working hours does not vary by type of work.
 When stratified by gender, standard errors become larger, which should
 be explained by the small number of observations of females with diabetes
 reporting working hours in agricultural employment (n=10) compared
-to men (n=139). Overall, we find no evidence for any association of
+to men (n=139). Overall, we find no evidence for an association of
 self-reported diabetes and wages or working hours.
 
-\textbf{b) Self-reported diabetes duration}
+\subsubsection*{Self-reported diabetes duration}
 
 Because diabetes is a chronic and generally life-long disease, it
-is worthwhile to investigate at what points in time after the first
+is worthwhile investigating at what points in time after the first
 diagnosis diabetes might affect labour market outcomes. It could be
 that the effect increases linearly over time as diabetes progresses.
 However, non-linear relationships are also imaginable as psychological
@@ -115,23 +112,23 @@ after a person had been diagnosed. They could then level off later
 as people with diabetes get better at managing and living with the
 disease.
 
-We first use kernel-weighted local polynomial regression to graph
-the relationship between our outcome variables and diabetes duration
-to investigate the relationship. As figure \ref{fig:Kernel-weighted-local-polynomial}
+To get a first idea of the non parametric relationship we use kernel-weighted local polynomial regression to graph
+the relationship between our outcome variables and diabetes duration. As figure \ref{fig:Kernel-weighted-local-polynomial}
 shows, the relationship of diabetes duration and employment chances
 seems to be more or less linear for the pooled sample showing a steady
 decline, though less so when separated by gender. We find a first
 decline in employment probabilities for men after about seven years
 which continues to about year twenty after diagnosis. For women, a
-first steep drop off occurs right after diagnosis and thereafter no
+first drop off occurs right after diagnosis and thereafter no
 consistent pattern can be observed. However, the displayed relationships
 after year twenty suffer from large standard errors as sample size
-is reduced considerably. For the other two outcomes, the relationships
-seem to be somewhat more erratic, especially after the first twelve
+is reduced considerably. A similar analysis for wages and working hours shows
+somewhat more erratic  relationships, especially after the first twelve
 years. In an effort to best capture any non-linearities for the pooled
 and gender stratifies samples, we create the following splines to
-capture the immediate, intermediate and long-term relationships: 0--4,
-4--11, 11--20 and 20+.   
+capture the immediate, intermediate and long-term relationships (0--4,
+4--11, 11--20 and 20+).   
+  
   
   
   
