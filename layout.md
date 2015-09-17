@@ -1,6 +1,7 @@
 Abstract.tex
 Introduction.tex
 section Framework.tex
+The_theoretical_framework_of_our__.tex
 Methodology.tex
 subsection_Sample_characteristics.tex
 figures/diabetes_prevalence1/diabetes_prevalence1.png
