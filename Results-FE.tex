@@ -5,9 +5,10 @@
 
 \subsubsection*{Self-reported diabetes}
 
-Table \ref{tab:Self-reported-diabetes-and} presents the estimation results of the \ac{FE} model presented in equation \ref{eq:employed}. The results indicate significant and substantial
-reductions in employment chances for people with self-reported diabetes
-. The effects themselves
+Table \ref{tab:Self-reported-diabetes-and} presents the estimation
+results of the \ac{FE} model presented in equation \ref{eq:employed}.
+The results indicate significant and substantial reductions in employment
+chances for people with self-reported diabetes. The effects themselves
 differ little between males and females indicating a reduction in
 employment chances by between 5 and 6 percentage points. 
 \begin{table}[h]
@@ -33,17 +34,22 @@ N               &    49844         &    21710         &    28134         &    21
 \end{center}
 \caption{\label{tab:Self-reported-diabetes-and}\textbf{Self-reported diabetes and labour market outcomes (fixed effects)}}
 \end{table}
-
 While the adverse relationship between self-reported diabetes and
-employment chances appears to be quite strong we find no evidence
-for any relationship with wages or working hours even after controlling for type of work. To investigate if
-there are differences in wages and working hours between different
-types of work, we estimate a model including interaction terms between
-self-reported diabetes and agricultural employment and self-reported
-diabetes and self-employment, respectively, using non-agricultural employment as
-the base. There could be good reason for a heterogeneous relationships
-of self-reported diabetes and worktype: The health consequences of
-diabetes could affect the productivity of workers by reducing their physical abilities.  Accordingly, people with diabetes working in an agricultural job where doing strenuous labour is needed to work the land could see their productivity to be more adversely affected by diabetes than those working in an office where being physically active is of less importance.   
+employment chances appears to be quite strong, we find no evidence
+for any relationship with wages or working hours even after controlling
+for type of work. To investigate whether there are differences in
+wages and working hours between different types of work, we estimate
+a model including interaction terms between self-reported diabetes
+and agricultural employment and between self-reported diabetes and
+self-employment, respectively, using non-agricultural employment as
+the base. There would be reason to expect the relationship between
+diabetes and labour market outcomes to differ with the type of work:
+the health consequences of diabetes could affect the productivity
+of workers by reducing their physical abilities. Accordingly, people
+with diabetes working in an agricultural job that requires strenuous,
+physical efforts to work the land could see their productivity to be
+more adversely affected by diabetes than those working in an office,
+hence being less physically active. 
 
 \begin{table}[h]
 \begin{center}
@@ -82,12 +88,17 @@ N               &    21242         &    13976         &     7266         &    27
 \caption{\label{tab:Self-reported-diabetes-interaction}\textbf{Relationship of self-reported diabetes by worktype and wages and working hours (fixed effects)}}
 \end{table}  
   
- As Table \ref{tab:Self-reported-diabetes-interaction} shows, male
-agricultural workers have lower wages generally, but the
-relationship between diabetes does not seem to depend on type of work. The only statistically more relevant relationship we
-find for working hours of agricultural workers with diabetes, who
-appear to work about 6 hours less than non-agricultural workers without
-self-reported diabetes. However, because we have more than two work types we cannot simply look at the t-statistic to determine if the intercepts differ between types of work. We therefore perform a Wald test for the overall significance of the interaction term which does not reject the null of no interaction effects, suggesting that the effect of diabetes on working hours does not vary by type of work.
+As Table \ref{tab:Self-reported-diabetes-interaction} shows, male
+agricultural workers have lower wages generally, but the relationship
+between diabetes remains unaffected by the type of work. The only
+statistically more relevant relationship that we find relates to working
+hours of agricultural workers with diabetes, who appear to work about
+6 hours less than non-agricultural workers without self-reported diabetes.
+However, because we have more than two work types we cannot draw conclusions
+solely on the basis of the t-statistic . We therefore perform a Wald
+test for the overall significance of the interaction term which does
+not reject the null of no interaction effects, suggesting that the
+effect of diabetes on working hours does not vary by type of work.
 When stratified by gender, standard errors become larger, which should
 be explained by the small number of observations of females with diabetes
 reporting working hours in agricultural employment (n=10) compared
@@ -97,28 +108,28 @@ self-reported diabetes and wages or working hours.
 \subsubsection*{Self-reported diabetes duration}
 
 Because diabetes is a chronic and generally life-long disease, it
-is worthwhile investigating at what points in time after the first
-diagnosis diabetes might affect labour market outcomes. It could be
-that the effect increases linearly over time as diabetes progresses.
-However, non-linear relationships are also imaginable as psychological
-effects of the immediate diagnosis as well as the likely health problems
-that led to the diagnosis could affect labour market outcomes immediately
-after a person had been diagnosed. They could then level off later
-as people with diabetes get better at managing and living with the
-disease.
+is worthwhile investigating how soon after the first diagnosis diabetes
+might affect labour market outcomes. It could be that the effect increases
+linearly over time as diabetes progresses. However, non-linear relationships
+are also imaginable as psychological effects of the immediate diagnosis
+as well as the likely health problems that led to the diagnosis could
+affect labour market outcomes immediately after a person had been
+diagnosed. They could then level off later as people with diabetes
+develop their skills in managing and living with the disease.
 
-To get a first idea of the non parametric relationship we use kernel-weighted local polynomial regression to graph
-the relationship between our outcome variables and diabetes duration. As figure \ref{fig:Kernel-weighted-local-polynomial}
+In order to obtain a first idea of the non parametric relationship
+we use kernel-weighted local polynomial regression to graph the relationship
+between our outcome variables and diabetes duration. As Figure \ref{fig:Kernel-weighted-local-polynomial}
 shows, the relationship of diabetes duration and employment chances
-seems to be more or less linear for the pooled sample showing a steady
+seems to be more or less linear for the pooled sample, showing a steady
 decline, though less so when separated by gender. We find a first
 decline in employment probabilities for men after about seven years
-which continues to about year twenty after diagnosis. For women, a
-first drop off occurs right after diagnosis and thereafter no
-consistent pattern can be observed. However, the displayed relationships
-after year twenty suffer from large standard errors as sample size
-is reduced considerably. A similar analysis for wages and working hours shows
-somewhat more erratic  relationships, especially after the first twelve
+which continues to about twenty years post-diagnosis. For women,
+a first drop off occurs right after diagnosis and thereafter no consistent
+pattern can be observed. However, the displayed relationships after
+twenty years suffer from large standard errors as sample size is reduced
+considerably. A similar analysis for wages and working hours shows
+somewhat more erratic relationships, especially after the first twelve
 years. In an effort to best capture any non-linearities for the pooled
 and gender stratifies samples, we create the following splines to
 capture the immediate, intermediate and long-term relationships (0--4,
