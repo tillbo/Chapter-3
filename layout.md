@@ -8,7 +8,7 @@ figures/diabetes_prevalence1/diabetes_prevalence1.png
 Descriptive_statistics.tex
 subsection_Estimation_Strategy.tex
 subsection_Estimation_bias_Self_reported__.tex
-subsection_Strategies_to_deal_with__.tex
+LyX_2_1_4_created__.tex
 Results-FE.tex
 figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration.png
 figures/lpoly_wage_diabetesduration/lpoly_wage_diabetesduration.png
