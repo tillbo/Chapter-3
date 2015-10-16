@@ -1,17 +1,6 @@
 \section{\label{sec:Introduction}Introduction}
 
-Type II diabetes mellitus has been increasing worldwide and is expected to continue to do so over the next decades, especially in \ac{MICs} \citep{InternationalDiabetesFederation2013}.
-Mexico is one of the  \ac{MICs} with a large diabetes problem and has seen an increase in diabetes prevalence from 6.7 percent in 1994 to 14.4 percent in 2006, including both diagnosed and undiagnosed cases \cite{Barquera2013}.
-
-In Mexico, this increase in prevalence has likely been driven by a deterioration
-in the diet and by a reduction in physical activity \citep{Barquera2008b,Basu2013},
-as well as a distinct genetic predisposition \citep{Williams2013}.
-On top of the health consequences of \ac{T2D}, the disease also
-entails substantial economic costs, as it triggers considerable healthcare
-expenditures and possibly affects people's employment chances and
-productivity \cite{25787932}.
-
-From a theoretical perspective, diabetes might affect labour market outcomes
+Type II diabetes mellitus has been increasing worldwide and is expected to continue to do so over the next decades, especially in \ac{MICs} and has become a problem for \ac{MICs} and \ac{HICs} alike  \citep{InternationalDiabetesFederation2013}. From a theoretical perspective, diabetes might affect labour market outcomes
 in several ways:
 people with diabetes may dropout
 of employment because the disease makes them less productive than
@@ -28,16 +17,16 @@ disease: it can have different effects on people's health depending
 on the success of the long term disease management. On one hand people
 who are able to ''reverse'' their diabetes - meaning they manage
 to get back to healthy blood glucose levels as a result of lifestyle
-changes that successfully reestablish normal insulin sensitivity -
+changes and medication that successfully reestablish normal insulin sensitivity -
 are unlikely to suffer from any diabetes related health problems \citep{Lim2011,Gregg2012}.
 On the other hand, if diabetes is either completely untreated or unsuccessfully
 treated by medicine or lifestyle changes, and blood glucose levels
-and insulin resistance remain, then people are likely to develop various
-significantly debilitating and irreversible health conditions \citep{Reynoso-Noveron2011}.
+and insulin resistance remain elevated, then people are likely to develop various
+significantly debilitating and irreversible health conditions such as heart disease and stroke, eye problems that can lead to blindness, kidney problems, and nerve problems that together with impaired wound healing can lead to the loss of limbs \citep{Reynoso-Noveron2011}.
 The objective of this study is to pay close attention to the above
-complexities in our study of the relationship between
+complexities when investigating the relationship between
 self-reported diabetes and labour market outcomes. In particular,
-we contribute the literature in this area by, for the first time in this area, making use of the panel structure of our data to apply individual level fixed effects in order to account for any time constant heterogeneity in the estimation of the effect of diabetes on labour market outcomes. Further, we will, again for the first time, explore the role of undiagnosed diabetes using novel biomarker data, a likely very important issue when estimating the relationship of diabetes and labour market outcomes due to the generally large numbers of undiagnosed people (see \citet{Beagley2014}) that are unobserved in all earlier studies relying on self-reported information. Finally, we also assess and try to minimize the issue of inconsistent self-reporting of diabetes over time that could result in measurement error and again has potentially affected the results presented in the earlier literature.
+we contribute the literature by, for the first time in this area, making use of the panel structure of our data to apply individual level fixed effects in order to account for any time constant heterogeneity in the estimation of the effect of diabetes on labour market outcomes. Further, we will, again for the first time, explore the role of undiagnosed diabetes using novel biomarker data, a likely very important issue when estimating the relationship of diabetes and labour market outcomes due to the generally large numbers of undiagnosed people (see \citet{Beagley2014}) that are unobserved in all earlier studies relying on self-reported information. Finally, we also assess and try to minimize the issue of inconsistent self-reporting of diabetes over time that could result in measurement error and again has potentially affected the results presented in the earlier literature.
 
 Several studies have investigated the effects of diabetes on labour market outcomes. For the USA, Brown et al. (2005) estimated the impact of the disease on employment in 1996--1997 in an older population of Mexican Americans in the \ac{US} close to the Mexican border, using a recursive bivariate probit model. They found diabetes to be endogenous for women but not for men. The results of the \ac{IV} estimation suggested no significant effect on women which, compared to the adverse effect found in the probit model, indicated an overestimation of the effect for women when endogeneity was not accounted for. For men, the probit estimates showed a significant adverse effect of about 7 percentage points. FOr a similar population and using biomarker data,\citet{BrownIII2011} looked
 at how diabetes management, inferred from measured \ac{HbA1c} levels,
@@ -67,9 +56,7 @@ in employment chances for males of a about 10 percentage points and
 for females of about 4.5 percentage points, albeit at a much lower
 statistical significance \citep{Seuring2015}.
 
-As this short review of the existing literature shows, the evidence from \ac{MICs} remains  extremely scarce \citep{Seuring2015a}. Further even  the literature  in high income countries suffers from several limitations.
-
-Importantly, these studies have commonly only used cross-sectional
+As this short review of the existing literature shows, the evidence from \ac{MICs} remains  extremely scarce \citep{Seuring2015a}. Further even  the literature  in high income countries suffers from several limitations. One limitation is the exclusive use of cross-sectional
 data or estimation techniques. Because estimates of the effects of self-reported diabetes might
 suffer from omitted variable bias, many studies have used an \ac{IV}
 strategy to obtain unbiased estimates of the relationship between
@@ -89,7 +76,7 @@ has had the disease \citep{Brown2005,Latif2009,Minor2010a,Lin2011b,Seuring2015}.
 These instruments are questionable for at least two reasons. First,
 it is not testable if the instrument satisfies the exclusion restriction
  , i.e. weather it affects the labour outcome other than through
-the endogeneous explanatory variable. Using the family history of diabetes could have potentially several ways through which it could violate the exclusion restriction. For instance, other parental characteristics, such as parental education, could be simultaneously correlated with the parental diabetes status as well as their children’s
+the endogeneous explanatory variable. Diabetes family history could have several potential ways through which it could violate the exclusion restriction. For instance, other parental characteristics, such as parental education, could be simultaneously correlated with the parental diabetes status as well as their children’s
 employment chances. Apart from the parental education pathway, it is conceivable that diabetes might deteriorate parental health in such a way that the offspring has or had to give
 up its own employment or reduce its working hours in order to care for its parents or is forced to take up work or increase its working hours to financially provide for the parents \citet{Seuring2015}. Furthermore, and not specifically restricted to the topic of diabetes, instrumentation can be problematic if the instruments are weak as their use may result in biased estimates in finite samples and generally produce large standard errors \citep{Bound1995}. 
 
@@ -99,13 +86,18 @@ the use of individual level \ac{FE}. To do this repeated observations
 of the same individual over time are needed which are only available
 in panel data. The use of this method allows for differencing out
 the fixed time invariant unobservables that could potentially bias
-our estimates. This includes all of the above mentioned possible confounders
+our estimates. This way we are able to account for the, as we think, largest source of unobserved heterogeneity, namely all possible confounders
 related to genes and early life environments.
 
-Thanks to the three waves provided by the \ac{MxFLS} we are able
-to use this method for the first time in this context, to investigate
+We use the \ac{FE} method applying it to data from Mexico. Mexico is an interesting country to study given its high obesity and diabetes prevalence and its status as an emerging economy. Further, its close proximity to the USA and the large Mexican population in the USA should make the results of this study also relevant for the USA context. Mexico has seen an increase in diabetes prevalence from 6.7 percent in 1994 to 14.4 percent in 2006, including both diagnosed and undiagnosed cases \cite{Barquera2013}. This increase in prevalence has likely been driven by a deterioration in the diet and by a reduction in physical activity \citep{Barquera2008b,Basu2013}, as well as a distinct genetic predisposition \citep{Williams2013}. Diabetes has also become the number one cause of death in Mexico \cite{23374611}.
+On top of the health consequences of \ac{T2D}, the disease also
+entails substantial economic costs, as it triggers considerable healthcare
+expenditures and possibly affects people's employment chances and
+productivity \cite{25787932}.
+
+Thanks to the three waves provided by the \ac{MxFLS} we are able to investigate
 how self-reported diabetes and diabetes duration are associated with
-labour market outcomes. Apart from this contribution, our paper makes
+labour market outcomes using \ac{FE}. Apart from this contribution, our paper makes
 several other important contributions to the literature. First, we
 extend the analysis to wages and working hours, a topic not yet investigated
 in the context of Mexico. Second, we investigate the heterogeneity
