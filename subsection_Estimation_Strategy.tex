@@ -70,9 +70,8 @@ on each day of the week. We deemed these reports to be unreliable
 and unrealistic and decided to drop them as only 39 observations were
 affected.
 
-The control variables in both specifications include age and age squared
-to capture any non-linearities between age and labour market outcomes,
-dummy variables for the effects of any changes in the living environment
+The control variables in both \ac{FE} specifications include only a non-linear measure of age using age squared
+to capture any non-linearities between age and labour market outcomes. We exclude age here because in the fixed effects model the increase in age cannot be distinguished from the aggregate time effects which we capture by including year dummies for the year the interview was carried out. The differences in age across people the first time they appear in the survey is accounted for in $c_{i}$ as it does not vary over time \cite{Wooldridge2002a}. Apart from age and time effects we include dummy variables for the effects of any changes in the living environment
 of living in a small, medium or large city with rural and regional
 dummies for five different Mexican regions\footnote{The region variables have been constructed after recommendations on
 the MxFLS-Homepage. South-southeastern Mexico: Oaxaca, Veracruz, Yucatan;
@@ -90,10 +89,7 @@ wealth might have on diabetes and employment chances, we use standard
 principal component analysis of multiple indicators of household assets
 and housing conditions to create an indicator for household wealth
 \citep{Filmer2001}. The components used for the construction of the
-wealth index are detailed in \citet{Seuring2015}. Year fixed effects
-are included to capture any changes in the macroeconomic environment
-in Mexico over the observed period that could affect employment chances,
-wages or working hours and simultaneously the chances to develop diabetes.
+wealth index are detailed in \citet{Seuring2015}.
 
 Additionally, we reestimate the above models using a self-reported
 measure of the years since diagnosis. First, using a linear specification
@@ -162,7 +158,7 @@ model using the probit link function in the panel context while accounting
 for fixed unobserved heterogeneity \citep{Dieleman2014}. Using this
 strategy has yielded qualitatively similar results to those of the
 linear fixed effects specifications and the results are available
-on request.
+on request. We also apply this strategy to estimate the effects of diabetes on selection from unemployment into different types of work, i.e. non-agricultural employment, agricultural employment and self-employment using a pooled multinomial logit model accounting for the panel structure by adjusting standard errors for clustering on the individual level.
 
 
 \subsubsection{Cross-sectional data strategy}
