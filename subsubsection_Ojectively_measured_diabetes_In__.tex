@@ -23,7 +23,8 @@ variable still also contains those that self-reported a diabetes diagnosis
 but had \ac{HbA1c} levels below the diabetes threshold. This is sensible as it is possible that people with a diabetes diagnosis are able to manage their diabetes in such a way that their \ac{HbA1c} drop below the threshold and should not be assumed to having falsely reported a diabetes diagnosis, albeit this admittedly is a possibility as well.\footnote{Robustness checks where we specifically accounted for this subpopulation
 did not show qualitatively different results.} 
 
-\begin{table}[h]
+\begin{table}[h!]
+\resizebox{\textwidth}{!}{%
 \begin{center}
 { \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
 \toprule
@@ -43,6 +44,7 @@ N               &     6476         &     2786         &     3690         &     2
 \end{tabular}
 }
 \caption{\label{tab:Self-reported_diabetes_biomarkersample}\textbf{Self-reported diabetes and labour market outcomes in biomarker subsample}}
+}
 \end{center}
 \end{table}  
 
@@ -60,7 +62,8 @@ a person with undiagnosed diabetes. This is what the next step in
 our analysis estimates a model including both diagnosed and undiagnosed
 diabetes jointly as independent explanatory variables.
 
-\begin{table}[h]
+\begin{table}[h!]
+\resizebox{\textwidth}{!}{%
 \begin{center}
 { \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
 \toprule
