@@ -62,34 +62,54 @@ hence being less physically active.
 %\begin{adjustbox}{max width=\textwidth}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{12}{D{.}{.}{-1}l}}
+\begin{tabular}{l*{6}{D{.}{.}{-1}l}}
 \toprule
-                &\multicolumn{3}{c}{Log monthly wages (FE)}              &\multicolumn{3}{c}{Monthly work hours (FE)}             &\multicolumn{3}{c}{Log monthly wages (RE)}              &\multicolumn{3}{c}{Monthly work hours (RE)}             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}&\multicolumn{1}{c}{(10)}&\multicolumn{1}{c}{(11)}&\multicolumn{1}{c}{(12)}\\
-                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+                &\multicolumn{3}{c}{Log monthly wages (FE)}              &\multicolumn{3}{c}{Monthly work hours (FE)}             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-agricultural worker&    -.111\sym{***}&    -.092\sym{**} &    -.294         &   -3.934\sym{***}&   -3.697\sym{***}&   -4.176         &    -.226\sym{***}&    -.236\sym{***}&    -.220\sym{***}&   -3.536\sym{***}&   -3.429\sym{***}&   -2.512\sym{**} \\
-                &   (.043)         &   (.044)         &   (.190)         &   (.764)         &   (.802)         &  (2.713)         &   (.020)         &   (.021)         &   (.063)         &   (.352)         &   (.377)         &  (1.002)         \\
+\multicolumn{7}{l}{\footnotesize Fixed Effects}\\
+agricultural worker&    -.111\sym{***}&    -.092\sym{**} &    -.294         &   -3.934\sym{***}&   -3.697\sym{***}&   -4.176         \\
+                &   (.043)         &   (.044)         &   (.190)         &   (.764)         &   (.802)         &  (2.713)         \\
 \addlinespace
-self-employed   &    -.029         &     .015         &    -.149\sym{*}  &   -2.503\sym{***}&   -1.817\sym{**} &   -4.318\sym{***}&    -.038\sym{*}  &     .039         &    -.154\sym{***}&   -2.911\sym{***}&   -1.187\sym{***}&   -4.577\sym{***}\\
-                &   (.041)         &   (.045)         &   (.087)         &   (.643)         &   (.706)         &  (1.419)         &   (.022)         &   (.026)         &   (.039)         &   (.344)         &   (.408)         &   (.608)         \\
+self-employed   &    -.029         &     .015         &    -.149\sym{*}  &   -2.503\sym{***}&   -1.817\sym{**} &   -4.318\sym{***}\\
+                &   (.041)         &   (.045)         &   (.087)         &   (.643)         &   (.706)         &  (1.419)         \\
 \addlinespace
-Diagnosed diabetes=1&     .065         &     .060         &     .089         &    -.006         &     .486         &   -1.077         &     .090\sym{***}&     .134\sym{***}&     .029         &   -1.049         &     .040         &   -3.246\sym{***}\\
-                &   (.071)         &   (.074)         &   (.169)         &  (1.315)         &  (1.585)         &  (2.262)         &   (.034)         &   (.041)         &   (.063)         &   (.710)         &   (.875)         &  (1.218)         \\
+Diagnosed diabetes=1&     .065         &     .060         &     .089         &    -.006         &     .486         &   -1.077         \\
+                &   (.071)         &   (.074)         &   (.169)         &  (1.315)         &  (1.585)         &  (2.262)         \\
 \addlinespace
-Diagnosed diabetes=1 $\times$ agricultural worker&    -.209         &    -.200         &    -.394         &   -5.251\sym{*}  &   -4.950\sym{*}  &   -5.911         &    -.132         &    -.178         &     .386         &   -2.941\sym{*}  &   -4.287\sym{***}&    1.749         \\
-                &   (.191)         &   (.198)         &   (.373)         &  (2.797)         &  (2.879)         & (15.395)         &   (.112)         &   (.116)         &   (.514)         &  (1.588)         &  (1.660)         &  (5.955)         \\
+Diagnosed diabetes=1 $\times$ agricultural worker&    -.209         &    -.200         &    -.394         &   -5.251\sym{*}  &   -4.950\sym{*}  &   -5.911         \\
+                &   (.191)         &   (.198)         &   (.373)         &  (2.797)         &  (2.879)         & (15.395)         \\
 \addlinespace
-Diagnosed diabetes=1 $\times$ self-employed&    -.036         &    -.099         &     .128         &    -.371         &    1.078         &   -3.963         &    -.119         &    -.043         &    -.204         &    1.397         &     .009         &    3.391         \\
-                &   (.161)         &   (.188)         &   (.322)         &  (2.227)         &  (2.484)         &  (4.740)         &   (.081)         &   (.100)         &   (.133)         &  (1.324)         &  (1.596)         &  (2.290)         \\
+Diagnosed diabetes=1 $\times$ self-employed&    -.036         &    -.099         &     .128         &    -.371         &    1.078         &   -3.963         \\
+                &   (.161)         &   (.188)         &   (.322)         &  (2.227)         &  (2.484)         &  (4.740)         \\
 \midrule
-R2 within       &     .022         &     .022         &     .031         &     .010         &     .012         &     .018         &     .007         &     .009         &     .006         &     .007         &     .009         &     .011         \\
-R2              &     .044         &     .045         &     .023         &     .006         &     .013         &     .025         &     .213         &     .201         &     .246         &     .067         &     .026         &     .049         \\
-N               &    20974         &    13925         &     7049         &    26882         &    17801         &     9081         &    20974         &    13925         &     7049         &    26882         &    17801         &     9081         \\
+R2 within       &     .022         &     .022         &     .031         &     .010         &     .012         &     .018         \\
+N               &    20974         &    13925         &     7049         &    26882         &    17801         &     9081         \\
+\multicolumn{7}{l}{\footnotesize Random Effects}\\
+agricultural worker&    -.226\sym{***}&    -.236\sym{***}&    -.220\sym{***}&   -3.536\sym{***}&   -3.429\sym{***}&   -2.512\sym{**} \\
+                &   (.020)         &   (.021)         &   (.063)         &   (.352)         &   (.377)         &  (1.002)         \\
+\addlinespace
+self-employed   &    -.038\sym{*}  &     .039         &    -.154\sym{***}&   -2.911\sym{***}&   -1.187\sym{***}&   -4.577\sym{***}\\
+                &   (.022)         &   (.026)         &   (.039)         &   (.344)         &   (.408)         &   (.608)         \\
+\addlinespace
+Diagnosed diabetes=1&     .090\sym{***}&     .134\sym{***}&     .029         &   -1.049         &     .040         &   -3.246\sym{***}\\
+                &   (.034)         &   (.041)         &   (.063)         &   (.710)         &   (.875)         &  (1.218)         \\
+\addlinespace
+Diagnosed diabetes=1 $\times$ agricultural worker&    -.132         &    -.178         &     .386         &   -2.941\sym{*}  &   -4.287\sym{***}&    1.749         \\
+                &   (.112)         &   (.116)         &   (.514)         &  (1.588)         &  (1.660)         &  (5.955)         \\
+\addlinespace
+Diagnosed diabetes=1 $\times$ self-employed&    -.119         &    -.043         &    -.204         &    1.397         &     .009         &    3.391         \\
+                &   (.081)         &   (.100)         &   (.133)         &  (1.324)         &  (1.596)         &  (2.290)         \\
+\midrule
+R2 within       &     .007         &     .009         &     .006         &     .007         &     .009         &     .011         \\
+R2              &     .213         &     .201         &     .246         &     .067         &     .026         &     .049         \\
+N               &    20974         &    13925         &     7049         &    26882         &    17801         &     9081         \\
+
 \bottomrule
-\multicolumn{13}{l}{\footnotesize Robust standard errors in parentheses}\\
-\multicolumn{13}{l}{\footnotesize Other control variables: age, state, urban, education, indigenous, marital status, children, wealth, insurance, parental diabetes}\\
-\multicolumn{13}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\multicolumn{7}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize Other control variables: age, state, urban, education, indigenous, marital status, children, wealth, insurance, parental diabetes}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
 \end{tabular}
 }
 %\end{adjustbox}
