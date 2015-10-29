@@ -61,18 +61,11 @@ up the self-reported usual working hours of the first and potential
 second job. We dropped observations where the sum of working hours
 exceeded 112 hours per week, i.e. more than 16 hours of work per day
 on each day of the week. We deemed these reports to be unreliable
-and unrealistic and decided to drop them as only 39 observations were
-affected.
+and unrealistic and decided to drop which affected 39 observations.
 
-The control variables in both \ac{FE} specifications include only a non-linear measure of age using age squared
-to capture any non-linearities between age and labour market outcomes. We exclude age here because in the fixed effects model the increase in age cannot be distinguished from the aggregate time effects which we capture by including year dummies for the year the interview was carried out. The differences in age across people the first time they appear in the survey is accounted for in $c_{i}$ as it does not vary over time \cite{Wooldridge2002a}. Apart from age and time effects we include dummy variables for the effects of any changes in the living environment
-of living in a small, medium or large city with rural and regional
-dummies for five different Mexican regions\footnote{The region variables have been constructed after recommendations on
-the MxFLS-Homepage. South-southeastern Mexico: Oaxaca, Veracruz, Yucatan;
-Central Mexico: Federal District of Mexico, State of Mexico, Morelos,
-Puebla; Central northeast Mexico: Coahuila, Durango, Nuevo Leon; Central
-western Mexico: Guanajuato, Jalisco, Michoacan; Northwest Mexico:
-Baja California Sur, Sinaloa, Sonora.} with living in the northeast being the base. We also include a marital
+The control variables in both \ac{FE} specifications include dummy variables for the effects of any changes in the living environment
+of living in a small, medium or large city with rural and state
+dummies capturing the effects of moving to a different state. We also include a marital
 status dummy to control for the impact of marriage on employment chances.
 A variable capturing the number of children residing in the household
 below the age of 18 is used to control for the impact of children
@@ -83,7 +76,7 @@ wealth might have on diabetes and employment chances, we use standard
 principal component analysis of multiple indicators of household assets
 and housing conditions to create an indicator for household wealth
 \citep{Filmer2001}. The components used for the construction of the
-wealth index are detailed in \citet{Seuring2015}.
+wealth index are detailed in \citet{Seuring2015}. Finally, calender year fixed effects are included to capture the effects of increasing age and any macroeconomic shocks over time.
 
 Additionally, we reestimate the above models using a self-reported
 measure of the years since diagnosis. First, using a linear specification
@@ -152,10 +145,11 @@ model using the probit link function in the panel context while accounting
 for fixed unobserved heterogeneity \citep{Dieleman2014}. Using this
 strategy has yielded qualitatively similar results to those of the
 linear fixed effects specifications and the results are available
-on request. We also apply this strategy to estimate the effects of diabetes on selection from unemployment into different types of work, i.e. non-agricultural employment, agricultural employment and self-employment using a pooled multinomial logit model accounting for the panel structure by adjusting standard errors for clustering on the individual level.
+on request. We also apply this strategy to estimate the effects of diabetes on selection from unemployment into different types of work, i.e. non-agricultural employment, agricultural employment and self-employment using a pooled multinomial logit model accounting for the panel structure by adjusting standard errors for clustering at the individual level.
 
 Finally, as a robustness check we also estimate our models using a Heckman type approach to account for sample selection. We do not use this approach in our preferred model as it, similarly to the \ac{IV} case, depends on strong assumptions about the exclusion restriction needed to identify the selection equation that are often hard to justify on theoretical grounds \citep{Huber_2013}. To be valid the exclusion restriction needs to have a non-zero coefficient in the selection equation determining employment status but should not appear in the equation determining wages and working hours. We use an often applied exclusion restriction with the number of children which has been shown to likely be valid in this context at least on statistical grounds, particularly for the case of women as suggested by \citet{Huber_2013}. Women with young kids are less likely to be employed due to the additional time constraints of having to care for their children. The assumption is, that having children should, however, not affect the productivity of employed women. To account for the panel structure of our data we estimate the Heckman model using the approach detailed in \citet{Wooldridge2002a}, estimating a selection probit for each period $t$ to calculate $t$ different inverse mills ratios which are then plugged into the respective equations to estimate wages and working hours conditional on employment, while again using the approach of \citet{Bell2015} detailed above, to account for time-invariant heterogeneity.
 
+Random effects models are also presented for comparison purposes.
 
 
 \subsubsection{Cross-sectional data strategy}
