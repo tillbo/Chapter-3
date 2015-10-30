@@ -94,32 +94,33 @@ self-report, only 30 percent had an \ac{HbA1c}$\geq6.5$ percent
 compared to 87 percent of those with two self-reports. As a result
 the way we have dealt with the inconsistencies in the data should
 minimize misclassification of people into diabetes or no-diabetes
-and should reduce some of the measurement error in the diabetes data.
-
-Unfortunately we cannot use a similar method for dealing with inconsistencies
+and should reduce some of the measurement error in the diabetes data. Unfortunately we cannot use a similar method for dealing with inconsistencies
 in the self-reported year of diabetes diagnosis, which is why we have
 to rely on the given information. Hence, the results from models using
 duration of diabetes instead of self-reported diabetes must be interpreted
 particularly carefully.
 
-A final and likely even more important issue is the general underreporting
-of diabetes due to non-diagnosis of the disease. The biomarker data
-shows that out of the 1803 respondents with an \ac{HbA1c} $\geq6.5$
-percent, 1265 did not self-report a diabetes diagnosis in the third
-wave, indicating that as much as 70 percent of the people with diabetes
-are undiagnosed in the subsample which could bias our estimates in
-a number of ways, as discussed above. While we have no direct means
-of dealing with the underreporting of diabetes in the panel data,
-we can do so by using biomarker data from the third and last wave
-of the \ac{MxFSL}, estimating the models detailed at the end of
-Section \ref{sec:Estimation_Strategy} in equations \ref{eq:diab_objective}
-and \ref{eq:diab_sr_ud}. The former equation should provide us with
-information on the overall association of objectively measured diabetes,
-regardless of whether a diagnosis was actually made. This would be
-assuming that information about the disease as provided by a diabetes
-diagnosis has no effect on our labour market outcomes. By contrast,
-the latter equation takes into account that self-reported diabetes
-and undiagnosed diabetes could be different in their effect on labour
-market outcomes and should provide some information on how disease
-awareness might affect employment outcomes.
+We also want to stress, that despite our efforts to reduce any bias in our estimates we do not make any causal claims as the used methods cannot prove causation of any form. While the fixed effects model accounts for time invariant
+unobserved confounders, it is still possible that the estimates are biased
+due to an important time variant variable we did not account for, or
+due to labour market outcomes affecting the chances to develop or
+being diagnosed with diabetes. For example changes in lifestyle due to
+employment or unemployment could affect the probabilities of developing
+diabetes. Another pathway could be high stress levels at
+work that have been shown to have a positive association with
+diabetes incidence for obese women and a negative association for
+non-obese men \citep{Heraclides2012,Eriksson2013}. However, part
+of the possible effects of work stress on diabetes should be accounted
+for by our fixed effects model. Genetics play an important role for
+the development of type 2 diabetes and it is likely that people with
+a genetic predisposition are more likely to develop diabetes related
+to stress. Further, coping mechanism related to stress are also likely
+to differ between persons depending on their genetics as well as coping
+methods learned early in life \citep{Schneiderman2005}, so that our
+fixed effect technique should account for these time invariant factors
+and reduce the possible bias. Also the literature on the effects of employment
+status on diabetes so far has not found strong adverse effects of being laid
+off on diabetes self-reports \citep{Bergemann2011,Schaller2015},
+albeit only for high-income countries. Finally, our results using self-reported diabetes information likely suffer from reporting bias due to many undiagnosed diabetes cases. Nonetheless, we are at least able to say something about the possible bias using the biomarker data from the last wave to investigate the effects of accounting for undiagnosed diabetes.
+
 
