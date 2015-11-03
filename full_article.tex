@@ -26,9 +26,9 @@
 \newacro{LMICs} {low- and middle-income countries}  
 \newacro{LMIC} {low- and middle-income country}  
 \newacro{MICs} {middle-income countries} 
-\newacro{HICs} {middle-income countries} 
+\newacro{HICs} {high-income countries} 
 \newacro{MIC} {middle-income country}  
-\newacro{HIC} {middle-income country}  
+\newacro{HIC} {high-income country}  
  \newacro{FE} {fixed effects}  
 \newacro{HbA1c} {glycated hemoglobin}  
 \newacro{IDF} {International Diabetes Federation}  
@@ -36,9 +36,10 @@
 \newacro{MxFLS} {Mexican Family Life Survey}  
 \newacro{OLS} {ordinary least squares}  
 \newacro{RE} {random effects}  
-\newacro{T2D} {Type II Diabetes mellitus}  
+\newacro{T2DM} {Type II Diabetes mellitus}  
 \newacro{US} {United States}
-\newacro{WHO} {World Health Organization}  
+\newacro{WHO} {World Health Organization} 
+\newacro{USA} {United States of America}   
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{dcolumn}
@@ -82,33 +83,16 @@ bottom=30mm,
   xrightmargin=-\fboxsep, %
   moretexcs={lstset,color,colorlet, cellcolor, newcolumntype, columncolor, rowcolor, multirow, xspace, LaTeX, TeX},
 }
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  % decimal alignment
+\usepackage{siunitx}
+\sisetup{ detect-mode, 
+          group-digits            = false ,
+          input-signs             = - (,
+          input-symbols           = - (,
+          input-open-uncertainty  = ,
+          input-close-uncertainty = ,
+          table-align-text-post   = false
+  }
 
 
 \begin{document}
@@ -126,7 +110,7 @@ Serneels\footnote{University of East Anglia}, Marc Suhrcke\footnote{University
 \maketitle 
 
 \begin{abstract}
-Diabetes is increasingly recognized as a major health threat, also in low and middle income countries (LMICs), with potentially strong adverse economic effects. Yet so far the evidence specifically on the labour market consequences of diabetes in LMICs is largely missing. Two challenges present themselves when studying those consequences with survey data: first, causality is hard to identify, and second measurement of diabetes is typically through self-reports, and it is unknown whether this introduces a bias. This paper makes headway on both fronts. To study the relationship between diabetes and labour outcomes we use rich panel data for Mexico. Making use of fixed effects estimation, the analysis accounts for time-invariant omitted variables, providing an improved identification strategy compared to existing work for high income countries. The results indicate a strong negative relationship between self-reported diabetes and employment chances, which are reduced by 5 percentage points for those suffering from diabetes. We find no adverse relationship with wages and working hours. Further analysis using a linear measure of years since first diagnosis and a non-linear measure using linear splines shows a reduction in employment chances with each additional year with the adverse relationship likely being strongest after the first ten years since diagnosis. Using additional biomarker data for a cross section allows us to also assess the role of measurement error, by contrasting estimates obtained when using this objective measure for diabetes with those obtained when using the more standard measure of self-reported diabetes. The adverse association with employment remains when using this objective measure for diabetes, but is smaller in size and is mainly driven by those with diagnosed diabetes. The results suggest that estimates based on self-reported diabetes overstate the employment effect of diabetes.
+Diabetes is increasingly recognized as a major health threat, also in low and middle income countries (LMICs), with potentially strong adverse economic effects. Yet so far the evidence specifically on the labour market consequences of diabetes in LMICs is largely missing. Two challenges present themselves when studying those consequences with survey data: first, causality is hard to identify, and second measurement of diabetes is typically through self-reports, and it is unknown whether this introduces a bias. This paper makes headway on both fronts. To study the relationship between diabetes and labour outcomes we use rich panel data for Mexico. Making use of fixed effects estimation, the analysis accounts for time-invariant omitted variables, providing an improved identification strategy compared to existing work for high income countries. The results indicate a strong negative relationship between self-reported diabetes and employment chances, which are reduced by 6.5 percentage points for those suffering from diabetes. We find no adverse relationship with wages and working hours. Further analysis using a linear measure of years since first diagnosis and a non-linear measure using linear splines shows a reduction in employment chances with each additional year with the adverse relationship likely being strongest after the first ten years since diagnosis. Using additional biomarker data for a cross section allows us to also assess the role of measurement error, by contrasting estimates obtained when using this objective measure for diabetes with those obtained when using the more standard measure of self-reported diabetes. The adverse association with employment remains when using this objective measure for diabetes, but is smaller in size and is mainly driven by those with diagnosed diabetes. The results suggest that estimates based on self-reported diabetes overstate the employment effect of diabetes.
 
 \end{abstract}
 
@@ -135,38 +119,53 @@ Diabetes is increasingly recognized as a major health threat, also in low and mi
 
 \section{\label{sec:Introduction}Introduction}
 
-Type II diabetes mellitus has been increasing worldwide and is expected to continue to do so over the next decades, especially in \ac{MICs} and has become a problem for \ac{MICs} and \ac{HICs} alike  \citep{InternationalDiabetesFederation2013}. Diabetes is characterized by elevated blood glucose levels due to the body not being able to use insulin properly to maintain blood glucose at normal levels. Elevated blood glucose levels over a prolonged period of time can lead to various significantly debilitating and irreversible health conditions such as heart disease and stroke, eye problems that can lead to blindness, kidney problems, and nerve problems that together with impaired wound healing can lead to the loss of limbs \citep{Reynoso-Noveron2011}. As a result, diabetes not only results in elevated healthcare expenditures but likely also affects labour market outcomes due to its adverse health effects \citep{Seuring2015a}. 
+\ac{T2DM} has been increasing worldwide and is expected to continue to do so over the next decades. It has become a problem for \ac{MICs} and \ac{HICs} alike with over two-thirds of people with diabetes living in the developing world \citep{InternationalDiabetesFederation2013}. It has become a particular problem for Mexican-Americans as well as in Mexico itself, where diabetes prevalence has risen from 6.7 percent in 1994 to 14.4 percent in 2006, including both diagnosed and undiagnosed cases \citep{Barquera2013}. This increase in prevalence has likely been driven by a deterioration in the diet and by a reduction in physical activity \citep{Barquera2008b,Basu2013}, as well as a distinct genetic predisposition of many Mexicans \citep{Williams2013}. Diabetes has also become the number one cause of death in Mexico \cite{23374611}. Due to its well known health effects, diabetes is causing an increase in healthcare expenditures and potentially also affects labour market outcomes \citep{Seuring2015a}. A predecessor to this study found a reduction in employment chances of 10 percentage points for Mexican men and studies for Mexican Americans as well as the general \ac{USA} population have also found reductions in employment chances as well as wages and labour supply. 
 
-Apart from its health effects a diagnosis of diabetes might also affect labour market outcomes through other channels. Employers may discriminate against
-people with diabetes deeming them to be less attractive to employ
-than people without diabetes due to their health problems and greater
-need for medical treatment. Further, people aware of their condition
-may also be less inclined to continue working if this interferes with
-their management of the disease. For the latter two reasons the labour
-market effects may also differ for people with diagnosed versus those
-with undiagnosed diabetes, despite a similar actual health status.
-It is also important to bear in mind that diabetes is not a homogeneous
-disease: it can have different effects on people's health depending
+However, while these studies have given a first idea of the potential labour market effects of diabetes many of the complexities in the relationship of diabetes and labour market outcomes have not been investigated and will receive a short elaboration in what follows. \ac{T2DM} is characterized by elevated blood glucose levels due to the body not being able to use insulin properly to maintain blood glucose at normal levels. Elevated blood glucose levels over a prolonged period of time can lead to irreversible health conditions such as heart disease and stroke, blindness, kidney problems, and nerve problems that together with impaired wound healing can lead to the loss of limbs \citep{Reynoso-Noveron2011}. All these conditions can be significantly debilitating and therefore may reduce productivity and labour supply. It is important to bear in mind, however, that \ac{T2DM} is not a homogeneous
+disease and can have different effects on people's health depending
 on the success of the long term disease management. On one hand people
-who are able to ''reverse'' their diabetes - meaning they manage
+who are able to ''reverse'' their \ac{T2DM} - meaning they manage
 to get back to healthy blood glucose levels as a result of lifestyle
 changes and medication that successfully reestablish normal insulin sensitivity -
-are unlikely to suffer from any diabetes related health problems \citep{Lim2011,Gregg2012}.
-On the other hand, if diabetes is either completely untreated or unsuccessfully
+are unlikely to suffer from any \ac{T2DM} related health problems \citep{Lim2011, Gregg2012}.
+On the other hand, if \ac{T2DM} is either completely untreated or unsuccessfully
 treated by medicine or lifestyle changes, and blood glucose levels
-and insulin resistance remain elevated, then people are likely to develop th already mentioned health conditions.
+and insulin resistance remain elevated, then people are likely to develop the already mentioned health conditions. Apart from its health effects \ac{T2DM} might also affect labour market outcomes through other channels. Employers may discriminate against
+people with \ac{T2DM} due to their health problems and greater
+need for medical treatment. Further, people aware of their condition
+may also be less inclined to continue working if this interferes with
+their management of the disease or are prone to justification bias, i.e. justifying the fact that they do not work with having \ac{T2DM} \citet{Kapteyn2009}. For the latter two reasons the labour
+market effects may also differ for people with diagnosed versus those
+with undiagnosed \ac{T2DM} as undiagnosed diabetes remains unobserved for employers and patients alike, not allowing for discrimination or justification bias. 
+
+Further complexities arise due to the potential of unobserved heterogeneity biasing the estimates of the effect of \ac{T2DM} on labour market outcomes in attempts to establish a causal relationship. The main source of potential unobserved heterogeneity is likely related to time-constant unobservables. Personal characteristics such as time preference and innate ability, early life
+health (including in the mother' womb) and low income in early life
+in general have been shown to adversely affect health and more specifically
+the propensity to develop type 2 diabetes \citep{VanEwijk2011,Sotomayor2013,Li2010b},
+and may affect employment chances, wages or working hours indirectly
+through their adverse effects on educational attainment \citep{Ayyagari2011a}
+as well as directly through their effects on today's productivity
+\citep{Currie2013}.
 
 The objective of this study is to pay close attention to the above
 complexities when investigating the relationship between
-self-reported diabetes and labour market outcomes. In particular,
-we contribute the literature by, for the first time in this area, making use of the panel structure of our data to apply individual level fixed effects in order to account for any time constant heterogeneity in the estimation of the effect of diabetes on labour market outcomes. Further, we will, again for the first time, explore the role of undiagnosed diabetes using novel biomarker data, a likely very important issue when estimating the relationship of diabetes and labour market outcomes due to the generally large numbers of undiagnosed people (see \citet{Beagley2014}) that are unobserved in all earlier studies relying on self-reported information. Finally, we also assess and try to minimize the issue of inconsistent self-reporting of diabetes over time that could result in measurement error and again has potentially affected the results presented in the earlier literature.
+\ac{T2DM} and labour market outcomes and also to provide further evidence on the economic impact of diabetes in \ac{MICs}. To this end we use three waves of panel data from Mexico provided by the \ac{MxFLS} covering the years 2002, 2005-2006 and 2009-2013. The \ac{MxFLS} is particularly useful for the analysis of diabetes and to address the mentioned complexities. First of all, we are able to investigate how self-reported diabetes and self-reported diabetes duration are associated with
+labour market outcomes using individual level \ac{FE} for the first time in this area, in order to account for any time constant heterogeneity and to provide first evidence of the effects on wages and working hours in a \ac{MIC}. Further, we add to the current literature in exploring the role of undiagnosed diabetes using novel biomarker data, a likely very important issue given the generally large numbers of undiagnosed people (see \citet{Beagley2014}) that remained unobserved in all earlier studies relying on self-reported information. Finally, we assess and try to minimize the issue of inconsistent self-reporting of diabetes over time that could result in measurement error and again has potentially affected the results presented in the earlier literature.
 
-Several studies have investigated the effects of diabetes on labour market outcomes. For the USA, Brown et al. (2005) estimated the impact of the disease on employment in 1996--1997 in an older population of Mexican Americans in the \ac{US} close to the Mexican border, using a recursive bivariate probit model. They found diabetes to be endogenous for women but not for men. The results of the \ac{IV} estimation suggested no significant effect on women which, compared to the adverse effect found in the probit model, indicated an overestimation of the effect for women when endogeneity was not accounted for. For men, the probit estimates showed a significant adverse effect of about 7 percentage points. For a similar population and using biomarker data,\citet{BrownIII2011} looked
-at how diabetes management, inferred from measured \ac{HbA1c} levels,
+Our results using self-reported diabetes suggest a significant and economically important decrease in employment chances for people aware of their disease of over 6 percentage points for men and women alike. We do not find strong evidence for any further effects of diabetes on wages or working hours, but show that if unobserved heterogeneity is unaccounted for the estimates are biased positively and suggest a positive association of diabetes and wages. We further find that employment chances are reduced with each additional year since diagnosis by over one percentage point and some evidence for an even larger effect per year after the initial 10 years. 
+
+Turning to the biomarker analysis we find that measurement error of self-reported diabetes leads to an upward biased estimate of the employment penalty compared to a measure of objectively measured diabetes including those diagnosed and undiagnosed. We further find no effect of undiagnosed diabetes on any labour market outcome suggesting that adverse effects only appear to occur to those with a diagnosis even if we adjust for differences in self-reported health, obesity and insurance status. We conclude that people aware of their diabetes differ from those unaware of the disease leading to the different outcomes for both groups and argue that other unobserved characteristics related to the added health information of a diagnosis leading to justification bias might play an important role and would need further exploration. Of course differences in other adverse health events related to diabetes not captured by the data likely also explain much of the difference between diagnosed and undiagnosed diabetes.Finally, we do not find that current diabetes management as proxied by \ac{HbA1c} measurements is related to current labour market outcomes.
+
+In general, our results are consistent with how diabetes is affecting the health of people. They indicate that those with a diagnosis of diabetes experience an important employment penalty once they are diagnosed, potentially due to the psychological effects of the diagnosis but also because diabetes is not diagnosed at the initial stage of the disease but after several years of asymptomatic but elevated blood glucose levels. Accordingly, people are likely frequently diagnosed shortly before or once symptoms  start appearing that start reducing employment chances shortly after. In line with that we find that the adverse effects are even stronger several years after diagnosis potentially due to the development of additional and more severe complications. 
+
+
+\section{\label{sec:Related literature}Related literature}
+
+Several studies have investigated the effects of diabetes on labour market outcomes. For the USA, \citet{Brown2005}  estimated the impact of the disease on employment in 1996--1997 in an older population of Mexican Americans in the \ac{US} close to the Mexican border, using a recursive bivariate probit model. They found diabetes to be endogenous for women but not for men. The results of the \ac{IV} estimation suggested no significant effect on women which, compared to the adverse effect found in the probit model, indicated an overestimation of the effect for women when endogeneity was not accounted for. For men, the probit estimates showed a significant adverse effect of about 7 percentage points. For a similar population and using biomarker data,\citet{BrownIII2011} looked at how diabetes management, inferred from measured \ac{HbA1c} levels,
 affected employment chances and wages using cross-sectional data in
 a mainly Mexican-American population in the US. They found a linear adverse association of increasing \ac{HbA1c} levels with
-employment chances and with wages for men. They did, however, not investigate the effects of undiagnosed diabetes. Two other studies also investigated the effect of diabetes on employment and productivity for the USA. Minor (2011) investigated the effect of diabetes on female employment, earnings, working hours and lost work days in the \ac{US} in 2006. The study found diabetes to be endogenous and underestimated if exogeneity was assumed. In the \ac{IV} estimates, type 2 diabetes had a significant negative effect on female employment chances as well as yearly earnings but not on working hours. Both of these studies used a Heckman selection model to adjust for a possible selection bias in their estimates of productivity. However, both studies do not discuss the choice of exclusion restrictions which are crucial to identify the selection equation and for the validity of the results, at least casting some doubt on the presented results. In a later study \citet{Minor2013}
-finds some evidence for a non-linear relationship of \ac{T2D} duration
+employment chances and with wages for men. They did, however, not investigate the effects of undiagnosed diabetes. Two other studies also investigated the effect of diabetes on employment and productivity for the USA. \citep{Minor2010} investigated the effect of diabetes on female employment, earnings, working hours and lost work days in the \ac{US} in 2006. The study found diabetes to be endogenous and underestimated if exogeneity was assumed. In the \ac{IV} estimates, type 2 diabetes had a significant negative effect on female employment chances as well as yearly earnings but not on working hours. Both of these studies used a Heckman selection model to adjust for a possible selection bias in their estimates of productivity. However, both studies do not discuss the choice of exclusion restrictions which are crucial to identify the selection equation and for the validity of the results, at least casting some doubt on the presented results. In a later study \citet{Minor2013}
+finds some evidence for a non-linear relationship of \ac{T2DM} duration
 and employment two to five years after diagnosis for men and eleven
 to fifteen years after diagnosis for women. He finds evidence for
 an adverse linear relationship of years since diagnosis with employment
@@ -177,92 +176,43 @@ However, apart from the non-linear effects found for employment chances,
 the found effects were only significant at the 10 percent significance
 level. This analysis did not adjust for a possible non-random selection into employment and relied on a two-part model. 
 For Canada, Latif (2009) estimated the effect of the disease on employment probabilities. Contrary to Brown et al. (2005), he found diabetes to be exogenous for females and endogenous for males; taking this into account he obtained a significant negative impact on the employment probabilities for women, but not for men. Because the simple probit model showed a significant negative effect for males, Latif (2009) concluded that not accounting for 
-endogeneity resulted in an overestimation of the effect on male employment chances. For Australia, \cite{Zhang_2009} investigate the effects of various chronic diseases,including diabetes, on labour force participation using a multivariate endogeneous probit model to account for the possible endogeneity of diabetes. They find reduced labour market participation for males and females of 7.1 and 9 percentage points, respectively. They also find, that if the endogeneity of diabetes is unaccounted for the effect is overestimated. 
+endogeneity resulted in an overestimation of the effect on male employment chances. For Australia, \cite{Zhang2009} investigate the effects of various chronic diseases,including diabetes, on labour force participation using a multivariate endogeneous probit model to account for the possible endogeneity of diabetes. They find reduced labour market participation for males and females of 7.1 and 9 percentage points, respectively. They also find, that if the endogeneity of diabetes is unaccounted for the effect is overestimated. 
 
 For \ac{MIC} only two studies exist. \citet{Liu2014} investigate the effect of a recent diabetes diagnosis on labour income
 in China using a natural experiment for identification and find a
 significant reduction in income for those with a recent diagnosis.
-For Mexico, a predecessor paper investigated the effect of self-reported
+For Mexico, a predecessor paper to this paper investigated the effect of self-reported
 diabetes on employment chances using cross-sectional data from the
 2005 wave of the \ac{MxFLS}. The study showed a significant (p<0.01) reduction
 in employment chances for males of a about 10 percentage points and
 for females of about 4.5 percentage points, albeit at a much lower
-statistical significance \citep{Seuring2015}.
+statistical significance and found diabetes to be exogenous using parental diabetes as the \ac{IV} \citep{Seuring2015}.
 
-As this short review of the existing literature shows, the evidence from \ac{MICs} remains  extremely scarce \citep{Seuring2015a}. Further, even  the literature  in high income countries suffers from several limitations. One limitation is the exclusive use of cross-sectional
-data or estimation techniques. Because estimates of the effects of self-reported diabetes might
+As this short review of the existing literature shows, the evidence from \ac{MICs} remains  extremely scarce \citep{Seuring2015a}. Further, even  the literature  in high income countries suffers from several limitations. One limitation is the exclusive use of cross-sectional data or estimation techniques. Because estimates of the effects of self-reported diabetes might
 suffer from omitted variable bias, many studies have used an \ac{IV}
 strategy to obtain unbiased estimates of the relationship between
-diabetes and labour market outcomes. The main source of potential unobserved heterogeneity is likely related to time-constant unobservables. Personal characteristics such
-as time preference and innate ability, genetic trades, early life
-health (including in the mother' womb) and low income in early life
-in general have been shown to adversely affect health and more specifically
-the propensity to develop type 2 diabetes \citep{VanEwijk2011a,Sotomayor2013,Li2010b},
-and may affect employment chances, wages or working hours indirectly
-through their adverse effects on educational attainment \citep{Ayyagari2011b}
-as well as directly through their effects on today's productivity
-\citep{Currie2013}. A further limitation is the use of a similar \ac{IV} strategy in all mentioned papers applying this method, i.e. family history
+diabetes and labour market outcomes. However, a similar \ac{IV} strategy has been used throughout, i.e. the family history
 of diabetes. The use of this instrument relies on the assumption that heritable genetic trades of diabetes increase the chances of developing diabetes, if one or more of the family members
-has had the disease \citep{Brown2005,Latif2009,Minor2010a,Lin2011b,Seuring2015}. While it has been shown that type 2 diabetes has a genetic and heritable component that could theoretically provide valid identification of the true effect of diabetes, this strategy is still questionable for at least two reasons. First,
+has had the disease \citep{Brown2005,Latif2009,Minor2010,Lin2011b,Seuring2015}. While it has been shown that type 2 diabetes has a genetic and heritable component that could theoretically provide valid identification of the true effect of diabetes, this strategy is still questionable for at least two reasons. First,
 it is not testable if the instrument satisfies the exclusion restriction
- , i.e. weather it has not effect on the labour outcome in question other than through
-the endogeneous explanatory variable. Diabetes family history could have several potential ways through which it could violate the exclusion restriction. For instance, other parental characteristics, such as parental education, could be simultaneously correlated with the parental diabetes status as well as their children{'}s
-employment chances. Apart from the parental education pathway, it is conceivable that diabetes might deteriorate parental health in such a way that the offspring has or had to give
+ , i.e. weather it has no effect on the labour outcome in question other than through
+the endogeneous explanatory variable. Diabetes family history could have several potential ways through which it might violate the exclusion restriction. For instance, other parental characteristics, such as parental education, could be simultaneously correlated with the parental diabetes status as well as their children{'}s
+employment chances and most of the studies do not account for other familial background characteristics. Apart from the parental education pathway, it is conceivable that diabetes might deteriorate parental health in such a way that the offspring has or had to give
 up its own employment or reduce its working hours in order to care for its parents or is forced to take up work or increase its working hours to financially provide for the parents \citep{Seuring2015}. Furthermore, and not specifically restricted to the topic of diabetes, instrumentation can be problematic if the instruments are weak as their use may result in biased estimates in finite samples and generally produce large standard errors \citep{Bound1995}. 
 
-Due to these problems, another method to account for unobserved omitted variables is
-the use of individual level \ac{FE} which differences out
-the fixed time invariant unobservables that could potentially bias
-our estimates and affect selection into employment. This strategy allows to account for the, as we think, largest source of unobserved heterogeneity, namely all possible confounders related to personal traits and early life environments without having to rely on the strong assumptions of an \ac{IV} strategy.
-
-Because panel data are a prerequisite to use \ac{FE} we use the \ac{MxFLS}, providing us with extensive socioeconomic and health related information on Mexico over three waves (2002, 2005, 2009-2011). Mexico is an interesting country to study given its high obesity and diabetes prevalence and its status as an emerging economy. Further, its close proximity to the USA and the large Mexican population in the USA should make the results of this study also relevant for the USA context. Mexico has seen an increase in diabetes prevalence from 6.7 percent in 1994 to 14.4 percent in 2006, including both diagnosed and undiagnosed cases \citep{Barquera2013}. This increase in prevalence has likely been driven by a deterioration in the diet and by a reduction in physical activity \citep{Barquera2008b,Basu2013}, as well as a distinct genetic predisposition \citep{Williams2013}. Diabetes has also become the number one cause of death in Mexico \cite{23374611}.
-
-Using the \ac{MxFLS} we are able to investigate
+Due to these limitations, our paper makes an important contribution in using individual level \ac{FE} as an alternative and a, potentially better, means to account for unobserved heterogeneity without having to rely on the strong assumptions of an \ac{IV} strategy. Using the \ac{MxFLS} we are able to investigate
 how self-reported diabetes and diabetes duration are associated with
-labour market outcomes using \ac{FE}. Apart from this contribution, our paper makes
-several other important contributions to the literature. First, we
-extend the analysis to wages and working hours, a topic not yet investigated
-in the context of Mexico or any other \ac{MIC}. Second, we investigate the heterogeneity
-in the relationship of self-reported diabetes and its relationship
-with wages and working hours across different employment types, i.e.
+labour market outcomes using \ac{FE} and investigate the heterogeneity
+of the effects across different employment types, i.e.
 non-agricultural employment, agricultural employment and self-employment.
 This is important due to the large agricultural and self-employed
 sectors, where health problems might have much different effects than
-in more secure or less strenuous non-agricultural jobs. Third, because
-we have information from three different points in time we are able
-to investigate the extend of inconsistent self-reported diabetes in
-the data and to correct for it to increase the validity of our results.
-Finally, we provide a first exploration of the labour market effects
+in more secure or less strenuous non-agricultural jobs. Finally, we provide a first exploration of the labour market effects
 of undiagnosed diabetes, which is important as a large part of the
 population with diabetes is unaware of the disease preventing early
 treatment to prevent the adverse health effects of diabetes.
 
-The remainder of the paper is structured as follows. Section \ref{sec:Methodology}
-presents the used data, its inconsistencies, discusses the problem
-of measurement error in our data and lays out the empirical strategy.
-Section \ref{sec:RESULTS} provides the results of the panel data
-analysis and the cross-sectional biomarker analysis. Section \ref{sec:Conclusion}
-discusses the results and concludes.
 
-
-\section{\noindent \label{sec:Framework}Framework for analysis}
-
-
-  
-  
-  
-
-The theoretical framework of our study is based on the work of \citet{Strauss1998}. We are interested in the relationship between diabetes and labour market outcomes. To conceptualize this relationship we specify the following model of wages conditional on health.
-\begin{equation}
-w=w(H;S,A,B,I,\alpha,e_{w})\label{eq:wage}
-\end{equation}
-where $w$ is the real wage; $H$ is an array of measured health human capital; $S$ is education; $A$ is a vector of demographic characteristics; $B$ is the family background of the individual; $I$ is local community infrastructure; $\alpha$ is an array of unobservables such as ability and $e_w$ is measurement error. 
-
-There are several ways diabetes may affect $H$. First of all, diabetes can deteriorate health if it remains untreated with the adverse effects increasing over time. Second, a diagnosis of diabetes and ensuing treatment may lead to better health after compared to the undiagnosed state, however, compared to healthy people even those with diabetes receiving treatment may still have worse health outcomes. Third, there is also evidence that a diagnosis may affect the own health perception and lead to worse self-reported health. We therefore expect diabetes to adversely affect health and consequently labour market outcomes.
-
-However, estimating equation  \ref{eq:wage}, unobserved heterogeneity can bias the results. As mentioned in section  \ref{sec:Introduction} unobserved factors such as early childhood investments, innate ability and time preference could affect productivity at work as well as the probability to develop diabetes. Further, reverse causality might arise if wages or employment status affect the probability to develop diabetes via changes in lifestyle causing less healthy diet and physical activity patterns.
-
-In the following section we will show how we will deal with these issues in our estimation strategy.
 
 
 
@@ -436,52 +386,27 @@ Observations        &        2792&            &            &            &       
 (2009-2012) }}
 \end{table}  
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
 \subsection{\label{sec:Estimation_Strategy}Estimation strategy}
+  
+The theoretical framework of our study is based on the work of \citet{Strauss1998}. We are interested in the relationship between diabetes and labour market outcomes. To conceptualize this relationship we specify the following model of wages conditional on health.
+\begin{equation}
+w=w(H;S,A,B,I,\alpha,e_{w})\label{eq:wage}
+\end{equation}
+where $w$ is the real wage; $H$ is an array of measured health human capital; $S$ is education; $A$ is a vector of demographic characteristics; $B$ is the family background of the individual; $I$ is local community infrastructure; $\alpha$ is an array of unobservables such as ability and $e_w$ is measurement error. 
+
+There are several ways diabetes may affect $H$. First of all, diabetes can deteriorate health if it remains untreated with the adverse effects increasing over time. Second, a diagnosis of diabetes and ensuing treatment may lead to better health after compared to the undiagnosed state, however, compared to healthy people even those with diabetes receiving treatment may still have worse health outcomes. Third, there is also evidence that a diagnosis may affect the own health perception and lead to worse self-reported health. We therefore expect diabetes to adversely affect health and consequently labour market outcomes.
+
+However, estimating equation  \ref{eq:wage}, unobserved heterogeneity can bias the results. As mentioned in section  \ref{sec:Introduction} unobserved factors such as early childhood investments, innate ability and time preference could affect productivity at work as well as the probability to develop diabetes. Further, reverse causality might arise if wages or employment status affect the probability to develop diabetes via changes in lifestyle causing less healthy diet and physical activity patterns.
+
+In the following section we will show how we will deal with these issues in our estimation strategy.
 
 
 \subsubsection{Panel data strategy}
 
 We investigate the relationship of self-reported diabetes and three
 labour market outcomes, i.e. employment chances, log hourly wages
-and normal weekly working hours using a fixed effects model. The fixed
-effect model deals with the problem of unobserved time-invariant confounders
-by taking away the group mean for each individual from both sides
-of the estimated equation. Only the variation in time variant variables
-is left to be estimated so that changes in the dependent variable
-are explained by changes in the dependent variables. This will be
-the main way we investigate the relationship of self-reported diabetes
-with labour market outcomes. While using fixed-effects does not fully
+and normal weekly working hours using a fixed effects model. While using fixed-effects does not fully
 identify a causal relationship, as other forms of heterogeneity could
 affect our estimates (i.e. via time-variant unobserved heterogeneity
 or simultaneity) it does improve on the degree of causal inference,
@@ -489,7 +414,8 @@ compared to a simple cross-sectional analysis, and in particular it
 does allow to control for unobserved personal characteristics that
 could bias the estimates, without the drawbacks of a less than convincing
 \ac{IV} strategy that has been widely applied in this literature. 
-For comparison purposes we also present the results of the respective random effects models.
+For comparison purposes we also present the results of the respective random effects models that assume no unobserved heterogeneity.
+
 We estimate a two-part model where the model for employment chances
 takes the following form:
 
@@ -549,8 +475,8 @@ and housing conditions to create an indicator for household wealth
 \citep{Filmer2001}. The components used for the construction of the
 wealth index are detailed in \citet{Seuring2015}. Finally, calender year fixed effects are included to capture the effects of increasing age and any macroeconomic shocks over time.
 
-Additionally, we reestimate the above models using a self-reported
-measure of the years since diagnosis. First, using a linear specification
+Additionally, we estimate models using a self-reported
+measure of the years since diagnosis instead. First, using a linear specification
 indicating the association of labour market  outcomes with each additional
 year since diagnosis, using the following specification 
 \begin{equation}
@@ -573,9 +499,9 @@ Y_{it}=\delta_{0}+g(Dyears_{it})+\delta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.\label
 \noindent with $g(Dyears_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
 and $I_{in}=1[\eta_{n-1}\leq Dyears_{it}<\eta_{n}]$, with $\eta_{n}$
 being the place of the $n$-th node for $n=1,2,\ldots,N$. We choose
-three nodes that - based on visual inspection (see Figure Graph in
+three nodes that - based on visual inspection (see Figures \ref{fig:Kernel-weighted-local-polynomial_empl}, \ref{fig:Kernel-weighted-local-polynomial_wage} and \ref{fig:Kernel-weighted-local-polynomial_workhrs} in the
 result section) - best captured any possible non-linearities in the
-relationship of diabetes duration and our dependent variables . These
+relationship of diabetes duration and our dependent variables. These
 are located at four, eleven and twenty years after diagnosis. The
 first four years should capture any immediate effects of the diagnosis,
 the years five to ten should capture any effects of adaptation to
@@ -628,7 +554,7 @@ Finally, we make use of the biomarker data in wave three, which allows
 for the exploration of the relationship of undiagnosed diabetes as
 well as diabetes severity with labour market outcomes, as measured
 by \ac{HbA1c} values. Since this data is only available in the
-last wave and as it is not possible to use the information in a meaningful
+last wave and it is not possible to use the information in a meaningful
 way for the earlier waves, we have to rely on a cross-sectional analytical
 approach here. This has the obvious drawback that we are unable to
 account for unobserved heterogeneity using fixed effects. Further,
@@ -666,12 +592,9 @@ HbA1c $\geq6.5\%$.
 \subsection{Estimation bias}
 
 Self-reported data can suffer from non-classical measurement error
-due to systematic misreporting (mostly underreporting in the case
-of \ac{BMI} or obesity) which has been shown to cause estimates
+due to systematic misreporting which has been shown to cause estimates
 of economic outcomes to be biased and overstated \citep{Cawley2015,ONeill2013,Perks2015}.
-For diabetes, specifying measurement error is somewhat more difficult
-as it needs to be clear what kind of measurement is used to detect
-diabetes in survey data. When talking about diabetes in the context
+When talking about diabetes in the context
 of most survey data it is typically measured by a self-reported diabetes
 diagnosis. Self-reported diabetes can suffer from two forms of measurement
 error: 
@@ -698,18 +621,16 @@ bias: it would lead to an overestimation if people with undiagnosed
 diabetes were generally healthier and therefore more likely to have
 positive labour market outcomes than people with diagnosed diabetes
 and would therefore have attenuated the effect of diabetes if they
-were observed in the data. Yet because they are unobserved the effect
+were observed in the data. Yet, because they are unobserved the effect
 of diabetes using self-reports may be overstated. However, if those
-with undiagnosed diabetes are very similar healthwise to those with
-diagnosed diabetes and consequently experience similar health problems
-that adversely affect their labour market outcomes, then this might
-produce an attenuation bias of the diabetes coefficient as the control
-group without observed diabetes, i.e. including people with undiagnosed
-diabetes, has on average have worse labour market outcomes than it
-would have, if all diabetes cases had been observed.
+with undiagnosed diabetes were very similar in terms of health to those with
+diagnosed diabetes and consequently experienced similar health problems
+that adversely affected their labour market outcomes, then this would lead to an attenuation of the diabetes coefficient as the control group without observed diabetes, i.e. including people with undiagnosed
+diabetes, were on average less healthy and have worse labour market outcomes than it
+would have had if all diabetes cases had been observed.
 
 In this context, however, an important additional issue arises with the potential effect that being informed via a diabetes diagnosis
-might have on on labour market outcoms. In assessing the labour market
+might have on on labour market outcomes. In assessing the labour market
 effects of diabetes with the help of self-reported diabetes as our
 diabetes indicator, we need to be aware that we are likely measuring
 something else then the pure health effects of diabetes. A diabetes
@@ -721,7 +642,7 @@ and anxiety \citep{17003303}. Other research has also shown that
 anxiety and depression increase with the number of diabetes symptoms
 people with diabetes self-report after a diagnosis \cite{Paddison_2011}.
 Interestingly, similar results have not been found for people with
-undiagnosed diabetes \cite{Nouwen_2011}. When looking at economic
+undiagnosed diabetes \citep{Nouwen2011}. When looking at economic
 studies of the effect of a diabetes diagnosis \citet{Liu2014} found
 that receiving a diabetes diagnosis considerably reduced labour income
 in Chinese employees shortly after their diagnosis. Similarly, others
@@ -775,12 +696,12 @@ has shown that specificity of self-reported diabetes - meaning that
 those who self-report a diabetes diagnosis actually have diabetes
 - was very high (>98 percent for China), while sensitivity - a measure
 of how many people with diabetes, diagnosed or undiagnosed, actually
-self-report the disease- was low (40 percent for China) \citep{Yuan2015a}.
+self-report the disease- was low (40 percent for China) \citep{Yuan2015}.
 This indicates that people who report a diabetes diagnosis are likely
-to indeed suffer from the condition while many of those not reporting
-a diabetes diagnosis could have diabetes as well but are not diagnosed.
+to indeed have the condition while many of those not reporting
+a diabetes diagnosis could have diabetes as well but are unaware.
 
-Owing to the biomarker data provided in the third wave of the \ac{MxFLS},
+Thanks to the biomarker data provided in the third wave of the \ac{MxFLS},
 we are also able to assess the validity of self-reported diabetes
 by using \ac{HbA1c} levels as well as the self-reports of diabetes
 related medicine use as a confirmation of self-reports. The \ac{WHO}
@@ -791,7 +712,7 @@ the diabetes question (n=6895), 705 reported a diabetes diagnosis
 and of those 632 (90 percent) had an \ac{HbA1c} $\geq6.5$ percent
 or did report taking diabetes medication.
 
-Due to the high specificity in the reporting of a diabetes diagnosis,
+Base on the high specificity in the reporting of a diabetes diagnosis,
 we assume for people with information from only two waves, that if
 they reported a diabetes diagnosis in a prior wave they also had diabetes
 in the ensuing wave even if they did not report a diabetes diagnosis.
@@ -827,25 +748,23 @@ information by using all available information. We tested if the results
 of the \ac{HbA1c} tests for the subpopulation in 2009 with biomarker
 information and inconsistencies in their diabetes reporting (n=96,
 48 with two and 48 with one self-report of diabetes) would support
-this decision by comparing the mean \ac{HbA1c} values for those
+this decision. Therefore we compared the mean \ac{HbA1c} values for those
 who had two self-reports of a diagnosis of diabetes in the full three
 waves with those with only one self-report. Using a t-test, we find
 a significantly (p<0.001) higher mean \ac{HbA1c} of 9.6 percent
 for those with two self-reports compared to 7.0 percent for those
 with only one self-report of diabetes. Further, of those with one
 self-report, only 30 percent had an \ac{HbA1c}$\geq6.5$ percent
-compared to 87 percent of those with two self-reports. As a result
-the way we have dealt with the inconsistencies in the data should
+compared to 87 percent of those with two self-reports. Bases on these results we are reassured that the way we have dealt with the inconsistencies in the data should
 minimize misclassification of people into diabetes or no-diabetes
 and should reduce some of the measurement error in the diabetes data. Unfortunately we cannot use a similar method for dealing with inconsistencies
-in the self-reported year of diabetes diagnosis, which is why we have
-to rely on the given information. Hence, the results from models using
+in the self-reported year of diabetes diagnosis as it has only been reported once. Hence, the results from models using
 duration of diabetes instead of self-reported diabetes must be interpreted
 particularly carefully.
 
 We also want to stress, that despite our efforts to reduce any bias in our estimates we do not make any causal claims as the used methods cannot prove causation of any form. While the fixed effects model accounts for time invariant
 unobserved confounders, it is still possible that the estimates are biased
-due to an important time variant variable we did not account for, or
+due to important time variant heterogeneity we did not account for, or
 due to labour market outcomes affecting the chances to develop or
 being diagnosed with diabetes. For example changes in lifestyle due to
 employment or unemployment could affect the probabilities of developing
@@ -887,7 +806,7 @@ employment chances by between 5 and 6 percentage points.
 %\resizebox{\textwidth}{!}{%
 \begin{adjustbox}{max width=\textwidth}
 {
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
@@ -943,7 +862,7 @@ hence being less physically active.
 \begin{adjustbox}{max width=\textwidth}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{6}{D{.}{.}{-1}l}}
+\begin{tabular}{l*{6}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Log monthly wages (FE)}              &\multicolumn{3}{c}{Monthly work hours (FE)}             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
@@ -1031,7 +950,7 @@ develop their skills in managing and living with the disease. Contrary, if diabe
 
 In order to obtain a first idea of the non parametric relationship
 we use kernel-weighted local polynomial regression to graph the relationship
-between our outcome variables and diabetes duration. As Figure \ref{fig:Kernel-weighted-local-polynomial}
+between our outcome variables and diabetes duration. As Figure \ref{fig:Kernel-weighted-local-polynomial_empl}
 shows, the relationship of diabetes duration and employment chances
 seems to be more or less linear for the pooled sample, showing a steady
 decline, though less so when separated by gender. We find a first
@@ -1051,7 +970,7 @@ capture the immediate, intermediate and long-term relationships (0--4,
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.7\columnwidth]{figures/lpoly_works_diabetesduration/lpoly_works_diabetesduration}
-\caption{\label{fig:Kernel-weighted-local-polynomial}Kernel-weighted local
+\caption{\label{fig:Kernel-weighted-local-polynomial_empl}Kernel-weighted local
 polynomial regression of employment status on diabetes duration}%
 \end{center}
 \end{figure}
@@ -1059,7 +978,7 @@ polynomial regression of employment status on diabetes duration}%
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.7\columnwidth]{figures/lpoly_wage_diabetesduration/lpoly_wage_diabetesduration}
-\caption{\label{fig:Kernel-weighted-local-polynomial}Kernel-weighted local
+\caption{\label{fig:Kernel-weighted-local-polynomial_wage}Kernel-weighted local
 polynomial regression of log hourly wages on diabetes duration}%
 \end{center}
 \end{figure}
@@ -1067,7 +986,7 @@ polynomial regression of log hourly wages on diabetes duration}%
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[width=0.7\columnwidth]{figures/lpoly_workhrs_diabetesduration/lpoly_workhrs_diabetesduration}
-\caption{\label{fig:Kernel-weighted-local-polynomial}Kernel-weighted local
+\caption{\label{fig:Kernel-weighted-local-polynomial_workhrs}Kernel-weighted local
 polynomial regression of working hours on diabetes duration}%
 \end{center}
 \end{figure}
@@ -1086,7 +1005,7 @@ is not as strong. Interestingly, we find a reduction in female wages of about se
 \begin{adjustbox}{max width=\textwidth}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+\begin{tabular}{l*{9}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log monthly wages}                   &\multicolumn{3}{c}{Monthly work hours}                  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
@@ -1133,7 +1052,7 @@ for women. We also find some significant associations for those with more than 1
 \begin{center}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+\begin{tabular}{l*{9}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log monthly wages}                   &\multicolumn{3}{c}{Monthly work hours}                  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
@@ -1234,7 +1153,7 @@ did not show qualitatively different results.}
 \begin{adjustbox}{max width=\textwidth}
 \begin{center}
 %\resizebox{\textwidth}{!}{%
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
@@ -1278,7 +1197,7 @@ diabetes jointly as independent explanatory variables.
 %\resizebox{\textwidth}{!}{%
 \begin{adjustbox}{max width=\textwidth}
 \begin{center}
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}}
+{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
@@ -1299,11 +1218,10 @@ N               &     6487         &     2792         &     3695         &     2
 \multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
 \end{tabular}%
 }
+\end{center}
 %}
 \end{adjustbox}
 \caption{\label{tab:Objective_diabetes}\textbf{Objectively measured diabetes and labour market outcomes}}
-\end{center}
-
 \end{table}  
   
   
@@ -1320,13 +1238,14 @@ compared to those of the fixed effects model shown in table \ref{tab:Self-report
 For men, the coefficient is again smaller and not statistically significant
 at conventional levels (p=0.103). We further find no indication of strong associations
 between any form of diabetes and wages or working hours. 
-Overall, the finding that undiagnosed diabetes appears to not be associated with any adverse labour outcomes suggests that the two populations with diabetes, those with diagnosed and those with undiagnosed diabetes are different in terms that are not yet captured by the used control variables. Possible differences that could explain these different outcomes could be the psychological effects of a diabetes diagnosis leading to a reduction in labour supply over time. Further, people with a diabetes diagnosis could be generally less healthy and have more diabetes related complications or other diseases that affect their employment decision. However, accounting for BMI, self-reported hypertension and self-reported heart disease as well as a measure of subjective health does only marginally affect the coefficients for self-reported diabetes and undiagnosed diabetes, reducing the former by about one percentage point (results not shown here). Future research should use other identification strategies that might be able to shed further light on the effects of a diabetes diagnosis on labour market outcomes.
+Overall, the finding that undiagnosed diabetes appears to not be associated with any adverse labour outcomes suggests that the two populations with diabetes, those with diagnosed and those with undiagnosed diabetes are different in terms that are not yet captured by the used control variables. Possible differences that could explain these different outcomes could be the psychological effects of a diabetes diagnosis leading to a reduction in labour supply over time. Further, people with a diabetes diagnosis could be generally less healthy and have more diabetes related complications or other diseases that affect their employment decision. However, accounting for measures of overweight and obesity, self-reported hypertension and self-reported heart disease as well as a measure of subjective health and insurance status does only marginally affect the coefficients for self-reported diabetes and undiagnosed diabetes, reducing the former by about one percentage point (results not shown here). Future research should use other identification strategies that might be able to shed further light on the effects of a diabetes diagnosis on labour market outcomes.
 
 \begin{table}[h!]
-\begin{adjustbox}{max width=\textwidth}
 \begin{center}
+\begin{adjustbox}{max width=\textwidth}
 
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}} \toprule&\multicolumn{3}{c}{Employment}&\multicolumn{3}{c}{Log hourly wages}&\multicolumn{3}{c}{Weekly working hours}\\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+
+{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}} \toprule&\multicolumn{3}{c}{Employment}&\multicolumn{3}{c}{Log hourly wages}&\multicolumn{3}{c}{Weekly working hours}\\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule Diagnosed diabetes&    -.061\sym{***}&    -.036         &    -.052\sym{**} &     .005         &     .020         &    -.021         &    -.829         &    -.234         &   -1.938         \\
                 &   (.017)         &   (.026)         &   (.023)         &   (.054)         &   (.063)         &   (.103)         &  (1.140)         &  (1.329)         &  (2.168)         \\
 \addlinespace
@@ -1384,9 +1303,10 @@ values do not have lower employment chances.
 
 
 \begin{table}[h!]
-\begin{adjustbox}{max width=\textwidth}
 \begin{center}
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{D{.}{.}{-1}l}} \toprule                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\ \midrule \textbf{Diagnosed diabetes} &&&&&&&& \\
+\begin{adjustbox}{max width=\textwidth}
+
+{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}} \toprule                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\ \midrule \textbf{Diagnosed diabetes} &&&&&&&& \\
 
 6.5 <= HbA1c < 8&    -.079\sym{**} &    -.085         &    -.055         &    -.112         &    -.258\sym{**} &     .184         &   -1.301         &    2.507         &   -8.080\sym{*}  \\                 &   (.036)         &   (.053)         &   (.047)         &   (.114)         &   (.113)         &   (.236)         &  (2.292)         &  (2.418)         &  (4.528)         \\ \addlinespace 8 <= HbA1c < 12 &    -.071\sym{***}&    -.042         &    -.084\sym{**} &     .075         &     .103         &    -.005         &   -2.571         &   -2.037         &   -4.345         \\                 &   (.025)         &   (.035)         &   (.034)         &   (.079)         &   (.088)         &   (.178)         &  (1.709)         &  (1.925)         &  (3.506)         \\ \addlinespace HbA1c >= 12     &    -.025         &     .013         &    -.039         &    -.155         &    -.103         &    -.231         &    -.491         &     .635         &   -2.421         \\                 &   (.038)         &   (.050)         &   (.054)         &   (.109)         &   (.132)         &   (.193)         &  (2.667)         &  (3.485)         &  (4.085)         \\ \addlinespace 
 \textbf{Undiagnosed diabetes} &&&&&&&& \\
@@ -1418,7 +1338,7 @@ are found for those with relatively well managed diabetes and no
 effects for those with the highest \ac{HbA1c} levels, suggesting that current diabetes management is not affecting employment chances. While we cannot explain theses differences in the results between our study and the study of \citet{BrownIII2011} other than by acknowledging the fact that our studies is placed in a different country and uses a different age group, their study also showed similarly to our study that once people are diagnosed with diabetes current diabetes management plays a minor role in determining labour market outcomes. This is not surprising given that \ac{HbA1c} levels only provide a picture of blood glucose levels over the last three month, which may not be very representative of blood glucose levels throughout the years before and after the diabetes diagnosis that ultimately determine how soon complications appear and how severe they are.
 
 
-\section{\noindent \label{sec:Conclusion}Conclusion}
+\section{\label{sec:Conclusion}Conclusion}
 
 According to the relatively novel panel data used here, self-reported diabetes has increased in Mexico between 2002 and 2011, and overall
 diabetes prevalence has reached worrying
@@ -1434,11 +1354,11 @@ diabetes is not associated with labour market outcomes in Mexico. We still mostl
 To reiterate, the study finds a considerable negative impact of self-reported diabetes on labour market outcomes, a finding that is likely also of relevance to other \ac{MICs} facing similar diabetes problems. Further, when estimating any effects of diabetes using self-reported measures, any conclusions drawn should be limited to the those already diagnosed as otherwise any effects are likely to be overstated due to the often large population with undiagnosed diabetes.
 
 
-  
- \noindent \bibliographystyle{elsarticle-harv} 
+\noindent \bibliographystyle{elsarticle-harv} 
 
-\bibliography{bibliography/converted_to_latex%
+\addbibresource{/home/till/Dokumente/BibTex/Second_Mexico_paper-Article.bib}
+
+\bibliography{/home/till/Dokumente/BibTex/Second_Mexico_paper-Article%
 }
-
 \end{document}
 
