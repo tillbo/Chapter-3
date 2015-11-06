@@ -8,7 +8,7 @@
 \usepackage{multirow,booktabs}
 \usepackage{amsfonts,amsmath,amssymb}
 \usepackage{url}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,pdfborder={0 0 0}}
 %\usepackage{latexml}
@@ -48,7 +48,7 @@
 \usepackage{graphicx}
 \usepackage[Export]{adjustbox}
 \newcommand{\sym}[1]{\ensuremath{^{#1}}} % for symbols in Table
-
+\usepackage{lscape}
 \usepackage[authoryear]{natbib}
 
 
@@ -134,7 +134,7 @@ and insulin resistance remain elevated, then people are likely to develop the al
 people with \ac{T2DM} due to their health problems and greater
 need for medical treatment. Further, people aware of their condition
 may also be less inclined to continue working if this interferes with
-their management of the disease or are prone to justification bias, i.e. justifying the fact that they do not work with having \ac{T2DM} \citet{Kapteyn2009}. For the latter two reasons the labour
+their management of the disease or are prone to justification bias, i.e. justifying the fact that they do not work with having \ac{T2DM} \citep{Kapteyn2009}. For the latter two reasons the labour
 market effects may also differ for people with diagnosed versus those
 with undiagnosed \ac{T2DM} as undiagnosed diabetes remains unobserved for employers and patients alike, not allowing for discrimination or justification bias. 
 
@@ -334,7 +334,7 @@ When looking at the descriptive statistics from the subsample of the third wave 
 
 \begin{table}[h!]
 \begin{center}
-\resizebox{\textwidth}{!}{%
+\begin{adjustbox}{max width=\textwidth}
 { \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{2}{cccc}}
 \toprule
                     &\multicolumn{4}{c}{Males}                          &\multicolumn{4}{c}{Females}                        \\
@@ -347,7 +347,7 @@ Log hourly wage     &       3.166&       0.859&       0.121&       6.945&       
 Usual weekly working hours&      46.011&      16.860&       4.000&     112.000&      38.136&      19.673&       4.000&      97.000\\
 \textbf{Diabetes variables} &&&&&&&& \\
 Glycated hemoglobin (HbA1c)&       6.459&       1.888&       4.000&      14.000&       6.565&       2.020&       4.000&      14.000\\
-HbA1c \geq 6.5\%        &       0.262&       0.440&       0.000&       1.000&       0.273&       0.446&       0.000&       1.000\\
+HbA1c $\geq 6.5\%$&       0.262&       0.440&       0.000&       1.000&       0.273&       0.446&       0.000&       1.000\\
 Undiagnosed diabetes&       0.184&       0.387&       0.000&       1.000&       0.182&       0.386&       0.000&       1.000\\
 Diagnosed diabetes  &       0.094&       0.291&       0.000&       1.000&       0.115&       0.319&       0.000&       1.000\\
 Diabetes duration   &       0.689&       2.850&       0.000&      38.000&       0.863&       3.395&       0.000&      40.000\\
@@ -379,7 +379,7 @@ Observations        &        2792&            &            &            &       
 \bottomrule
 \end{tabular}%
 }
-}
+\end{adjustbox}
 \end{center}
 \caption{\label{tab:Biomarker-sample-characteristics}\textbf{Biomarker sample characteristics
 (2009-2012) }}
@@ -699,9 +699,9 @@ additional information to make a decision on how to deal with inconsistencies
 using the rules outlined in Table \ref{tab:Inconsistencies}:
 
 \begin{table}[h!]
-\begin{centering}
-\resizebox{\textwidth}{!}{%
-%\begin{adjustbox}{max width=\textwidth}
+\begin{center}
+%\resizebox{\textwidth}{!}{%
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{llc}
 Inconsistency  & Assumption  & Number of observations replaced\tabularnewline
 \hline 
@@ -713,9 +713,8 @@ Diabetes self report in 2002, but not in 2005. Not in survey in 2009  & Has diab
 Diabetes self report in 2005, but not in 2009. Not in survey in 2002  & Has diabetes in 2009 as well  & 32\tabularnewline
 \hline 
 \end{tabular}
-}
-%\end{adjustbox}
-\end{centering}
+\end{adjustbox}
+\end{center}
 \caption{\label{tab:Inconsistencies}\textbf{Inconsistencies in diabetes self-report
 in MxFLS}}
 \end{table}
@@ -916,13 +915,53 @@ reporting working hours in agricultural employment (n=10) compared
 to men (n=139). Overall, we find no evidence for an association of
 self-reported diabetes and wages or working hours.
 
+Finally, we explore if diabetes affects the selection into different types of work distinctively. We refrain from using a fixed effects multinomial logit model due to the problems surrounding the calculation of interpretable marginal effects in this case \citep{Pforr2014} and potential solutions would be beyond the scope of this paper. We instead estimate simple fixed effects models of the probability of being in non-agricultural employment, agricultural employment or self-employment using three dummy variables indicating the respective type of work as the dependent variable.\footnote{For example, "non-agricultural employment" is coded as $1$ if the respondent is engaged in agricultural work and is coded as $0$ for those unemployed, in non-agricultural employment or self-employed. This is repeated for the dummy variables "agricultural employment" and "self-employed".} The results in table \ref{tab:Self-reported-diabetes-selection_LPM} indicate that for men diabetes mainly appears to be associated with reduced employment chances for those self-employed and for women an adverse association is found for those in agricultural and self-employment. This may suggest that having diabetes drives people out of self-employment and agricultural jobs, potentially because these jobs are more physically demanding than other forms of work and likely also because they provide less protection in terms of insurance. Given that the coefficient signs are negative throughout it is more likely that people with diabetes predominantly become unemployed rather than sorting into other types of work [DOES THIS INTERPRETATION MAKE SENSE?].
+
+
+\begin{table}[h]
+\begin{center}
+%\resizebox{\textwidth}{!}{%
+\begin{adjustbox}{max width=\textwidth}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
+\toprule
+                      &\multicolumn{3}{c}{Pooled}                              &\multicolumn{3}{c}{Males}                               &\multicolumn{3}{c}{Females}                             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
+                &\multicolumn{1}{c}{Non-agric.}&\multicolumn{1}{c}{Agric.}&\multicolumn{1}{c}{Self-employed}&\multicolumn{1}{c}{Non-agric.}&\multicolumn{1}{c}{Agric.}&\multicolumn{1}{c}{Self-employed}&\multicolumn{1}{c}{Non-agric.}&\multicolumn{1}{c}{Agric.}&\multicolumn{1}{c}{Self-employed}\\
+\midrule
+\midrule
+\multicolumn{10}{l}{\footnotesize Fixed Effects}\\
+Diagnosed diabetes=1&    -.015         &    -.017\sym{*}  &    -.039\sym{***}&    -.021         &    -.009         &    -.050\sym{*}  &    -.009         &    -.022\sym{***}&    -.033\sym{*}  \\
+                &   (.016)         &   (.010)         &   (.015)         &   (.029)         &   (.021)         &   (.026)         &   (.018)         &   (.009)         &   (.018)         \\
+\multicolumn{10}{l}{\footnotesize Random Effects}\\
+Diagnosed diabetes=1&    -.043\sym{***}&    -.044\sym{***}&     .003         &    -.053\sym{***}&    -.066\sym{***}&     .033\sym{**} &    -.042\sym{***}&    -.012\sym{***}&    -.016\sym{*}  \\
+                &   (.009)         &   (.005)         &   (.008)         &   (.017)         &   (.011)         &   (.015)         &   (.010)         &   (.002)         &   (.009)         \\
+\midrule
+N               &    47330         &    47330         &    47330         &    20730         &    20730         &    20730         &    26600         &    26600         &    26600         \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanisation dummies, education dummies, married dummy, number children < 6, wealth, age and calender year fixed effects}\\
+\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for initial age when entering the survey, being indigenous and gender}\\
+\multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
+%}
+\end{adjustbox}
+\end{center}
+\caption{\label{tab:Self-reported-diabetes-selection_LPM1}\textbf{Relationship of self-reported diabetes with selection into types of work 1(fixed effects)}}
+\end{table}  
+
+\FloatBarrier
+
 \subsubsection*{Self-reported diabetes duration}
 
 Because diabetes is a chronic and generally life-long disease, we investigate how soon after the first diagnosis diabetes may affect labour market outcomes. It could be that the effect increases
 linearly over time as diabetes progresses. However, non-linear relationships
 are also imaginable as psychological effects of the immediate diagnosis
 as well as the likely health problems that led to the diagnosis could
-affect labour market outcomes immediately after a person had been
+affect labour market outcomes immediately after a person has been
 diagnosed. They could then level off later as people with diabetes
 develop their skills in managing and living with the disease. Contrary, if diabetes management is unsuccessful a longer disease duration likely leads to significant diabetes complications so that the adverse labour market effects of diabetes may appear at a later disease stage.
 
@@ -981,6 +1020,7 @@ is not as strong. Interestingly, we find a reduction in female wages of about se
 \begin{center}
 %\resizebox{\textwidth}{!}{%
 \begin{adjustbox}{max width=\textwidth}
+
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 \begin{tabular}{l*{9}{SS}}
@@ -1002,16 +1042,18 @@ N               &    38398         &    16073         &    22325         &    16
 \multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
 \multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
 \multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
+\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for initial age when entering the survey, being indigenous and gender}\\
 \multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
 \multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\
 \multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
 \end{tabular}
 }
 %}
+
 \end{adjustbox}
 \end{center}
-\caption{\label{tab:Self-reported-diabetes-duration-linear}\textbf{Relationship of self-reported years since diagnosis and labour market outcomes (fixed effects)}}}
+
+\caption{\label{tab:Self-reported-diabetes-duration-linear}\textbf{Relationship of self-reported years since diagnosis and labour market outcomes (fixed effects)}}
 \end{table}  
   
   
@@ -1026,8 +1068,9 @@ we find a relatively strong reduction of wages 4-11 years after diagnosis
 for women. We also find some significant associations for those with more than 19 years of diabetes, however, these estimates are likely spurious due to the considerably reduced number of observations particularly for wages and working hours.
 \begin{table}[h]
 %\resizebox{\textwidth}{!}{%
-\begin{adjustbox}{max width=\textwidth}
 \begin{center}
+\begin{adjustbox}{max width=\textwidth}
+
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 \begin{tabular}{l*{9}{SS}}
@@ -1036,6 +1079,7 @@ for women. We also find some significant associations for those with more than 1
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
+\multicolumn{10}{l}{ Fixed Effects}\\
 years\_diabetes: (.,4)&    -.018\sym{*}  &    -.017         &    -.018         &    -.009         &    -.022         &     .037         &     .592         &     .430         &    1.499         \\
                 &   (.010)         &   (.013)         &   (.015)         &   (.044)         &   (.047)         &   (.116)         &   (.841)         &   (.880)         &  (2.306)         \\
 years\_diabetes: (4,11)&    -.005         &    -.008         &    -.005         &    -.052\sym{*}  &    -.038         &    -.112\sym{**} &    -.150         &     .005         &    -.536         \\
@@ -1059,13 +1103,15 @@ N               &    38398         &    16073         &    22325         &    16
 \multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
 \multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
 \multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
+\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for initial age when entering the survey, being indigenous and gender}\\
 \multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
 \multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\
 \multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
 \end{tabular}
 }
+
 \end{adjustbox}
+
 \end{center}
 \caption{\label{tab:Self-reported-diabetes-duration-splines-1}\textbf{Relationship
 of self-reported years since diagnosis and labour market outcomes
@@ -1098,7 +1144,7 @@ data are only available for a subsample of the survey, including everybody
 aged 45+ as well as a random selection of participants below age 45
 \citep{Crimmins2015}. In this sub-sample 694 (10 percent) self-report
 diabetes and 1,248 (18 percent) have undiagnosed diabetes, i.e. as
-measured by an \ac{HbA1c} equal to or greater than 6.5 percent.  
+measured by an \ac{HbA1c} equal to or greater than 6.5 percent. In an effort to reduce bias in our estimates we additionally estimate below models using community fixed effects to account for things that could potentially affect the propensity to develop diabetes as well as to receive a diagnosis of diabetes and might also affect labour market outcomes: the access to healthcare and the quality of healthcare in the community, poverty and unemployment levels in the community or the amount of public green space and recreational possibilities available. We did not use household fixed effects as the number of observations per household was close to one strongly limiting the variation within households needed for identification.
 
 \subsubsection*{Ojectively measured diabetes}
 
@@ -1125,29 +1171,37 @@ but had \ac{HbA1c} levels below the diabetes threshold. This is sensible as it i
 did not show qualitatively different results.} 
 
 \begin{table}[h!]
-\begin{adjustbox}{max width=\textwidth}
 \begin{center}
+\begin{adjustbox}{max width=\textwidth}
+
 %\resizebox{\textwidth}{!}{%
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-Diagnosed diabetes&    -.060\sym{***}&    -.039         &    -.048\sym{**} &     .013         &     .030         &    -.010         &   -1.128         &    -.426         &   -2.489         \\
-                &   (.017)         &   (.025)         &   (.022)         &   (.053)         &   (.061)         &   (.103)         &  (1.129)         &  (1.312)         &  (2.154)         \\
+Diagnosed diabetes&    -.057\sym{***}&    -.042         &    -.041\sym{*}  &     .019         &     .020         &     .023         &   -1.393         &    -.715         &   -2.876         \\
+                &   (.017)         &   (.026)         &   (.022)         &   (.052)         &   (.062)         &   (.100)         &  (1.132)         &  (1.320)         &  (2.138)         \\
+
+R2              &     .326         &     .086         &     .151         &     .258         &     .247         &     .313         &     .076         &     .053         &     .054         \\
 \midrule
-R2              &     .325         &     .074         &     .138         &     .256         &     .247         &     .303         &     .072         &     .047         &     .048         \\
-N               &     6476         &     2786         &     3690         &     2694         &     1802         &      892         &     3455         &     2301         &     1154         \\
+\multicolumn{10}{l}{ Community fixed effects} \\
+Diagnosed diabetes&    -.060\sym{***}&    -.050\sym{*}  &    -.043\sym{*}  &     .013         &    -.009         &     .003         &   -1.102         &    -.290         &    -.939         \\
+                &   (.017)         &   (.026)         &   (.023)         &   (.052)         &   (.066)         &   (.104)         &  (1.125)         &  (1.290)         &  (2.170)         \\
+R2              &     .328         &     .082         &     .108         &     .170         &     .146         &     .237         &     .065         &     .032         &     .036         \\
+\midrule
+N               &     6408         &     2785         &     3623         &     2685         &     1803         &      882         &     3444         &     2302         &     1142         \\
 \bottomrule
-\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses.}\\
-\multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
-\multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
-\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
-\multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\
-\multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
-\end{tabular}%
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{10}{l}{\footnotesize Other control variables:age, age squared, state dummies, urbanisation dummies, education dummies, married dummy, number children < 6, wealth}\\
+\multicolumn{10}{l}{\footnotesize Calender year dummies are included as well as data collection for the third wave was stretched out over several years} \\
+\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed } \\
+\multicolumn{10}{l}{\footnotesize with non-agricultural employment as the base) and for health insurance status}\\
+\end{tabular}
 }
 \end{adjustbox}
 \end{center}
@@ -1170,32 +1224,38 @@ diabetes jointly as independent explanatory variables.
 
 \begin{table}[h!]
 %\resizebox{\textwidth}{!}{%
-\begin{adjustbox}{max width=\textwidth}
 \begin{center}
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}}
+\begin{adjustbox}{max width=\textwidth}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
 \toprule
                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-HbA1c \geq 6.5\%    &    -.025\sym{**} &    -.003         &    -.029\sym{*}  &    -.023         &    -.022         &    -.040         &     .599         &     .477         &     .993         \\
-                &   (.011)         &   (.015)         &   (.016)         &   (.034)         &   (.040)         &   (.060)         &   (.692)         &   (.784)         &  (1.343)         \\
+HbA1c $\geq 6.5\%$    &    -.023\sym{**} &    -.009         &    -.021         &    -.023         &    -.027         &    -.032         &     .579         &     .432         &     .999         \\
+                &   (.012)         &   (.015)         &   (.017)         &   (.034)         &   (.040)         &   (.060)         &   (.691)         &   (.786)         &  (1.366)         \\
+R2              &     .326         &     .085         &     .151         &     .258         &     .247         &     .313         &     .076         &     .053         &     .053         \\
 \midrule
-R2              &     .325         &     .073         &     .137         &     .256         &     .246         &     .305         &     .072         &     .047         &     .047         \\
-N               &     6487         &     2792         &     3695         &     2698         &     1805         &      893         &     3461         &     2306         &     1155         \\
+\multicolumn{10}{l}{ Community fixed effects} \\
+HbA1c $\geq 6.5\%$   &    -.032\sym{***}&    -.013         &    -.030\sym{*}  &     .013         &     .011         &    -.036         &     .350         &     .040         &    1.650         \\
+                &   (.012)         &   (.015)         &   (.017)         &   (.036)         &   (.044)         &   (.069)         &   (.720)         &   (.836)         &  (1.434)         \\
+R2              &     .328         &     .080         &     .107         &     .170         &     .146         &     .238         &     .065         &     .032         &     .037         \\
+\midrule
+N               &     6416         &     2790         &     3626         &     2685         &     1803         &      882         &     3444         &     2302         &     1142         \\
 \bottomrule
-\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses.}\\
-\multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
-\multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
-\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
-\multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\
-\multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
-\end{tabular}%
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{10}{l}{\footnotesize Other control variables:age, age squared, state dummies, urbanisation dummies, education dummies, married dummy, number children < 6 and wealth}\\
+\multicolumn{10}{l}{\footnotesize Calender year dummies are included as data collection for the third wave was streched out over several years}\\
+\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base)}\\
+\multicolumn{10}{l}{\footnotesize and for health insurance status}\\
+\end{tabular}
 }
-\end{center}
 %}
 \end{adjustbox}
+\end{center}
 \caption{\label{tab:Objective_diabetes}\textbf{Objectively measured diabetes and labour market outcomes}}
 \end{table}  
   
@@ -1220,20 +1280,36 @@ Overall, the finding that undiagnosed diabetes appears to not be associated with
 \begin{adjustbox}{max width=\textwidth}
 
 
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}} \toprule&\multicolumn{3}{c}{Employment}&\multicolumn{3}{c}{Log hourly wages}&\multicolumn{3}{c}{Weekly working hours}\\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
-\midrule Diagnosed diabetes&    -.061\sym{***}&    -.036         &    -.052\sym{**} &     .005         &     .020         &    -.021         &    -.829         &    -.234         &   -1.938         \\
-                &   (.017)         &   (.026)         &   (.023)         &   (.054)         &   (.063)         &   (.103)         &  (1.140)         &  (1.329)         &  (2.168)         \\
-\addlinespace
-Undiagnosed diabetes&    -.005         &     .013         &    -.016         &    -.032         &    -.039         &    -.045         &    1.236         &     .792         &    2.399         \\
-                &   (.013)         &   (.016)         &   (.020)         &   (.038)         &   (.045)         &   (.068)         &   (.793)         &   (.880)         &  (1.571)         \\
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
+\toprule
+          &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
+          &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-R2              &     .325         &     .074         &     .138         &     .256         &     .247         &     .303         &     .073         &     .047         &     .050         \\
-N               &     6476         &     2786         &     3690         &     2694         &     1802         &      892         &     3455         &     2301         &     1154          \\ \bottomrule \multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\ \multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
-\multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
-\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
-\multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\ \multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ 
-\end{tabular}%
+Self-reported diabetes  &    -.058\sym{***}&    -.041         &    -.043\sym{*}  &     .008         &     .006         &     .030         &   -1.151         &    -.573         &   -2.582         \\
+          &   (.017)         &   (.026)         &   (.023)         &   (.054)         &   (.064)         &   (.102)         &  (1.149)         &  (1.341)         &  (2.177)         \\
+Undiagnosed diabetes   &    -.004         &     .006         &    -.008         &    -.030         &    -.035         &    -.032         &    1.094         &     .472         &    2.388         \\
+          &   (.014)         &   (.016)         &   (.020)         &   (.039)         &   (.045)         &   (.072)         &   (.824)         &   (.915)         &  (1.630)         \\
+R2        &     .326         &     .086         &     .151         &     .266         &     .256         &     .327         &     .080         &     .059         &     .071         \\
+\midrule
+\multicolumn{10}{l}{ Community fixed effects} \\
+Self-reported diabetes  &    -.063\sym{***}&    -.049\sym{*}  &    -.048\sym{**} &     .016         &    -.005         &    -.009         &    -.884         &    -.250         &    -.338         \\
+          &   (.018)         &   (.026)         &   (.023)         &   (.054)         &   (.069)         &   (.107)         &  (1.165)         &  (1.330)         &  (2.223)         \\
+Undiagnosed diabetes   &    -.013         &     .005         &    -.018         &     .012         &     .017         &    -.046         &     .925         &     .174         &    2.580         \\
+          &   (.014)         &   (.019)         &   (.018)         &   (.039)         &   (.048)         &   (.079)         &   (.877)         &   (.957)         &  (1.833)         \\
+R2        &     .328         &     .082         &     .108         &     .170         &     .146         &     .238         &     .065         &     .032         &     .038         \\
+\midrule
+N         &     6408         &     2785         &     3623         &     2685         &     1803         &      882         &     3444         &     2302         &     1142         \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{10}{l}{\footnotesize Other control variables:age, age squared, state dummies, urbanisation dummies, education dummies, married dummy, number children < 6 and wealth}\\
+\multicolumn{10}{l}{\footnotesize Calender year dummies are included as data collection for the third wave was streched out over several years}\\
+\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base)}\\
+\multicolumn{10}{l}{\footnotesize and for health insurance status}\\
+\end{tabular}
 }
 \end{adjustbox}
 \end{center}
@@ -1280,17 +1356,65 @@ values do not have lower employment chances.
 \begin{table}[h!]
 \begin{center}
 \begin{adjustbox}{max width=\textwidth}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{S
+S}}
+\toprule
+                &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log monthly wages}                   &\multicolumn{3}{c}{Monthly work hours}                  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+\multicolumn{10}{l}{\hspace*{10mm}Diagnosed} \\
+6.5 $\leq$ HbA1c < 8&    -.083\sym{**} &    -.105\sym{*}  &    -.041         &    -.125         &    -.241\sym{**} &     .152         &   -1.136         &    1.841         &   -7.930\sym{*}  \\
+                &   (.036)         &   (.056)         &   (.046)         &   (.115)         &   (.117)         &   (.240)         &  (2.308)         &  (2.571)         &  (4.452)         \\
 
-{ \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{9}{SS}} \toprule                 &\multicolumn{3}{c}{Employment}                          &\multicolumn{3}{c}{Log hourly wages}                    &\multicolumn{3}{c}{Weekly working hours}                \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}\\                 &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\ \midrule \textbf{Diagnosed diabetes} &&&&&&&& \\
+8 $\leq$ HbA1c < 12 &    -.074\sym{***}&    -.040         &    -.073\sym{**} &     .067         &     .085         &    -.002         &   -2.333         &   -2.180         &   -2.923         \\
+                &   (.024)         &   (.035)         &   (.030)         &   (.080)         &   (.090)         &   (.175)         &  (1.704)         &  (1.925)         &  (3.591)         \\
 
-6.5 <= HbA1c < 8&    -.079\sym{**} &    -.085         &    -.055         &    -.112         &    -.258\sym{**} &     .184         &   -1.301         &    2.507         &   -8.080\sym{*}  \\                 &   (.036)         &   (.053)         &   (.047)         &   (.114)         &   (.113)         &   (.236)         &  (2.292)         &  (2.418)         &  (4.528)         \\ \addlinespace 8 <= HbA1c < 12 &    -.071\sym{***}&    -.042         &    -.084\sym{**} &     .075         &     .103         &    -.005         &   -2.571         &   -2.037         &   -4.345         \\                 &   (.025)         &   (.035)         &   (.034)         &   (.079)         &   (.088)         &   (.178)         &  (1.709)         &  (1.925)         &  (3.506)         \\ \addlinespace HbA1c >= 12     &    -.025         &     .013         &    -.039         &    -.155         &    -.103         &    -.231         &    -.491         &     .635         &   -2.421         \\                 &   (.038)         &   (.050)         &   (.054)         &   (.109)         &   (.132)         &   (.193)         &  (2.667)         &  (3.485)         &  (4.085)         \\ \addlinespace 
-\textbf{Undiagnosed diabetes} &&&&&&&& \\
-6.5 <= HbA1c < 8&     .008         &     .001         &     .007         &    -.017         &    -.020         &    -.020         &    1.777\sym{*}  &    1.226         &    3.150         \\                 &   (.017)         &   (.022)         &   (.024)         &   (.048)         &   (.058)         &   (.082)         &  (1.021)         &  (1.165)         &  (2.075)         \\ \addlinespace 8 <= HbA1c < 12 &    -.013         &     .024         &    -.042         &    -.039         &    -.016         &    -.120         &    -.369         &    -.490         &     .011         \\                 &   (.023)         &   (.025)         &   (.033)         &   (.065)         &   (.074)         &   (.134)         &  (1.292)         &  (1.504)         &  (2.397)         \\ \addlinespace HbA1c >= 12     &    -.012         &     .033         &    -.036         &    -.067         &    -.118         &    -.003         &     .098         &    -.361         &    1.062         \\                 &   (.032)         &   (.040)         &   (.044)         &   (.084)         &   (.093)         &   (.163)         &  (2.032)         &  (2.088)         &  (4.073)         \\ \midrule R2              &                  &                  &                  &     .247         &     .246         &     .279         &     .077         &     .050         &     .055         \\ N               &     6475         &     2783         &     3692         &     2711         &     1804         &      907         &     3478         &     2306         &     1172         \\ \bottomrule  \multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\ \multicolumn{10}{l}{\footnotesize Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6}\\
-\multicolumn{10}{l}{\footnotesize wealth, age and calender year fixed effects}\\
-\multicolumn{10}{l}{\footnotesize The random effects model additionally controls for intitial age when entering the survey, being indigenous and gender}\\
-\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with}\\
-\multicolumn{10}{l}{\footnotesize non-agricultural employment as the base) and for health insurance status}\\ \multicolumn{10}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\ 
-\end{tabular}%
+HbA1c $\geq$ 12     &    -.007         &     .030         &    -.003         &    -.109         &    -.122         &    -.009         &   -1.444         &    -.038         &   -4.804         \\
+                &   (.040)         &   (.054)         &   (.053)         &   (.102)         &   (.135)         &   (.161)         &  (2.685)         &  (3.338)         &  (4.048)         \\
+\multicolumn{10}{l}{\hspace*{10mm}Undiagnosed} \\
+
+6.5 $\leq$ HbA1c < 8&     .005         &     .004         &     .010         &    -.025         &    -.040         &     .010         &    1.829\sym{*}  &    1.158         &    3.431         \\
+                &   (.017)         &   (.021)         &   (.026)         &   (.048)         &   (.058)         &   (.088)         &  (1.026)         &  (1.163)         &  (2.123)         \\
+
+8 $\leq$ HbA1c < 12 &    -.008         &     .008         &    -.022         &    -.050         &    -.019         &    -.180         &    -.364         &    -.540         &    -.361         \\
+                &   (.023)         &   (.026)         &   (.034)         &   (.064)         &   (.074)         &   (.128)         &  (1.300)         &  (1.517)         &  (2.487)         \\
+
+HbA1c $\geq 12$     &    -.022         &     .016         &    -.047         &    -.032         &    -.094         &     .080         &     .573         &    -.580         &    2.140         \\
+                &   (.034)         &   (.042)         &   (.046)         &   (.088)         &   (.096)         &   (.177)         &  (2.051)         &  (2.156)         &  (4.192)         \\
+R2              &     .327         &     .088         &     .152         &     .267         &     .258         &     .329         &     .081         &     .060         &     .076         \\
+\midrule
+\multicolumn{10}{l}{ Community fixed effects} \\
+\multicolumn{10}{l}{\hspace*{10mm}Self-reported diabetes} \\
+6.5 $\leq$ HbA1c < 8&    -.086\sym{**} &    -.118\sym{**} &    -.040         &    -.138         &    -.212\sym{*}  &     .010         &    -.947         &    2.144         &   -5.711         \\
+                &   (.036)         &   (.055)         &   (.048)         &   (.108)         &   (.122)         &   (.250)         &  (2.348)         &  (2.747)         &  (4.765)         \\
+
+8 $\leq$ HbA1c < 12 &    -.076\sym{***}&    -.048         &    -.080\sym{**} &     .046         &     .035         &     .015         &   -2.178         &   -2.224         &   -1.193         \\
+                &   (.024)         &   (.033)         &   (.031)         &   (.078)         &   (.091)         &   (.168)         &  (1.637)         &  (1.863)         &  (3.393)         \\
+
+HbA1c $\geq 12$     &    -.018         &     .029         &    -.032         &    -.083         &    -.111         &    -.061         &    -.851         &     .235         &   -1.595         \\
+                &   (.036)         &   (.044)         &   (.052)         &   (.104)         &   (.144)         &   (.158)         &  (2.626)         &  (3.039)         &  (3.953)         \\
+\multicolumn{10}{l}{\hspace*{10mm}Undiagnosed diabetes} \\                
+6.5 $\leq$ HbA1c < 8&    -.005         &     .006         &    -.003         &     .012         &     .016         &    -.024         &    1.679         &    1.002         &    3.569         \\
+                &   (.018)         &   (.021)         &   (.025)         &   (.046)         &   (.058)         &   (.099)         &  (1.140)         &  (1.193)         &  (2.359)         \\
+
+8 <= HbA1c < 12 &    -.017         &     .006         &    -.029         &    -.012         &     .011         &    -.223\sym{*}  &    -.766         &    -.955         &    -.100         \\
+                &   (.024)         &   (.035)         &   (.031)         &   (.067)         &   (.078)         &   (.132)         &  (1.281)         &  (1.495)         &  (2.634)         \\
+
+HbA1c >= 12     &    -.032         &     .010         &    -.058         &     .021         &    -.016         &     .182         &     .597         &   -1.653         &    1.726         \\
+                &   (.031)         &   (.041)         &   (.046)         &   (.074)         &   (.087)         &   (.179)         &  (1.996)         &  (2.094)         &  (4.055)         \\
+\midrule
+R2              &     .328         &     .083         &     .109         &     .171         &     .148         &     .242         &     .067         &     .033         &     .041         \\
+N               &     6408         &     2785         &     3623         &     2685         &     1803         &      882         &     3444         &     2302         &     1142         \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{10}{l}{\footnotesize Other control variables:age, age squared, state dummies, urbanisation dummies, education dummies, married dummy, number children < 6 and wealth}\\
+\multicolumn{10}{l}{\footnotesize Calender year dummies are included as data collection for the third wave was streched out over several years}\\
+\multicolumn{10}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base)}\\
+\multicolumn{10}{l}{\footnotesize and for health insurance status}\\
+\end{tabular}
 }
 \end{adjustbox}
 \end{center}
@@ -1312,6 +1436,68 @@ find the same to be true when using indicator variables for different
 are found for those with relatively well managed diabetes and no
 effects for those with the highest \ac{HbA1c} levels, suggesting that current diabetes management is not affecting employment chances. While we cannot explain theses differences in the results between our study and the study of \citet{BrownIII2011} other than by acknowledging the fact that our studies is placed in a different country and uses a different age group, their study also showed similarly to our study that once people are diagnosed with diabetes current diabetes management plays a minor role in determining labour market outcomes. This is not surprising given that \ac{HbA1c} levels only provide a picture of blood glucose levels over the last three month, which may not be very representative of blood glucose levels throughout the years before and after the diabetes diagnosis that ultimately determine how soon complications appear and how severe they are.
 
+\begin{landscape}
+\begin{table}[h!]
+\begin{center}
+\begin{adjustbox}{max width=\linewidth}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{18}{S
+S}}
+\toprule
+                &\multicolumn{3}{c}{Only self-reported}                  &\multicolumn{3}{c}{HbA1c $\geq 6.5\%$}                    &\multicolumn{3}{c}{Self-reported and undiagnosed}       &\multicolumn{3}{c}{Only self-reported (FE)}             &\multicolumn{3}{c}{HbA1c $\geq 6.5\%$ (FE)}               &\multicolumn{3}{c}{Self-reported and undiagnosed (FE)}  \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}\cmidrule(lr){14-16}\cmidrule(lr){17-19}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}&\multicolumn{1}{c}{(10)}&\multicolumn{1}{c}{(11)}&\multicolumn{1}{c}{(12)}&\multicolumn{1}{c}{(13)}&\multicolumn{1}{c}{(14)}&\multicolumn{1}{c}{(15)}&\multicolumn{1}{c}{(16)}&\multicolumn{1}{c}{(17)}&\multicolumn{1}{c}{(18)}\\
+                &\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Pooled}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+\multicolumn{10}{l}{\hspace*{10mm}\textbf{Dependent variable: Employment}} \\
+\addlinespace 
+Diagnosed diabetes&    -.057\sym{***}&    -.042         &    -.041\sym{*}  &                  &                  &                  &    -.058\sym{***}&    -.041         &    -.043\sym{*}  &    -.060\sym{***}&    -.050\sym{*}  &    -.043\sym{*}  &                  &                  &                  &    -.063\sym{***}&    -.049\sym{*}  &    -.048\sym{**} \\
+                &   (.017)         &   (.026)         &   (.022)         &                  &                  &                  &   (.017)         &   (.026)         &   (.023)         &   (.017)         &   (.026)         &   (.023)         &                  &                  &                  &   (.018)         &   (.026)         &   (.023)         \\
+HbA1c $\geq 6.5\%$    &                  &                  &                  &    -.023\sym{**} &    -.009         &    -.023\sym{**} &                  &                  &                  &                  &                  &                  &    -.032\sym{***}&    -.013         &    -.032\sym{***}&                  &                  &                  \\
+                &                  &                  &                  &   (.012)         &   (.015)         &   (.012)         &                  &                  &                  &                  &                  &                  &   (.012)         &   (.015)         &   (.012)         &                  &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &    -.004         &     .006         &    -.008         &                  &                  &                  &                  &                  &                  &    -.013         &     .005         &    -.018         \\
+                &                  &                  &                  &                  &                  &                  &   (.014)         &   (.016)         &   (.020)         &                  &                  &                  &                  &                  &                  &   (.014)         &   (.019)         &   (.018)         \\
+\midrule
+R2              &     .326         &     .086         &     .151         &     .326         &     .085         &     .326         &     .326         &     .086         &     .151         &     .328         &     .082         &     .108         &     .328         &     .080         &     .328         &     .328         &     .082         &     .108         \\
+N               &     6408         &     2785         &     3623         &     6416         &     2790         &     6416         &     6408         &     2785         &     3623         &     6408         &     2785         &     3623         &     6416         &     2790         &     6416         &     6408         &     2785         &     3623         \\
+\midrule
+\multicolumn{10}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\ 
+\addlinespace
+Diagnosed diabetes&     .019         &     .020         &     .023         &                  &                  &                  &     .008         &     .006         &     .030         &     .013         &    -.009         &     .003         &                  &                  &                  &     .016         &    -.005         &    -.009         \\
+                &   (.052)         &   (.062)         &   (.100)         &                  &                  &                  &   (.054)         &   (.064)         &   (.102)         &   (.052)         &   (.066)         &   (.104)         &                  &                  &                  &   (.054)         &   (.069)         &   (.107)         \\
+HbA1c $\geq 6.5\%$    &                  &                  &                  &    -.023         &    -.027         &    -.023         &                  &                  &                  &                  &                  &                  &     .013         &     .011         &     .013         &                  &                  &                  \\
+                &                  &                  &                  &   (.034)         &   (.040)         &   (.034)         &                  &                  &                  &                  &                  &                  &   (.036)         &   (.044)         &   (.036)         &                  &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &    -.030         &    -.035         &    -.032         &                  &                  &                  &                  &                  &                  &     .012         &     .017         &    -.046         \\
+                &                  &                  &                  &                  &                  &                  &   (.039)         &   (.045)         &   (.072)         &                  &                  &                  &                  &                  &                  &   (.039)         &   (.048)         &   (.079)         \\
+\midrule
+R2              &     .258         &     .247         &     .313         &     .258         &     .247         &     .258         &     .266         &     .256         &     .327         &     .170         &     .146         &     .237         &     .170         &     .146         &     .170         &     .170         &     .146         &     .238         \\
+N               &     2685         &     1803         &      882         &     2685         &     1803         &     2685         &     2685         &     1803         &      882         &     2685         &     1803         &      882         &     2685         &     1803         &     2685         &     2685         &     1803         &      882         \\
+\midrule
+\multicolumn{10}{l}{\hspace*{10mm}\textbf{Dependent variable: Usual weekly working hours}} \\ 
+\addlinespace
+Diagnosed diabetes&   -1.393         &    -.715         &   -2.876         &                  &                  &                  &   -1.151         &    -.573         &   -2.582         &   -1.102         &    -.290         &    -.939         &                  &                  &                  &    -.884         &    -.250         &    -.338         \\
+                &  (1.132)         &  (1.320)         &  (2.138)         &                  &                  &                  &  (1.149)         &  (1.341)         &  (2.177)         &  (1.125)         &  (1.290)         &  (2.170)         &                  &                  &                  &  (1.165)         &  (1.330)         &  (2.223)         \\
+HbA1c $\geq 6.5\%$    &                  &                  &                  &     .579         &     .432         &     .579         &                  &                  &                  &                  &                  &                  &     .350         &     .040         &     .350         &                  &                  &                  \\
+                &                  &                  &                  &   (.691)         &   (.786)         &   (.691)         &                  &                  &                  &                  &                  &                  &   (.720)         &   (.836)         &   (.720)         &                  &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &    1.094         &     .472         &    2.388         &                  &                  &                  &                  &                  &                  &     .925         &     .174         &    2.580         \\
+                &                  &                  &                  &                  &                  &                  &   (.824)         &   (.915)         &  (1.630)         &                  &                  &                  &                  &                  &                  &   (.877)         &   (.957)         &  (1.833)         \\
+\midrule
+R2              &     .076         &     .053         &     .054         &     .076         &     .053         &     .076         &     .080         &     .059         &     .071         &     .065         &     .032         &     .036         &     .065         &     .032         &     .065         &     .065         &     .032         &     .038         \\
+N               &     3444         &     2302         &     1142         &     3444         &     2302         &     3444         &     3444         &     2302         &     1142         &     3444         &     2302         &     1142         &     3444         &     2302         &     3444         &     3444         &     2302         &     1142         \\
+\bottomrule
+\multicolumn{19}{l}{\footnotesize Robust standard errors in parentheses}\\
+\multicolumn{19}{l}{\footnotesize Other control variables:age, age squared, state dummies, urbanisation dummies, education dummies, married dummy, number children < 6 and wealth}\\
+\multicolumn{19}{l}{\footnotesize Calender year dummies are included as data collection for the third wave was streched out over several years}\\
+\multicolumn{19}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base)}\\
+\multicolumn{19}{l}{\footnotesize and for health insurance status}\\
+\end{tabular}
+}
+\end{adjustbox}
+\end{center}
+
+\caption{\label{tab:Self-reported-diabetes-and-hba1clevels}\textbf{Biomarker results}}
+\end{table}
+\end{landscape}
 
 \section{\label{sec:Conclusion}Conclusion}
 
@@ -1331,7 +1517,7 @@ To reiterate, the study finds a considerable negative impact of self-reported di
 
 \noindent \bibliographystyle{elsarticle-harv} 
 
-\addbibresource{/home/till/Dokumente/BibTex/Second_Mexico_paper-Article.bib}
+%\addbibresource{/home/till/Dokumente/BibTex/Second_Mexico_paper-Article.bib}
 
 \bibliography{/home/till/Dokumente/BibTex/Second_Mexico_paper-Article%
 }
