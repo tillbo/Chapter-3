@@ -751,88 +751,86 @@ third wave of the \ac{MxFLS}. As noted in section \ref{sec:Data}, these data ena
 
 
 
-\subsubsection*{Objectively measured diabetes}
+\subsubsection*{Biomarkers versus self-reported diabetes}
 
 
-The results of the complete biomarker analysis are presented in Table \ref{tab:Biomarker_results}. In order to investigate how the subsample of biomarkers compares to the overall sample of the third wave we first estimate a model showing the association of self-reported diabetes with our outcome variables using data of the entire third wave (columns 1--2 and 9--10 in Table \ref{tab:Biomarker_results}). We find similar results to our panel data analysis, if with somewhat smaller coefficients for the effect on employment biometrically, particularly for females. Running the same model but using only the data of the biomarker sample (columns 3--4 and 11--12), we find that the coefficient becomes smaller for men and standard errors increase throughout, likely due to the reduction in sample size. This indicates that the oversampling of older people in the subsample may introduce a downward bias in the estimates for males, which has to be taken into account when interpreting the results.
+The results of the complete biomarker analysis are presented in Table \ref{tab:Biomarker_results}. In order to investigate how the subsample of biomarkers compares to the overall sample of the third wave we first estimate a model showing the association of self-reported diabetes with our outcome variables using data of the entire third wave (columns 1--2 and 9--10 in Table \ref{tab:Biomarker_results}). We find similar results to our panel data analysis, if with somewhat smaller coefficients for the association with employment probabilities, particularly for women. Running the same model but using only the data of the biomarker sample (columns 3--4 and 11--12), we find that the coefficient becomes smaller for men and standard errors increase throughout, likely due to the reduction in sample size.
 
 In the next step we investigate the association between biometrically measured
 diabetes, irrespective of whether
 the condition has or has not been diagnosed, and labor market outcomes, by estimating equation \ref{eq:diab_objective}.\footnote{We include in the indicator for biometrically measured diabetes also those that self-reported a diabetes diagnosis
-but had \ac{HbA1c} levels below the diabetes threshold. These people may have good control of their diabetes so that their \ac{HbA1c} levels drop below the threshold and therefore should not be assumed to falsely report a diagnosis. Robustness checks showed that the results were not sensitive to the inclusion of this subpopulation.}  We find an adverse association of biometrically measured diabetes and employment
-biometrically to some extent for the female sample when community fixed effects are used (columns 13--14), but the coefficient size is reduced throughout, compared to self-reported diabetes. This suggests that relying on self-reported
+but had \ac{HbA1c} levels below the diabetes threshold. These people may have good control of their diabetes so that their \ac{HbA1c} levels drop below the threshold and therefore should not be assumed to falsely report a diagnosis. Robustness checks showed that the results were not sensitive to the inclusion of this subpopulation.}  We find evidence for an adverse association of biometrically measured diabetes and the probability of employment
+for women and the coefficient is smaller compared with self-reported diabetes. This suggests that relying on self-reported
 diabetes exclusively may lead to an upward bias due to those undiagnosed experiencing less pronounced adverse labor market effects.
-To further investigate this, we include both diagnosed and undiagnosed diabetes jointly as independent explanatory variables, to account for the differences between the two groups as in equation \ref{eq:diab_sr_ud}.
-
-As shown in columns 7--8 and 15--16, there is no association between undiagnosed
-diabetes and any labor outcome is found. For those with diagnosed
-diabetes the coefficients for the association with employment biometrically
-are close in size and significance to those of the specification where we only accounting for self-reported diabetes. Consistent with our earlier findings there is no indication of an associations between any form of diabetes and wages or working hours. 
+to account for the differences between the two groups as in equation \ref{eq:diab_sr_ud}, we include both diagnosed and undiagnosed diabetes jointly as independent explanatory variables. We find no association between undiagnosed
+diabetes and any labor outcome. For those with diagnosed diabetes, the coefficients for the association with the probability of employment
+are close in size and significance to the specification where we account for self-reported diabetes exclusively. Consistent with our earlier findings there is no indication of an association between any form of diabetes and wages or working hours. 
  
 
 \setlength{\tabcolsep}{0pt}
-\begin{landscape}
+%\begin{landscape}
 \begin{table}
 \caption{\label{tab:Biomarker_results}Biomarker results}
 \begin{center}
 \begin{adjustbox}{max width=\linewidth}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{16}{S
+\begin{tabular}{l*{8}{S
 S}}
 \toprule
-                &\multicolumn{8}{c}{No community level fixed effects}&\multicolumn{8}{c}{With community level fixed effects}\\\cmidrule(lr){2-9}\cmidrule(lr){10-17}&\multicolumn{2}{c}{Only self-reported (complete sample)}&\multicolumn{2}{c}{Only self-reported (biomarker sample)}&\multicolumn{2}{c}{HbA1c $\geq 6.5\%$}&\multicolumn{2}{c}{Self-reported and undiagnosed}&\multicolumn{2}{c}{Only self-reported (complete sample) }&\multicolumn{2}{c}{Only self-reported (biomarker sample)}&\multicolumn{2}{c}{HbA1c $\geq 6.5\%$ }&\multicolumn{2}{c}{Self-reported and undiagnosed }\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}\cmidrule(lr){14-15}\cmidrule(lr){16-17}
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}&\multicolumn{1}{c}{(10)}&\multicolumn{1}{c}{(11)}&\multicolumn{1}{c}{(12)}&\multicolumn{1}{c}{(13)}&\multicolumn{1}{c}{(14)}&\multicolumn{1}{c}{(15)}&\multicolumn{1}{c}{(16)}\\
-                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+                &\multicolumn{2}{c}{Only self-reported (complete sample) }&\multicolumn{2}{c}{Only self-reported (biomarker sample) }&\multicolumn{2}{c}{HbA1c $\geq 6.5\%$ }&\multicolumn{2}{c}{Self-reported and undiagnosed }\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-\multicolumn{17}{l}{\hspace*{10mm}\textbf{Dependent variable: Employment}} \\
+\multicolumn{9}{l}{\hspace*{10mm}\textbf{Dependent variable: Employment}} \\
 \addlinespace 
-Diagnosed diabetes&    -.058\sym{***}&    -.044\sym{**} &    -.042         &    -.041\sym{*}  &                  &                  &    -.041         &    -.043\sym{*}  &    -.068\sym{***}&    -.046\sym{***}&    -.050\sym{*}  &    -.043\sym{*}  &                  &                  &    -.049\sym{*}  &    -.048\sym{**} \\
-                &   (.018)         &   (.017)         &   (.026)         &   (.022)         &                  &                  &   (.026)         &   (.023)         &   (.017)         &   (.017)         &   (.026)         &   (.023)         &                  &                  &   (.026)         &   (.023)         \\
-HbA1c $\geq 6.5\%$    &                  &                  &                  &                  &    -.009         &    -.021         &                  &                  &                  &                  &                  &                  &    -.013         &    -.030\sym{*}  &                  &                  \\
-                &                  &                  &                  &                  &   (.015)         &   (.017)         &                  &                  &                  &                  &                  &                  &   (.015)         &   (.017)         &                  &                  \\
-Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &     .006         &    -.008         &                  &                  &                  &                  &                  &                  &     .005         &    -.018         \\
-                &                  &                  &                  &                  &                  &                  &   (.016)         &   (.020)         &                  &                  &                  &                  &                  &                  &   (.019)         &   (.018)         \\
+Diagnosed diabetes&    -.068\sym{***}&    -.047\sym{***}&    -.049\sym{*}  &    -.043\sym{*}  &                  &                  &    -.048\sym{*}  &    -.048\sym{**} \\
+                &   (.017)         &   (.017)         &   (.026)         &   (.023)         &                  &                  &   (.026)         &   (.023)         \\
+HbA1c $\geq 6.5\%$&                  &                  &                  &                  &    -.013         &    -.029\sym{*}  &                  &                  \\
+                &                  &                  &                  &                  &   (.015)         &   (.017)         &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &     .005         &    -.017         \\
+                &                  &                  &                  &                  &                  &                  &   (.019)         &   (.018)         \\
 \midrule
-R2              &\multicolumn{1}{S}{.095}         &\multicolumn{1}{S}{.143}         &\multicolumn{1}{S}{.086}         &\multicolumn{1}{S}{.151}         &\multicolumn{1}{S}{.085}         &\multicolumn{1}{S}{.151}         &\multicolumn{1}{S}{.086}         &\multicolumn{1}{S}{.151}         &\multicolumn{1}{S}{.093}         &\multicolumn{1}{S}{.104}         &\multicolumn{1}{S}{.082}         &\multicolumn{1}{S}{.108}         &\multicolumn{1}{S}{.080}         &\multicolumn{1}{S}{.107}         &\multicolumn{1}{S}{.082}         &\multicolumn{1}{S}{.108}         \\
-N               &\multicolumn{1}{c}{8234}         &\multicolumn{1}{c}{10514}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{2790}         &\multicolumn{1}{c}{3626}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{8234}         &\multicolumn{1}{c}{10514}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{2790}         &\multicolumn{1}{c}{3626}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         \\
+R2              &\multicolumn{1}{S}{.091}         &\multicolumn{1}{S}{.102}         &\multicolumn{1}{S}{.079}         &\multicolumn{1}{S}{.108}         &\multicolumn{1}{S}{.078}         &\multicolumn{1}{S}{.107}         &\multicolumn{1}{S}{.079}         &\multicolumn{1}{S}{.108}         \\
+N               &\multicolumn{1}{c}{8234}         &\multicolumn{1}{c}{10514}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{2790}         &\multicolumn{1}{c}{3626}         &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         \\
 \midrule
-\multicolumn{17}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\ 
+\multicolumn{9}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\ 
 \addlinespace
-Diagnosed diabetes&     .034         &    -.054         &     .021         &     .004         &                  &                  &     .007         &     .006         &     .043         &    -.048         &    -.008         &    -.039         &                  &                  &    -.004         &    -.051         \\
-                &   (.044)         &   (.072)         &   (.062)         &   (.101)         &                  &                  &   (.064)         &   (.104)         &   (.047)         &   (.072)         &   (.066)         &   (.113)         &                  &                  &   (.068)         &   (.117)         \\
-HbA1c $\geq 6.5\%$    &                  &                  &                  &                  &    -.027         &    -.042         &                  &                  &                  &                  &                  &                  &     .011         &    -.054         &                  &                  \\
-                &                  &                  &                  &                  &   (.040)         &   (.060)         &                  &                  &                  &                  &                  &                  &   (.044)         &   (.069)         &                  &                  \\
-Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &    -.035         &    -.036         &                  &                  &                  &                  &                  &                  &     .018         &    -.052         \\
-                &                  &                  &                  &                  &                  &                  &   (.045)         &   (.072)         &                  &                  &                  &                  &                  &                  &   (.048)         &   (.079)         \\
+Diagnosed diabetes&     .043         &    -.048         &    -.008         &    -.038         &                  &                  &    -.004         &    -.050         \\
+                &   (.047)         &   (.072)         &   (.066)         &   (.113)         &                  &                  &   (.068)         &   (.117)         \\
+HbA1c $\geq 6.5\%$&                  &                  &                  &                  &     .011         &    -.054         &                  &                  \\
+                &                  &                  &                  &                  &   (.044)         &   (.069)         &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &     .018         &    -.052         \\
+                &                  &                  &                  &                  &                  &                  &   (.048)         &   (.079)         \\
 \midrule
-R2              &\multicolumn{1}{S}{.206}         &\multicolumn{1}{S}{.264}         &\multicolumn{1}{S}{.246}         &\multicolumn{1}{S}{.312}         &\multicolumn{1}{S}{.246}         &\multicolumn{1}{S}{.314}         &\multicolumn{1}{S}{.255}         &\multicolumn{1}{S}{.326}         &\multicolumn{1}{S}{.117}         &\multicolumn{1}{S}{.183}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.236}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.239}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.237}         \\
-N               &\multicolumn{1}{c}{5515}         &\multicolumn{1}{c}{2887}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{1805}         &\multicolumn{1}{c}{885}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{5515}         &\multicolumn{1}{c}{2887}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{1805}         &\multicolumn{1}{c}{885}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         \\
+R2              &\multicolumn{1}{S}{.117}         &\multicolumn{1}{S}{.183}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.236}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.239}         &\multicolumn{1}{S}{.146}         &\multicolumn{1}{S}{.237}         \\
+N               &\multicolumn{1}{c}{5515}         &\multicolumn{1}{c}{2887}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{1805}         &\multicolumn{1}{c}{885}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         \\
 \midrule
-\multicolumn{17}{l}{\hspace*{10mm}\textbf{Dependent variable: Usual weekly working hours}} \\ 
+\multicolumn{9}{l}{\hspace*{10mm}\textbf{Dependent variable: Usual weekly working hours}} \\ 
 \addlinespace
+Diagnosed diabetes&     .195         &     .395         &    -.338         &    -.780         &                  &                  &    -.301         &    -.176         \\
+                &  (1.022)         &  (1.442)         &  (1.286)         &  (2.164)         &                  &                  &  (1.325)         &  (2.216)         \\
+HbA1c $\geq 6.5\%$&                  &                  &                  &                  &     .000         &    1.699         &                  &                  \\
+                &                  &                  &                  &                  &   (.835)         &  (1.424)         &                  &                  \\
+Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &     .160         &    2.635         \\
+                &                  &                  &                  &                  &                  &                  &   (.955)         &  (1.838)         \\
 \midrule
-Diagnosed diabetes&     .428         &     .283         &    -.723         &   -2.780         &                  &                  &    -.586         &   -2.431         &     .195         &     .394         &    -.339         &    -.772         &                  &                  &    -.302         &    -.168         \\
-                &   (.967)         &  (1.533)         &  (1.321)         &  (2.110)         &                  &                  &  (1.342)         &  (2.151)         &  (1.022)         &  (1.441)         &  (1.286)         &  (2.164)         &                  &                  &  (1.325)         &  (2.215)         \\
-HbA1c $\geq 6.5\%$    &                  &                  &                  &                  &     .420         &    1.035         &                  &                  &                  &                  &                  &                  &     .000         &    1.703         &                  &                  \\
-                &                  &                  &                  &                  &   (.786)         &  (1.357)         &                  &                  &                  &                  &                  &                  &   (.835)         &  (1.424)         &                  &                  \\
-Undiagnosed diabetes&                  &                  &                  &                  &                  &                  &     .468         &    2.441         &                  &                  &                  &                  &                  &                  &     .160         &    2.638         \\
-                &                  &                  &                  &                  &                  &                  &   (.915)         &  (1.623)         &                  &                  &                  &                  &                  &                  &   (.955)         &  (1.838)         \\
-\midrule
-R2              &\multicolumn{1}{S}{.043}         &\multicolumn{1}{S}{.045}         &\multicolumn{1}{S}{.053}         &\multicolumn{1}{S}{.054}         &\multicolumn{1}{S}{.053}         &\multicolumn{1}{S}{.053}         &\multicolumn{1}{S}{.059}         &\multicolumn{1}{S}{.071}         &\multicolumn{1}{S}{.026}         &\multicolumn{1}{S}{.032}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.035}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.037}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.038}         \\
-N               &\multicolumn{1}{c}{6820}         &\multicolumn{1}{c}{3608}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         &\multicolumn{1}{c}{2306}         &\multicolumn{1}{c}{1145}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         &\multicolumn{1}{c}{6820}         &\multicolumn{1}{c}{3608}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         &\multicolumn{1}{c}{2306}         &\multicolumn{1}{c}{1145}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
+R2              &\multicolumn{1}{S}{.026}         &\multicolumn{1}{S}{.032}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.035}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.037}         &\multicolumn{1}{S}{.031}         &\multicolumn{1}{S}{.038}         \\
+N               &\multicolumn{1}{c}{6820}         &\multicolumn{1}{c}{3608}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         &\multicolumn{1}{c}{2306}         &\multicolumn{1}{c}{1145}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
 \bottomrule
-\multicolumn{17}{l}{\footnotesize Robust standard errors in parentheses; other control variables:age, age squared, state dummies, urbanization dummies, education dummies, married dummy, number children < 6 and wealth; calender year dummies are included as data collection for the third wave was stretched out over several years}\\
-\multicolumn{17}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base) and for health insurance status; \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\multicolumn{9}{l}{\footnotesize Robust standard errors in parentheses; other control variables:age, age squared, state dummies, urbanization dummies, education dummies, married dummy,}\\
+\multicolumn{9}{l}{\footnotesize  number children < 6 and wealth;calender year dummies are included as data collection for the third wave was stretched out over several years.}\\
+\multicolumn{9}{l}{\footnotesize The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural employment as the base)}\\
+\multicolumn{9}{l}{\footnotesize and for health insurance status. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).}\\
 \end{tabular}
 }
 
 \end{adjustbox}
 \end{center}
 \end{table}
-\end{landscape}
+%\end{landscape}
 
-Overall, the finding that undiagnosed diabetes is not associated with any adverse labor outcomes suggests that the two populations with diabetes, i.e. diagnosed and undiagnosed, are different in ways that are not yet captured by our models. People with a diabetes diagnosis could be generally less healthy and have more diabetes-related (or unrelated) complications that affect their employment biometrically which may explain the difference in results. To investigate this we included a measure of self-reported health as one of our regressors in our preferred model using community fixed effects, despite its endogeneity due to its relationship with diabetes. Nonetheless, including it should account for the differences in health between those aware of their diabetes and those undiagnosed, and subsequent changes in the diabetes coefficients may indicate if the differences in health could be driving the more adverse employment effects of self-reported diabetes. Indeed, the coefficients of self-reported diabetes are reduced in size and no longer significant for males and only borderline significant for females (Table \ref{tab:Diagnosed_undiagnosed_robust}). Interestingly, particularly for males reporting bad health is associated with a reduction in employment biometrically while this is not the case for females, suggesting that diagnosed males may actually be in a worse health state that is driving the reduction in employment biometrically while for women other factors could play a more important role. Additionally accounting for measures of overweight and obesity, self-reported hypertension, self-reported heart disease and insurance status does not further affect the size and significant of the diabetes coefficient to an important degree (results available on request). Another possible explanatory factor behind these different outcomes may be the psychological effect of a diabetes diagnosis leading to a reduction in employment biometrically due to justification bias though we are not able ti investigate this further.\footnote{Another potential problem may be that the \ac{HbA1c} measurements are upward biased as a result of the used technical device Bio-Rad in2it, which has been shown to correlate strongly with laboratory measurements \citep{HealthQualityOntario2014} but had also been found by one study to produce somewhat higher \ac{HbA1c} estimates \citep{Yeo2009}. This could cause many people just above the diabetes threshold to be falsely qualified as having undiagnosed diabetes, potentially attenuating the estimates. To test this, we reestimated above models using an alternative diabetes threshold of $\ac{HbA1c} \geq 7$. The results, however, remained similar, not providing evidence for an attenuation bias due to misclassification.}
+Overall, the finding that undiagnosed diabetes is not associated with any adverse labor outcomes suggests that the two populations with diabetes, i.e. diagnosed and undiagnosed, are different in ways that are not yet captured by our models. A potential reason may be differences in health between diagnosed and undiagnosed people with diabetes, that affect their employment probabilities. We therefore  add a measure of self-reported health and find that the coefficient of self-reported diabetes is reduced in size and no longer significant for males and only borderline significant for females (Table \ref{tab:Diagnosed_undiagnosed_robust}). Particularly for males reporting bad health is associated with a reduction in employment probabilities while this is not the case for females, suggesting that diagnosed males may actually be in a worse health state, driving the reduction in employment probabilities. For women other factors may play an additional role. Additionally accounting for measures of overweight and obesity, self-reported hypertension, heart disease and insurance status does not further affect the interpretation of the diabetes coefficient (results available on request).
 
 \begin{table}
 \caption{\label{tab:Diagnosed_undiagnosed_robust}Diagnosed, undiagnosed diabetes and self-reported health and their association with labor market outcomes (community level fixed effects)}
@@ -846,6 +844,12 @@ S}}
                 &\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Weekly working hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
                 &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+
+Diagnosed diabetes&    -.032         &    -.040\sym{*}  &     .004         &     .016         &     .111         &    -.668         \\
+                &   (.025)         &   (.024)         &   (.069)         &   (.109)         &  (1.374)         &  (2.065)         \\
+\addlinespace
+Undiagnosed diabetes&     .005         &    -.019         &     .020         &    -.049         &     .119         &    2.753         \\
+                &   (.019)         &   (.018)         &   (.049)         &   (.079)         &   (.960)         &  (1.811)         \\                
 \multicolumn{6}{l}{Self-reported health status}\\
 \hspace*{10mm}good            &     .024         &     .059\sym{*}  &     .066         &    -.115         &   -1.169         &    3.423\sym{*}  \\
                 &   (.027)         &   (.035)         &   (.070)         &   (.136)         &  (1.342)         &  (2.054)         \\
@@ -858,12 +862,6 @@ S}}
 \addlinespace
 \hspace*{10mm}very bad        &    -.167         &     .119         &    -.347\sym{*}  &     .306         &   -1.427         &  -17.360\sym{***}\\
                 &   (.127)         &   (.153)         &   (.182)         &   (.433)         &  (3.274)         &  (4.914)         \\
-\addlinespace
-Diagnosed diabetes&    -.032         &    -.040\sym{*}  &     .004         &     .016         &     .111         &    -.668         \\
-                &   (.025)         &   (.024)         &   (.069)         &   (.109)         &  (1.374)         &  (2.065)         \\
-\addlinespace
-Undiagnosed diabetes&     .005         &    -.019         &     .020         &    -.049         &     .119         &    2.753         \\
-                &   (.019)         &   (.018)         &   (.049)         &   (.079)         &   (.960)         &  (1.811)         \\
 \midrule
 R2              &\multicolumn{1}{S}{.089}         &\multicolumn{1}{S}{.111}         &\multicolumn{1}{S}{.148}         &\multicolumn{1}{S}{.244}         &\multicolumn{1}{S}{.035}         &\multicolumn{1}{S}{.048}         \\
 N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3621}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{882}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1142}         \\
@@ -890,7 +888,7 @@ The \ac{HbA1c} information in wave 3 also enables us to use it as a proxy for di
 severity and diabetes management. Using three dummy variables for \ac{HbA1c} groups above the
 diabetes threshold, i.e. 6.5--7.9, 8--11.9 and 12--14, we investigate
 how labor market effects differ when taking \ac{HbA1c} values
-into account (table \ref{tab:Self-reported-diabetes-and-hba1clevels}. For brevity we only present the results using community fixed effects here as the results without community fixed effects are similar. For employment biometrically
+into account (table \ref{tab:Self-reported-diabetes-and-hba1clevels}. For brevity we only present the results using community fixed effects here as the results without community fixed effects are similar. For employment probabilities
 we again only find adverse associations for
 those with diagnosed diabetes, particularly for \ac{HbA1c} levels of 6.5 \% to 7.9\%
 and 8\% to 11.9\% compared to people without diabetes and an \ac{HbA1c} below the
@@ -943,14 +941,14 @@ N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}     
 \end{center}
 \end{table}
 
-To the best of our knowledge only one other study has previously used biomarker data to analyze the relationship with labor market outcomes in a comparable population. \citet{BrownIII2011} use data for a Mexican American
+To the best of our knowledge only one study has previously used biomarker data to analyze the relationship with labor market outcomes in a comparable population. \citet{BrownIII2011} use data for a Mexican American
 population in a broadly comparable way to this paper, though stopping short of investigating
 the labor market impact of undiagnosed diabetes. The study indicates
 an increasing negative relationship of diabetes and employment
-biometrically and wages for men as \ac{HbA1c} levels increased, interacting \ac{HbA1c} levels
+probabilities and wages for men as \ac{HbA1c} levels increased, interacting \ac{HbA1c} levels
 with the diabetes dummy.\footnote{We estimated a similar model but
 do not find any indication that increasing \ac{HbA1c} levels were
-related with employment biometrically (results available on request).} We
+related with employment probabilities (results available on request).} We
 find the same to be true when using indicator variables for different
 \ac{HbA1c} groups above the diabetes threshold, where the main effects
 are found for those with relatively well managed diabetes and no
@@ -964,10 +962,12 @@ levels, in particular when including the strikingly large share of the undiagnos
 
 Our first important finding is the confirmation of a considerable employment burden for men and women reporting a diabetes diagnosis, even after accounting for an important source of potential unobserved heterogeneity by using individual \ac{FE} for the first time in the investigation of diabetes labor market effects. We see this as a potentially more valid strategy than relying on the at least questionable \ac{IV} strategies used so far in the literature. This strategy also allowed us to account for any sample selection into employment based on time-invariant heterogeneity such as innate ability. We find that diabetes very likely is not related to a decrease in wages or working hours, suggesting that people who receive a diabetes diagnosis often drop out of the labor market once debilitating diabetes related complications appear that would limit their work performance. This is of particular relevance in jobs where formal job protection and good access to healthcare may be less available and that are also relatively more strenuous. However, those who remain employed do not appear to suffer any wage or labor supply effects, possibly because they are still relatively healthy or they are able to resort to a type of work were their diabetes does not inhibit their performance. Future research will be needed to confirm and further investigate this finding and interpretation.
 
-Using the same strategy we also investigate the effect of diabetes duration on labor market outcomes and find that diabetes likely has a continuous adverse relationship with employment biometrically, which might become increasingly stronger after the first ten years since diagnosis. This is not surprising given that many complications of diabetes only appear after some time of living with the disease. This likely bodes ill for many countries were diabetes, and in particular Type 2???diabetes starts appearing at an increasingly younger age in recent years, causing people to live with the disease for larger parts of their productive lifespan, possibly exacerbating the economic effects of unemployment due to diabetes. 
+Using the same strategy we also investigate the effect of diabetes duration on labor market outcomes and find that diabetes likely has a continuous adverse relationship with employment probabilities, which might become increasingly stronger after the first ten years since diagnosis. This is not surprising given that many complications of diabetes only appear after some time of living with the disease. This likely bodes ill for many countries were diabetes, and in particular Type 2???diabetes starts appearing at an increasingly younger age in recent years, causing people to live with the disease for larger parts of their productive lifespan, possibly exacerbating the economic effects of unemployment due to diabetes. 
 
 The other main contribution of this paper is the ability to identify previously unobserved people with diabetes via the use of biomarker data and the finding that undiagnosed
 diabetes is not associated with labor market outcomes in Mexico. We still mostly find a negative association of diabetes with labor market outcomes but this association is significantly reduced. While this is only a cross-sectional analysis and the results can only be interpreted as associations, this is still an indication that studies relying solely on self-reported diabetes may not under- but overestimate the effect of diabetes on labor market outcomes due to non-classical reporting error. Therefore, it is important to consider the population of people with diabetes as consisting of those with self-reported diabetes and those with undiagnosed diabetes, where the former differs from the latter in the amount of health information they possess and likely also their health status. The best way then to analyze the effects of diabetes should be to, if possible, explicitly account for both groups, as using an \ac{IV} strategy will not correct for non-classical measurement error \citep{Cawley2015}.
+
+Several limitations of this study exist. First, we are not able to investigate directly to what extend the psychological effect of a diabetes diagnosis might affect employment probabilities due to justification bias.\footnote{Another potential problem may be that the \ac{HbA1c} measurements are upward biased as a result of the used technical device Bio-Rad in2it, which has been shown to correlate strongly with laboratory measurements \citep{HealthQualityOntario2014} but had also been found by one study to produce somewhat higher \ac{HbA1c} estimates \citep{Yeo2009}. This could cause many people just above the diabetes threshold to be falsely qualified as having undiagnosed diabetes, potentially attenuating the estimates. To test this, we reestimated above models using an alternative diabetes threshold of $\ac{HbA1c} \geq 7$. The results, however, remained similar, not providing evidence for an attenuation bias due to misclassification.}
 
 To reiterate, the study finds a considerable negative impact of self-reported diabetes on employment probabilities, a finding that is likely also of relevance to other \ac{MICs} facing similar diabetes problems. Further, when estimating any effects of diabetes using self-reported measures, any conclusions drawn should be limited to those already diagnosed as otherwise any effects are likely to be overstated due to the often large population with undiagnosed diabetes. 
 
