@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: diffs.aux
+The style file: elsarticle-harv.bst
+Database file #1: /home/till/Dokumente/BibTex/Second_Mexico_paper-Article.bib
+Warning--empty note in Bergemann2011
+Warning--empty institution in Crimmins2015
+Warning--empty note in Frankenberg2015
+Warning--empty note in Kapteyn2009
+Warning--empty note in Rubalcava2013
+Warning--empty journal in WorldHealthOrganization2011
+Warning--there's a number but no volume in WorldHealthOrganization2011
+You've used 56 entries,
+            2821 wiz_defined-function locations,
+            1009 strings with 17956 characters,
+and the built_in function-call counts, 30730 in all, are:
+= -- 3032
+> -- 1941
+< -- 23
++ -- 726
+- -- 669
+* -- 2944
+:= -- 5637
+add.period$ -- 163
+call.type$ -- 56
+change.case$ -- 505
+chr.to.int$ -- 61
+cite$ -- 63
+duplicate$ -- 973
+empty$ -- 1842
+format.name$ -- 827
+if$ -- 5973
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 52
+newline$ -- 177
+num.names$ -- 224
+pop$ -- 432
+preamble$ -- 1
+purify$ -- 447
+quote$ -- 0
+skip$ -- 733
+stack$ -- 0
+substring$ -- 1718
+swap$ -- 127
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 501
+warning$ -- 7
+while$ -- 260
+width$ -- 0
+write$ -- 613
+(There were 7 warnings)
