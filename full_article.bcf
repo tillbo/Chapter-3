@@ -81,11 +81,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>99</bcf:value>
+      <bcf:value>9</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -121,11 +121,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useauthor</bcf:key>
@@ -1961,7 +1961,6 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">/home/till/Dokumente/BibTex/Thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Risk2016</bcf:citekey>
@@ -1994,121 +1993,117 @@
     <bcf:citekey order="17">Li2010b</bcf:citekey>
     <bcf:citekey order="18">Currie2013</bcf:citekey>
     <bcf:citekey order="19">Ayyagari2011a</bcf:citekey>
-    <bcf:citekey order="20">Kapteyn2009</bcf:citekey>
-    <bcf:citekey order="21">Seuring2015a</bcf:citekey>
-    <bcf:citekey order="22">Beagley2014</bcf:citekey>
-    <bcf:citekey order="23">Beagley2014</bcf:citekey>
+    <bcf:citekey order="20">Beagley2014</bcf:citekey>
+    <bcf:citekey order="21">Kapteyn2009</bcf:citekey>
+    <bcf:citekey order="22">Seuring2015a</bcf:citekey>
+    <bcf:citekey order="23">Liu2014</bcf:citekey>
     <bcf:citekey order="24">Liu2014</bcf:citekey>
-    <bcf:citekey order="25">Liu2014</bcf:citekey>
-    <bcf:citekey order="26">Seuring2015</bcf:citekey>
+    <bcf:citekey order="25">Seuring2015</bcf:citekey>
+    <bcf:citekey order="26">Brown2005</bcf:citekey>
     <bcf:citekey order="27">Brown2005</bcf:citekey>
-    <bcf:citekey order="28">Brown2005</bcf:citekey>
+    <bcf:citekey order="28">BrownIII2011</bcf:citekey>
     <bcf:citekey order="29">BrownIII2011</bcf:citekey>
-    <bcf:citekey order="30">BrownIII2011</bcf:citekey>
+    <bcf:citekey order="30">Minor2011</bcf:citekey>
     <bcf:citekey order="31">Minor2011</bcf:citekey>
-    <bcf:citekey order="32">Minor2011</bcf:citekey>
+    <bcf:citekey order="32">Minor2013</bcf:citekey>
     <bcf:citekey order="33">Minor2013</bcf:citekey>
-    <bcf:citekey order="34">Minor2013</bcf:citekey>
-    <bcf:citekey order="35">Minor2015</bcf:citekey>
-    <bcf:citekey order="36">Minor2015</bcf:citekey>
-    <bcf:citekey order="37">Latif2009</bcf:citekey>
-    <bcf:citekey order="38">Brown2005</bcf:citekey>
-    <bcf:citekey order="39">Brown2005</bcf:citekey>
-    <bcf:citekey order="40">Zhang2009</bcf:citekey>
+    <bcf:citekey order="34">Brown2005</bcf:citekey>
+    <bcf:citekey order="35">Brown2005</bcf:citekey>
+    <bcf:citekey order="36">Latif2009</bcf:citekey>
+    <bcf:citekey order="37">Zhang2009</bcf:citekey>
+    <bcf:citekey order="38">Minor2015</bcf:citekey>
+    <bcf:citekey order="39">Minor2015</bcf:citekey>
+    <bcf:citekey order="40">Seuring2015</bcf:citekey>
     <bcf:citekey order="41">Seuring2015</bcf:citekey>
-    <bcf:citekey order="42">Seuring2015</bcf:citekey>
-    <bcf:citekey order="43">Cawley2015</bcf:citekey>
-    <bcf:citekey order="43">ONeill2013</bcf:citekey>
-    <bcf:citekey order="43">Perks2015</bcf:citekey>
-    <bcf:citekey order="44">Yuan2015</bcf:citekey>
-    <bcf:citekey order="45">InternationalDiabetesFederation2015</bcf:citekey>
-    <bcf:citekey order="45">WHO</bcf:citekey>
-    <bcf:citekey order="46">Alegre-Diaz2016</bcf:citekey>
-    <bcf:citekey order="47">Gutierrez-delgado2009</bcf:citekey>
-    <bcf:citekey order="48">Alegre-Diaz2016</bcf:citekey>
-    <bcf:citekey order="48">Flores-Hernandez2015</bcf:citekey>
+    <bcf:citekey order="42">Cawley2015</bcf:citekey>
+    <bcf:citekey order="42">ONeill2013</bcf:citekey>
+    <bcf:citekey order="42">Perks2015</bcf:citekey>
+    <bcf:citekey order="43">Yuan2015</bcf:citekey>
+    <bcf:citekey order="44">InternationalDiabetesFederation2015</bcf:citekey>
+    <bcf:citekey order="44">WHO</bcf:citekey>
+    <bcf:citekey order="45">Alegre-Diaz2016</bcf:citekey>
+    <bcf:citekey order="46">Gutierrez-delgado2009</bcf:citekey>
+    <bcf:citekey order="47">Alegre-Diaz2016</bcf:citekey>
+    <bcf:citekey order="47">Flores-Hernandez2015</bcf:citekey>
+    <bcf:citekey order="47">Barquera2013</bcf:citekey>
     <bcf:citekey order="48">Barquera2013</bcf:citekey>
-    <bcf:citekey order="49">Barquera2013</bcf:citekey>
-    <bcf:citekey order="50">Rubalcava2013</bcf:citekey>
-    <bcf:citekey order="51">Crimmins2015</bcf:citekey>
+    <bcf:citekey order="49">Rubalcava2013</bcf:citekey>
+    <bcf:citekey order="50">Crimmins2015</bcf:citekey>
+    <bcf:citekey order="51">Barquera2013</bcf:citekey>
     <bcf:citekey order="52">Barquera2013</bcf:citekey>
-    <bcf:citekey order="53">Barquera2013</bcf:citekey>
-    <bcf:citekey order="54">WorldHealthOrganization2011</bcf:citekey>
-    <bcf:citekey order="55">Frankenberg2015</bcf:citekey>
-    <bcf:citekey order="56">Frankenberg2015</bcf:citekey>
-    <bcf:citekey order="57">Minor2011</bcf:citekey>
-    <bcf:citekey order="57">Minor2015</bcf:citekey>
-    <bcf:citekey order="58">Bellamy2009</bcf:citekey>
-    <bcf:citekey order="59">Filmer2001</bcf:citekey>
-    <bcf:citekey order="60">Bergemann2011</bcf:citekey>
-    <bcf:citekey order="60">Schaller2015</bcf:citekey>
-    <bcf:citekey order="61">Heraclides2012</bcf:citekey>
-    <bcf:citekey order="61">Eriksson2013</bcf:citekey>
-    <bcf:citekey order="62">Schneiderman2005</bcf:citekey>
-    <bcf:citekey order="63">Thoolen2006</bcf:citekey>
-    <bcf:citekey order="63">Paddison2011</bcf:citekey>
-    <bcf:citekey order="64">Nouwen2011</bcf:citekey>
-    <bcf:citekey order="65">Slade2012</bcf:citekey>
-    <bcf:citekey order="66">Slade2012</bcf:citekey>
-    <bcf:citekey order="67">Baird2014</bcf:citekey>
-    <bcf:citekey order="67">Gong2015</bcf:citekey>
-    <bcf:citekey order="67">Thornton2008</bcf:citekey>
-    <bcf:citekey order="67">Zhao2013a</bcf:citekey>
-    <bcf:citekey order="68">Baird2014</bcf:citekey>
-    <bcf:citekey order="68">Gong2015</bcf:citekey>
-    <bcf:citekey order="68">Thornton2008</bcf:citekey>
-    <bcf:citekey order="68">Zhao2013a</bcf:citekey>
-    <bcf:citekey order="69">Liu2014</bcf:citekey>
-    <bcf:citekey order="70">Dillon2014</bcf:citekey>
-    <bcf:citekey order="71">Dillon2014</bcf:citekey>
-    <bcf:citekey order="72">Mundlak1978</bcf:citekey>
+    <bcf:citekey order="53">WorldHealthOrganization2011</bcf:citekey>
+    <bcf:citekey order="54">Frankenberg2015</bcf:citekey>
+    <bcf:citekey order="55">Minor2011</bcf:citekey>
+    <bcf:citekey order="55">Minor2015</bcf:citekey>
+    <bcf:citekey order="56">Bellamy2009</bcf:citekey>
+    <bcf:citekey order="57">Filmer2001</bcf:citekey>
+    <bcf:citekey order="58">Bergemann2011</bcf:citekey>
+    <bcf:citekey order="58">Schaller2015</bcf:citekey>
+    <bcf:citekey order="59">Heraclides2012</bcf:citekey>
+    <bcf:citekey order="59">Eriksson2013</bcf:citekey>
+    <bcf:citekey order="60">Schneiderman2005</bcf:citekey>
+    <bcf:citekey order="61">Thoolen2006</bcf:citekey>
+    <bcf:citekey order="61">Paddison2011</bcf:citekey>
+    <bcf:citekey order="62">Nouwen2011</bcf:citekey>
+    <bcf:citekey order="63">Slade2012</bcf:citekey>
+    <bcf:citekey order="64">Slade2012</bcf:citekey>
+    <bcf:citekey order="65">Baird2014</bcf:citekey>
+    <bcf:citekey order="65">Gong2015</bcf:citekey>
+    <bcf:citekey order="65">Thornton2008</bcf:citekey>
+    <bcf:citekey order="65">Zhao2013a</bcf:citekey>
+    <bcf:citekey order="66">Baird2014</bcf:citekey>
+    <bcf:citekey order="66">Gong2015</bcf:citekey>
+    <bcf:citekey order="66">Thornton2008</bcf:citekey>
+    <bcf:citekey order="66">Zhao2013a</bcf:citekey>
+    <bcf:citekey order="67">Liu2014</bcf:citekey>
+    <bcf:citekey order="68">Dillon2014</bcf:citekey>
+    <bcf:citekey order="69">Dillon2014</bcf:citekey>
+    <bcf:citekey order="70">Mundlak1978</bcf:citekey>
+    <bcf:citekey order="70">Bell2015</bcf:citekey>
+    <bcf:citekey order="71">Bell2015</bcf:citekey>
+    <bcf:citekey order="71">Mundlak1978</bcf:citekey>
     <bcf:citekey order="72">Bell2015</bcf:citekey>
-    <bcf:citekey order="73">Bell2015</bcf:citekey>
     <bcf:citekey order="73">Mundlak1978</bcf:citekey>
-    <bcf:citekey order="74">Bell2015</bcf:citekey>
-    <bcf:citekey order="75">Mundlak1978</bcf:citekey>
-    <bcf:citekey order="76">Mundlak1978</bcf:citekey>
+    <bcf:citekey order="74">Mundlak1978</bcf:citekey>
+    <bcf:citekey order="75">Minor2013</bcf:citekey>
+    <bcf:citekey order="76">Minor2013</bcf:citekey>
     <bcf:citekey order="77">Minor2013</bcf:citekey>
     <bcf:citekey order="78">Minor2013</bcf:citekey>
     <bcf:citekey order="79">Minor2013</bcf:citekey>
     <bcf:citekey order="80">Minor2013</bcf:citekey>
     <bcf:citekey order="81">Minor2013</bcf:citekey>
-    <bcf:citekey order="82">Minor2013</bcf:citekey>
-    <bcf:citekey order="83">Minor2013</bcf:citekey>
-    <bcf:citekey order="84">Minor2013</bcf:citekey>
-    <bcf:citekey order="85">Minor2013</bcf:citekey>
-    <bcf:citekey order="86">Adler2003</bcf:citekey>
-    <bcf:citekey order="87">BrownIII2011</bcf:citekey>
-    <bcf:citekey order="88">BrownIII2011</bcf:citekey>
-    <bcf:citekey order="89">Minor2015</bcf:citekey>
-    <bcf:citekey order="90">Bratti2014</bcf:citekey>
-    <bcf:citekey order="91">Colchero2016</bcf:citekey>
-    <bcf:citekey order="92">Sotomayor2013</bcf:citekey>
-    <bcf:citekey order="92">Hanson2012</bcf:citekey>
-    <bcf:citekey order="92">Li2010b</bcf:citekey>
-    <bcf:citekey order="93">Hu2011</bcf:citekey>
-    <bcf:citekey order="93">Villalpando2010</bcf:citekey>
-    <bcf:citekey order="94">Zajacova2010</bcf:citekey>
-    <bcf:citekey order="95">Zajacova2010</bcf:citekey>
-    <bcf:citekey order="96">Yuan2015</bcf:citekey>
-    <bcf:citekey order="205">Liu2014</bcf:citekey>
-    <bcf:citekey order="206">Liu2014</bcf:citekey>
-    <bcf:citekey order="207">Seuring2015</bcf:citekey>
-    <bcf:citekey order="208">Seuring2015</bcf:citekey>
-    <bcf:citekey order="209">Brown2005</bcf:citekey>
-    <bcf:citekey order="210">Brown2005</bcf:citekey>
-    <bcf:citekey order="211">BrownIII2011</bcf:citekey>
-    <bcf:citekey order="212">BrownIII2011</bcf:citekey>
-    <bcf:citekey order="213">Minor2011</bcf:citekey>
-    <bcf:citekey order="214">Minor2011</bcf:citekey>
-    <bcf:citekey order="215">Minor2013</bcf:citekey>
-    <bcf:citekey order="216">Minor2013</bcf:citekey>
-    <bcf:citekey order="217">Minor2015</bcf:citekey>
-    <bcf:citekey order="218">Minor2015</bcf:citekey>
-    <bcf:citekey order="219">Latif2009</bcf:citekey>
-    <bcf:citekey order="220">Latif2009</bcf:citekey>
-    <bcf:citekey order="221">Zhang2009</bcf:citekey>
-    <bcf:citekey order="222">Zhang2009</bcf:citekey>
+    <bcf:citekey order="82">BrownIII2011</bcf:citekey>
+    <bcf:citekey order="83">BrownIII2011</bcf:citekey>
+    <bcf:citekey order="84">Minor2015</bcf:citekey>
+    <bcf:citekey order="85">Minor2015</bcf:citekey>
+    <bcf:citekey order="86">Bratti2014</bcf:citekey>
+    <bcf:citekey order="87">Colchero2016</bcf:citekey>
+    <bcf:citekey order="88">Sotomayor2013</bcf:citekey>
+    <bcf:citekey order="88">Hanson2012</bcf:citekey>
+    <bcf:citekey order="88">Li2010b</bcf:citekey>
+    <bcf:citekey order="89">Hu2011</bcf:citekey>
+    <bcf:citekey order="89">Villalpando2010</bcf:citekey>
+    <bcf:citekey order="90">Zajacova2010</bcf:citekey>
+    <bcf:citekey order="91">Zajacova2010</bcf:citekey>
+    <bcf:citekey order="92">Yuan2015</bcf:citekey>
+    <bcf:citekey order="201">Liu2014</bcf:citekey>
+    <bcf:citekey order="202">Liu2014</bcf:citekey>
+    <bcf:citekey order="203">Seuring2015</bcf:citekey>
+    <bcf:citekey order="204">Seuring2015</bcf:citekey>
+    <bcf:citekey order="205">Brown2005</bcf:citekey>
+    <bcf:citekey order="206">Brown2005</bcf:citekey>
+    <bcf:citekey order="207">BrownIII2011</bcf:citekey>
+    <bcf:citekey order="208">BrownIII2011</bcf:citekey>
+    <bcf:citekey order="209">Minor2011</bcf:citekey>
+    <bcf:citekey order="210">Minor2011</bcf:citekey>
+    <bcf:citekey order="211">Minor2013</bcf:citekey>
+    <bcf:citekey order="212">Minor2013</bcf:citekey>
+    <bcf:citekey order="213">Minor2015</bcf:citekey>
+    <bcf:citekey order="214">Minor2015</bcf:citekey>
+    <bcf:citekey order="215">Latif2009</bcf:citekey>
+    <bcf:citekey order="216">Latif2009</bcf:citekey>
+    <bcf:citekey order="217">Zhang2009</bcf:citekey>
+    <bcf:citekey order="218">Zhang2009</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nyt">
   <bcf:sorting>
