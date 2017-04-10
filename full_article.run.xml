@@ -81,5 +81,8 @@
     <requires type="dynamic">
       <file>full_article.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>/home/till/Dokumente/BibTex/Second_Mexico_paper.bib</file>
+    </requires>
   </external>
 </requests>

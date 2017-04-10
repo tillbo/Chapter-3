@@ -309,7 +309,7 @@ Y_{it}=\beta_{0}+\beta_{1}Diabetes_{it}+\beta_{2}X_{it}+c_{i}+\gamma_{t}+u_{it}.
 \end{equation}
 
 
-where $Y_{it}$ is a binary variable taking a value of $1$ if respondent $i$ reports being in employment at time $t$ and $0$ otherwise, $Diabetes_{it}$ is a binary variable taking a value of $1$ at time $t$ if the respondent reports having ever received a diagnosis of diabetes\footnote{The data at hand does not allow us to distinguish between type 1 and type 2 diabetes . Existing studies find no eﬀect of type 1 diabetes on labor outcomes . Our estimates of type 2 diabetes impact on labor outcomes may therefore be attenuated and provide a lower bound \parencite{Minor2011,Minor2015}.}, $X_{it}$ is a vector of control variables, $c_{i}$ represents an individual fixed effect, $\gamma_{t}$ represents year dummies, while $u_{it}$ is the error term.
+where $Y_{it}$ is a binary variable taking a value of $1$ if respondent $i$ reports being in employment at time $t$ and $0$ otherwise, $Diabetes_{it}$ is a binary variable taking a value of $1$ at time $t$ if the respondent reports having ever received a diagnosis of diabetes\footnote{The data at hand does not allow us to distinguish between type 1 and type 2 diabetes. Existing studies find no effect of type 1 diabetes on labor outcomes . Our estimates of type 2 diabetes impact on labor outcomes may therefore be attenuated and provide a lower bound \parencite{Minor2011,Minor2015}.}, $X_{it}$ is a vector of control variables, $c_{i}$ represents an individual fixed effect, $\gamma_{t}$ represents year dummies, while $u_{it}$ is the error term.
 
 For the relationship of diabetes with wages and working hours, our empirical models are estimated conditional on being in employment. $Y_{it}$ represents the log hourly wage or the weekly working hours over the last year, for respondent $i$ at time $t$.
 
@@ -341,7 +341,8 @@ Since a sizeable number of individuals remain undiagnosed , and some, may also m
 
 Overreporting may attenuate the estimated impact of diabetes if the false positives are in fact in good health, or it may lead to an overestimation if they have other attributes that negatively affect labor outcomes, including general health, or another illness. Similarly, underreporting may lead to an overestimation if those with undiagnosed diabetes are generally healthier, hence more likely to have positive labor outcomes. However, if the undiagnosed and the diagnosed groups are similar in terms of health, then this would lead to an underestimation of the impact of diabetes. 
 
-The health information revealed at a diabetes diagnosis may also have an effect in itself. It might, for instance, affect the patient's psychology which in turn may affect his or her economic decision making and behaviour. Two studies found evidence that patients with a diabetes diagnosis and subsequent treatment are more prone to psychological conditions, including depression and anxiety \parencite{Thoolen2006,Paddison2011} compared to people without diabetes. #
+The health information revealed at a diabetes diagnosis may also have an effect in itself. It might, for instance, affect the patient's psychology which in turn may affect his or her economic decision making and behaviour. Two studies found evidence that patients with a diabetes diagnosis and subsequent treatment are more prone to psychological conditions, including depression and anxiety \parencite{Thoolen2006,Paddison2011} compared to people without diabetes.
+
 Since undiagnosed diabetes is not found to be associated with psychological conditions, this suggests a possible causal relationship \parencite{Nouwen2011}. Health information may also lead to a change in behaviour. \textcite{Slade2012} shows how patients, when learning about their diabetes diagnosis, change their consumption of alcohol and smoking and start to loose weight. This is in line with evidence for other chronic diseases (see \textcite{Baird2014,Gong2015,Thornton2008,Zhao2013a}). 
 Recent evidence for China also suggests that receiving a diabetes diagnosis in itself reduces labor income, possibly through psychological effects of the diagnosis \parencite{Liu2014}.\footnote{Further evidence on the effect of health news on labor outcomes is provided by \textcite{Dillon2014}, who in a very different context, and using a randomized intervention, find that the news stemming from a diagnosis of malaria affect productivity and income, but not labor supply among sugar cane cutters in Nigeria.} 
 
@@ -375,38 +376,55 @@ Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{2}Dbio_{i}+\beta_{3}X_{i}+c_{i}+u_{i}.\l
 
 \subsection{Labor outcomes and self-reported diabetes}
 
-Table \ref{tab:Self-reported-diabetes-and} presents the estimation results of Eq. \ref{eq:cha4_employed} which indicate significant and substantial reductions in the probability of employment for men and women with self-reported diabetes. The coefficients are similar for both sexes, showing a reduction in employment probabilities of over 5 percentage points. In relative terms---taking into account the lower employment rates for women compared to men---these absolute reductions translate into a relative reductions in employment probabilities of 14\% for women and of 6\% for men, suggesting a stronger impact of diabetes on women than men.
+Table \ref{tab:Self-reported-diabetes-and} presents the estimation results of Eq. \ref{eq:cha4_employed} which indicate significant and substantial reductions in the probability of employment for men and women with self-reported diabetes. The coefficients are similar for both sexes, showing a reduction in employment probabilities of over 5 percentage points. Taking into account the lower employment rates for women compared to men, these absolute reductions translate into a relative reductions in employment probabilities of 14\% for women and of 6\% for men, suggesting a stronger impact of diabetes on women than men.
 
-The results in Columns 3--6 of Table \ref{tab:Self-reported-diabetes-and} show no significant relationship between self-reported diabetes and wages or working hours. To assess whether this relationship differs by the type of work, as those  with diabetes working in an agricultural job that requires strenuous, physical efforts may see their productivity more adversely affected than those engaged in more sedentary work, we include interaction terms between self-reported diabetes and agricultural employment, and between self-reported diabetes and self-employment, respectively, using non-agricultural wage employment as the comparison group, and restricting our sample to those employed only. 
+The results in Columns 3--6 of Table \ref{tab:Self-reported-diabetes-and} show no significant relationship between self-reported diabetes and wages or working hours. To assess whether this relationship differs by the type of work (i.e. work in agriculture requiring strenuous, physical efforts may be more affected by diabetes complications than more sedentary work) we include interaction terms between diabetes and agricultural employment, and between diabetes and self-employment, respectively, using non-agricultural wage employment as the comparison group (and restricting our sample to those employed only). The results in Table \ref{tab:Self-reported-diabetes} panel B, show that the type of work appears to be of less importance, as none of the interaction terms shows up as significant. In the working hours regression, the interaction term of diabetes with agricultural work indicates reduced work supply for this group relative to non-agricultural workers and employees. However, the Wald test to assess the overall significance of the interaction term, cannot  reject the null of no interaction effects ($p = .15$).
 
-The results in Table \ref{tab:Self-reported-diabetes-interaction} show that while male agricultural workers have lower wages in general, the relationship with diabetes does not depend on the type of work, as none of the interaction terms shows up as significant. In the working hours regression, one interaction term is significant, suggesting that those with self-reported diabetes working in agriculture supply 5 hours less relative to non-agricultural workers and employees. However, because we have more than two work types we cannot draw conclusions
-solely on the basis of the t-statistic. Using a Wald test to assess the overall significance of the interaction term, we cannot  reject the null of no interaction effects ($p = .15$).
+In summary, we find no evidence for an association between diabetes and wages or working hours. One possible explanation is selection bias, with those with 'mild' or asymptomatic diabetes being more likely to maintain their productivity. Only once complications become increasingly severe would they switch activity (or drop out of the labor market), without going through a notable phase of reduced productivity and labor supply.
 
-In summary, we find no evidence for an association between self-reported diabetes and wages or working hours. One possible explanation is selection bias, as those with 'mild' or asymptomatic diabetes are more likely to remain in their job and continue to earn the same wage. Only once complications become increasingly severe would they switch activity (or drop out of the labor market), without going through a notable phase of reduced productivity and labor supply.
+To assess whether diabetes affects the selection into different types of work we estimate \ac{FE} models of the probability of being in non-agricultural wage employment, agricultural employment or self-employment, respectively. The results in Table \ref{tab:Self-reported-diabetes-selection_LPM} only indicate statistically significant effects on the probabilities of females to work in agriculture, possibly due to the higher physical requirements.\footnote{We prefer this model to a multinomial logit because it allows full control of fixed effects, and it produces results that are straight forward to interpret. As a robustness check we also estimated a multinomial logit model that includes means of time-varying covariates to proxy for fixed effects (see \textcite{Mundlak1978,Bell2015}) \parencite{Bell2015}. The results turn out very similar, both in size and statistical significance.}
 
-To assess whether diabetes affects the selection into different types of work we proceed by estimating a \ac{FE} model applied to the individual probability of being in non-agricultural wage employment, agricultural employment or self-employment, respectively, using a dummy variable indicating the respective type of work as the left hand side variable. The results in Table \ref{tab:Self-reported-diabetes-selection_LPM} indicate a negative association with self-employment, though the estimates have quite large standard errors. Women with diabetes are less likely to work in agriculture and potentially self-employment, indicating that having diabetes drives women out of self-employment and agricultural jobs, possibly because these jobs are physically more demanding or because they provide less protection in terms of health and income insurance.\footnote{We prefer this model to a multinomial logit because it allows full control of fixed effects, and results that are straight forward to interpret. As a robustness check we also estimated a multinomial logit model that includes means of time-varying covariates to proxy for fixed effects (see \textcite{Mundlak1978,Bell2015}) \parencite{Bell2015}, based on the work of \textcite{Mundlak1978}. The results indicate a very similar pattern both in size and significance.}
-
-
-\begin{landscape}
 
 \begin{table}[p]
-\caption{\label{tab:Self-reported-diabetes-and}Self-reported diabetes and labor outcomes.}
+\caption{\label{tab:Self-reported-diabetes-and}Labor outcomes and self-reported diabetes}
 \begin{center}
 \begin{adjustbox}{max width=\linewidth}
 \begin{threeparttable}
 {
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi} \begin{tabular}{l*{6}{SS}}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{S
+S}}
 \toprule
-                &\multicolumn{2}{c}{Employment}&\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Weekly working hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                &\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Monthly work hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
                 &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-Self-reported diabetes&  -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
+Panel A: all labour outcomes &&&&&&\\ 
+Self-reported&    -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
                 &   (.025)         &   (.024)         &   (.067)         &   (.158)         &  (1.499)         &  (2.517)         \\
 \midrule
-Hausman test    &  255.260         &  388.822         & 1084.317         &   91.096         &  967.007         &  106.455         \\
-\hspace*{10mm} p-value         &     .000         &     .000         &     .000         &     .000         &     .000         &     .000         \\
+Hausman test    &  255.260         &  388.822         &  278.355         &  904.858         & 4101.669         &  976.631         \\
+\hspace*{10mm}p-value&     .000         &     .000         &     .000         &     .000         &     .000         &     .000         \\
 N               &    21388         &    27341         &    13828         &     7068         &    17616         &     9112         \\
+\midrule
+\addlinespace
+Panel B: interaction with labor types &&&&&&\\ 
+\addlinespace
+Agricultural worker&         &         &    -.078\sym{*}  &    -.280         &   -3.577\sym{***}&   -4.473\sym{*}  \\
+                &         &         &   (.044)         &   (.186)         &   (.800)         &  (2.702)         \\
+Self-employed   &         &         &     .028         &    -.144\sym{*}  &   -1.452\sym{**} &   -4.713\sym{***}\\
+                &         &         &   (.043)         &   (.087)         &   (.704)         &  (1.388)         \\
+Self-reported diabetes&         &         &     .105         &     .064         &     .617         &    -.524         \\
+                &         &         &   (.076)         &   (.169)         &  (1.606)         &  (2.252)         \\
+\textit{Interaction terms} &&&&&&\\                
+\hspace*{5mm}Diabetes $\times$ agriculture&         &         &    -.242         &    -.409         &   -5.495\sym{*}  &   -3.535         \\
+                &         &         &   (.188)         &   (.373)         &  (2.833)         & (22.300)         \\
+\hspace*{5mm}Diabetes $\times$ self-employed&         &         &    -.105         &     .125         &     .306         &   -4.149         \\
+                &         &         &   (.192)         &   (.326)         &  (2.503)         &  (4.739)         \\
+\midrule
+Hausman test    &         &         &  280.491         &  912.537         & 4086.461         &  995.171         \\
+\hspace*{10mm}p-value&         &         &     .000         &     .000         &     .000         &     .000         \\
+N               &         &         &    13828         &     7068         &    17616         &     9112         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
@@ -418,54 +436,7 @@ N               &    21388         &    27341         &    13828         &     7
 \end{center}
 \end{table} 
 
-\end{landscape}
 
-
-
-\begin{table}[p]
-\caption{\label{tab:Self-reported-diabetes-interaction}Effect of self-reported diabetes on wages and working hours, by type of work.}
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}
-\begin{threeparttable}
-{
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{4}{SS}}
-\toprule
-                &\multicolumn{2}{c}{Log hourly wage}&\multicolumn{2}{c}{Weekly working hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
-                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
-\midrule
-Agricultural worker&    -.078\sym{*}  &    -.280         &   -3.577\sym{***}&   -4.473\sym{*}  \\
-                &   (.044)         &   (.186)         &   (.800)         &  (2.702)         \\
-Self-employed   &    .028         &    -.144\sym{*}  &   -1.452\sym{**} &   -4.713\sym{***}\\
-                &   (.043)         &   (.087)         &   (.704)         &  (1.388)         \\
-Self-reported diabetes&   .105         &     .064         &     .617         &    -.524         \\
-                &   (.076)         &   (.169)         &  (1.606)         &  (2.252)         \\
-Self-reported diabetes x&&&& \\
- agricultural worker &  -.242         &    -.409         &   -5.495\sym{*}  &   -3.535         \\
-                &   (.188)         &   (.373)         &  (2.833)         & (22.300)         \\
-Self-reported diabetes x &&&&& \\
-self-employed & -.105         &     .125         &     .306         &   -4.149         \\
-                &   (.192)         &   (.326)         &  (2.503)         &  (4.739)         \\
-\midrule
-Hausman test    &  280.491         &  912.537         & 4086.461         &  995.171         \\
-\hspace*{10mm} p-value         &     .000         &     .000         &     .000         &     .000         \\
-N               &    13828         &     7068         &    17616         &     9112         \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}
-\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Reference category: non-agricultural worker or employee. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number of children < 6, wealth, health insurance status, age squared and calender year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
-\end{tablenotes}
-}
-\end{threeparttable}
-\end{adjustbox}
-\end{center}
-\end{table}
-
- 
-
-
-\begin{landscape}
 \begin{table}[p]
 \caption{\label{tab:Self-reported-diabetes-selection_LPM}Relationship between self-reported diabetes and selection into types of work.}
 \begin{center}
@@ -497,7 +468,6 @@ N               &    20719         &    20719         &    20719         &    26
 \end{adjustbox}
 \end{center}
 \end{table}
-\end{landscape}
 
 \subsection{\label{sec:duration}Labor outcomes and time since diagnosis}
 

@@ -19,46 +19,6 @@
 
 \refsection{0}
   \sortlist{entry}{nyt}
-    \entry{Adler2003}{article}{}
-      \name{labelname}{6}{}{%
-        {{hash=ff75bcce54889f6d0a0f3aa67b4eabf6}{Adler}{A\bibinitperiod}{Amanda\bibnamedelima I.}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
-        {{hash=d71b8461fa68c10ea9e7026f3ceaffe1}{Stevens}{S\bibinitperiod}{Richard\bibnamedelima J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=c911725784ab0d99e45a6f1b918bc781}{Manley}{M\bibinitperiod}{Sue\bibnamedelima E.}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=a55282863af4ff1586d0a26ebb7d84c7}{Bilous}{B\bibinitperiod}{Rudy\bibnamedelima W.}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=c9e8b46de2a53780988fab425a7937c1}{Cull}{C\bibinitperiod}{Carole\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c87850a3fd5021bff42516ebb7f093cd}{Holman}{H\bibinitperiod}{Rury\bibnamedelima R.}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{6}{}{%
-        {{hash=ff75bcce54889f6d0a0f3aa67b4eabf6}{Adler}{A\bibinitperiod}{Amanda\bibnamedelima I.}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
-        {{hash=d71b8461fa68c10ea9e7026f3ceaffe1}{Stevens}{S\bibinitperiod}{Richard\bibnamedelima J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=c911725784ab0d99e45a6f1b918bc781}{Manley}{M\bibinitperiod}{Sue\bibnamedelima E.}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-        {{hash=a55282863af4ff1586d0a26ebb7d84c7}{Bilous}{B\bibinitperiod}{Rudy\bibnamedelima W.}{R\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=c9e8b46de2a53780988fab425a7937c1}{Cull}{C\bibinitperiod}{Carole\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c87850a3fd5021bff42516ebb7f093cd}{Holman}{H\bibinitperiod}{Rury\bibnamedelima R.}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{63b4a684bea30bd005b97cdd56fc4081}
-      \strng{fullhash}{ee01a9cce39b9b7a1e1be3ba7c65252d}
-      \field{sortinit}{A}
-      \field{labelyear}{2003}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{Development and progression of nephropathy in type 2 diabetes: The United Kingdom Prospective Diabetes Study (UKPDS 64)}}
-      \field{abstract}{BACKGROUND: The progression of nephropathy from diagnosis of type 2 diabetes has not been well described from a single population. This study sought to describe the development and progression through the stages of microalbuminuria, macroalbuminuria, persistently elevated plasma creatinine or renal replacement therapy (RRT), and death. METHODS: Using observed and modeled data from 5097 subjects in the UK Prospective Diabetes Study, we measured the annual probability of transition from stage to stage (incidence), prevalence, cumulative incidence, ten-year survival, median duration per stage, and risk of death from all-causes or cardiovascular disease. RESULTS: From diagnosis of diabetes, progression to microalbuminuria occurred at 2.0{\%} per year, from microalbuminuria to macroalbuminuria at 2.8{\%} per year, and from macroalbuminuria to elevated plasma creatinine (>or=175 micromol/L) or renal replacement therapy at 2.3{\%} per year. Ten years following diagnosis of diabetes, the prevalence of microalbuminuria was 24.9{\%}, of macroalbuminuria was 5.3{\%}, and of elevated plasma creatinine or RRT was 0.8{\%}. Patients with elevated plasma creatinine or RRT had an annual death rate of 19.2{\%} (95{\%} confidence interval, CI, 14.0 to 24.4{\%}). There was a trend for increasing risk of cardiovascular death with increasing nephropathy (P < 0.0001), with an annual rate of 0.7{\%} for subjects in the stage of no nephropathy, 2.0{\%} for those with microalbuminuria, 3.5{\%} for those with macroalbuminuria, and 12.1{\%} with elevated plasma creatinine or RRT. Individuals with macroalbuminuria were more likely to die in any year than to develop renal failure. CONCLUSIONS: The proportion of patients with type 2 diabetes who develop microalbuminuria is substantial with one quarter affected by 10 years from diagnosis. Relatively fewer patients develop macroalbuminuria, but in those who do, the death rate exceeds the rate of progression to worse nephropathy.}
-      \field{isbn}{0085-2538 (Print)$\backslash$n0085-2538 (Linking)}
-      \field{issn}{00852538}
-      \field{journaltitle}{Kidney International}
-      \field{number}{1}
-      \field{title}{{Development and progression of nephropathy in type 2 diabetes: The United Kingdom Prospective Diabetes Study (UKPDS 64)}}
-      \field{volume}{63}
-      \field{year}{2003}
-      \field{pages}{225\bibrangedash 232}
-      \verb{doi}
-      \verb 10.1046/j.1523-1755.2003.00712.x
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Adler et al. - 2003 - Development and progression of nephropathy in type 2 diabetes The United Kingdom Prospective Diabetes Study (UKPDS.pdf:pdf
-      \endverb
-      \keyw{End-stage renal disease,Insulin,Macroalbuminuria,Microalbuminuria,Nephropathy,Plasma creatinine,Type 2 diabetes}
-    \endentry
     \entry{Alegre-Diaz2016}{article}{}
       \name{labelname}{15}{}{%
         {{hash=2c19871229176a39544626753accee70}{Alegre-Díaz}{A\bibinithyphendelim D\bibinitperiod}{Jesus}{J\bibinitperiod}{}{}{}{}}%
@@ -383,48 +343,44 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Bell, Jones - 2015 - Explaining Fixed Effects Random Effects Modeling of Time-Series Cross-Sectional and Panel Data.pdf:pdf
       \endverb
     \endentry
-    \entry{Bellamy2009}{article}{}
+    \entry{Bello-Chavolla2017a}{article}{}
       \name{labelname}{4}{}{%
-        {{hash=585572d84836b4ef7cee65129f73478d}{Bellamy}{B\bibinitperiod}{Leanne}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=0435d5501c7ad12b97e15517f493e5aa}{Casas}{C\bibinitperiod}{Juan-Pablo}{J\bibinithyphendelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=524cea3cb7a1df6233298316893f89dd}{Hingorani}{H\bibinitperiod}{Aroon\bibnamedelima D}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=d1e72ac43350dd0d17b7cb6776696ca6}{Williams}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a8462762f3cf11973c665078a0e05f0a}{Bello-Chavolla}{B\bibinithyphendelim C\bibinitperiod}{Omar\bibnamedelima Y.}{O\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a5ffc152a7b303a554270450a05aee0b}{Rojas-Martinez}{R\bibinithyphendelim M\bibinitperiod}{Rosalba}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=98f230b48a9b052abf9fb692415f3e1e}{Aguilar-Salinas}{A\bibinithyphendelim S\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=a70acca8af1d33fb7a35aa0116aaef25}{Hernández-Avila}{H\bibinithyphendelim A\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{4}{}{%
-        {{hash=585572d84836b4ef7cee65129f73478d}{Bellamy}{B\bibinitperiod}{Leanne}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=0435d5501c7ad12b97e15517f493e5aa}{Casas}{C\bibinitperiod}{Juan-Pablo}{J\bibinithyphendelim P\bibinitperiod}{}{}{}{}}%
-        {{hash=524cea3cb7a1df6233298316893f89dd}{Hingorani}{H\bibinitperiod}{Aroon\bibnamedelima D}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=d1e72ac43350dd0d17b7cb6776696ca6}{Williams}{W\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a8462762f3cf11973c665078a0e05f0a}{Bello-Chavolla}{B\bibinithyphendelim C\bibinitperiod}{Omar\bibnamedelima Y.}{O\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a5ffc152a7b303a554270450a05aee0b}{Rojas-Martinez}{R\bibinithyphendelim M\bibinitperiod}{Rosalba}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=98f230b48a9b052abf9fb692415f3e1e}{Aguilar-Salinas}{A\bibinithyphendelim S\bibinitperiod}{Carlos\bibnamedelima A.}{C\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=a70acca8af1d33fb7a35aa0116aaef25}{Hernández-Avila}{H\bibinithyphendelim A\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier Ltd}%
-      }
-      \strng{namehash}{a22bddf8d082dd93bad9b273511fcbe2}
-      \strng{fullhash}{f6530ccf145a99e1ac1a29bf7f96e550}
+      \strng{namehash}{d280713d1e2875fe6c883d26610970e0}
+      \strng{fullhash}{d9637fa8784564a05233becbf1455414}
       \field{sortinit}{B}
-      \field{labelyear}{2009}
-      \field{labelmonth}{05}
+      \field{labelyear}{2017}
+      \field{labelmonth}{01}
       \field{datelabelsource}{}
-      \field{labeltitle}{{Type 2 diabetes mellitus after gestational diabetes: a systematic review and meta-analysis}}
-      \field{abstract}{BACKGROUND: Women with gestational diabetes are at increased risk of developing type 2 diabetes, but the risk and time of onset have not been fully quantified. We therefore did a comprehensive systematic review and meta-analysis to assess the strength of association between these conditions and the effect of factors that might modify the risk. METHODS: We identified cohort studies in which women who had developed type 2 diabetes after gestational diabetes were followed up between Jan 1, 1960, and Jan 31, 2009, from Embase and Medline. 205 relevant reports were hand searched. We selected 20 studies that included 675 455 women and 10 859 type 2 diabetic events. We calculated and pooled unadjusted relative risks (RRs) with 95{\%} CIs for each study using a random-effects model. Subgroups analysed were the number of cases of type 2 diabetes, ethnic origin, duration of follow-up, maternal age, body-mass index, and diagnostic criteria. FINDINGS: Women with gestational diabetes had an increased risk of developing type 2 diabetes compared with those who had a normoglycaemic pregnancy (RR 7.43, 95{\%} CI 4.79-11.51). Although the largest study (659 164 women; 9502 cases of type 2 diabetes) had the largest RR (12.6, 95{\%} CI 12.15-13.19), RRs were generally consistent among the subgroups assessed. INTERPRETATION: Increased awareness of the magnitude and timing of the risk of type 2 diabetes after gestational diabetes among patients and clinicians could provide an opportunity to test and use dietary, lifestyle, and pharmacological interventions that might prevent or delay the onset of type 2 diabetes in affected women. FUNDING: None.}
-      \field{issn}{01406736}
-      \field{journaltitle}{The Lancet}
-      \field{month}{05}
-      \field{number}{9677}
-      \field{title}{{Type 2 diabetes mellitus after gestational diabetes: a systematic review and meta-analysis}}
-      \field{volume}{373}
-      \field{year}{2009}
-      \field{pages}{1773\bibrangedash 1779}
+      \field{labeltitle}{{Epidemiology of diabetes mellitus in Mexico}}
+      \field{issn}{0029-6643}
+      \field{journaltitle}{Nutrition Reviews}
+      \field{month}{01}
+      \field{number}{suppl 1}
+      \field{title}{{Epidemiology of diabetes mellitus in Mexico}}
+      \field{volume}{75}
+      \field{year}{2017}
+      \field{pages}{4\bibrangedash 12}
       \verb{doi}
-      \verb 10.1016/S0140-6736(09)60731-5
+      \verb 10.1093/nutrit/nuw030
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Bellamy et al. - 2009 - Type 2 diabetes mellitus after gestational diabetes a systematic review and meta-analysis.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Bello-Chavolla et al. - 2017 - Epidemiology of diabetes mellitus in Mexico(2).pdf:pdf
       \endverb
       \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S0140673609607315
+      \verb http://nutritionreviews.oxfordjournals.org/lookup/doi/10.1093/nutrit/nuw030%20https://academic.oup.com/nutritionreviews/article-lookup/doi/10.1093/nutrit/nuw030
       \endverb
-      \keyw{Adolescent,Adult,Aftercare,Bias (Epidemiology),Cohort Studies,Diabetes,Diabetes Mellitus,Female,Gestational,Gestational: epidemiology,Gestational: etiology,Glucose Tolerance Test,Humans,Maternal Age,Middle Aged,Postnatal Care,Pregnancy,Research Design,Retrospective Studies,Risk Assessment,Risk Factors,Risk Reduction Behavior,Type 2,Type 2: diagnosis,Type 2: epidemiology,Type 2: etiology,Type 2: prevention {\&} control,Young Adult}
+      \keyw{2016,c the author,diabetes mellitus,epidemiology,healthcare system,institute,mexican population,press on behalf of,prevention and control,published by oxford university,s,the international life sciences}
     \endentry
     \entry{Bergemann2011}{article}{}
       \name{labelname}{3}{}{%
@@ -850,46 +806,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Filmer, Pritchett - 2001 - Estimating wealth effects without expenditure data-Or tears An application to educational enrollments in stat.pdf:pdf
       \endverb
     \endentry
-    \entry{Flores-Hernandez2015}{article}{}
-      \name{labelname}{6}{}{%
-        {{hash=35b3b875da926cb60a519a806fbf4592}{Flores-Hernández}{F\bibinithyphendelim H\bibinitperiod}{Sergio}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=80e54ce8751f3fb42b9eb16f7d26e7b4}{Saturno-Hernández}{S\bibinithyphendelim H\bibinitperiod}{Pedro\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7cef821322ef4793ea8ce04508eba278}{Reyes-Morales}{R\bibinithyphendelim M\bibinitperiod}{Hortensia}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=81173ed217022c4045c28dd405b08a87}{Barrientos-Gutiérrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=be3b4431ac98d0aab464884f42958ac9}{Villalpando}{V\bibinitperiod}{Salvador}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{6}{}{%
-        {{hash=35b3b875da926cb60a519a806fbf4592}{Flores-Hernández}{F\bibinithyphendelim H\bibinitperiod}{Sergio}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=80e54ce8751f3fb42b9eb16f7d26e7b4}{Saturno-Hernández}{S\bibinithyphendelim H\bibinitperiod}{Pedro\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7cef821322ef4793ea8ce04508eba278}{Reyes-Morales}{R\bibinithyphendelim M\bibinitperiod}{Hortensia}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=81173ed217022c4045c28dd405b08a87}{Barrientos-Gutiérrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=be3b4431ac98d0aab464884f42958ac9}{Villalpando}{V\bibinitperiod}{Salvador}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{03534f83f9f2d1a92b315675501c9ae9}
-      \strng{fullhash}{ba120aee2c8429cacf9b39ab986274ce}
-      \field{sortinit}{F}
-      \field{labelyear}{2015}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{Quality of Diabetes Care: The Challenges of an Increasing Epidemic in Mexico. Results from Two National Health Surveys (2006 and 2012)}}
-      \field{issn}{1932-6203}
-      \field{journaltitle}{Plos One}
-      \field{number}{7}
-      \field{title}{{Quality of Diabetes Care: The Challenges of an Increasing Epidemic in Mexico. Results from Two National Health Surveys (2006 and 2012)}}
-      \field{volume}{10}
-      \field{year}{2015}
-      \field{pages}{e0133958}
-      \verb{doi}
-      \verb 10.1371/journal.pone.0133958
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/journal.pone.0133958.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://dx.plos.org/10.1371/journal.pone.0133958
-      \endverb
-    \endentry
     \entry{Frankenberg2015}{article}{}
       \name{labelname}{3}{}{%
         {{hash=4bde70c93d230738bd333deea7fbbc6b}{Frankenberg}{F\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
@@ -1041,50 +957,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Gutiérrez-delgado, Guajardo-barrón - 2009 - Advances in Health Economics and Health Services Research.pdf:pdf
       \endverb
     \endentry
-    \entry{Hanson2012}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=96e261996d3b2726d14d8017416634b6}{Hanson}{H\bibinitperiod}{M\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=3f8cd8defc38021fb48f46b36500e53e}{Gluckman}{G\bibinitperiod}{P\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=68b9ff8082a676d9e9a21b1961fa1e4f}{Ma}{M\bibinitperiod}{R\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=de035ec2929f610497453c50ffdb0c24}{Matzen}{M\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=974352fb04a665e41f24c597d96a0818}{Biesma}{B\bibinitperiod}{R\bibnamedelima G}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=96e261996d3b2726d14d8017416634b6}{Hanson}{H\bibinitperiod}{M\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=3f8cd8defc38021fb48f46b36500e53e}{Gluckman}{G\bibinitperiod}{P\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=68b9ff8082a676d9e9a21b1961fa1e4f}{Ma}{M\bibinitperiod}{R\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=de035ec2929f610497453c50ffdb0c24}{Matzen}{M\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=974352fb04a665e41f24c597d96a0818}{Biesma}{B\bibinitperiod}{R\bibnamedelima G}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {BMC Public Health}%
-      }
-      \strng{namehash}{47dcb66d787a481552deaee6b9fb2e94}
-      \strng{fullhash}{e42efc01dd845780ae4464e22853b698}
-      \field{sortinit}{H}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{Early life opportunities for prevention of diabetes in low and middle income countries}}
-      \field{abstract}{BACKGROUND: The global burden of diabetes and other non-communicable diseases is rising dramatically worldwide and is causing a double poor health burden in low- and middle-income countries. Early life influences play an important part in this scenario because maternal lifestyle and conditions such as gestational diabetes and obesity affect the risk of diabetes in the next generation. This indicates important periods during the lifecourse when interventions could have powerful affects in reducing incidence of non-communicable diseases. However, interventions to promote diet and lifestyle in prospective parents before conception have not received sufficient attention, especially in low- and middle-income countries undergoing socio-economic transition. DISCUSSION: Interventions to produce weight loss in adults or to reduce weight gain in pregnancy have had limited success and might be too late to produce the largest effects on the health of the child and his/her later risk of non-communicable diseases. A very important factor in the prevention of the developmental component of diabetes risk is the physiological state in which the parents enter pregnancy. We argue that the most promising strategy to improve prospective parents' body composition and lifestyle is the promotion of health literacy in adolescents. Multiple but integrated forms of community-based interventions that focus on nutrition, physical activity, family planning, breastfeeding and infant feeding practices are needed. They need to address the wider social economic context in which adolescents live and to be linked with existing public health programmes in sexual and reproductive health and maternal and child health initiatives. SUMMARY: Interventions aimed at ensuring a healthy body composition, diet and lifestyle before pregnancy offer a most effective solution in many settings, especially in low- and middle-income countries undergoing socio-economic transition. Preparing a mother, her partner and her future child for "the 1000 days", whether from planned or unplanned conception would break the cycle of risk and demonstrate benefit in the shortest possible time. Such interventions will be particularly important in adolescents and young women in disadvantaged groups and can improve the physiological status of the fetus as well as reduce the prevalence of pregnancy conditions such as gestational diabetes mellitus which both predispose to non-communicables diseases in both the mother and her child. Pre-conception interventions require equipping prospective parents with the necessary knowledge and skills to make healthy lifestyle choices for themselves and their children. Addressing the promotion of such health literacy in parents-to-be in low- and middle-income countries requires a wider social perspective. It requires a range of multisectoral agencies to work together and could be linked to the issues of women's empowerment, to reproductive health, to communicable disease prevention and to the Millennium Development Goals 4 and 5.}
-      \field{isbn}{1471-2458 (Electronic)$\backslash$r1471-2458 (Linking)}
-      \field{issn}{1471-2458}
-      \field{journaltitle}{BMC Public Health}
-      \field{number}{1}
-      \field{title}{{Early life opportunities for prevention of diabetes in low and middle income countries}}
-      \field{volume}{12}
-      \field{year}{2012}
-      \field{pages}{1025}
-      \verb{doi}
-      \verb 10.1186/1471-2458-12-1025
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Hanson et al. - 2012 - Early life opportunities for prevention of diabetes in low and middle income countries.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.biomedcentral.com/content/pdf/1471-2458-12-1025.pdf
-      \endverb
-      \keyw{Adolescent,Developing Countries,Diabetes Mellitus/ prevention {\&} control,Diet,Female,Health Promotion/ methods,Humans,Life Style,Male,Parents/ education,Risk Factors}
-    \endentry
     \entry{Heraclides2012}{article}{}
       \name{labelname}{4}{}{%
         {{hash=a861c3d719d63ffc23b5cb1d99e502cc}{Heraclides}{H\bibinitperiod}{Alexandros\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -1157,7 +1029,7 @@
       \endverb
       \keyw{Adult,Alcohol Drinking,Alcohol Drinking: adverse effects,Asia,Asia: epidemiology,Asian Continental Ancestry Group,Asian Continental Ancestry Group: genetics,Developing Countries,Diabetes Mellitus,Diet,Diet: adverse effects,Dietary Carbohydrates,Dietary Carbohydrates: adverse effects,Exercise,Exercise: physiology,Genetic Association Studies,Genetic Predisposition to Disease,Health Promotion,Humans,Inflammation,Inflammation: complications,Insulin Resistance,Life Style,Motor Activity,Prevalence,Smoking,Smoking: adverse effects,Type 2,Type 2: epidemiology,Type 2: genetics,Type 2: prevention {\&} control}
     \endentry
-    \entry{InternationalDiabetesFederation2013}{book}{}
+    \entry{InternationalDiabetesFederation2015}{book}{}
       \name{labelname}{1}{}{%
         {{hash=7385de445dfbe5dccb8159ecc664779a}{{International\bibnamedelimb Diabetes\bibnamedelimb Federation}}{I\bibinitperiod}{}{}{}{}{}{}}%
       }
@@ -1170,41 +1042,14 @@
       \strng{namehash}{7385de445dfbe5dccb8159ecc664779a}
       \strng{fullhash}{7385de445dfbe5dccb8159ecc664779a}
       \field{sortinit}{I}
-      \field{labelyear}{2014}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{Diabetes Atlas 2014 Update}}
-      \field{edition}{6}
-      \field{title}{{Diabetes Atlas 2014 Update}}
-      \field{year}{2014}
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop//International Diabetes Federation - 2009 - IDF Diabetes Atlas.pdf:pdf
-      \endverb
-    \endentry
-    \entry{InternationalDiabetesFederation2015}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=7385de445dfbe5dccb8159ecc664779a}{{International\bibnamedelimb Diabetes\bibnamedelimb Federation}}{I\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=7385de445dfbe5dccb8159ecc664779a}{{International\bibnamedelimb Diabetes\bibnamedelimb Federation}}{I\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{7385de445dfbe5dccb8159ecc664779a}
-      \strng{fullhash}{7385de445dfbe5dccb8159ecc664779a}
-      \field{sortinit}{I}
       \field{labelyear}{2015}
       \field{datelabelsource}{}
-      \field{labeltitle}{{IDF Diabetes Atlas}}
-      \field{abstract}{IDF Diabetes Atlas – Seventh Edition}
-      \field{booktitle}{International Diabetes Federation}
+      \field{labeltitle}{{Diabetes Atlas}}
       \field{edition}{7}
-      \field{isbn}{9782930229812}
-      \field{issn}{0021-9533}
-      \field{title}{{IDF Diabetes Atlas}}
+      \field{title}{{Diabetes Atlas}}
       \field{year}{2015}
-      \verb{doi}
-      \verb 10.1289/image.ehp.v119.i03
-      \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/International Diabetes Federation - 2015 - IDF Diabetes Atlas.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop//International Diabetes Federation - 2009 - IDF Diabetes Atlas.pdf:pdf
       \endverb
     \endentry
     \entry{Kapteyn2009}{article}{}
@@ -1385,43 +1230,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Liu, Zhu - 2014 - Will knowing diabetes affect labor income Evidence from a natural experiment.pdf:pdf
       \endverb
     \endentry
-    \entry{Meza2015}{article}{}
-      \name{labelname}{7}{}{%
-        {{hash=2a38f2749f0b609e4ac7a8dbb1cc3d5e}{Meza}{M\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=c440ae84af553cab6a8416eca4874d98}{Barrientos-Gutierrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=a5ffc152a7b303a554270450a05aee0b}{Rojas-Martinez}{R\bibinithyphendelim M\bibinitperiod}{Rosalba}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=b235092bafe0a9c7e45bb7fb74e4b00a}{Reynoso-Noverón}{R\bibinithyphendelim N\bibinitperiod}{Nancy}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=b234a418d396382a6805b61f05cb5905}{Palacio-Mejia}{P\bibinithyphendelim M\bibinitperiod}{Lina\bibnamedelima Sofia}{L\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f1ee716136c561102e93d3ea9652f05a}{Lazcano-Ponce}{L\bibinithyphendelim P\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{7}{}{%
-        {{hash=2a38f2749f0b609e4ac7a8dbb1cc3d5e}{Meza}{M\bibinitperiod}{Rafael}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=c440ae84af553cab6a8416eca4874d98}{Barrientos-Gutierrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=a5ffc152a7b303a554270450a05aee0b}{Rojas-Martinez}{R\bibinithyphendelim M\bibinitperiod}{Rosalba}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=b235092bafe0a9c7e45bb7fb74e4b00a}{Reynoso-Noverón}{R\bibinithyphendelim N\bibinitperiod}{Nancy}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=b234a418d396382a6805b61f05cb5905}{Palacio-Mejia}{P\bibinithyphendelim M\bibinitperiod}{Lina\bibnamedelima Sofia}{L\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-        {{hash=f1ee716136c561102e93d3ea9652f05a}{Lazcano-Ponce}{L\bibinithyphendelim P\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{15f1001477b9c94317586a585d9e3b51}
-      \strng{fullhash}{52b3a549a24a1d95b46a9ba6daa012ac}
-      \field{sortinit}{M}
-      \field{labelyear}{2015}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{Burden of type 2 diabetes in Mexico: past, current and future prevalence and incidence rates}}
-      \field{issn}{00917435}
-      \field{journaltitle}{Preventive Medicine}
-      \field{title}{{Burden of type 2 diabetes in Mexico: past, current and future prevalence and incidence rates}}
-      \field{year}{2015}
-      \verb{doi}
-      \verb 10.1016/j.ypmed.2015.10.015
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Meza et al. - 2015 - Burden of type 2 diabetes in Mexico past, current and future prevalence and incidence rates.pdf:pdf
-      \endverb
-      \keyw{diabetes incidence and prevalence,diabetes projections,markov simulation models}
-    \endentry
     \entry{Minor2011}{article}{}
       \name{labelname}{1}{}{%
         {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
@@ -1429,8 +1237,11 @@
       \name{author}{1}{}{%
         {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
       }
+      \list{location}{1}{%
+        {P.C. Langley, University of Minnesota, Minneapolis, MN, United States}%
+      }
       \list{publisher}{1}{%
-        {Wiley Online Library}%
+        {Elsevier Ltd}%
       }
       \strng{namehash}{66a6d7c669e47575f8c2fc182053aff3}
       \strng{fullhash}{66a6d7c669e47575f8c2fc182053aff3}
@@ -1440,12 +1251,12 @@
       \field{datelabelsource}{}
       \field{labeltitle}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
       \field{abstract}{This paper estimates the effect of diabetes on labor-force participation, hours worked, days-out-of-work due to illness, and earnings using data from the National Health Interview Survey. Findings indicate that diabetes, estimated wholly, is significantly detrimental to most labor market outcomes. However, separation of type I and II diabetes shows that much of the negative effect is due to type II diabetes. On average a female with type II diabetes can experience a wage penalty of almost 50{\%} relative to a healthy individual. Additionally, estimates of specifically type II diabetes may be subject to endogeneity bias. To account for this, I utilize whether an individual's biological mother has been diagnosed with diabetes as an instrumental variable. This instrument provides both theoretical and statistical explanatory power to separate the causal effect of type II diabetes on labor-force decisions.}
-      \field{annotation}{From Duplicate 2 ( The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey. - Minor, Travis ) From Duplicate 4 ( Economic Burden of Diabetes and Hypertension in CARICOM States - Abdulkadri, Abdullahi O; Cunningham-Myrie, Colette; Forrester, Terrence ) Accession Number: 1153843 Alternate Accession Number: EP50409710; Keywords: Diabetes; Disease; GDP; Geographic Descriptors: CARICOM; Geographic Region: Latin America and the Caribbean; Publication Type: Journal Article; Update Code: 201102; Copyright: Copyright of Social {\&} Economic Studies is the property of University of the West Indies - Mona and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - Center for Economic Analysis, U West Indies, Mona,AD - Tropical Medicine Research Institute, U West Indies, Mona,AD - Tropical Medicine Research Institute, U West Indies, Mona From Duplicate 5 ( Unemployment and retirement and ill-health: a cross-sectional analysis across European countries - Alavinia, Seyed Mohammad; Burdorf, Alex ) Datum Revision - 2011-05-01 Sprache der Zusammenfassung - English Seiten - 39-45 ProQuest ID - 293883221 Zuletzt aktualisiert - 2011-11-07 Autor einer Körperschaft/Organisation - Alavinia, Seyed Mohammad; Burdorf, Alex DOI - OB-MD-0008408849; 8516861; 0340-0131; 1432-1246 From Duplicate 6 ( The Impact of User Fees on Health Costs and Health Burdens in Jamaica: The Cases of Diabetes and Hypertension - Alleyne, Dillon ) Accession Number: 1153851 Alternate Accession Number: EP53448537; Keywords: Developing Countries; Diabetes; Disease; Health; Health Care; Poor; Geographic Descriptors: Jamaica; Geographic Region: Latin America and the Caribbean; Publication Type: Journal Article; Update Code: 201102; Copyright: Copyright of Social {\&} Economic Studies is the property of University of the West Indies - Mona and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - U West Indies, Mona From Duplicate 9 ( The economic consequences of diabetes and cardiovascular disease in the United States - Ariza, Miguel A; Vimalananda, Varsha G; Rosenzweig, James L ) From Duplicate 2 ( The economic consequences of diabetes and cardiovascular disease in the United States - Ariza, Miguel A; Vimalananda, Varsha G; Rosenzweig, James L ) From Duplicate 15 ( Comparing the national economic burden of five chronic conditions - B.G., Druss; S.C., Marcus; M., Olfson; T., Tanielian; L., Elinson; H.A., Pincus ) And Duplicate 16 ( Comparing the national economic burden of five chronic conditions - B.G., Druss; S.C., Marcus; M., Olfson; T., Tanielian; L., Elinson; H.A., Pincus ) And Duplicate 17 ( Comparing the national economic burden of five chronic conditions - B.G., Druss; S.C., Marcus; M., Olfson; T., Tanielian; L., Elinson; H.A., Pincus ) And Duplicate 18 ( Comparing the national economic burden of five chronic conditions - B.G., Druss; S.C., Marcus; M., Olfson; T., Tanielian; L., Elinson; H.A., Pincus ) And Duplicate 19 ( An economic model of the long-term health care burden of Type II diabetes - Bagust, A; Hopkinson, P K; Maier, W; Currie, C J ) And Duplicate 21 ( The cost of diabetes in Latin America and the Caribbean - Barceló, Alberto; Aedo, Cristian; Rajpathak, Swapnil; Robles, Sylvia ) And Duplicate 22 ( The cost of diabetes in Latin America and the Caribbean - Barceló, Alberto; Aedo, Cristian; Rajpathak, Swapnil; Robles, Sylvia ) And Duplicate 23 ( The cost of diabetes in Latin America and the Caribbean - Barceló, Alberto; Aedo, Cristian; Rajpathak, Swapnil; Robles, Sylvia ) And Duplicate 24 ( The cost of diabetes in Latin America and the Caribbean - Barceló, Alberto; Aedo, Cristian; Rajpathak, Swapnil; Robles, Sylvia ) And Duplicate 25 ( The cost of diabetes in Latin America and the Caribbean - Barceló, Alberto; Aedo, Cristian; Rajpathak, Swapnil; Robles, Sylvia ) And Duplicate 26 ( The impact of diabetes on adult employment and earnings of Mexican Americans: findings from a community based study - Bastida, Elena; Pagán, José A ) And Duplicate 27 ( The impact of diabetes on adult employment and earnings of Mexican Americans: findings from a community based study - Bastida, Elena; Pagán, José A ) And Duplicate 28 ( The impact of diabetes on adult employment and earnings of Mexican Americans: findings from a community based study - Bastida, Elena; Pagán, José A ) And Duplicate 29 ( The impact of diabetes on adult employment and earnings of Mexican Americans: findings from a community based study - Bastida, Elena; Pagán, José A ) And Duplicate 30 ( The impact of diabetes on adult employment and earnings of Mexican Americans: findings from a community based study - Bastida, Elena; Pagán, José A ) And Duplicate 36 ( [Assessment of diabetes mellitus type 2 treatment costs in the Republic of Serbia] - Biorac, Nenad; Jakovljević, Mihajlo; Stefanović, Danka; Perović, Sasa; Janković, Slobodan ) And Duplicate 37 ( [Assessment of diabetes mellitus type 2 treatment costs in the Republic of Serbia] - Biorac, Nenad; Jakovljević, Mihajlo; Stefanović, Danka; Perović, Sasa; Janković, Slobodan ) And Duplicate 38 ( [Assessment of diabetes mellitus type 2 treatment costs in the Republic of Serbia] - Biorac, Nenad; Jakovljević, Mihajlo; Stefanović, Danka; Perović, Sasa; Janković, Slobodan ) And Duplicate 39 ( [Assessment of diabetes mellitus type 2 treatment costs in the Republic of Serbia] - Biorac, Nenad; Jakovljević, Mihajlo; Stefanović, Danka; Perović, Sasa; Janković, Slobodan ) And Duplicate 40 ( Lifetime medical costs for women: cardiovascular disease, diabetes, and stress urinary incontinence - Birnbaum, Howard; Leong, Stephanie; Kabra, Aayush ) And Duplicate 41 ( Lifetime medical costs for women: cardiovascular disease, diabetes, and stress urinary incontinence - Birnbaum, Howard; Leong, Stephanie; Kabra, Aayush ) And Duplicate 42 ( Lifetime medical costs for women: cardiovascular disease, diabetes, and stress urinary incontinence - Birnbaum, Howard; Leong, Stephanie; Kabra, Aayush ) And Duplicate 43 ( Lifetime medical costs for women: cardiovascular disease, diabetes, and stress urinary incontinence - Birnbaum, Howard; Leong, Stephanie; Kabra, Aayush ) And Duplicate 44 ( The burden of type 2 diabetes in Serbia and the cost-effectiveness of its management - Bjegovic, Vesna; Terzic, Zorica; Marinkovic, Jelena; Lalic, Nebojsa; Sipetic, Sandra; Laaser, Ulrich ) And Duplicate 45 ( The burden of type 2 diabetes in Serbia and the cost-effectiveness of its management - Bjegovic, Vesna; Terzic, Zorica; Marinkovic, Jelena; Lalic, Nebojsa; Sipetic, Sandra; Laaser, Ulrich ) And Duplicate 46 ( The burden of type 2 diabetes in Serbia and the cost-effectiveness of its management - Bjegovic, Vesna; Terzic, Zorica; Marinkovic, Jelena; Lalic, Nebojsa; Sipetic, Sandra; Laaser, Ulrich ) And Duplicate 47 ( The burden of type 2 diabetes in Serbia and the cost-effectiveness of its management - Bjegovic, Vesna; Terzic, Zorica; Marinkovic, Jelena; Lalic, Nebojsa; Sipetic, Sandra; Laaser, Ulrich ) And Duplicate 48 ( The burden of type 2 diabetes in Serbia and the cost-effectiveness of its management - Bjegovic, Vesna; Terzic, Zorica; Marinkovic, Jelena; Lalic, Nebojsa; Sipetic, Sandra; Laaser, Ulrich ) And Duplicate 49 ( Diabetes, healthcare cost and loss of productivity in Sweden 1987 and 2005--a register-based approach - Bolin, K; Gip, C; Mörk, A-C; Lindgren, B ) And Duplicate 50 ( Diabetes, healthcare cost and loss of productivity in Sweden 1987 and 2005--a register-based approach - Bolin, K; Gip, C; Mörk, A-C; Lindgren, B ) And Duplicate 51 ( Diabetes, healthcare cost and loss of productivity in Sweden 1987 and 2005--a register-based approach - Bolin, K; Gip, C; Mörk, A-C; Lindgren, B ) And Duplicate 52 ( Diabetes, healthcare cost and loss of productivity in Sweden 1987 and 2005--a register-based approach - Bolin, K; Gip, C; Mörk, A-C; Lindgren, B ) And Duplicate 53 ( Diabetes, healthcare cost and loss of productivity in Sweden 1987 and 2005--a register-based approach - Bolin, K; Gip, C; Mörk, A-C; Lindgren, B ) And Duplicate 54 ( Estimating the burden of disease attributable to diabetes in South Africa in 2000 - Bradshaw, Debbie; Norman, Rosana; Pieterse, Desiréé; Levitt, Naomi S ) And Duplicate 55 ( The direct medical cost of type 2 diabetes - Brandle, Michael; Zhou, Honghong; Smith, Barbara R K; Marriott, Deanna; Burke, Ray; Tabaei, Bahman P; Brown, Morton B; Herman, William H ) And Duplicate 56 ( The direct medical cost of type 2 diabetes - Brandle, Michael; Zhou, Honghong; Smith, Barbara R K; Marriott, Deanna; Burke, Ray; Tabaei, Bahman P; Brown, Morton B; Herman, William H ) And Duplicate 57 ( The direct medical cost of type 2 diabetes - Brandle, Michael; Zhou, Honghong; Smith, Barbara R K; Marriott, Deanna; Burke, Ray; Tabaei, Bahman P; Brown, Morton B; Herman, William H ) And Duplicate 58 ( The direct medical cost of type 2 diabetes - Brandle, Michael; Zhou, Honghong; Smith, Barbara R K; Marriott, Deanna; Burke, Ray; Tabaei, Bahman P; Brown, Morton B; Herman, William H ) And Duplicate 62 ( Medical care costs for diabetes associated with health disparities among adult Medicaid enrollees in North Carolina - Buescher, Paul A; Whitmire, J Timothy; Pullen-Smith, Barbara ) And Duplicate 64 ( Health care costs of persons with diabetes prior to and following hospitalization in Argentina - Caporale, Joaquín E; Calvo, Héctor; Gagliardino, Juan J ) And Duplicate 65 ( Economics of diabetes-cost impact of not treating diabetes early and intensively - Cefalu, William ) And Duplicate 66 ( Cost of Type 2 Diabetes mellitus in Hong Kong Chinese - Chan, B S W; Tsang, M W; Lee, V W Y; Lee, K K C ) And Duplicate 70 ( The prevalence of chronic conditions and medical expenditures of the elderly by chronic condition indicator (CCI) - Chi, Mei-ju; Lee, Cheng-yi; Wu, Shwu-chong ) And Duplicate 71 ( Medicare-related service use and costs among people with diagnosed and undiagnosed diabetes and respiratory conditions - Chittleborough, Catherine R; Burke, Michael J; Taylor, Anne W; Wilson, David H; Phillips, Patrick J; Adams, Robert J; Ruffin, Richard E; C.R., Chittleborough; M.J., Burke; A.W., Taylor; D.H., Wilson; P.J., Phillips; R.J., Adams; R.E., Ruffin ) And Duplicate 74 ( What's it worth? Public willingness to pay to avoid mental illnesses compared with general medical illnesses - D.M., Smith; L.J., Damschroder; S.Y.H., Kim; P.A., Ubel ) And Duplicate 75 ( The economic burden of diabetes - Dall, Timothy M; Zhang, Yiduo; Chen, Yaozhu J; Quick, William W; Yang, Wenya G; Fogli, Jeanene ) And Duplicate 76 ( The obesity-driven rising costs of type 2 diabetes in Australia: projections from the Fremantle Diabetes Study - Davis, W A; Knuiman, M W; Hendrie, D; Davis, T M E ) And Duplicate 77 ( The economic cost of diabetes in Canada, 1998. - Dawson, Keith G; Gomes, Daniel; Gerstein, Hertzel; Blanchard, James F; Kahler, Kristijan H ) And Duplicate 79 ( Impact of diabetes on work cessation: Data from the GAZEL cohort study - E., Herquelot; A., Gueguen; S., Bonenfant; R., Dray-Spira ) And Duplicate 81 ( The burden of illness of hypertension and comorbid diabetes - Eaddy, Michael T; Shah, Manan; Lunacsek, Orsolya; Stanford, Richard H ) And Duplicate 85 ( Diabetes's 'health shock' to schooling and earnings: increased dropout rates and lower wages and employment in young adults - Fletcher, Jason M; Richards, Michael R ) And Duplicate 87 ( Total and component health care costs in a non-Medicare HMO population of patients with and without type 2 diabetes and with and without macrovascular disease - Gandra, Shravanthi R; Lawrence, Lesa W; Parasuraman, Bhash M; Darin, Robert M; Sherman, Justin J; Wall, Jerry L ) And Duplicate 89 ( Predictors of health care costs in adults with diabetes - Gilmer, Todd P; O'Connor, Patrick J; Rush, William A; Crain, A Lauren; Whitebird, Robin R; Hanson, Ann M; Solberg, Leif I ) And Duplicate 90 ( [Cost of diabetes mellitus in Spain] - González, Paloma; Faure, Eduardo; Del Castillo, Almudena ) And Duplicate 91 ( Cost of ambulatory care of diabetes mellitus: a study from north India - Grover, S; Avasthi, A; Bhansali, A; Chakrabarti, S; Kulhara, P ) And Duplicate 92 ( Cost of ambulatory care of diabetes mellitus: a study from north India - Grover, S; Avasthi, A; Bhansali, A; Chakrabarti, S; Kulhara, P ) And Duplicate 93 ( Cost of ambulatory care of diabetes mellitus: a study from north India - Grover, S; Avasthi, A; Bhansali, A; Chakrabarti, S; Kulhara, P ) And Duplicate 94 ( Cost of ambulatory care of diabetes mellitus: a study from north India - Grover, S; Avasthi, A; Bhansali, A; Chakrabarti, S; Kulhara, P ) And Duplicate 96 ( The costs of diabetes mellitus and its complications in Germany - H., Hauner ) And Duplicate 97 ( The costs of diabetes mellitus and its complications in Germany - H., Hauner ) And Duplicate 98 ( The costs of diabetes mellitus and its complications in Germany - H., Hauner ) And Duplicate 99 ( The costs of diabetes mellitus and its complications in Germany - H., Hauner ) And Duplicate 100 ( The costs of diabetes mellitus and its complications in Germany - H., Hauner ) And Duplicate 101 ( Lapses in Medicaid coverage: impact on cost and utilization among individuals with diabetes enrolled in Medicaid - Hall, Allyson G; Harman, Jeffrey S; Zhang, Jianyi ) And Duplicate 103 ( [Epidemiology and costs of diabetes mellitus in Germany] - Hauner, H ) And Duplicate 104 ( [Epidemiology and costs of diabetes mellitus in Germany] - Hauner, H ) And Duplicate 105 ( [Epidemiology and costs of diabetes mellitus in Germany] - Hauner, H ) And Duplicate 106 ( [Epidemiology and costs of diabetes mellitus in Germany] - Hauner, H ) And Duplicate 107 ( Economic costs of diabetes in the US in 2002 - Hogan, Paul; Dall, Tim; Nikolov, Plamen ) And Duplicate 109 ( Economic costs of diabetes in the US in 2002 - Hogan, Paul; Dall, Tim; Nikolov, Plamen ) And Duplicate 110 ( Economic costs of diabetes in the US in 2002 - Hogan, Paul; Dall, Tim; Nikolov, Plamen ) And Duplicate 111 ( Economic costs of diabetes in the US in 2002 - Hogan, Paul; Dall, Tim; Nikolov, Plamen ) And Duplicate 112 ( Do people with type 2 diabetes and their carers lose income? (T2ARDIS-4) - Holmes, Jeremy; Gear, Elena; Bottomley, Julia; Gillam, Stephen; Murphy, Moira; Williams, Rhys ) And Duplicate 113 ( Do people with type 2 diabetes and their carers lose income? (T2ARDIS-4) - Holmes, Jeremy; Gear, Elena; Bottomley, Julia; Gillam, Stephen; Murphy, Moira; Williams, Rhys ) And Duplicate 114 ( Do people with type 2 diabetes and their carers lose income? (T2ARDIS-4) - Holmes, Jeremy; Gear, Elena; Bottomley, Julia; Gillam, Stephen; Murphy, Moira; Williams, Rhys ) And Duplicate 115 ( Do people with type 2 diabetes and their carers lose income? (T2ARDIS-4) - Holmes, Jeremy; Gear, Elena; Bottomley, Julia; Gillam, Stephen; Murphy, Moira; Williams, Rhys ) And Duplicate 116 ( Do people with type 2 diabetes and their carers lose income? (T2ARDIS-4) - Holmes, Jeremy; Gear, Elena; Bottomley, Julia; Gillam, Stephen; Murphy, Moira; Williams, Rhys ) And Duplicate 118 ( Projecting the future diabetes population size and related costs for the U.S - Huang, Elbert S; Basu, Anirban; O'Grady, Michael; Capretta, James C ) And Duplicate 119 ( Projecting the future diabetes population size and related costs for the U.S - Huang, Elbert S; Basu, Anirban; O'Grady, Michael; Capretta, James C ) And Duplicate 120 ( Projecting the future diabetes population size and related costs for the U.S - Huang, Elbert S; Basu, Anirban; O'Grady, Michael; Capretta, James C ) And Duplicate 121 ( Projecting the future diabetes population size and related costs for the U.S - Huang, Elbert S; Basu, Anirban; O'Grady, Michael; Capretta, James C ) And Duplicate 122 ( Pharmacoeconomic evaluation of anti-diabetic therapy in a Nigerian tertiary health institution - I.A., Suleiman; O.F., Fadeke; O.O., Okubanjo ) And Duplicate 123 ( Pharmacoeconomic evaluation of anti-diabetic therapy in a Nigerian tertiary health institution - I.A., Suleiman; O.F., Fadeke; O.O., Okubanjo ) And Duplicate 124 ( Pharmacoeconomic evaluation of anti-diabetic therapy in a Nigerian tertiary health institution - I.A., Suleiman; O.F., Fadeke; O.O., Okubanjo ) And Duplicate 126 ( Relationships b}
       \field{isbn}{1098-3015}
       \field{issn}{10579230}
       \field{journaltitle}{Health Economics}
       \field{month}{12}
       \field{number}{12}
+      \field{series}{15th Annual International Meeting of the International Society for Pharmacoeconomics and Outcomes Research, ISPOR 2010 Atlanta, GA United States. Conference Start: 20100515 Conference End: 20100519}
       \field{title}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
       \field{volume}{20}
       \field{year}{2011}
@@ -1456,10 +1267,7 @@
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Minor - 2011 - The effect of diabetes on female labor force decisions new evidence from the National Health Interview Survey.pdf:pdf
       \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1002/hec.1685
-      \endverb
-      \keyw{Algorithms,Diabetes Mellitus,Employment,Employment: statistics {\&} numerical data,Female,Health Surveys,Health Surveys: instrumentation,Humans,Interviews as Topic,Salaries and Fringe Benefits,Salaries and Fringe Benefits: statistics {\&} numeric,Sick Leave,Sick Leave: statistics {\&} numerical data,Type 1,Type 2}
+      \keyw{Algorithms,Diabetes Mellitus,Employment,Employment: statistics {\&} numerical data,Female,Health Surveys,Health Surveys: instrumentation,Humans,IBSS,Interviews as Topic,Salaries and Fringe Benefits,Salaries and Fringe Benefits: statistics {\&} numeric,Sick Leave,Sick Leave: statistics {\&} numerical data,Type 1,Type 2,download,duplicates,econlit,embase,excludestudy,inclusion,inpatient,look up at least,methodology,newsearch,noaccess,oldsearch,pubmed,relevant,retrieve,wtp}
     \endentry
     \entry{Minor2013}{article}{}
       \name{labelname}{1}{}{%
@@ -2512,23 +2320,6 @@
       \endverb
       \keyw{African Continental Ancestry Group,African Continental Ancestry Group: genetics,Alleles,Animals,Asian Continental Ancestry Group,Asian Continental Ancestry Group: genetics,Cohort Studies,Diabetes Mellitus,Endoplasmic Reticulum,Endoplasmic Reticulum: genetics,European Continental Ancestry Group,European Continental Ancestry Group: genetics,Female,Genetic Predisposition to Disease,Genetic Predisposition to Disease: genetics,Genome-Wide Association Study,Haplotypes,Haplotypes: genetics,HeLa Cells,Humans,Indians,Lipid Metabolism,Lipid Metabolism: genetics,Liver,Liver: cytology,Liver: metabolism,Male,Messenger,Messenger: genetics,Messenger: metabolism,Mexico,Monocarboxylic Acid Transporters,Monocarboxylic Acid Transporters: genetics,Neanderthals,Neanderthals: genetics,North American,North American: genetics,Polymorphism,RNA,Single Nucleotide,Single Nucleotide: genetics,Triglycerides,Triglycerides: metabolism,Type 2,Type 2: genetics}
     \endentry
-    \entry{WHO}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=5d292a222024f1b13e98a059c94a9b75}{{World\bibnamedelimb Health\bibnamedelimb Organization}}{W\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5d292a222024f1b13e98a059c94a9b75}{{World\bibnamedelimb Health\bibnamedelimb Organization}}{W\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
-      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
-      \field{sortinit}{W}
-      \field{labelyear}{nodate}
-      \field{labeltitle}{{Global database on body mass index}}
-      \field{title}{{Global database on body mass index}}
-      \verb{url}
-      \verb http://apps.who.int/bmi/index.jsp
-      \endverb
-    \endentry
     \entry{WorldHealthOrganization2011}{article}{}
       \name{labelname}{1}{}{%
         {{hash=5d292a222024f1b13e98a059c94a9b75}{{World\bibnamedelimb Health\bibnamedelimb Organization}}{W\bibinitperiod}{}{}{}{}{}{}}%
@@ -2693,6 +2484,8 @@
       \keyw{80 and over,Adolescent,Adult,Aged,China,Diet,Diet: statistics {\&} numerical data,Dietary Fats,Dietary Fats: administration {\&} dosage,Educational Status,Female,Health Behavior,Health information,Humans,Hypertension,Hypertension: diagnosis,Income,Income: statistics {\&} numerical data,Life Style,Longitudinal Studies,Male,Middle Aged,Regression discontinuity,Young Adult}
     \endentry
   \endsortlist
+  \missing{Hanson2012}
+  \missing{Flores-Hernandez2015}
 \endrefsection
 \endinput
 
