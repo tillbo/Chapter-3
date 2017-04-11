@@ -382,7 +382,7 @@ The results in Columns 3--6 of Table \ref{tab:Self-reported-diabetes-and} show n
 
 In summary, we find no evidence for an association between diabetes and wages or working hours. One possible explanation is selection bias, with those with 'mild' or asymptomatic diabetes being more likely to maintain their productivity. Only once complications become increasingly severe would they switch activity (or drop out of the labor market), without going through a notable phase of reduced productivity and labor supply.
 
-To assess whether diabetes affects the selection into different types of work we estimate \ac{FE} models of the probability of being in non-agricultural wage employment, agricultural employment or self-employment, respectively. The results in Table \ref{tab:Self-reported-diabetes-selection_LPM} only indicate statistically significant effects on the probabilities of females to work in agriculture, possibly due to the higher physical requirements.\footnote{We prefer this model to a multinomial logit because it allows full control of fixed effects, and it produces results that are straight forward to interpret. As a robustness check we also estimated a multinomial logit model that includes means of time-varying covariates to proxy for fixed effects (see \textcite{Mundlak1978,Bell2015}) \parencite{Bell2015}. The results turn out very similar, both in size and statistical significance.}
+To assess whether diabetes affects the selection into different types of work, we estimate \ac{FE} models of the probability of being in non-agricultural wage employment, agricultural employment or self-employment, respectively. The results in Table \ref{tab:Self-reported-diabetes-selection_LPM} only indicate statistically significant effects on the probabilities of females to work in agriculture, possibly due to the higher physical requirements.\footnote{We prefer this model to a multinomial logit because it allows full control of fixed effects, and it produces results that are straight forward to interpret. As a robustness check we also estimated a multinomial logit model that includes means of time-varying covariates to proxy for fixed effects (see \textcite{Mundlak1978,Bell2015}) \parencite{Bell2015}. The results turn out very similar, both in size and statistical significance.}
 
 
 \begin{table}[p]
@@ -438,7 +438,7 @@ N               &         &         &    13828         &     7068         &    1
 
 
 \begin{table}[p]
-\caption{\label{tab:Self-reported-diabetes-selection_LPM}Relationship between self-reported diabetes and selection into types of work.}
+\caption{\label{tab:Self-reported-diabetes-selection_LPM}Selection into types of work and self-reported diabetes}
 \begin{center}
 %\resizebox{\linewidth}{!}{%
 \begin{adjustbox}{max width=\linewidth}
@@ -471,28 +471,27 @@ N               &    20719         &    20719         &    20719         &    26
 
 \subsection{\label{sec:duration}Labor outcomes and time since diagnosis}
 
-Because diabetes is a chronic and generally life-long disease, we investigate how soon after the first diagnosis diabetes affects labor outcomes. Given that complications of diabetes develop over time, the effect may increase linearly as the years go by. Non-linear relationships are also plausible: health problems that have led to the diagnosis, as well as psychological effects after the diagnosis may affect labor outcomes immediately after having been diagnosed with diabetes. Similarly, management of the disease may be successful only after some initial period. It is also possible that complications only appear after some time, reducing health, labor supply and productivity years after the initial diagnosis.
+Given the chronic (and life-long) nature of diabetes, we investigate how soon after the first diagnosis it impacts labor outcomes. Over time, ever more severe complications develop if diabetes remains poorly treated, and the economic effects may therefore increase as time passes. These effects may also vary over time as problems that have led to the diagnosis, as well as psychological effects related to the diagnosis may have stronger impacts immediately post diagnosis. Similarly, management of the disease may cause complications to only appear after a number of years, reducing health, labor supply and productivity years after the initial diagnosis.
 
 
-To obtain an initial idea of the relationship between our outcome variables and diabetes duration we use a non-parametric kernel-weighted local polynomial regression. As Figure \ref{fig:Kernel-weighted-local-polynomial_comb} shows, the probability of employment for men shows a more or less steady decline that becomes more pronounced as time progresses. For women,
-a first drop-off occurs right after diagnosis; thereafter no consistent pattern is observed.\footnote{Since long run estimations suffer from large standard errors---as the sample size is strongly reduced---this limits its interpretation and we therefore truncate the graphs at a disease duration of 24 years.} A similar analysis for wages (Figure \ref{fig:Kernel-weighted-local-polynomial_comb}) shows a somewhat more erratic relationships, with a possibly long term negative trend for women but not for men. A similar trend is observed for working hours (Figure \ref{fig:Kernel-weighted-local-polynomial_comb}).
+Using non-parametric kernel-weighted local polynomial regression, Figure \ref{fig:Kernel-weighted-local-polynomial_comb} shows that the probability of employment for men shows a more or less steady decline that becomes more pronounced as time progresses. For women,
+a first drop-off occurs right after diagnosis; thereafter no consistent pattern is observed.\footnote{Since long run estimations suffer from large standard errors---as the sample size is strongly reduced---this limits its interpretation and we therefore truncate the graphs at a disease duration of 24 years.} A similar analysis for wages shows somewhat less clear dynamics, with a possibly long term negative trend for women but not for men. An analogous picture is obtained for working hours.
 
 \begin{figure}[h!]
-\caption{\label{fig:Kernel-weighted-local-polynomial_comb}Kernel-weighted local
-polynomial regression of employment, wages and working hours on diabetes duration.}%
+\caption{\label{fig:Kernel-weighted-local-polynomial_comb}Employment, wages, working hours and years since self reported diabetes:  Kernel-weighted local polynomial regression}%
 \begin{center}
 \includegraphics[width=\linewidth]{figures/lpoly_combined.eps}\\
 \footnotesize{\textit{Notes} The dashed lines show 95\% confidence interval.}
 \end{center}
 \end{figure}
 
-The results in Table \ref{tab:Self-reported-diabetes-duration_employ} panel A for estimating Eq. \ref{eq:duration_linear}, show that male employment probabilities fall every year in all models, with the biggest effects being observed in the \ac{FE} model. For women, the coefficient shows a reduction of close to 1 percentage point per year in the \ac{FE} model, though its statistical significance is lower than in the \ac{OLS} models. 
+Table \ref{tab:Self-reported-diabetes-duration_employ} panel A shows the results of estimating Eq. \ref{eq:duration_linear}, which indicate that male employment probabilities fall every year , with the biggest effects being observed in the \ac{FE} model. For women, the coefficient shows a reduction of close to 1 percentage point per year in the \ac{FE} model, though its statistical significance is lower than in the \ac{OLS} models. 
 
 \begin{table}[!ht]
 \caption{\label{tab:Self-reported-diabetes-duration_employ}Relationship between self-reported years since diagnosis and employment probabilities using continuous duration and duration splines.}
 \begin{center}
 %\resizebox{\linewidth}{!}{%
-\begin{adjustbox}{max width=\linewidth}
+\begin{adjustbox}{max width=0.8\linewidth}
 \begin{threeparttable}
 
 {
@@ -505,18 +504,17 @@ S}}
                   &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}\\
                                 &\multicolumn{1}{c}{(Wave 3)}&\multicolumn{1}{c}{(Pooled)}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{(Wave 3)}&\multicolumn{1}{c}{(Pooled)}&\multicolumn{1}{c}{}\\
 \midrule
-\addlinespace
-Panel A: linear &&&&&&\\
-Diabetes duration &   -.008\sym{***}&    -.007\sym{***}&    -.017\sym{***}&    -.005\sym{***}&    -.004\sym{***}&    -.009\sym{*}  \\
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Employment status}} \\
+\textit{\textbf{Panel A: linear}} &&&&&&\\
+Years since SR diagnosis  &   -.008\sym{***}&    -.007\sym{***}&    -.017\sym{***}&    -.005\sym{***}&    -.004\sym{***}&    -.009\sym{*}  \\
                 &   (.002)         &   (.002)         &   (.006)         &   (.002)         &   (.001)         &   (.005)         \\
                 
 \midrule
                 Hausman test    &                  &                  &  153.024         &                  &                  &  200.073         \\
                 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 \midrule
-\addlinespace
-Panel B: splines&&&&&&\\
-Diabetes duration &&&&&&\\
+\textit{\textbf{Panel B: splines}}&&&&&&\\
+Years since SR diagnosis  &&&&&&\\
 \hspace*{10mm}0--4&    -.007         &    -.007         &    -.026\sym{*}  &    -.010         &    -.015\sym{**} &    -.017         \\
                 &   (.007)         &   (.006)         &   (.014)         &   (.007)         &   (.006)         &   (.016)         \\
 \hspace*{10mm}5--11&     .000         &    -.003         &    -.003         &    -.004         &     .004         &    -.003         \\
@@ -528,49 +526,18 @@ Diabetes duration &&&&&&\\
 \midrule
 Hausman test    &                  &                  &  161.953         &                  &                  &  198.692         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-N               &     8217         &    16292         &    16292         &    10467         &    22407         &    22407         \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}
-\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6, wealth, age squared and calendar year dummies. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
-\end{tablenotes}
-}
-\end{threeparttable}
-\end{adjustbox}
-\end{center}
-\end{table}
-
-Panel B of Table \ref{tab:Self-reported-diabetes-duration_employ} shows the estimates when using a spline function as in Eq. \ref{eq:splines}. Focusing on the \ac{FE} results, the coefficients provide some evidence for an immediate effect of diabetes, which then levels off for some time after which it becomes stronger again. However, standard errors are quite large.
-
-The results in Table \ref{tab:Self-reported-diabetes-duration_wage}, indicate a reduction in female wages of about 7\% per year after diagnosis in the \ac{FE} model. For men we find no consistent effect. The results of the non-linear specification in panel B of Table \ref{tab:Self-reported-diabetes-duration_wage} indicate that there may be a reduction in wages 5--11 years after the initial diagnosis for both men and women. We also find associations for women with more than 20 years of diabetes, but these estimates may be spurious due to the considerably reduced number of observations in this group.\footnote{There are only 9 and 3 observations for male and female wages with more than 20 years since diagnosis in wave 3, respectively, and 17 and 7 in the pooled sample, respectively. For male and female working hours there are 12 and 7 observations with more than 20 years since diagnosis in wave 3, respectively, and 20 and 12 for the pooled sample, respectively.} Interestingly, the reductions in wages found in the non-linear specification appear exactly at the time where employment probabilities are less affected. This could suggest that at this time reductions in productivity affect wages but are not so severe that they would cause job loss. 
-
-\begin{table}[!ht]
-\caption{\label{tab:Self-reported-diabetes-duration_wage}Relationship between self-reported years since diagnosis and log hourly wage using continuous duration and duration splines.}
-\begin{center}
-%\resizebox{\linewidth}{!}{%
-\begin{adjustbox}{max width=\linewidth}
-\begin{threeparttable}
-
-{
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{6}{S
-S}}
-\toprule
-                &\multicolumn{3}{c}{Males}                               &\multicolumn{3}{c}{Females}                             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
-                &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}\\
-                 &\multicolumn{1}{c}{(wave 3)}&\multicolumn{1}{c}{(pooled)}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{(wave 3)}&\multicolumn{1}{c}{(pooled)}&\multicolumn{1}{c}{}\\
-\midrule
-Panel A: linear &&&&&&\\
-Diabetes duration&  .001         &     .010\sym{**} &    -.019         &    -.014\sym{*}  &    -.009         &    -.073\sym{**} \\
+N               &     \multicolumn{1}{c}{8217}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{10467}         &    \multicolumn{1}{c}{22407}         &    \multicolumn{1}{c}{22407}         \\
+\midrule\midrule
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\
+\textit{\textbf{Panel A: linear}} &&&&&&\\
+Years since SR diagnosis &  .001         &     .010\sym{**} &    -.019         &    -.014\sym{*}  &    -.009         &    -.073\sym{**} \\
                 &   (.006)         &   (.005)         &   (.018)         &   (.008)         &   (.008)         &   (.029)         \\
 \midrule                
 Hausman test    &                  &                  &  838.213         &                  &                  &   93.232         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\                
 \midrule
-\addlinespace
-Panel B: splines&&&&&&\\
-Diabetes duration&&&&&&\\
+\textit{\textbf{Panel B: splines}}&&&&&&\\
+Years since SR diagnosis&&&&&&\\
 \hspace*{10mm}0--4&      .034\sym{*}  &     .046\sym{***}&     .033         &     .027         &     .030         &     .015         \\
                 &   (.017)         &   (.016)         &   (.055)         &   (.031)         &   (.026)         &   (.138)         \\
 \hspace*{10mm}5--11&    -.041\sym{*}  &    -.037\sym{**} &    -.055\sym{*}  &    -.039         &    -.034         &    -.101\sym{*}  \\
@@ -582,50 +549,19 @@ Diabetes duration&&&&&&\\
 \midrule
 Hausman test    &                  &                  & 1037.290         &                  &                  &   96.266         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-N               &     5509         &    10767         &    10767         &     2874         &     5741         &     5741         \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}
-\item \footnotesize \textit{Notes} The table presents the results of three estimation methods for log hourly wages. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6, wealth, age squared, calendar year dummies, type of work (agricultural and self employed with dependent non-agricultural wage employment as the base) and health insurance status. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
-\end{tablenotes}
-}
-\end{threeparttable}
-\end{adjustbox}
-\end{center}
-\end{table}
-
-The estimation results in Table \ref{tab:Self-reported-diabetes-duration_hours} indicate that there appears to be no consistent relationship between working hours and time since being diagnosed with diabetes, neither for men nor for women.
-
-
-The results suggest a fairly constant decrease in the probability of employment for both men and women and in earnings for women, which contrast with estimates for the USA \parencite{Minor2013}, where no such relationship is observed.  \textcite{Minor2013} finds a reduction in employment probabilities of 82 percentage points for females after 11 to 15 years and a reduction of 60 percentage points for males after 2-5 years, indicating very large employment penalties, in particular in comparison to our results for Mexico. However, the non-linear results we presented are not directly comparable to these estimates as Minor used pooled cross-sectional data, constructed dummy variables to indicate time since diagnosis instead of splines and used different duration groups.\footnote{Following the approach of \textcite{Minor2013}, we find a significant reduction in employment probabilities throughout, regardless of whether we use our duration groups to construct the dummies or the duration groups used by \textcite{Minor2013}.} 
-
-
-\begin{table}[p]
-\caption{\label{tab:Self-reported-diabetes-duration_hours}Relationship between self-reported years since diagnosis and weekly working hours using continuous duration and duration splines.}
-\begin{center}
-%\resizebox{\linewidth}{!}{%
-\begin{adjustbox}{max width=\linewidth}
-\begin{threeparttable}
-{
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{6}{S
-S}}
-\toprule
-                &\multicolumn{3}{c}{Males}                               &\multicolumn{3}{c}{Females}                             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
-                &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{FE}\\
-                 &\multicolumn{1}{c}{(wave 3)}&\multicolumn{1}{c}{(pooled)}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{(wave 3)}&\multicolumn{1}{c}{(pooled)}&\multicolumn{1}{c}{}\\
-\midrule
-Panel A: linear &&&&&&\\
-Diabetes duration & .069         &     .048         &     .181         &    -.020         &    -.124         &     .208         \\
+N               &     \multicolumn{1}{c}{5509}         &    \multicolumn{1}{c}{10767}         &    \multicolumn{1}{c}{10767}         &     \multicolumn{1}{c}{2874}         &     \multicolumn{1}{c}{5741}         &     \multicolumn{1}{c}{5741}         \\
+\midrule\midrule
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Weekly working hours}} \\
+\textit{\textbf{Panel A: linear}} &&&&&&\\
+Years since SR diagnosis  & .069         &     .048         &     .181         &    -.020         &    -.124         &     .208         \\
                 &   (.124)         &   (.102)         &   (.330)         &   (.187)         &   (.127)         &   (.652)         \\
 \midrule
 Hausman test    &                  &                  &  704.904         &                  &                  &  107.709         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 \midrule
 \addlinespace
-Panel B: splines &&&&&&\\
-Diabetes duration &&&&&&\\
+\textit{\textbf{Panel B: splines}} &&&&&&\\
+Years since SR diagnosis  &&&&&&\\
 \hspace*{10mm}0--4&      -.033         &    -.233         &     .709         &     .739         &     .470         &    2.014         \\
                 &   (.421)         &   (.325)         &   (.938)         &   (.645)         &   (.586)         &  (2.947)         \\
 \hspace*{10mm}5--11&  .269         &     .338         &    -.218         &    -.410         &    -.479         &    -.508         \\
@@ -637,11 +573,11 @@ Diabetes duration &&&&&&\\
 \midrule
 Hausman test    &                  &                  &  724.225         &                  &                  &  112.627         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-N               &     6807         &    13581         &    13581         &     3591         &     7383         &     7383         \\
+N               &     \multicolumn{1}{c}{6807}         &    \multicolumn{1}{c}{13581}         &    \multicolumn{1}{c}{13581}         &     \multicolumn{1}{c}{3591}         &     \multicolumn{1}{c}{7383}         &     \multicolumn{1}{c}{7383}         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} The table presents the results of three estimation methods for weekly working hours. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6, wealth, age squared, calendar year dummies, type of work (agricultural and self employed with dependent non-agricultural wage employment as the base) and health insurance status. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6, wealth, age squared and calendar year dummies. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
@@ -649,12 +585,22 @@ N               &     6807         &    13581         &    13581         &     3
 \end{center}
 \end{table}
 
+Panel B shows the estimates when using a spline function as described in Eq. \ref{eq:splines}. Focusing on the \ac{FE} results, the coefficients provide some evidence for an immediate effect of diabetes, which then levels off for some time upon which it becomes stronger again. However, standard errors are quite large.
+
+The results for wages indicate a reduction in female wages of about 7\% per year after diagnosis in the \ac{FE} model. For men we find no consistent effect. Panel B indicates that there may be a reduction in wages 5--11 years after the initial diagnosis for both men and women. We also find associations for women with more than 20 years of diabetes, but these estimates may be spurious due to the considerably reduced number of observations in this group.\footnote{There are only 9 (3) observations for male (female) wages with more than 20 years since diagnosis in wave 3, and 17 (7) in the pooled sample. For male (female) working hours there are 12 (7) observations with more than 20 years since diagnosis in wave 3, and 20 (12) for the pooled sample.} Interestingly, the reductions in wages found in the non-linear specification appear exactly at the time where employment probabilities are less affected. This may suggest that at this time reductions in productivity affect wages but are not so severe that they would cause job loss. For working hours there appears to be no consistent relationship with the time since diagnosis, neither for men nor for women.
+
+
+In summary, the results suggest a fairly constant decrease in the probability of employment for both men and women and in earnings for women, which contrast with estimates for the USA \parencite{Minor2013}, where no such relationship is observed.  \textcite{Minor2013} finds a reduction in employment probabilities of 82 percentage points for females after 11 to 15 years and a reduction of 60 percentage points for males after 2-5 years, indicating very large employment penalties in comparison to our results for Mexico. \footnote{Note that our non-linear results are not directly comparable to Minor's as he used pooled cross-sectional data, made use of dummy variables to indicate time since diagnosis and used different categories of duration. Following the approach of \textcite{Minor2013}, we find a significant reduction in employment probabilities throughout, regardless of whether we use our duration groups to construct the dummies or the duration groups used by \textcite{Minor2013}.} 
+
+
+
+
 \FloatBarrier
 
 \subsection{Cross-sectional biomarker analysis}
 
 
-Table \ref{tab:Biomarker_observations} presents a cross tabulation of self-reported diabetes and biomarker results. The table shows that 27\% of the sample have \ac{HbA1c} levels indicative of diabetes and 81\% of those self-reporting a diabetes diagnosis also have \ac{HbA1c} levels equal to or above the diabetes threshold. The cell percentages in the table underline the large proportion of false negatives (18\%). The 3\% with self-reported diabetes but biomarker levels below the diabetes threshold could be interpreted as false positives. However, many of these likely have received an actual diabetes diagnosis but achieved blood glucose levels below the diabetes threshold due to successfully managing the disease. Of the respondents who test positive for diabetes according to the biomarker analysis, 32\% self-report a diagnosis, while 68\% do not. There are no considerable differences to the presented proportions in Table \ref{tab:Biomarker_observations} if we look at men and women separately and we therefore do not show these results here. 
+Table \ref{tab:Biomarker_observations} presents a cross tabulation of self-reported diabetes and biomarker results. Overall, for 80\% of the observations the self reports are consistent with the biomarker results (diagonal cell \%), 18\% are false negatives or undiagnosed and 2\% false positives. Due to the nature of the condition and the possible efficacy of its management the false negatives may well include cases where the person received an actual diabetes diagnosis but consequently achieved blood glucose levels below the diabetes threshold due to successfully management of the disease \parencite{Flores-Hernandez2015}.  There are no considerable differences between men and women (results not shown). 
 
 
 \begin{table}[ht]
@@ -664,22 +610,20 @@ Table \ref{tab:Biomarker_observations} presents a cross tabulation of self-repor
 \begin{threeparttable}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{3}{S S}}
+\begin{tabular}{ccccc}
 \toprule
             &\multicolumn{1}{c}{$HbA1c < 6.5\%$}&\multicolumn{1}{c}{HbA1c $\geq 6.5\%$}&\multicolumn{1}{c}{Total}\\
 \midrule
 No self-reported diabetes (N) & 4544 & 1181 & 5725 &  \\
 \hspace*{10mm}Row  \% & 79\% & 21\% & 100\% &  \\
 \hspace*{10mm}Column \% & 97\% & 68\% & 89\% &  \\
-\hspace*{10mm}Cell \% & 71\% & 18\% & z & \\
+\hspace*{10mm}Cell \% & \textbf{71\%} & \textbf{18\%} & - & \\
 Self-reported diabetes (N) & 129 & 554 & 683 &  \\
 \hspace*{10mm}Row \%  & 19\% & 81\% & 100\% &  \\
 \hspace*{10mm}Column \% & 3\% & 32\% & 11\% &  \\
-\hspace*{10mm}Cell \% & 2\% & 9\% & z & \\
-Total (N) & 4673 & 1735 & 6408 &  \\
-\hspace*{10mm}Row \% & 73\% & 27\% & 100\% &  \\
-\hspace*{10mm}Column \%  & 100\% & 100\% & 100\% &  \\
-\hspace*{10mm}Cell \% & x & y & z & \\  
+\hspace*{10mm}Cell \% & \textbf{2\%} &\textbf{9\%} &- & \\
+\midrule
+Total (N) & 4673 & 1735 & 6408 &  \\ 
 \bottomrule
 \end{tabular}
 \begin{tablenotes}

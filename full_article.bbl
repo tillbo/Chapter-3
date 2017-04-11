@@ -806,6 +806,46 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Filmer, Pritchett - 2001 - Estimating wealth effects without expenditure data-Or tears An application to educational enrollments in stat.pdf:pdf
       \endverb
     \endentry
+    \entry{Flores-Hernandez2015}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=35b3b875da926cb60a519a806fbf4592}{Flores-Hernández}{F\bibinithyphendelim H\bibinitperiod}{Sergio}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=80e54ce8751f3fb42b9eb16f7d26e7b4}{Saturno-Hernández}{S\bibinithyphendelim H\bibinitperiod}{Pedro\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7cef821322ef4793ea8ce04508eba278}{Reyes-Morales}{R\bibinithyphendelim M\bibinitperiod}{Hortensia}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=81173ed217022c4045c28dd405b08a87}{Barrientos-Gutiérrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=be3b4431ac98d0aab464884f42958ac9}{Villalpando}{V\bibinitperiod}{Salvador}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=35b3b875da926cb60a519a806fbf4592}{Flores-Hernández}{F\bibinithyphendelim H\bibinitperiod}{Sergio}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=80e54ce8751f3fb42b9eb16f7d26e7b4}{Saturno-Hernández}{S\bibinithyphendelim H\bibinitperiod}{Pedro\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7cef821322ef4793ea8ce04508eba278}{Reyes-Morales}{R\bibinithyphendelim M\bibinitperiod}{Hortensia}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=81173ed217022c4045c28dd405b08a87}{Barrientos-Gutiérrez}{B\bibinithyphendelim G\bibinitperiod}{Tonatiuh}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=be3b4431ac98d0aab464884f42958ac9}{Villalpando}{V\bibinitperiod}{Salvador}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{Hernández-Ávila}{H\bibinithyphendelim Á\bibinitperiod}{Mauricio}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{03534f83f9f2d1a92b315675501c9ae9}
+      \strng{fullhash}{ba120aee2c8429cacf9b39ab986274ce}
+      \field{sortinit}{F}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Quality of Diabetes Care: The Challenges of an Increasing Epidemic in Mexico. Results from Two National Health Surveys (2006 and 2012)}}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{Plos One}
+      \field{number}{7}
+      \field{title}{{Quality of Diabetes Care: The Challenges of an Increasing Epidemic in Mexico. Results from Two National Health Surveys (2006 and 2012)}}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{e0133958}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0133958
+      \endverb
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/journal.pone.0133958.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.plos.org/10.1371/journal.pone.0133958
+      \endverb
+    \endentry
     \entry{Frankenberg2015}{article}{}
       \name{labelname}{3}{}{%
         {{hash=4bde70c93d230738bd333deea7fbbc6b}{Frankenberg}{F\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
@@ -2485,7 +2525,6 @@
     \endentry
   \endsortlist
   \missing{Hanson2012}
-  \missing{Flores-Hernandez2015}
 \endrefsection
 \endinput
 
