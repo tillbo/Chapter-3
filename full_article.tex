@@ -261,7 +261,7 @@ HbA1c $\geq 6.5\%$  &            &            &        0.26&        0.28\\
                     &            &            &      (0.44)&      (0.45)\\
 Undiagnosed diabetes&            &            &        0.18&        0.18\\
                     &            &            &      (0.39)&      (0.39)\\
-\hspace*{10mm}\emph{Education and demographic variables} \\
+\hspace*{10mm}\emph{Control variables} \\
 Age                 &       36.03&       36.29&       42.78&       42.79\\
                     &     (13.62)&     (13.17)&     (14.28)&     (13.94)\\
 Rural village of < 2,500&        0.44&        0.43&        0.50&        0.46\\
@@ -279,6 +279,8 @@ High school         &        0.16&        0.13&        0.14&        0.12\\
                     &      (0.36)&      (0.34)&      (0.34)&      (0.33)\\
 Higher education    &        0.11&        0.09&        0.12&        0.09\\
                     &      (0.32)&      (0.29)&      (0.32)&      (0.28)\\
+Wealth index        &       -0.00&       -0.02&        0.09&       -0.00\\
+                    &      (1.02)&      (1.00)&      (1.07)&      (1.02)\\           
 \midrule
 Observations        &    21388&       27341&        2785&        3623\\
 \bottomrule
@@ -402,7 +404,7 @@ S}}
 Panel A: all labour outcomes &&&&&&\\ 
 Self-reported&    -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
                 &   (.025)         &   (.024)         &   (.067)         &   (.158)         &  (1.499)         &  (2.517)         \\
-\midrule
+
 Hausman test    &  255.260         &  388.822         &  278.355         &  904.858         & 4101.669         &  976.631         \\
 \hspace*{10mm}p-value&     .000         &     .000         &     .000         &     .000         &     .000         &     .000         \\
 N               &    21388         &    27341         &    13828         &     7068         &    17616         &     9112         \\
@@ -421,14 +423,14 @@ Self-reported diabetes&         &         &     .105         &     .064         
                 &         &         &   (.188)         &   (.373)         &  (2.833)         & (22.300)         \\
 \hspace*{5mm}Diabetes $\times$ self-employed&         &         &    -.105         &     .125         &     .306         &   -4.149         \\
                 &         &         &   (.192)         &   (.326)         &  (2.503)         &  (4.739)         \\
-\midrule
+
 Hausman test    &         &         &  280.491         &  912.537         & 4086.461         &  995.171         \\
 \hspace*{10mm}p-value&         &         &     .000         &     .000         &     .000         &     .000         \\
 N               &         &         &    13828         &     7068         &    17616         &     9112         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Reference category: dependent non-agricultural worker or employee. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number of children < 6, wealth, health insurance status, age squared and calender year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Reference category: dependent non-agricultural worker or employee. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
@@ -454,14 +456,14 @@ S}}
 \midrule
 Self-reported diabetes&   -.006         &    -.008         &    -.043         &    -.001         &    -.022\sym{**} &    -.029         \\
                   &   (.029)         &   (.022)         &   (.026)         &   (.018)         &   (.009)         &   (.018)         \\
-\midrule
+
 Hausman test    & 2196.390         & 2005.383         & 1249.080         & 1126.933         &                  &   86.400         \\
 \hspace*{10mm} p-value         &     .000         &     .000         &     .000         &     .000         &                  &     .000         \\
 N               &    20719         &    20719         &    20719         &    26577         &    26577         &    26577         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number of children < 6, wealth, health insurance status, age squared and calender year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
@@ -481,7 +483,7 @@ a first drop-off occurs right after diagnosis; thereafter no consistent pattern 
 \caption{\label{fig:Kernel-weighted-local-polynomial_comb}Employment, wages, working hours and years since self reported diabetes:  Kernel-weighted local polynomial regression}%
 \begin{center}
 \includegraphics[width=\linewidth]{figures/lpoly_combined.eps}\\
-\footnotesize{\textit{Notes} The dashed lines show 95\% confidence interval.}
+\footnotesize{\textit{Notes} The dashed lines show 95\% confidence intervals.}
 \end{center}
 \end{figure}
 
@@ -509,10 +511,10 @@ S}}
 Years since SR diagnosis  &   -.008\sym{***}&    -.007\sym{***}&    -.017\sym{***}&    -.005\sym{***}&    -.004\sym{***}&    -.009\sym{*}  \\
                 &   (.002)         &   (.002)         &   (.006)         &   (.002)         &   (.001)         &   (.005)         \\
                 
-\midrule
+
                 Hausman test    &                  &                  &  153.024         &                  &                  &  200.073         \\
                 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-\midrule
+\addlinespace
 \textit{\textbf{Panel B: splines}}&&&&&&\\
 Years since SR diagnosis  &&&&&&\\
 \hspace*{10mm}0--4&    -.007         &    -.007         &    -.026\sym{*}  &    -.010         &    -.015\sym{**} &    -.017         \\
@@ -523,19 +525,19 @@ Years since SR diagnosis  &&&&&&\\
                 &   (.012)         &   (.010)         &   (.016)         &   (.008)         &   (.006)         &   (.011)         \\
 \hspace*{10mm}> 20&     .011         &     .007         &    -.046\sym{*}  &    -.010\sym{*}  &    -.003         &    -.015         \\
                 &   (.016)         &   (.014)         &   (.028)         &   (.006)         &   (.003)         &   (.018)         \\
-\midrule
+
 Hausman test    &                  &                  &  161.953         &                  &                  &  198.692         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 N               &     \multicolumn{1}{c}{8217}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{10467}         &    \multicolumn{1}{c}{22407}         &    \multicolumn{1}{c}{22407}         \\
-\midrule\midrule
+\midrule
 \multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\
 \textit{\textbf{Panel A: linear}} &&&&&&\\
 Years since SR diagnosis &  .001         &     .010\sym{**} &    -.019         &    -.014\sym{*}  &    -.009         &    -.073\sym{**} \\
                 &   (.006)         &   (.005)         &   (.018)         &   (.008)         &   (.008)         &   (.029)         \\
-\midrule                
+            
 Hausman test    &                  &                  &  838.213         &                  &                  &   93.232         \\
-\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\                
-\midrule
+\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
+\addlinespace                
 \textit{\textbf{Panel B: splines}}&&&&&&\\
 Years since SR diagnosis&&&&&&\\
 \hspace*{10mm}0--4&      .034\sym{*}  &     .046\sym{***}&     .033         &     .027         &     .030         &     .015         \\
@@ -546,19 +548,18 @@ Years since SR diagnosis&&&&&&\\
                 &   (.033)         &   (.029)         &   (.056)         &   (.042)         &   (.039)         &   (.047)         \\
 \hspace*{10mm}> 20&     .053         &     .014         &    -.111         &    -.007         &     .041\sym{***}&    -.204\sym{***}\\
                 &   (.054)         &   (.040)         &   (.104)         &   (.028)         &   (.015)         &   (.053)         \\
-\midrule
+
 Hausman test    &                  &                  & 1037.290         &                  &                  &   96.266         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 N               &     \multicolumn{1}{c}{5509}         &    \multicolumn{1}{c}{10767}         &    \multicolumn{1}{c}{10767}         &     \multicolumn{1}{c}{2874}         &     \multicolumn{1}{c}{5741}         &     \multicolumn{1}{c}{5741}         \\
-\midrule\midrule
+\midrule
 \multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Weekly working hours}} \\
 \textit{\textbf{Panel A: linear}} &&&&&&\\
 Years since SR diagnosis  & .069         &     .048         &     .181         &    -.020         &    -.124         &     .208         \\
                 &   (.124)         &   (.102)         &   (.330)         &   (.187)         &   (.127)         &   (.652)         \\
-\midrule
+
 Hausman test    &                  &                  &  704.904         &                  &                  &  107.709         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-\midrule
 \addlinespace
 \textit{\textbf{Panel B: splines}} &&&&&&\\
 Years since SR diagnosis  &&&&&&\\
@@ -570,14 +571,14 @@ Years since SR diagnosis  &&&&&&\\
                 &   (.730)         &   (.538)         &   (.945)         &   (.995)         &   (.700)         &  (1.207)         \\
 \hspace*{10mm}> 20&  -1.300         &    -.768         &     .039         &    -.499         &    -.418         &    8.117\sym{***}\\
                 &   (.944)         &   (.930)         &  (2.184)         &   (.930)         &   (.305)         &  (1.612)         \\
-\midrule
+
 Hausman test    &                  &                  &  724.225         &                  &                  &  112.627         \\
 \hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 N               &     \multicolumn{1}{c}{6807}         &    \multicolumn{1}{c}{13581}         &    \multicolumn{1}{c}{13581}         &     \multicolumn{1}{c}{3591}         &     \multicolumn{1}{c}{7383}         &     \multicolumn{1}{c}{7383}         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. Other control variables: state dummies, urbanization dummies, education dummies, married dummy, number children < 6, wealth, age squared and calendar year dummies. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
@@ -610,7 +611,7 @@ Table \ref{tab:Biomarker_observations} presents a cross tabulation of self-repor
 \begin{threeparttable}
 {
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{ccccc}
+\begin{tabular}{lcccc}
 \toprule
             &\multicolumn{1}{c}{$HbA1c < 6.5\%$}&\multicolumn{1}{c}{HbA1c $\geq 6.5\%$}&\multicolumn{1}{c}{Total}\\
 \midrule
@@ -622,7 +623,6 @@ Self-reported diabetes (N) & 129 & 554 & 683 &  \\
 \hspace*{10mm}Row \%  & 19\% & 81\% & 100\% &  \\
 \hspace*{10mm}Column \% & 3\% & 32\% & 11\% &  \\
 \hspace*{10mm}Cell \% & \textbf{2\%} &\textbf{9\%} &- & \\
-\midrule
 Total (N) & 4673 & 1735 & 6408 &  \\ 
 \bottomrule
 \end{tabular}
@@ -656,7 +656,6 @@ Self-reported diabetes&   -.051\sym{**} &    -.044\sym{*}  &                  & 
                 &   (.026)         &   (.023)         &                  &                  &   (.026)         &   (.026)         \\
 HbA1c $\geq$ 6.5&                  &                  &    -.012         &    -.031\sym{*}  &     .003         &    -.022         \\
                 &                  &                  &   (.016)         &   (.018)         &   (.017)         &   (.019)         \\
-\midrule
 N               &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         \\
 \midrule
 \multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\ 
@@ -665,7 +664,6 @@ Self-reported diabetes&    -.010         &    -.040         &                  &
                 &   (.065)         &   (.113)         &                  &                  &   (.078)         &   (.119)         \\
 HbA1c $\geq$ 6.5&                  &                  &    -.007         &    -.057         &    -.006         &    -.055         \\
                 &                  &                  &   (.044)         &   (.070)         &   (.049)         &   (.075)         \\
-\midrule
 N               &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         \\
 \midrule
 \multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Weekly working hours}} \\ 
@@ -674,12 +672,11 @@ Self-reported diabetes&   -.293         &    -.751         &                  & 
                 &  (1.305)         &  (2.178)         &                  &                  &  (1.419)         &  (2.351)         \\
 HbA1c $\geq$ 6.5&                  &                  &    -.088         &    1.153         &    -.012         &    1.525         \\
                 &                  &                  &   (.844)         &  (1.462)         &   (.925)         &  (1.565)         \\
-\midrule
 N               &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         \\
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. Other control variables: age, age squared, state dummies, urbanization dummies, education dummies, married dummy, number children < 6 and wealth. Calender year dummies are included as data collection for the third wave was stretched out over several years. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base) and for health insurance status. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year to account for the multiple years of data collection for the third wave. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base). \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
@@ -712,7 +709,6 @@ Self-reported diabetes&     -.057\sym{*}  &    -.027         &    -.004         
                 &   (.031)         &   (.025)         &   (.069)         &   (.113)         &  (1.370)         &  (2.363)    \\     
 HbA1c (if HbA1c $\geq 6.5\%$)  &     .001         &    -.003         &    -.001         &    -.005         &    -.030         &     .151         \\
                 &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.103)         &   (.172)         \\
-\midrule
 N               &     2785         &     3623         &     1803         &      884         &     2302         &     1144         \\
 \midrule
 \multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel C (self-reported health)}}\\  
@@ -729,13 +725,12 @@ Hba1c $\geq 6.5\%$&       .003         &    -.023         &    -.004         &  
                 &   (.043)         &   (.046)         &   (.135)         &   (.189)         &  (2.521)         &  (3.858)         \\
 \hspace*{10mm}very bad&    -.165         &     .117         &    -.331         &     .316         &   -1.869         &  -17.400\sym{*}  \\
                 &   (.110)         &   (.116)         &   (.300)         &   (.439)         &  (6.433)         &  (9.005)         \\
-\midrule
 N               &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3621}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{883}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1143}         \\
 \midrule
 \multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel B (other chronic diseases)}}\\
-Self-reported diabetes=1&    -.044\sym{*}  &    -.029         &     .005         &     .053         &    -.131         &   -1.411         \\
+Self-reported diabetes&    -.044\sym{*}  &    -.029         &     .005         &     .053         &    -.131         &   -1.411         \\
                 &   (.026)         &   (.027)         &   (.079)         &   (.120)         &  (1.438)         &  (2.385)         \\
-HbA1c $\geq 6.5\%$=1&     .001         &    -.021         &    -.010         &    -.037         &    -.077         &    1.382         \\
+HbA1c $\geq 6.5\%$&     .001         &    -.021         &    -.010         &    -.037         &    -.077         &    1.382         \\
                 &   (.017)         &   (.019)         &   (.049)         &   (.076)         &   (.927)         &  (1.572)         \\
 
 Overweight &     .021         &    -.003         &     .093\sym{**} &     .034         &    -.225         &   -1.520         \\
@@ -746,13 +741,12 @@ Hypertension    &    -.035         &    -.020         &    -.106         &    -.
                 &   (.025)         &   (.022)         &   (.072)         &   (.089)         &  (1.370)         &  (1.854)         \\
 Heart disease   &    -.165\sym{***}&    -.045         &     .060         &    -.039         &   -2.640         &   -5.430         \\
                 &   (.059)         &   (.050)         &   (.179)         &   (.215)         &  (3.659)         &  (4.854)         \\
-\midrule
 N               &     2785         &     3621         &     1803         &      883         &     2302         &     1143         \\
 
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. Other control variables: age, age squared, state dummies, urbanization dummies, education dummies, married dummy, number children < 6 and wealth. Calender year dummies are included as data collection for the third wave was stretched out over several years. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base) and for health insurance status. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year to account for the multiple years of data collection for the third wave. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base). \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 \end{tablenotes}
 }
 \end{threeparttable}
