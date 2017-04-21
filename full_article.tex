@@ -668,6 +668,10 @@ S}}
  HbA1c $\geq 6.5$ $\times$ Self-reported diabetes&    -.029         &    -.042         &    -.396\sym{*}  &    -.010         &   -2.511         &  -10.883\sym{**} \\
                  &   (.062)         &   (.058)         &   (.209)         &   (.259)         &  (3.594)         &  (5.153)         \\
  \midrule
+ Linear Combination: Self-reported&    -.059 \sym{**}        &    -.043         &    -	.068         &    -.012         &    -.755         &   -4.700         \\
+                 &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
+ Linear Combination: Biomarker&    -.024         &    -.060         &    -.378\sym{*}         &    -.064         &   -2.344         &   -8.306         \\
+                 &     .060         &     .054         &     .202         &     .250         &    3.463         &    4.910         \\
  \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel D: Interacting self-reported and HbA1c (if HbA1c $\geq 6.5$)}} \\
 Self-reported diabetes&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
                 &   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
@@ -676,6 +680,9 @@ HbA1c (if HbA1c $\geq 6.5$)  &     .001         &    -.003         &     .002   
 Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&    -.001         &    -.002         &    -.029\sym{**} &    -.005         &    -.231         &    -.746\sym{*}  \\
                 &   (.007)         &   (.005)         &   (.014)         &   (.022)         &   (.283)         &   (.408)         \\
                  \midrule
+Linear Combination: Self-reported&    -.051         &    -.015         &     .194         &     .024         &    1.419         &    2.719         \\
+                                 &   (.059)         &   (.037)         &   (.106)         &   (.161)         &  (2.273)         &  (3.236)         \\
+                 Linear Combination: Biomarker&     .000         &    -.005         &    -.027         &    -.010         &    -.236         &   \\
  N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
 \bottomrule
 \end{tabular}
@@ -688,52 +695,6 @@ Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&    -.001         & 
 \end{center}
 \end{table}
 
-
-\begin{table}[h]
-\caption{\label{tab:Biomarker_results}Biomarker results}
-\begin{center}
-\begin{adjustbox}{max width=\linewidth}
-\begin{threeparttable}
-{
-\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\begin{tabular}{l*{6}{S
-S}}
-\toprule
-                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
-                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
-\midrule
-\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Employment}} \\
-Self-reported diabetes&   -.051\sym{**} &    -.044\sym{*}  &                  &                  &    -.053\sym{**} &    -.032         \\
-                &   (.026)         &   (.023)         &                  &                  &   (.026)         &   (.026)         \\
-HbA1c $\geq$ 6.5&                  &                  &    -.012         &    -.031\sym{*}  &     .003         &    -.022         \\
-                &                  &                  &   (.016)         &   (.018)         &   (.017)         &   (.019)         \\
-N               &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3623}         \\
-\midrule
-\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\ 
-\addlinespace
-Self-reported diabetes&    -.010         &    -.040         &                  &                  &    -.006         &    -.010         \\
-                &   (.065)         &   (.113)         &                  &                  &   (.078)         &   (.119)         \\
-HbA1c $\geq$ 6.5&                  &                  &    -.007         &    -.057         &    -.006         &    -.055         \\
-                &                  &                  &   (.044)         &   (.070)         &   (.049)         &   (.075)         \\
-N               &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{884}         \\
-\midrule
-\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Weekly working hours}} \\ 
-\addlinespace
-Self-reported diabetes&   -.293         &    -.751         &                  &                  &    -.286         &   -1.566         \\
-                &  (1.305)         &  (2.178)         &                  &                  &  (1.419)         &  (2.351)         \\
-HbA1c $\geq$ 6.5&                  &                  &    -.088         &    1.153         &    -.012         &    1.525         \\
-                &                  &                  &   (.844)         &  (1.462)         &   (.925)         &  (1.565)         \\
-N               &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1144}         \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}
-\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year to account for the multiple years of data collection for the third wave. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base). \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
-\end{tablenotes}
-}
-\end{threeparttable}
-\end{adjustbox}
-\end{center}
-\end{table}
 
 To explore whether this stems from selection into the diagnosed population of those with a more severe diabetes---proxied by higher \ac{HbA1c} levels---and a therefore higher risk to lose their job,  we test whether those with self-reported diabetes have higher levels of \ac{HbA1c} than those who were not diagnosed, using a t-test, and find that in particular men do.\footnote{Men: Self-reported diabetes \ac{HbA1c} of 9.0\% vs 8.5\% in those undiagnosed (p < 0.01); Women: Self-reported diabetes \ac{HbA1c} of 8.9\% vs 8.7\% in those undiagnosed (p < 0.05).} We then extend the model to take into account the severity of diabetes more explicitly, using the measured HbA1c levels. If current severity would be related to labour outcomes and explain the difference in effects of self-reported and undiagnosed diabetes, one would expect (i) that those with higher \ac{HbA1c} levels have a lower probability of employment, and (ii) that the inclusion of diabetes severity weakens the coefficient of self-reported diabetes.  To investigate this, we replace the indicator variable for diabetes with a variable that takes the value zero for levels below and the actual value of \ac{HbA1c} for those above the diabetes threshold. The results in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel A do not find a consistent relationship between increased \ac{HbA1c} levels and the probability of employment, suggesting that disease severity may not explain the different employment effects of diabetes. 
 
