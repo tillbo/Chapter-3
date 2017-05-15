@@ -655,34 +655,22 @@ S}}
  \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel A: Diabetes (self-reported)}} \\ 
  Self-reported diabetes&    -.051\sym{**} &    -.044\sym{*}  &    -.010         &    -.040         &    -.293         &    -.751         \\
                  &   (.026)         &   (.023)         &   (.065)         &   (.113)         &  (1.305)         &  (2.178)         \\
- \midrule
  \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Diabetes (biomarker)}} \\
  HbA1c $\geq 6.5$&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
                  &   (.016)         &   (.018)         &   (.044)         &   (.070)         &   (.844)         &  (1.462)         \\
- \midrule
   \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel C: Interacting self-reported and biomarker diabetes}} \\
- HbA1c $\geq 6.5$&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
-                 &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.960)         &  (1.640)         \\
  Self-reported diabetes&    -.030         &    -.001         &     .328\sym{*}  &    -.002         &    1.756         &    6.183         \\
-                 &   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
- HbA1c $\geq 6.5$ $\times$ Self-reported diabetes&    -.029         &    -.042         &    -.396\sym{*}  &    -.010         &   -2.511         &  -10.883\sym{**} \\
+                   &   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
+ HbA1c $\geq 6.5$ (dummy)&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
+                 &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.960)         &  (1.640)         \\
+ Self-reported diabetes $\times$ HbA1c $\geq 6.5$ &    -.029         &    -.042         &    -.396\sym{*}  &    -.010         &   -2.511         &  -10.883\sym{**} \\
                  &   (.062)         &   (.058)         &   (.209)         &   (.259)         &  (3.594)         &  (5.153)         \\
- \midrule
- Linear Combination: Self-reported&    -.059 \sym{**}        &    -.043         &    -	.068         &    -.012         &    -.755         &   -4.700         \\
+Linear combinations (F-test) \\                 
+\hspace*{10mm} Self-reported&    -.059 \sym{**}        &    -.043         &    -	.068         &    -.012         &    -.755         &   -4.700         \\
                  &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
- Linear Combination: Biomarker&    -.024         &    -.060         &    -.378\sym{*}         &    -.064         &   -2.344         &   -8.306         \\
-                 &     .060         &     .054         &     .202         &     .250         &    3.463         &    4.910         \\
- \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel D: Interacting self-reported and HbA1c (if HbA1c $\geq 6.5$)}} \\
-Self-reported diabetes&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
-                &   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
-HbA1c (if HbA1c $\geq 6.5$)  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
-                &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.104)         &   (.192)         \\
-Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&    -.001         &    -.002         &    -.029\sym{**} &    -.005         &    -.231         &    -.746\sym{*}  \\
-                &   (.007)         &   (.005)         &   (.014)         &   (.022)         &   (.283)         &   (.408)         \\
-                 \midrule
-Linear Combination: Self-reported&    -.051         &    -.015         &     .194         &     .024         &    1.419         &    2.719         \\
-                                 &   (.059)         &   (.037)         &   (.106)         &   (.161)         &  (2.273)         &  (3.236)         \\
-                 Linear Combination: Biomarker&     .000         &    -.005         &    -.027         &    -.010         &    -.236         &   \\
+\hspace*{10mm} Biomarker&    -.024         &    -.060         &    -.378\sym{*}         &    -.064         &   -2.344         &   -8.306         \\
+                 &     (.060)         &     (.054)         &     (.202)         &     (.250)         &    (3.463)         &    (4.910)    \\
+\midrule                 
  N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
 \bottomrule
 \end{tabular}
@@ -696,11 +684,68 @@ Linear Combination: Self-reported&    -.051         &    -.015         &     .19
 \end{table}
 
 
+
+
 To explore whether this stems from selection into the diagnosed population of those with a more severe diabetes---proxied by higher \ac{HbA1c} levels---and a therefore higher risk to lose their job,  we test whether those with self-reported diabetes have higher levels of \ac{HbA1c} than those who were not diagnosed, using a t-test, and find that in particular men do.\footnote{Men: Self-reported diabetes \ac{HbA1c} of 9.0\% vs 8.5\% in those undiagnosed (p < 0.01); Women: Self-reported diabetes \ac{HbA1c} of 8.9\% vs 8.7\% in those undiagnosed (p < 0.05).} We then extend the model to take into account the severity of diabetes more explicitly, using the measured HbA1c levels. If current severity would be related to labour outcomes and explain the difference in effects of self-reported and undiagnosed diabetes, one would expect (i) that those with higher \ac{HbA1c} levels have a lower probability of employment, and (ii) that the inclusion of diabetes severity weakens the coefficient of self-reported diabetes.  To investigate this, we replace the indicator variable for diabetes with a variable that takes the value zero for levels below and the actual value of \ac{HbA1c} for those above the diabetes threshold. The results in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel A do not find a consistent relationship between increased \ac{HbA1c} levels and the probability of employment, suggesting that disease severity may not explain the different employment effects of diabetes. 
 
 Secondly, to assess whether the differences in effects are driven by differences in subjective health, we include additional controls for self-reported health. The results are reported in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel B, and indicate that the relationship between employment and self-reported diabetes becomes weaker, resulting in reduced difference between self-reported and undiagnosed diabetes. For women, the point estimates for self-reported diabetes and undiagnosed diabetes are now virtually of the same size, suggesting that differences in general health could be driving the above results, though the difference was not very big to begin with. For men, it appears that differences in health between the two groups play a role, however, other unobserved factors may still be important.
 
 Thirdly, instead of controlling for subjective health we include a battery of indicators for other chronic diseases that are often related to diabetes. In detail, we control for overweight and obesity (based on anthropometrically measured \ac{BMI}) and self-reports of a diagnosis of hypertension and heart disease. If those diagnosed with diabetes are more likely to experience adverse employment outcomes because they are more likely to suffer from one of these diseases, then accounting for them should lead to a sizeable reduction in the coefficient of self-reported diabetes. In line with the results in panel B, we find a reduction in the coefficient for self-reported diabetes in both men and women, though the reduction here is much bigger for men than for women. Having had a diagnosis of heart disease is significantly associated with lower employment probabilities for men, and overall the coefficient for self-reported diabetes in men is reduced by about one percentage point after the inclusion of these diabetes related diseases.\footnote{Further analysis indicates that the reductions in the diabetes coefficient for men appear after the inclusion of heart disease as well as hypertension, while ovwerweight and obesity play a minor role.}
+
+\begin{table}[h]
+\caption{\label{tab:Diagnosed_undiagnosed_condensed}Self-reported diabetes, biomarkers, diabetes severity and self-reported health and their association with labor outcomes}
+\begin{center}
+\begin{adjustbox}{max width=\linewidth} 
+\begin{threeparttable} 
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{S
+S}}
+\toprule
+                &\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Weekly working hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+Self-reported diabetes&    -.051\sym{**} &    -.044\sym{*}  &    -.010         &    -.040         &    -.293         &    -.751         \\
+                &   (.026)         &   (.023)         &   (.065)         &   (.113)         &  (1.305)         &  (2.178)         \\
+Biomarker tested diabetes&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
+                &   (.016)         &   (.018)         &   (.044)         &   (.070)         &   (.844)         &  (1.462)         \\
+
+Undiagnosed diabetes&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
+                &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.960)         &  (1.640)         \\
+False positives&    -.030         &    -.001         &     .328\sym{*}  &    -.002         &    1.756         &    6.183         \\
+                &   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Linear combinations (F-test)}} \\ 
+Linear Combination: Self-reported&    -.059         &    -.043         &    -.068         &    -.012         &    -.755         &   -4.700         \\
+                &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
+Linear Combination: Biomarker&    -.024         &    -.060         &    -.378         &    -.064         &   -2.344         &   -8.306         \\
+                &     .060         &     .054         &     .202         &     .250         &    3.463         &    4.910         \\
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Diabetes severity}} \\ 
+False positives&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
+                &   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
+Undiagnosed diabetes  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
+                &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.104)         &   (.192)         \\
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Controlling for other chronic diseases}} \\ 
+Diagnosed diabetes=1&     .008         &     .008         &     .340\sym{*}  &     .033         &    2.021         &    6.769         \\
+                &   (.050)         &   (.050)         &   (.195)         &   (.227)         &  (3.277)         &  (4.390)         \\
+HbA1c $\geq 6.5\%$=1&    -.015         &    -.015         &     .013         &    -.036         &     .124         &    2.372         \\
+                &   (.021)         &   (.021)         &   (.050)         &   (.079)         &   (.962)         &  (1.649)         \\
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Controlling for self-reported health}} \\ 
+HbA1c $\geq 6.5\%$=1&     .003         &    -.023         &    -.004         &    -.051         &    -.066         &    1.829         \\
+                &   (.017)         &   (.019)         &   (.049)         &   (.075)         &   (.926)         &  (1.569)         \\
+Diagnosed diabetes=1&    -.036         &    -.023         &     .002         &     .060         &     .123         &   -2.191         \\
+                &   (.026)         &   (.027)         &   (.079)         &   (.121)         &  (1.433)         &  (2.386)         \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year to account for the multiple years of data collection for the third wave. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base). \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\end{tablenotes}
+}
+\end{threeparttable}
+\end{adjustbox}
+\end{center}
+\end{table}
+
 
 \begin{table}[h]
 \caption{\label{tab:Diagnosed_undiagnosed_robust}Self-reported diabetes, biomarkers, diabetes severity and self-reported health and their association with labor outcomes}
@@ -716,43 +761,47 @@ S}}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
                 &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-\multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel A (HbA1c levels)}}\\
-Self-reported diabetes&     -.057\sym{*}  &    -.027         &    -.004         &    -.009         &    -.101         &   -1.607         \\
-                &   (.031)         &   (.025)         &   (.069)         &   (.113)         &  (1.370)         &  (2.363)    \\     
-HbA1c (if HbA1c $\geq 6.5\%$)  &     .001         &    -.003         &    -.001         &    -.005         &    -.030         &     .151         \\
-                &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.103)         &   (.172)         \\
-N               &     2785         &     3623         &     1803         &      884         &     2302         &     1144         \\
+ \multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel D: Interacting self-reported and HbA1c (if HbA1c $\geq 6.5$)}} \\
+Self-reported diabetes&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
+                &   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
+HbA1c (if HbA1c $\geq 6.5$)  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
+                &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.104)         &   (.192)         \\
+Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&    -.001         &    -.002         &    -.029\sym{**} &    -.005         &    -.231         &    -.746\sym{*}  \\
+                                 &     (.006)         &     (.004)         &     (.013)         &     (.021)         &     (.282)         &     (.348)         \\
+ N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
 \midrule
 \multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel C (self-reported health)}}\\  
-Self-reported diabetes&   -.036         &    -.023         &     .002         &     .060         &     .123         &   -2.191         \\
-                &   (.026)         &   (.027)         &   (.079)         &   (.121)         &  (1.433)         &  (2.386)         \\        
-Hba1c $\geq 6.5\%$&       .003         &    -.023         &    -.004         &    -.051         &    -.066         &    1.829         \\
-                &   (.017)         &   (.019)         &   (.049)         &   (.075)         &   (.926)         &  (1.569)         \\
+Hba1c $\geq 6.5\%$&     .005         &    -.018         &     .020         &    -.052         &     .116         &    2.728\sym{*}  \\
+                &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.961)         &  (1.639)         \\
+Self-reported diabetes&    -.013         &     .007         &     .353\sym{*}  &     .043         &    2.189         &    4.672         \\
+                &   (.056)         &   (.050)         &   (.193)         &   (.225)         &  (3.257)         &  (4.374)         \\
+Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&    -.028         &    -.041         &    -.416\sym{**} &     .024         &   -2.545         &   -9.725\sym{*}  \\
 \multicolumn{6}{l}{Self-reported health status}\\
-\hspace*{10mm}good&    .023         &     .057\sym{*}  &     .061         &    -.115         &   -1.131         &    3.521         \\
-                &   (.025)         &   (.034)         &   (.074)         &   (.124)         &  (1.376)         &  (2.499)         \\
-\hspace*{10mm}fair&    -.007         &     .006         &     .025         &    -.157         &   -1.606         &    4.646\sym{*}  \\
-                &   (.026)         &   (.034)         &   (.076)         &   (.128)         &  (1.424)         &  (2.607)         \\
-\hspace*{10mm}bad &    -.127\sym{***}&    -.024         &    -.016         &    -.371\sym{*}  &   -6.190\sym{**} &    6.918\sym{*}  \\
-                &   (.043)         &   (.046)         &   (.135)         &   (.189)         &  (2.521)         &  (3.858)         \\
-\hspace*{10mm}very bad&    -.165         &     .117         &    -.331         &     .316         &   -1.869         &  -17.400\sym{*}  \\
-                &   (.110)         &   (.116)         &   (.300)         &   (.439)         &  (6.433)         &  (9.005)         \\
+\hspace*{10mm}good &     .023         &     .057\sym{*}  &     .059         &    -.114         &   -1.137         &    3.203         \\
+                &   (.025)         &   (.034)         &   (.074)         &   (.124)         &  (1.376)         &  (2.501)         \\
+\hspace*{10mm}fair            &    -.006         &     .005         &     .027         &    -.156         &   -1.588         &    4.404\sym{*}  \\
+                &   (.026)         &   (.034)         &   (.076)         &   (.129)         &  (1.424)         &  (2.606)         \\
+\hspace*{10mm}bad             &    -.127\sym{***}&    -.023         &    -.019         &    -.371\sym{*}  &   -6.204\sym{**} &    6.999\sym{*}  \\
+                &   (.043)         &   (.046)         &   (.135)         &   (.189)         &  (2.521)         &  (3.853)         \\
+\hspace*{10mm}very bad        &    -.166         &     .117         &    -.384         &     .314         &   -2.155         &  -15.878\sym{*}  \\
+                &   (.110)         &   (.116)         &   (.301)         &   (.440)         &  (6.447)         &  (9.029)         \\
 N               &\multicolumn{1}{S}{2785}         &\multicolumn{1}{S}{3621}         &\multicolumn{1}{S}{1803}         &\multicolumn{1}{S}{883}         &\multicolumn{1}{S}{2302}         &\multicolumn{1}{S}{1143}         \\
 \midrule
 \multicolumn{6}{l}{\hspace*{10mm}\textbf{Panel B (other chronic diseases)}}\\
-Self-reported diabetes&    -.044\sym{*}  &    -.029         &     .005         &     .053         &    -.131         &   -1.411         \\
-                &   (.026)         &   (.027)         &   (.079)         &   (.120)         &  (1.438)         &  (2.385)         \\
-HbA1c $\geq 6.5\%$&     .001         &    -.021         &    -.010         &    -.037         &    -.077         &    1.382         \\
-                &   (.017)         &   (.019)         &   (.049)         &   (.076)         &   (.927)         &  (1.572)         \\
-
-Overweight &     .021         &    -.003         &     .093\sym{**} &     .034         &    -.225         &   -1.520         \\
-                &   (.016)         &   (.020)         &   (.046)         &   (.072)         &   (.874)         &  (1.528)         \\
-Obese&     .022         &    -.030         &     .086         &    -.026         &     .895         &    -.385         \\
-                &   (.019)         &   (.020)         &   (.053)         &   (.075)         &  (1.003)         &  (1.578)         \\
-Hypertension    &    -.035         &    -.020         &    -.106         &    -.089         &    -.447         &   -1.828         \\
-                &   (.025)         &   (.022)         &   (.072)         &   (.089)         &  (1.370)         &  (1.854)         \\
-Heart disease   &    -.165\sym{***}&    -.045         &     .060         &    -.039         &   -2.640         &   -5.430         \\
-                &   (.059)         &   (.050)         &   (.179)         &   (.215)         &  (3.659)         &  (4.854)         \\
+Self-reported diabetes&  -0.0160         &  0.00791         &    0.340         &   0.0330         &    2.021         &    6.769         \\
+                &  (-0.28)         &   (0.16)         &   (1.75)         &   (0.15)         &   (0.62)         &   (1.54)         \\
+HbA1c $\geq 6.5$ (dummy)&  0.00367         &  -0.0148         &   0.0127         &  -0.0362         &    0.124         &    2.372         \\
+                &   (0.20)         &  (-0.72)         &   (0.25)         &  (-0.46)         &   (0.13)         &   (1.44)         \\
+Self-reported diabetes $\times$ HbA1c (if HbA1c $\geq 6.5$)&  -0.0347         &  -0.0504         &   -0.398         &   0.0297         &   -2.662         &   -11.52\sym{*}  \\
+                &  (-0.56)         &  (-0.87)         &  (-1.89)         &   (0.11)         &  (-0.74)         &  (-2.23)         \\
+Overweight&   0.0204         & -0.00266         &   0.0890         &   0.0354         &   -0.140         &   -1.582         \\
+                &   (1.27)         &  (-0.14)         &   (1.93)         &   (0.49)         &  (-0.16)         &  (-1.04)         \\
+Obese&   0.0222         &  -0.0306         &   0.0713         &  -0.0200         &    1.141         &   -0.535         \\
+                &   (1.19)         &  (-1.53)         &   (1.32)         &  (-0.26)         &   (1.12)         &  (-0.34)         \\
+Hypertension    &  -0.0354         &  -0.0205         &   -0.128         &  -0.0796         &   -0.234         &   -2.465         \\
+                &  (-1.43)         &  (-0.94)         &  (-1.74)         &  (-0.87)         &  (-0.17)         &  (-1.30)         \\
+Heart disease   &   -0.166\sym{**} &  -0.0465         &   0.0259         &  -0.0172         &   -2.940         &   -5.319         \\
+                &  (-2.80)         &  (-0.92)         &   (0.14)         &  (-0.08)         &  (-0.80)         &  (-1.06)         \\
 N               &     2785         &     3621         &     1803         &      883         &     2302         &     1143         \\
 
 \bottomrule
