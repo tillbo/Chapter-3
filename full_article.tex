@@ -636,7 +636,7 @@ Total (N) & 4673 & 1735 & 6408 &  \\
 \end{table}
 
 Table \ref{tab:Biomarker_results} presents the results from estimating Eq. \ref{eq:diab_sr}, Eq. \ref{eq:diab} and Eq. \ref{eq:diab_ud}.  
-The results in columns 1 and 2 of Table \ref{tab:Biomarker_results} show that the earlier longitudinal results using self-reported diabetes are robust for the biomarker sample. The coefficients in column 3 and 4 indicate that the relationship becomes much weaker when using diabetes defined by the biomarker instead of self-reported diabetes.\footnote{We also created a dummy variable that additionally to measured diabetes accounted for those with a self-reported diabetes diagnosis but biomarker levels below the diabetes threshold. This is of interest because those who suffer from diabetes but manage to control their sugar levels may obtain test results outside the diabetes range.  If one would choose to believe there is no misreporting, this can be seen as representing the entire diabetes population. The coefficients and their statistical significance are only marginally different to those presented in columns 3 and 4 of Table 8, which is why we do not present them here.} Results in columns 5 and 6, obtained from estimating Eq. \ref{eq:diab_ud}, the coefficient for the biomarker diabetes population now reflects the effect of undiagnosed diabetes, as the regression includes a control for self-reported diabetes, revealing now statistically significant reductions in any labor outcome for those with undiagnosed diabetes. 
+The results in panel A of Table \ref{tab:Biomarker_results} show that the earlier longitudinal results using self-reported diabetes are robust for the biomarker sample. The coefficients in panel B indicate that the relationship with employment becomes much weaker when using diabetes defined by the biomarker instead of self-reported diabetes. Results in Panel C, obtained from estimating Eq. \ref{eq:diab_ud} where we interact self-reported diabetes with biometrically measured diabetes, the coefficient for the biomarker diabetes population now reflects the effect of undiagnosed diabetes, revealing no statistically significant reductions in any labor outcome. The coefficient for self-reported diabetes now reflects the effect for those with self-reported diabetes but biomarker levels below the diabetes threshold (false positives). The interaction term shows the effect for those self-reporting a diagnosis and with biomarker levels above the threshold. We do not find any statistically significant effects on employment for any of the groups. To assess the overall effect of self-reported diabetes when also controlling for biometrically measured diabetes and vice versa, we linearly combine the coefficients for those with self-reported diabetes and apply an F-test of their statistical significance. This again indicates a negative effect of self-reported diabetes for men but less so for women, similar to what panel A indicates.  For biomarker diabetes, no statistically significant effects are found for employment, even though for women the coefficient is larger than then the coefficient for self-reported diabetes. Overall, the results suggest that for men, the negative effects seem to be driven less by measured diabetes but rather by the awareness of diabetes, while for women being above the biomarker threshold appears to play a greater role. For the other outcomes, the results suggest the strongest adverse effects for the group aware of its diabetes and with biomarker levels above the diabetes threshold. However, these results may suffer from selection into employment that is unaccounted for in these models.
 
 \begin{table}[h]
 \caption{\label{tab:Biomarker_results}Biomarker results}
@@ -656,20 +656,20 @@ S}}
  Self-reported diabetes&    -.051\sym{**} &    -.044\sym{*}  &    -.010         &    -.040         &    -.293         &    -.751         \\
                  &   (.026)         &   (.023)         &   (.065)         &   (.113)         &  (1.305)         &  (2.178)         \\
  \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Diabetes (biomarker)}} \\
- HbA1c $\geq 6.5$&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
+Biomarker diabetes (HbA1c $\geq 6.5$)&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
                  &   (.016)         &   (.018)         &   (.044)         &   (.070)         &   (.844)         &  (1.462)         \\
   \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel C: Interacting self-reported and biomarker diabetes}} \\
  Self-reported diabetes&    -.030         &    -.001         &     .328\sym{*}  &    -.002         &    1.756         &    6.183         \\
                    &   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
- HbA1c $\geq 6.5$ (dummy)&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
+ Biomarker diabetes (HbA1c $\geq 6.5$)&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
                  &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.960)         &  (1.640)         \\
- Self-reported diabetes $\times$ HbA1c $\geq 6.5$ &    -.029         &    -.042         &    -.396\sym{*}  &    -.010         &   -2.511         &  -10.883\sym{**} \\
+ Self-reported diabetes $\times$ Biomarker diabetes &    -.029         &    -.042         &    -.396\sym{*}  &    -.010         &   -2.511         &  -10.883\sym{**} \\
                  &   (.062)         &   (.058)         &   (.209)         &   (.259)         &  (3.594)         &  (5.153)         \\
 Linear combinations (F-test) \\                 
-\hspace*{10mm} Self-reported&    -.059 \sym{**}        &    -.043         &    -	.068         &    -.012         &    -.755         &   -4.700         \\
-                 &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
-\hspace*{10mm} Biomarker&    -.024         &    -.060         &    -.378\sym{*}         &    -.064         &   -2.344         &   -8.306         \\
-                 &     (.060)         &     (.054)         &     (.202)         &     (.250)         &    (3.463)         &    (4.910)    \\
+\hspace*{10mm} Self-reported&  -.059\sym{**}         &    -.043         &    -.068         &    -.012         &    -.755         &   -4.700\sym{*}         \\
+                &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
+\hspace*{10mm} Biomarker&    -.024         &    -.060         &    -.378\sym{*}         &    -.064         &   -2.344         &   -8.306\sym{*}         \\
+                &     (.060)         &     (.054)         &     (.202)         &     (.250)         &    (3.463)         &    (4.910)         \\
 \midrule                 
  N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3623}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{884}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1144}         \\
 \bottomrule
@@ -686,7 +686,7 @@ Linear combinations (F-test) \\
 
 
 
-To explore whether this stems from selection into the diagnosed population of those with a more severe diabetes---proxied by higher \ac{HbA1c} levels---and a therefore higher risk to lose their job,  we test whether those with self-reported diabetes have higher levels of \ac{HbA1c} than those who were not diagnosed, using a t-test, and find that in particular men do.\footnote{Men: Self-reported diabetes \ac{HbA1c} of 9.0\% vs 8.5\% in those undiagnosed (p < 0.01); Women: Self-reported diabetes \ac{HbA1c} of 8.9\% vs 8.7\% in those undiagnosed (p < 0.05).} We then extend the model to take into account the severity of diabetes more explicitly, using the measured HbA1c levels. If current severity would be related to labour outcomes and explain the difference in effects of self-reported and undiagnosed diabetes, one would expect (i) that those with higher \ac{HbA1c} levels have a lower probability of employment, and (ii) that the inclusion of diabetes severity weakens the coefficient of self-reported diabetes.  To investigate this, we replace the indicator variable for diabetes with a variable that takes the value zero for levels below and the actual value of \ac{HbA1c} for those above the diabetes threshold. The results in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel A do not find a consistent relationship between increased \ac{HbA1c} levels and the probability of employment, suggesting that disease severity may not explain the different employment effects of diabetes. 
+To explore whether this stems from selection into the diagnosed population of those with a more severe diabetes---proxied by higher \ac{HbA1c} levels---and a therefore higher risk of job loss,  we test, using a t-test, whether those with self-reported diabetes have higher levels of \ac{HbA1c} than those who were not diagnosed, and find that in particular men do.\footnote{Men: Self-reported diabetes \ac{HbA1c} of 9.0\% vs 8.5\% in those undiagnosed (p < 0.01); Women: Self-reported diabetes \ac{HbA1c} of 8.9\% vs 8.7\% in those undiagnosed (p < 0.05).} We then extend the model to take into account the severity of diabetes more explicitly, using the measured \ac{HbA1c} levels. If current severity would be related to labour outcomes and explain the difference in effects of self-reported and undiagnosed diabetes, one would expect (i) that those with higher \ac{HbA1c} levels have a lower probability of employment, and (ii) that the inclusion of diabetes severity weakens the coefficient of self-reported diabetes.  To investigate this, we replace the indicator variable for diabetes with a variable that takes the value zero for levels below and the actual value of \ac{HbA1c} for those above the diabetes threshold. The results in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel A do not indicate a consistent relationship between increased \ac{HbA1c} levels and the probability of employment, suggesting that disease severity may not explain the different employment effects of diabetes. 
 
 Secondly, to assess whether the differences in effects are driven by differences in subjective health, we include additional controls for self-reported health. The results are reported in Table \ref{tab:Diagnosed_undiagnosed_robust}, panel B, and indicate that the relationship between employment and self-reported diabetes becomes weaker, resulting in reduced difference between self-reported and undiagnosed diabetes. For women, the point estimates for self-reported diabetes and undiagnosed diabetes are now virtually of the same size, suggesting that differences in general health could be driving the above results, though the difference was not very big to begin with. For men, it appears that differences in health between the two groups play a role, however, other unobserved factors may still be important.
 
@@ -706,35 +706,42 @@ S}}
                 &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
                 &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 \midrule
-Self-reported diabetes&    -.051\sym{**} &    -.044\sym{*}  &    -.010         &    -.040         &    -.293         &    -.751         \\
-                &   (.026)         &   (.023)         &   (.065)         &   (.113)         &  (1.305)         &  (2.178)         \\
-Biomarker tested diabetes&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
-                &   (.016)         &   (.018)         &   (.044)         &   (.070)         &   (.844)         &  (1.462)         \\
-
-Undiagnosed diabetes&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
-                &   (.018)         &   (.020)         &   (.050)         &   (.078)         &   (.960)         &  (1.640)         \\
-False positives&    -.030         &    -.001         &     .328\sym{*}  &    -.002         &    1.756         &    6.183         \\
-                &   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
-\multicolumn{7}{l}{\hspace*{10mm}\textbf{Linear combinations (F-test)}} \\ 
-Linear Combination: Self-reported&    -.059         &    -.043         &    -.068         &    -.012         &    -.755         &   -4.700         \\
-                &   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\
-Linear Combination: Biomarker&    -.024         &    -.060         &    -.378         &    -.064         &   -2.344         &   -8.306         \\
-                &     .060         &     .054         &     .202         &     .250         &    3.463         &    4.910         \\
-\multicolumn{7}{l}{\hspace*{10mm}\textbf{Diabetes severity}} \\ 
-False positives&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
+\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel A: Diabetes severity}} \\ 
+Self-reported diabetes&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
                 &   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
-Undiagnosed diabetes  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
+HbA1c if $\geq 6.5$  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
                 &   (.002)         &   (.002)         &   (.005)         &   (.008)         &   (.104)         &   (.192)         \\
- \multicolumn{7}{l}{\hspace*{10mm}\textbf{Controlling for other chronic diseases}} \\ 
-Diagnosed diabetes=1&     .008         &     .008         &     .340\sym{*}  &     .033         &    2.021         &    6.769         \\
+Self-reported diabetes $\times$ HbA1c if $\geq 6.5$&    -.001         &    -.002         &    -.029\sym{**} &    -.005         &    -.231         &    -.746\sym{*}  \\
+                &   (.007)         &   (.005)         &   (.014)         &   (.022)         &   (.283)         &   (.408)         \\                
+Linear combinations (F-test) \\ 
+\hspace*{10mm}Self-reported&    -.051         &    -.015         &     .194\sym{*}         &     .024         &    1.419         &    2.719         \\
+                &   (.059)         &   (.037)         &   (.106)         &   (.161)         &  (2.273)         &  (3.236)         \\
+\textbf{\hspace*{10mm}}Biomarker&     .000         &    -.005         &    -.027\sym{**}         &    -.010         &    -.236         &    -.490         \\
+                &     (.006)         &     (.004)         &     (.013)         &     (.021)         &     (.282)         &     (.348)         \\                
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Controlling for other chronic diseases}} \\ 
+Self-reported diabetes&     .008         &     .008         &     .340\sym{*}  &     .033         &    2.021         &    6.769         \\
                 &   (.050)         &   (.050)         &   (.195)         &   (.227)         &  (3.277)         &  (4.390)         \\
-HbA1c $\geq 6.5\%$=1&    -.015         &    -.015         &     .013         &    -.036         &     .124         &    2.372         \\
+Biomarker diabetes (HbA1c $\geq 6.5$)&    -.015         &    -.015         &     .013         &    -.036         &     .124         &    2.372         \\
                 &   (.021)         &   (.021)         &   (.050)         &   (.079)         &   (.962)         &  (1.649)         \\
- \multicolumn{7}{l}{\hspace*{10mm}\textbf{Controlling for self-reported health}} \\ 
-HbA1c $\geq 6.5\%$=1&     .003         &    -.023         &    -.004         &    -.051         &    -.066         &    1.829         \\
+Self-reported diabetes $\times$ Biomarker diabetes&    -.035         &    -.050         &    -.398\sym{*}  &     .030         &   -2.662         &  -11.520\sym{**} \\
+                &   (.062)         &   (.058)         &   (.210)         &   (.260)         &  (3.609)         &  (5.173)         \\
+Linear combinations (F-test) \\                
+\hspace*{10mm}Self-reported&    -.051\sym{*}         &    -.043         &    -.058         &     .063         &    -.640         &   -4.752\sym{*}         \\
+                &   (.029)         &   (.031)         &   (.085)         &   (.138)         &  (1.584)         &  (2.807)         \\
+\hspace*{10mm}Biomarker&    -.031         &    -.065         &    -.385         &    -.006         &   -2.538         &   -9.149\sym{*}        \\
+                &     (.060)         &     (.054)         &     (.204)\sym{*}         &     (.252)         &    (3.480)         &    (4.935)         \\                                
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel C: Controlling for self-reported health}} \\ 
+Self-reported diabetes&     .003         &    -.023         &    -.004         &    -.051         &    -.066         &    1.829         \\
                 &   (.017)         &   (.019)         &   (.049)         &   (.075)         &   (.926)         &  (1.569)         \\
-Diagnosed diabetes=1&    -.036         &    -.023         &     .002         &     .060         &     .123         &   -2.191         \\
+Biomarker diabetes (HbA1c $\geq 6.5$)&    -.036         &    -.023         &     .002         &     .060         &     .123         &   -2.191         \\
                 &   (.026)         &   (.027)         &   (.079)         &   (.121)         &  (1.433)         &  (2.386)         \\
+Self-reported diabetes $\times$ Biomarker diabetes&    -.028         &    -.041         &    -.416\sym{**} &     .024         &   -2.545         &   -9.725\sym{*}  \\
+                &   (.062)         &   (.058)         &   (.210)         &   (.259)         &  (3.604)         &  (5.198)         \\
+Linear combinations (F-test) \\                  
+\hspace*{10mm}Self-reported&    -.041         &    -.034         &    -.064         &     .066         &    -.356         &   -5.053\sym{*}         \\
+                &   (.029)         &   (.031)         &   (.085)         &   (.139)         &  (1.586)         &  (2.831)         \\
+\hspace*{10mm}Biomarker&    -.023         &    -.059         &    -.396\sym{*}         &    -.029         &   -2.430         &   -6.998         \\
+                &     (.060)         &     (.054)         &     (.203)         &     (.250)         &    (3.473)         &    (4.971)         \\                                
 \bottomrule
 \end{tabular}
 \begin{tablenotes}
