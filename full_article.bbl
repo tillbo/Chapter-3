@@ -997,6 +997,50 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Gutiérrez-delgado, Guajardo-barrón - 2009 - Advances in Health Economics and Health Services Research.pdf:pdf
       \endverb
     \endentry
+    \entry{Hanson2012}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=96e261996d3b2726d14d8017416634b6}{Hanson}{H\bibinitperiod}{M\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=3f8cd8defc38021fb48f46b36500e53e}{Gluckman}{G\bibinitperiod}{P\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=68b9ff8082a676d9e9a21b1961fa1e4f}{Ma}{M\bibinitperiod}{R\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=de035ec2929f610497453c50ffdb0c24}{Matzen}{M\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=974352fb04a665e41f24c597d96a0818}{Biesma}{B\bibinitperiod}{R\bibnamedelima G}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=96e261996d3b2726d14d8017416634b6}{Hanson}{H\bibinitperiod}{M\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=3f8cd8defc38021fb48f46b36500e53e}{Gluckman}{G\bibinitperiod}{P\bibnamedelima D}{P\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=68b9ff8082a676d9e9a21b1961fa1e4f}{Ma}{M\bibinitperiod}{R\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=de035ec2929f610497453c50ffdb0c24}{Matzen}{M\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=974352fb04a665e41f24c597d96a0818}{Biesma}{B\bibinitperiod}{R\bibnamedelima G}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BMC Public Health}%
+      }
+      \strng{namehash}{47dcb66d787a481552deaee6b9fb2e94}
+      \strng{fullhash}{e42efc01dd845780ae4464e22853b698}
+      \field{sortinit}{H}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{Early life opportunities for prevention of diabetes in low and middle income countries}}
+      \field{abstract}{BACKGROUND: The global burden of diabetes and other non-communicable diseases is rising dramatically worldwide and is causing a double poor health burden in low- and middle-income countries. Early life influences play an important part in this scenario because maternal lifestyle and conditions such as gestational diabetes and obesity affect the risk of diabetes in the next generation. This indicates important periods during the lifecourse when interventions could have powerful affects in reducing incidence of non-communicable diseases. However, interventions to promote diet and lifestyle in prospective parents before conception have not received sufficient attention, especially in low- and middle-income countries undergoing socio-economic transition. DISCUSSION: Interventions to produce weight loss in adults or to reduce weight gain in pregnancy have had limited success and might be too late to produce the largest effects on the health of the child and his/her later risk of non-communicable diseases. A very important factor in the prevention of the developmental component of diabetes risk is the physiological state in which the parents enter pregnancy. We argue that the most promising strategy to improve prospective parents' body composition and lifestyle is the promotion of health literacy in adolescents. Multiple but integrated forms of community-based interventions that focus on nutrition, physical activity, family planning, breastfeeding and infant feeding practices are needed. They need to address the wider social economic context in which adolescents live and to be linked with existing public health programmes in sexual and reproductive health and maternal and child health initiatives. SUMMARY: Interventions aimed at ensuring a healthy body composition, diet and lifestyle before pregnancy offer a most effective solution in many settings, especially in low- and middle-income countries undergoing socio-economic transition. Preparing a mother, her partner and her future child for "the 1000 days", whether from planned or unplanned conception would break the cycle of risk and demonstrate benefit in the shortest possible time. Such interventions will be particularly important in adolescents and young women in disadvantaged groups and can improve the physiological status of the fetus as well as reduce the prevalence of pregnancy conditions such as gestational diabetes mellitus which both predispose to non-communicables diseases in both the mother and her child. Pre-conception interventions require equipping prospective parents with the necessary knowledge and skills to make healthy lifestyle choices for themselves and their children. Addressing the promotion of such health literacy in parents-to-be in low- and middle-income countries requires a wider social perspective. It requires a range of multisectoral agencies to work together and could be linked to the issues of women's empowerment, to reproductive health, to communicable disease prevention and to the Millennium Development Goals 4 and 5.}
+      \field{isbn}{1471-2458 (Electronic)$\backslash$r1471-2458 (Linking)}
+      \field{issn}{1471-2458}
+      \field{journaltitle}{BMC Public Health}
+      \field{number}{1}
+      \field{title}{{Early life opportunities for prevention of diabetes in low and middle income countries}}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{1025}
+      \verb{doi}
+      \verb 10.1186/1471-2458-12-1025
+      \endverb
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/Hanson et al. - 2012 - Early life opportunities for prevention of diabetes in low and middle income countries.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.biomedcentral.com/content/pdf/1471-2458-12-1025.pdf
+      \endverb
+      \keyw{Adolescent,Developing Countries,Diabetes Mellitus/ prevention {\&} control,Diet,Female,Health Promotion/ methods,Humans,Life Style,Male,Parents/ education,Risk Factors}
+    \endentry
     \entry{Heraclides2012}{article}{}
       \name{labelname}{4}{}{%
         {{hash=a861c3d719d63ffc23b5cb1d99e502cc}{Heraclides}{H\bibinitperiod}{Alexandros\bibnamedelima M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -2524,7 +2568,6 @@
       \keyw{80 and over,Adolescent,Adult,Aged,China,Diet,Diet: statistics {\&} numerical data,Dietary Fats,Dietary Fats: administration {\&} dosage,Educational Status,Female,Health Behavior,Health information,Humans,Hypertension,Hypertension: diagnosis,Income,Income: statistics {\&} numerical data,Life Style,Longitudinal Studies,Male,Middle Aged,Regression discontinuity,Young Adult}
     \endentry
   \endsortlist
-  \missing{Hanson2012}
 \endrefsection
 \endinput
 
