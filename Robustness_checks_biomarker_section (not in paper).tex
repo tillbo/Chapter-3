@@ -1,0 +1,57 @@
+% Stuff potentially for appendix 
+
+% Biomarker robustness checks
+
+begin{table}[h]
+\caption{\label{tab:Diagnosed_undiagnosed_condensed}Self-reported diabetes, biomarkers, diabetes severity and self-reported health and their association with labor outcomes}
+\begin{center}
+\begin{adjustbox}{max width=\linewidth} 
+\begin{threeparttable} 
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{S
+S}}
+\toprule
+                &\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Weekly working hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                &\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
+\midrule
+
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Controlling for other chronic diseases}} \\ 
+Self-reported diabetes ($\beta_{1}$)&    -.016         &     .008         &     .340\sym{*}  &     .033         &    2.021         &    6.769         \\
+                &   (.056)         &   (.050)         &   (.195)         &   (.227)         &  (3.277)         &  (4.390)         \\
+Biomarker diabetes (HbA1c $\geq 6.5$) ($\beta_{2}$)&.004         &    -.015         &     .013         &    -.036         &     .124         &    2.372         \\
+                &   (.018)         &   (.021)         &   (.050)         &   (.079)         &   (.962)         &  (1.649)         \\
+Self-reported diabetes $\times$ Biomarker diabetes ($\beta_{1} \times \beta_{2}$)&    -.035         &    -.050         &    -.398\sym{*}  &     .030         &   -2.662         &  -11.520\sym{**} \\
+                &   (.062)         &   (.058)         &   (.210)         &   (.260)         &  (3.609)         &  (5.173)         \\
+Linear combination: Self-reported ($\beta_{1}+\beta_{3}$)&    -.051\sym{*}         &    -.043         &    -.058         &     .063         &    -.640         &   -4.752         \\
+                &   (.029)         &   (.031)         &   (.085)         &   (.138)         &  (1.584)         &  (2.807)         \\
+F-test (p-value): $\beta_{1}+\beta_{3} = \beta_{2}$&     .180         &     .535         &     .548         &     .592         &     .729  &  .063   \\                   
+                         
+ \multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel C: Controlling for self-reported health}} \\ 
+Self-reported diabetes ($\beta_{1}$)&     .003         &    -.023         &    -.004         &    -.051         &    -.066         &    1.829         \\
+                &   (.017)         &   (.019)         &   (.049)         &   (.075)         &   (.926)         &  (1.569)         \\
+Biomarker diabetes (HbA1c $\geq 6.5$) ($\beta_{2}$)&    -.036         &    -.023         &     .002         &     .060         &     .123         &   -2.191         \\
+                &   (.026)         &   (.027)         &   (.079)         &   (.121)         &  (1.433)         &  (2.386)         \\
+Self-reported diabetes $\times$ Biomarker diabetes ($\beta_{1} \times \beta_{2}$)&    -.028         &    -.041         &    -.416\sym{**} &     .024         &   -2.545         &   -9.725\sym{*}  \\
+                &   (.062)         &   (.058)         &   (.210)         &   (.259)         &  (3.604)         &  (5.198)         \\
+Linear combination: Self-reported ($\beta_{1}+\beta_{3}$)&    -.041         &    -.034         &    -.064         &     .066         &    -.356         &   -5.053\sym{*}         \\
+                &   (.029)         &   (.031)         &   (.085)         &   (.139)         &  (1.586)         &  (2.831)         \\
+F-test (p-value): $\beta_{1}+ \beta_{3} = \beta_{2}$&     .256         &     .719         &     .473         &     .521         &     .831         &     .043         \\   
+\midrule                             
+ N               &\multicolumn{1}{c}{2785}         &\multicolumn{1}{c}{3621}         &\multicolumn{1}{c}{1803}         &\multicolumn{1}{c}{883}         &\multicolumn{1}{c}{2302}         &\multicolumn{1}{c}{1143}         \\                    
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \footnotesize \textit{Notes} Community level fixed effects. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calender year to account for the multiple years of data collection for the third wave. The wage and working hour models additionally control for type of work (agricultural and self employed with non-agricultural wage employment as the base). \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+\end{tablenotes}
+}
+\end{threeparttable}
+\end{adjustbox}
+\end{center}
+\end{table}
+
+
+While we only partly found statistically significant differences between undiagnosed and self-reported diabetes, the coefficients consistently indicated a larger effect of self-reported diabetes. However, it is unclear what could be driving these potential differences. Potentially, people self-reporting diabetes have a different profile in terms of diabetes complications compared to the undiagnosed. We therefore include a battery of indicators for other chronic diseases that are often related to diabetes. In detail, we control for overweight and obesity (based on anthropometric measures of \ac{BMI}) and self-reports of a diagnosis of hypertension and heart disease. If those diagnosed with diabetes are more likely to experience adverse labor outcomes because they are more likely to suffer from one of these diseases, then accounting for them should lead to a sizeable reduction in the coefficient of self-reported diabetes. On the other hand, the lack of treatment of diabetes in the undiagnosed population could also lead to a higher complications burden in that population, and the gap in the coefficients may even increase. We find a reduction in the coefficient for self-reported diabetes in both men and women, though the reduction here is much bigger for men than for women. Having had a diagnosis of heart disease is significantly associated with lower employment probabilities for men, and overall the coefficient for self-reported diabetes in men is reduced by about one percentage point after the inclusion of these diabetes related diseases.\footnote{Further analysis indicates that the reductions in the diabetes coefficient for men appear after the inclusion of heart disease as well as hypertension, while ovwerweight and obesity play a minor role.}
+
+Finally, we instead control for subjective health. The results are reported in Table \ref{tab:Diagnosed_undiagnosed_condensed}, panel B, and indicate that the relationship between employment and self-reported diabetes becomes weaker, resulting in reduced difference between self-reported and undiagnosed diabetes. For women, the point estimates for self-reported diabetes and undiagnosed diabetes are now virtually of the same size, suggesting that differences in general health could be driving the above results, though the difference was not very big to begin with. For men, it appears that differences in health between the two groups play a role, however, other unobserved factors may still be important.

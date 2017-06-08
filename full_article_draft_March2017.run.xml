@@ -41,44 +41,45 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>full_article.bcf</file>
+      <file>full_article_draft_March2017.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>full_article.bbl</file>
+      <file>full_article_draft_March2017.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>chicago-authordate.bbx</file>
-      <file>chicago-authordate.cbx</file>
+      <file>authoryear-comp.bbx</file>
+      <file>authoryear.bbx</file>
+      <file>standard.bbx</file>
+      <file>authoryear-comp.cbx</file>
       <file>biblatex.cfg</file>
+      <file>english-apa.lbx</file>
+      <file>american.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>full_article</infile>
+      <infile>full_article_draft_March2017</infile>
     </cmdline>
     <input>
-      <file>full_article.bcf</file>
+      <file>full_article_draft_March2017.bcf</file>
     </input>
     <output>
-      <file>full_article.bbl</file>
+      <file>full_article_draft_March2017.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>full_article.bbl</file>
+      <file>full_article_draft_March2017.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>full_article.bcf</file>
-    </requires>
-    <requires type="editable">
-      <file>/home/till/Dokumente/BibTex/Second_Mexico_paper.bib</file>
+      <file>full_article_draft_March2017.bcf</file>
     </requires>
   </external>
 </requests>

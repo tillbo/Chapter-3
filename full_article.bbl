@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist{entry}{nyt}
+  \sortlist{entry}{nty}
     \entry{Alegre-Diaz2016}{article}{}
       \name{labelname}{15}{}{%
         {{hash=2c19871229176a39544626753accee70}{Alegre-Díaz}{A\bibinithyphendelim D\bibinitperiod}{Jesus}{J\bibinitperiod}{}{}{}{}}%
@@ -155,7 +155,7 @@
       \endverb
     \endentry
     \entry{Barquera2013}{article}{}
-      \name{labelname}{6}{uniquelist=2}{%
+      \name{labelname}{6}{}{%
         {{hash=22447d5bf20dcf6bc42adb0c0362314f}{Barquera}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
         {{hash=bb43e0dea1440d9cce30bafa1a9b409d}{Campos-Nonato}{C\bibinithyphendelim N\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
         {{hash=a539ee608f773ade7e0af0507df9d32e}{Aguilar-Salinas}{A\bibinithyphendelim S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
@@ -163,7 +163,7 @@
         {{hash=002da3e40f065712068f67fbe115f41a}{Arredondo}{A\bibinitperiod}{Armando}{A\bibinitperiod}{}{}{}{}}%
         {{hash=8b8840abf8acefd41045e9c9c2aeab90}{Rivera-Dommarco}{R\bibinithyphendelim D\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{6}{uniquelist=2}{%
+      \name{author}{6}{}{%
         {{hash=22447d5bf20dcf6bc42adb0c0362314f}{Barquera}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
         {{hash=bb43e0dea1440d9cce30bafa1a9b409d}{Campos-Nonato}{C\bibinithyphendelim N\bibinitperiod}{Ismael}{I\bibinitperiod}{}{}{}{}}%
         {{hash=a539ee608f773ade7e0af0507df9d32e}{Aguilar-Salinas}{A\bibinithyphendelim S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
@@ -171,7 +171,7 @@
         {{hash=002da3e40f065712068f67fbe115f41a}{Arredondo}{A\bibinitperiod}{Armando}{A\bibinitperiod}{}{}{}{}}%
         {{hash=8b8840abf8acefd41045e9c9c2aeab90}{Rivera-Dommarco}{R\bibinithyphendelim D\bibinitperiod}{Juan}{J\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{246c438a7d213d93301a197f5f69d448}
+      \strng{namehash}{1bbf57772cdb9dc7d106689b7cf0e91f}
       \strng{fullhash}{4e46bb4d137a4a055aa7b61de162a936}
       \field{sortinit}{B}
       \field{labelyear}{2013}
@@ -194,7 +194,7 @@
       \keyw{Adult,Cost of Illness,Diabetes Complications,Diabetes Complications: economics,Diabetes Complications: epidemiology,Diabetes Complications: therapy,Diabetes Mellitus,Diabetes Mellitus: economics,Diabetes Mellitus: epidemiology,Diabetes Mellitus: therapy,Female,Health Policy,Humans,Male,Mexico,Mexico: epidemiology,Middle Aged}
     \endentry
     \entry{Barquera2008b}{article}{}
-      \name{labelname}{7}{uniquelist=2}{%
+      \name{labelname}{7}{}{%
         {{hash=22447d5bf20dcf6bc42adb0c0362314f}{Barquera}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
         {{hash=46cb6223406fb93ec56e8b9e6d1073f3}{Hernandez-Barrera}{H\bibinithyphendelim B\bibinitperiod}{Lucia}{L\bibinitperiod}{}{}{}{}}%
         {{hash=b9f4425ae2e7c8cbd97b3435ebcc5074}{Tolentino}{T\bibinitperiod}{Maria\bibnamedelima Lizbeth}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
@@ -203,7 +203,7 @@
         {{hash=5466402c728df07ef132f07720d05c06}{Rivera}{R\bibinitperiod}{Juan\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
         {{hash=59261e8f5fb31c688d8e6a5bcf80a559}{Popkin}{P\bibinitperiod}{Barry\bibnamedelima M}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{7}{uniquelist=2}{%
+      \name{author}{7}{}{%
         {{hash=22447d5bf20dcf6bc42adb0c0362314f}{Barquera}{B\bibinitperiod}{Simon}{S\bibinitperiod}{}{}{}{}}%
         {{hash=46cb6223406fb93ec56e8b9e6d1073f3}{Hernandez-Barrera}{H\bibinithyphendelim B\bibinitperiod}{Lucia}{L\bibinitperiod}{}{}{}{}}%
         {{hash=b9f4425ae2e7c8cbd97b3435ebcc5074}{Tolentino}{T\bibinitperiod}{Maria\bibnamedelima Lizbeth}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
@@ -212,7 +212,7 @@
         {{hash=5466402c728df07ef132f07720d05c06}{Rivera}{R\bibinitperiod}{Juan\bibnamedelima A}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
         {{hash=59261e8f5fb31c688d8e6a5bcf80a559}{Popkin}{P\bibinitperiod}{Barry\bibnamedelima M}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{31130720d1f365af05cb2bde9a50049d}
+      \strng{namehash}{1bbf57772cdb9dc7d106689b7cf0e91f}
       \strng{fullhash}{499b8471293760979ba54bf2bcff446d}
       \field{sortinit}{B}
       \field{labelyear}{2008}
@@ -445,17 +445,17 @@
       \keyw{Bosnia and Herzegovina,Children,Education,Health shocks,Parents}
     \endentry
     \entry{Brown2005}{article}{}
-      \name{labelname}{3}{uniquelist=2}{%
+      \name{labelname}{3}{}{%
         {{hash=6dc15a3d84a263fd2d4b297e6dbc57b9}{Brown}{B\bibinitperiod}{H\bibnamedelima Shelton}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
         {{hash=603f193b608df99f1cab095a15d4d60c}{Pagán}{P\bibinitperiod}{José\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
         {{hash=d1102702cf9f935be1f577c38fac9ea6}{Bastida}{B\bibinitperiod}{Elena}{E\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{uniquelist=2}{%
+      \name{author}{3}{}{%
         {{hash=6dc15a3d84a263fd2d4b297e6dbc57b9}{Brown}{B\bibinitperiod}{H\bibnamedelima Shelton}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
         {{hash=603f193b608df99f1cab095a15d4d60c}{Pagán}{P\bibinitperiod}{José\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
         {{hash=d1102702cf9f935be1f577c38fac9ea6}{Bastida}{B\bibinitperiod}{Elena}{E\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{20fcf09b12ad09149648e110ec26e08e}
+      \strng{namehash}{4d86b2fdd0116702eebbba2e3ed6d347}
       \strng{fullhash}{c21896349c83e0335d450e7e3fb69a3d}
       \field{sortinit}{B}
       \field{labelyear}{2005}
@@ -479,7 +479,7 @@
       \keyw{*diabetes mellitus,*employment,Absenteeism,African Americans,African Americans: genetics,African Americans: statistics {\&} numerical data,Aged,Cost of Illness,Diabetes Mellitus,Diabetes Mellitus: economics,Diabetes Mellitus: ethnology,Diabetes Mellitus: genetics,Efficiency,Employment,Employment: statistics {\&} numerical data,Female,Health Production I120,Hispanic,Humans,Male,Mexican Americans,Mexican Americans: genetics,Mexican Americans: statistics {\&} numerical data,Middle Aged,Models,Poverty,Poverty: economics,Poverty: ethnology,Statistical,Texas,Texas: epidemiology,Till,Time Allocation an,absenteeism,aged,all,article,demography,download,econlit,embase,epidemiological data,extracted,genetic predisposition,genetic variability,health economics,health survey,human,included,mortality,newsearch,physical disability,priority journal,productivity,pubmed,relevant,reviewed,selected{\_}papers,sex difference,social aspect}
     \endentry
     \entry{BrownIII2011}{article}{}
-      \name{labelname}{7}{uniquelist=2}{%
+      \name{labelname}{7}{}{%
         {{hash=6dc15a3d84a263fd2d4b297e6dbc57b9}{Brown}{B\bibinitperiod}{H\bibnamedelima Shelton}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
         {{hash=c0fac0225ac87bfa6b9713f274271f3a}{Perez}{P\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
         {{hash=80e6dbba3d77c460f65dd58b0ce36415}{Yarnell}{Y\bibinitperiod}{Lisa\bibnamedelima Marie}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -488,7 +488,7 @@
         {{hash=50a9252e6b4f180d80798a9bf11aea4f}{Fischer-Hoch}{F\bibinithyphendelim H\bibinitperiod}{Susan\bibnamedelima P}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
         {{hash=0c954c571c4256c5d4c28c89f3ee787d}{McCormick}{M\bibinitperiod}{Joseph\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{7}{uniquelist=2}{%
+      \name{author}{7}{}{%
         {{hash=6dc15a3d84a263fd2d4b297e6dbc57b9}{Brown}{B\bibinitperiod}{H\bibnamedelima Shelton}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
         {{hash=c0fac0225ac87bfa6b9713f274271f3a}{Perez}{P\bibinitperiod}{Adriana}{A\bibinitperiod}{}{}{}{}}%
         {{hash=80e6dbba3d77c460f65dd58b0ce36415}{Yarnell}{Y\bibinitperiod}{Lisa\bibnamedelima Marie}{L\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -497,7 +497,7 @@
         {{hash=50a9252e6b4f180d80798a9bf11aea4f}{Fischer-Hoch}{F\bibinithyphendelim H\bibinitperiod}{Susan\bibnamedelima P}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
         {{hash=0c954c571c4256c5d4c28c89f3ee787d}{McCormick}{M\bibinitperiod}{Joseph\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{35a2a9aad2636783e90803f9e152fd15}
+      \strng{namehash}{4d86b2fdd0116702eebbba2e3ed6d347}
       \strng{fullhash}{0ddde3a83e7b9195b3b620807f708adf}
       \field{sortinit}{B}
       \field{labelyear}{2011}
@@ -966,16 +966,6 @@
         {{hash=4681cc79faf236b07271cd27cbd00bb8}{Gutiérrez-delgado}{G\bibinithyphendelim d\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
         {{hash=c71615cb8429f5d498ccd8e7f5ac2df9}{Guajardo-barrón}{G\bibinithyphendelim b\bibinitperiod}{Veronica}{V\bibinitperiod}{}{}{}{}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=be1b461572081ef3d6f53288ce1cc7d9}{Gutiérrez-Delgado}{G\bibinithyphendelim D\bibinitperiod}{Cristina}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=7dbf2afbea6a99ba6c551274d8910808}{Guajardo-Barrón}{G\bibinithyphendelim B\bibinitperiod}{Veronica}{V\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Bingley}%
-      }
-      \list{publisher}{1}{%
-        {Emerald Group Publishing}%
-      }
       \strng{namehash}{59f9d5cf2c42fdabeb8b8f874e698d4e}
       \strng{fullhash}{59f9d5cf2c42fdabeb8b8f874e698d4e}
       \field{sortinit}{G}
@@ -985,7 +975,6 @@
       \field{booktitle}{Advances in Health Economics and Health Services Research}
       \field{isbn}{978-1-84855-664-5}
       \field{issn}{0731-2199}
-      \field{series}{Advances in Health Economics and Health Services Research}
       \field{title}{{The double burden of disease in developing countries: The Mexican experience}}
       \field{volume}{21}
       \field{year}{2009}
@@ -1314,45 +1303,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Liu, Zhu - 2014 - Will knowing diabetes affect labor income Evidence from a natural experiment.pdf:pdf
       \endverb
     \endentry
-    \entry{Minor2011}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {P.C. Langley, University of Minnesota, Minneapolis, MN, United States}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier Ltd}%
-      }
-      \strng{namehash}{66a6d7c669e47575f8c2fc182053aff3}
-      \strng{fullhash}{66a6d7c669e47575f8c2fc182053aff3}
-      \field{sortinit}{M}
-      \field{labelyear}{2011}
-      \field{labelmonth}{12}
-      \field{datelabelsource}{}
-      \field{labeltitle}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
-      \field{abstract}{This paper estimates the effect of diabetes on labor-force participation, hours worked, days-out-of-work due to illness, and earnings using data from the National Health Interview Survey. Findings indicate that diabetes, estimated wholly, is significantly detrimental to most labor market outcomes. However, separation of type I and II diabetes shows that much of the negative effect is due to type II diabetes. On average a female with type II diabetes can experience a wage penalty of almost 50{\%} relative to a healthy individual. Additionally, estimates of specifically type II diabetes may be subject to endogeneity bias. To account for this, I utilize whether an individual's biological mother has been diagnosed with diabetes as an instrumental variable. This instrument provides both theoretical and statistical explanatory power to separate the causal effect of type II diabetes on labor-force decisions.}
-      \field{isbn}{1098-3015}
-      \field{issn}{10579230}
-      \field{journaltitle}{Health Economics}
-      \field{month}{12}
-      \field{number}{12}
-      \field{series}{15th Annual International Meeting of the International Society for Pharmacoeconomics and Outcomes Research, ISPOR 2010 Atlanta, GA United States. Conference Start: 20100515 Conference End: 20100519}
-      \field{title}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
-      \field{volume}{20}
-      \field{year}{2011}
-      \field{pages}{1468\bibrangedash 1486}
-      \verb{doi}
-      \verb 10.1002/hec.1685
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Minor - 2011 - The effect of diabetes on female labor force decisions new evidence from the National Health Interview Survey.pdf:pdf
-      \endverb
-      \keyw{Algorithms,Diabetes Mellitus,Employment,Employment: statistics {\&} numerical data,Female,Health Surveys,Health Surveys: instrumentation,Humans,IBSS,Interviews as Topic,Salaries and Fringe Benefits,Salaries and Fringe Benefits: statistics {\&} numeric,Sick Leave,Sick Leave: statistics {\&} numerical data,Type 1,Type 2,download,duplicates,econlit,embase,excludestudy,inclusion,inpatient,look up at least,methodology,newsearch,noaccess,oldsearch,pubmed,relevant,retrieve,wtp}
-    \endentry
     \entry{Minor2013}{article}{}
       \name{labelname}{1}{}{%
         {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
@@ -1386,6 +1336,42 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Minor - 2013 - An investigation into the effect of type I and type II diabetes duration on employment and wages.pdf:pdf
       \endverb
     \endentry
+    \entry{Minor2011}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{66a6d7c669e47575f8c2fc182053aff3}
+      \strng{fullhash}{66a6d7c669e47575f8c2fc182053aff3}
+      \field{sortinit}{M}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
+      \field{abstract}{This paper estimates the effect of diabetes on labor-force participation, hours worked, days-out-of-work due to illness, and earnings using data from the National Health Interview Survey. Findings indicate that diabetes, estimated wholly, is significantly detrimental to most labor market outcomes. However, separation of type I and II diabetes shows that much of the negative effect is due to type II diabetes. On average a female with type II diabetes can experience a wage penalty of almost 50{\%} relative to a healthy individual. Additionally, estimates of specifically type II diabetes may be subject to endogeneity bias. To account for this, I utilize whether an individual's biological mother has been diagnosed with diabetes as an instrumental variable. This instrument provides both theoretical and statistical explanatory power to separate the causal effect of type II diabetes on labor-force decisions.}
+      \field{isbn}{1098-3015}
+      \field{issn}{10579230}
+      \field{journaltitle}{Health Economics}
+      \field{number}{12}
+      \field{title}{{The effect of diabetes on female labor force decisions: new evidence from the National Health Interview Survey}}
+      \field{volume}{20}
+      \field{year}{2011}
+      \field{pages}{1468\bibrangedash 1486}
+      \verb{doi}
+      \verb 10.1002/hec.1685
+      \endverb
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/Minor - 2011 - The effect of diabetes on female labor force decisions new evidence from the National Health Interview Survey.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/hec.1685
+      \endverb
+      \keyw{Algorithms,Diabetes Mellitus,Employment,Employment: statistics {\&} numerical data,Female,Health Surveys,Health Surveys: instrumentation,Humans,IBSS,Interviews as Topic,Salaries and Fringe Benefits,Salaries and Fringe Benefits: statistics {\&} numeric,Sick Leave,Sick Leave: statistics {\&} numerical data,Type 1,Type 2,download,duplicates,econlit,embase,excludestudy,inclusion,inpatient,look up at least,methodology,newsearch,noaccess,oldsearch,pubmed,relevant,retrieve,wtp}
+    \endentry
     \entry{Minor2015}{article}{}
       \name{labelname}{2}{}{%
         {{hash=66a6d7c669e47575f8c2fc182053aff3}{Minor}{M\bibinitperiod}{Travis}{T\bibinitperiod}{}{}{}{}}%
@@ -1402,10 +1388,12 @@
       \strng{fullhash}{e8ee35f8f6e33e93ee91a4523c2336de}
       \field{sortinit}{M}
       \field{labelyear}{2016}
+      \field{labelmonth}{03}
       \field{datelabelsource}{}
       \field{labeltitle}{{A comparison of diagnosed and undiagnosed diabetes patients and labor supply}}
       \field{issn}{1570677X}
       \field{journaltitle}{Economics {\&} Human Biology}
+      \field{month}{03}
       \field{title}{{A comparison of diagnosed and undiagnosed diabetes patients and labor supply}}
       \field{volume}{20}
       \field{year}{2016}
@@ -1717,17 +1705,17 @@
       \endverb
     \endentry
     \entry{Schneiderman2005}{article}{}
-      \name{labelname}{3}{uniquelist=2}{%
+      \name{labelname}{3}{}{%
         {{hash=695f5fd975a60678f8b06c42b7c4fa45}{Schneiderman}{S\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
         {{hash=218e51936c69ce959cffa54e6194972a}{Ironson}{I\bibinitperiod}{Gail}{G\bibinitperiod}{}{}{}{}}%
         {{hash=ab44ff82a316e94712a3095aea51f8dd}{Siegel}{S\bibinitperiod}{Scott\bibnamedelima D}{S\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{uniquelist=2}{%
+      \name{author}{3}{}{%
         {{hash=695f5fd975a60678f8b06c42b7c4fa45}{Schneiderman}{S\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
         {{hash=218e51936c69ce959cffa54e6194972a}{Ironson}{I\bibinitperiod}{Gail}{G\bibinitperiod}{}{}{}{}}%
         {{hash=ab44ff82a316e94712a3095aea51f8dd}{Siegel}{S\bibinitperiod}{Scott\bibnamedelima D}{S\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{59340745589010427fcafc322c8abf36}
+      \strng{namehash}{5fccbd38654ce3834d7bb0e7b4fb35d0}
       \strng{fullhash}{88d2ff614efaa03d0b6dd492030dba89}
       \field{sortinit}{S}
       \field{labelyear}{2005}
@@ -1749,7 +1737,7 @@
       \keyw{homeostasis,host vulnerability-,psychosocial interventions,psychosocial stressors,stress responses,stressor interactions}
     \endentry
     \entry{Schneiderman2014}{article}{}
-      \name{labelname}{13}{uniquelist=2}{%
+      \name{labelname}{13}{}{%
         {{hash=695f5fd975a60678f8b06c42b7c4fa45}{Schneiderman}{S\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
         {{hash=70e9d5e6a0d242efacc7d251e19e10ef}{Llabre}{L\bibinitperiod}{Maria}{M\bibinitperiod}{}{}{}{}}%
         {{hash=529306b1944c24d5996152e1cb5b94be}{Cowie}{C\bibinitperiod}{Catherine\bibnamedelima C.}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
@@ -1764,7 +1752,7 @@
         {{hash=772200cd2b8a4902b1effe6c71b330af}{Villa-Caballero}{V\bibinithyphendelim C\bibinitperiod}{Leonel}{L\bibinitperiod}{}{}{}{}}%
         {{hash=808044a872606d22c30f145d3715f0c7}{Avilés-Santa}{A\bibinithyphendelim S\bibinitperiod}{M.\bibnamedelimi Larissa}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{13}{uniquelist=2}{%
+      \name{author}{13}{}{%
         {{hash=695f5fd975a60678f8b06c42b7c4fa45}{Schneiderman}{S\bibinitperiod}{Neil}{N\bibinitperiod}{}{}{}{}}%
         {{hash=70e9d5e6a0d242efacc7d251e19e10ef}{Llabre}{L\bibinitperiod}{Maria}{M\bibinitperiod}{}{}{}{}}%
         {{hash=529306b1944c24d5996152e1cb5b94be}{Cowie}{C\bibinitperiod}{Catherine\bibnamedelima C.}{C\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
@@ -1779,7 +1767,7 @@
         {{hash=772200cd2b8a4902b1effe6c71b330af}{Villa-Caballero}{V\bibinithyphendelim C\bibinitperiod}{Leonel}{L\bibinitperiod}{}{}{}{}}%
         {{hash=808044a872606d22c30f145d3715f0c7}{Avilés-Santa}{A\bibinithyphendelim S\bibinitperiod}{M.\bibnamedelimi Larissa}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{f9943d00981c95425a32cff6dfdd667b}
+      \strng{namehash}{5fccbd38654ce3834d7bb0e7b4fb35d0}
       \strng{fullhash}{1e2026a42abd7dde9de177e2de5ee228}
       \field{sortinit}{S}
       \field{labelyear}{2014}
@@ -1800,19 +1788,20 @@
       \endverb
     \endentry
     \entry{Seuring2015a}{article}{}
-      \name{labelname}{3}{uniquelist=2}{%
+      \name{labelname}{3}{}{%
         {{hash=d24331a0c933ad61da85a34c65b30ff8}{Seuring}{S\bibinitperiod}{Till}{T\bibinitperiod}{}{}{}{}}%
         {{hash=da785e1f6f58de2c0fcb5814fb5cce55}{Archangelidi}{A\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
         {{hash=f2d6b1d2772c5e287338e266972983b8}{Suhrcke}{S\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{uniquelist=2}{%
+      \name{author}{3}{}{%
         {{hash=d24331a0c933ad61da85a34c65b30ff8}{Seuring}{S\bibinitperiod}{Till}{T\bibinitperiod}{}{}{}{}}%
         {{hash=da785e1f6f58de2c0fcb5814fb5cce55}{Archangelidi}{A\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
         {{hash=f2d6b1d2772c5e287338e266972983b8}{Suhrcke}{S\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{ceabce1b76c6fb3bf8880d594b8a86d8}
+      \strng{namehash}{9063c166373dbf69362cd992d9fc31e3}
       \strng{fullhash}{dc9f3acd9391c9cd136177ae698051d1}
       \field{sortinit}{S}
+      \field{extrayear}{1}
       \field{labelyear}{2015}
       \field{datelabelsource}{}
       \field{labeltitle}{{The Economic Costs of Type 2 Diabetes: A Global Systematic Review}}
@@ -1834,19 +1823,20 @@
       \endverb
     \endentry
     \entry{Seuring2015}{article}{}
-      \name{labelname}{3}{uniquelist=2}{%
+      \name{labelname}{3}{}{%
         {{hash=d24331a0c933ad61da85a34c65b30ff8}{Seuring}{S\bibinitperiod}{Till}{T\bibinitperiod}{}{}{}{}}%
         {{hash=d8fb21d96662a55fe9609fc990f4d00e}{Goryakin}{G\bibinitperiod}{Yevgeniy}{Y\bibinitperiod}{}{}{}{}}%
         {{hash=f2d6b1d2772c5e287338e266972983b8}{Suhrcke}{S\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{uniquelist=2}{%
+      \name{author}{3}{}{%
         {{hash=d24331a0c933ad61da85a34c65b30ff8}{Seuring}{S\bibinitperiod}{Till}{T\bibinitperiod}{}{}{}{}}%
         {{hash=d8fb21d96662a55fe9609fc990f4d00e}{Goryakin}{G\bibinitperiod}{Yevgeniy}{Y\bibinitperiod}{}{}{}{}}%
         {{hash=f2d6b1d2772c5e287338e266972983b8}{Suhrcke}{S\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{7a8fc9d3aa2949f06980712556b3e03d}
+      \strng{namehash}{9063c166373dbf69362cd992d9fc31e3}
       \strng{fullhash}{29003dd58dd7d7be2d6eb8e0b7281c6f}
       \field{sortinit}{S}
+      \field{extrayear}{2}
       \field{labelyear}{2015}
       \field{datelabelsource}{}
       \field{labeltitle}{{The impact of diabetes on employment in Mexico}}
