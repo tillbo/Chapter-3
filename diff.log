@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.19)  21 JUN 2017 16:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.19)  8 JUN 2017 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**full_article.tex
-(./full_article.tex
+**diff.tex
+(./diff.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -725,7 +725,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 18.
+Package hyperref Info: Option `colorlinks' set `false' on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1497,69 +1497,82 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
 .tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+Package: draftwatermark 2006/06/30 1.0 Put a gray textual watermark on document
+ pages
+
+(/usr/share/texlive/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+\sc@wm@fontsize=\skip75
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box59
+\UL@hyphenbox=\box60
+\UL@skip=\skip76
+\UL@hook=\toks32
+\UL@height=\dimen267
+\UL@pe=\count354
+\UL@pixel=\dimen268
+\ULC@box=\box61
+Package: ulem 2012/05/18
+\ULdepth=\dimen269
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
-)
-(./full_article.aux
+) (./diff.aux)
+\openout1 = `diff.aux'.
 
-LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 206.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 206.
 
-
-LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
-
-
-LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
-
-
-LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
-
-
-LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
-
-)
-\openout1 = `full_article.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 206.
+LaTeX Font Info:    ... okay on input line 206.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen267
-\scratchbox=\box59
-\nofMPsegments=\count355
-\nofMParguments=\count356
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen268
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count355
+\scratchdimen=\dimen270
+\scratchbox=\box62
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen271
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1575,8 +1588,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 134.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 206.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1584,30 +1597,30 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count360
+\c@section@level=\count361
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 206.
+LaTeX Info: Redefining \pageref on input line 206.
+LaTeX Info: Redefining \nameref on input line 206.
 
-(./full_article.out) (./full_article.out)
+(./diff.out) (./diff.out)
 \@outlinefile=\write5
-\openout5 = `full_article.out'.
+\openout5 = `diff.out'.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `full_article.bcf'.
+\openout4 = `diff.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'full_article.bbl' found.
- (./full_article.bbl)
-Package biblatex Info: Reference section=0 on input line 134.
-Package biblatex Info: Reference segment=0 on input line 134.
+Package biblatex Info: ... file 'diff.bbl' not found.
+
+No file diff.bbl.
+Package biblatex Info: Reference section=0 on input line 206.
+Package biblatex Info: Reference segment=0 on input line 206.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1642,7 +1655,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count361
+\c@lstlisting=\count362
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1652,746 +1665,1326 @@ Dictionary: translator-basic-dictionary, Language: English
 fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count362
-LaTeX Font Info:    Try loading font information for U+lasy on input line 134.
+\c__siunitx_mathsf_int=\count363
+LaTeX Font Info:    Try loading font information for U+lasy on input line 206.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 134.
+LaTeX Font Info:    Try loading font information for U+msa on input line 206.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 134.
+LaTeX Font Info:    Try loading font information for U+msb on input line 206.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count363
- [1
+\c__siunitx_mathtt_int=\count364
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <142.26378> not available
+(Font)              size <35.83> substituted on input line 229.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+LaTeX Warning: Citation 'Risk2016' on page 2 undefined on input line 240.
+
+
+LaTeX Warning: Citation 'InternationalDiabetesFederation2015' on page 2 undefin
+ed on input line 241.
+
+
+LaTeX Warning: Citation 'Schneiderman2014' on page 2 undefined on input line 24
+1.
+
+
+LaTeX Warning: Citation 'Barquera2013' on page 2 undefined on input line 243.
+
+
+LaTeX Warning: Citation 'InternationalDiabetesFederation2015' on page 2 undefin
+ed on input line 243.
+
+
+Overfull \hbox (35.64125pt too wide) in paragraph at lines 240--245
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [][]\T1/cm
+r/m/n/12 % []|   []   |   []   []([]
+ []
+
+[2]
+
+LaTeX Warning: Citation 'Barquera2008b' on page 3 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'Basu2013' on page 3 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'Williams2013' on page 3 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'Bello-Chavolla2017a' on page 3 undefined on input line
+ 247.
+
+
+LaTeX Warning: Citation 'Barquera2013' on page 3 undefined on input line 247.
+
+
+LaTeX Warning: Citation 'Sicree2009' on page 3 undefined on input line 249.
+
+
+LaTeX Warning: Citation 'Lim2011' on page 3 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'Gregg2012' on page 3 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'Reynoso-Noveron2011' on page 3 undefined on input line
+ 250.
+
+[3]
+
+LaTeX Warning: Citation 'Brown2005' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Brown2014' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'BrownIII2011' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Minor2011' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Minor2013' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Minor2015' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Latif2009' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Seuring2015a' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Seuring2015' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Liu2014' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'VanEwijk2011' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Sotomayor2013' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Li2010b' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Currie2013' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Ayyagari2011a' on page 4 undefined on input line 252.
+
+
+LaTeX Warning: Citation 'Beagley2014' on page 4 undefined on input line 254.
+
+
+LaTeX Warning: Citation 'Kapteyn2009' on page 4 undefined on input line 254.
+
+[4]
 Package acronym Info: Label `acro:MxFLS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 158.
+although it is yet undefined on input line 256.
 Package acronym Info: Label `acro:FE' newly defined as it shall be overridden
-although it is yet undefined on input line 158.
- [3]
+although it is yet undefined on input line 256.
+
+
+LaTeX Warning: Citation 'Seuring2015a' on page 5 undefined on input line 256.
+
+[5]
+
+LaTeX Warning: Reference `tab:rev_Diab_employment' on page 6 undefined on input
+ line 265.
+
 Package acronym Info: Label `acro:LMIC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 167.
+although it is yet undefined on input line 265.
+
+LaTeX Warning: Citation 'Liu2014' on page 6 undefined on input line 265.
+
 Package acronym Info: Label `acro:IV' newly defined as it shall be overridden
-although it is yet undefined on input line 167.
- [4]
+although it is yet undefined on input line 265.
+
+LaTeX Warning: Citation 'Seuring2015' on page 6 undefined on input line 265.
+
+
+LaTeX Warning: Citation 'Brown2005' on page 6 undefined on input line 267.
+
+
+LaTeX Warning: Citation 'BrownIII2011' on page 6 undefined on input line 267.
+
 Package acronym Info: Label `acro:HbA1c' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 169.
- [5] [6] [7] [8] [9]
-Package acronym Info: Label `acro:WHO' newly defined as it shall be overridden
-although it is yet undefined on input line 203.
- [10]
+although it is yet undefined on input line 267.
+
+LaTeX Warning: Citation 'Minor2011' on page 6 undefined on input line 269.
+
+
+LaTeX Warning: Citation 'Minor2013' on page 6 undefined on input line 269.
+
+[6]
+
+LaTeX Warning: Citation 'Brown2005' on page 7 undefined on input line 271.
+
+
+LaTeX Warning: Citation 'Latif2009' on page 7 undefined on input line 271.
+
+
+LaTeX Warning: Citation 'Zhang2009' on page 7 undefined on input line 271.
+
+
+LaTeX Warning: Citation 'Minor2015' on page 7 undefined on input line 273.
+
+
+LaTeX Warning: Citation 'Minor2015' on page 7 undefined on input line 273.
+
+
+LaTeX Warning: Citation 'Seuring2015' on page 7 undefined on input line 275.
+
+[7]
+
+LaTeX Warning: Citation 'Cawley2015' on page 8 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'ONeill2013' on page 8 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'Perks2015' on page 8 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'Yuan2015' on page 8 undefined on input line 277.
+
+[8]
+
+LaTeX Warning: Citation 'InternationalDiabetesFederation2015' on page 9 undefin
+ed on input line 284.
+
+
+LaTeX Warning: Citation 'WorldHealthOrganization2011' on page 9 undefined on in
+put line 284.
+
+
+LaTeX Warning: Citation 'Alegre-Diaz2016' on page 9 undefined on input line 284
+.
+
+
+LaTeX Warning: Citation 'Gutierrez-delgado2009' on page 9 undefined on input li
+ne 284.
+
+
+LaTeX Warning: Citation 'Alegre-Diaz2016' on page 9 undefined on input line 285
+.
+
+
+LaTeX Warning: Citation 'Flores-Hernandez2015' on page 9 undefined on input lin
+e 285.
+
+
+LaTeX Warning: Citation 'Barquera2013' on page 9 undefined on input line 285.
+
+[9]
+
+LaTeX Warning: Citation 'Rubalcava2013' on page 10 undefined on input line 287.
+
+
+
+LaTeX Warning: Citation 'Crimmins2015' on page 10 undefined on input line 287.
+
+[10]
+
+LaTeX Warning: Citation 'Barquera2013' on page 11 undefined on input line 293.
+
 [11]
+Package acronym Info: Label `acro:WHO' newly defined as it shall be overridden
+although it is yet undefined on input line 304.
+
+
+LaTeX Warning: Citation 'WorldHealthOrganization2011' on page 12 undefined on i
+nput line 304.
+
+
+LaTeX Warning: Citation 'Frankenberg2015' on page 12 undefined on input line 30
+4.
+
+[12] [13]
+
+LaTeX Warning: Citation 'Minor2011' on page 14 undefined on input line 415.
+
+
+LaTeX Warning: Citation 'Minor2015' on page 14 undefined on input line 415.
+
+[14]
+
+LaTeX Warning: Citation 'Filmer2001' on page 15 undefined on input line 422.
+
+
+LaTeX Warning: Citation 'Bergemann2011' on page 15 undefined on input line 424.
+
+
+
+LaTeX Warning: Citation 'Schaller2015' on page 15 undefined on input line 424.
+
+
+LaTeX Warning: Citation 'Heraclides2012' on page 15 undefined on input line 424
+.
+
+
+LaTeX Warning: Citation 'Eriksson2013' on page 15 undefined on input line 424.
+
+
+LaTeX Warning: Citation 'Schneiderman2005' on page 15 undefined on input line 4
+24.
+
+[15]pdfTeX warning (ext4): destination with the same identifier (name{subsectio
+n.4.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 ...es and time since diagnosis}}\DIFaddend }
+                                                  
 Package acronym Info: Label `acro:LPM' newly defined as it shall be overridden
-although it is yet undefined on input line 242.
- [12] [13] [14] [15]
-
-LaTeX Warning: Reference `tab:Self-reported-diabetes' on page 16 undefined on i
-nput line 305.
-
-[16] [17]
-Package acronym Info: Label `acro:OLS' newly defined as it shall be overridden
-although it is yet undefined on input line 333.
- [18] [19] [20]
-Package acronym Info: Label `acro:BMI' newly defined as it shall be overridden
-although it is yet undefined on input line 390.
- [21] [22] [23]
-Package acronym Info: Label `acro:LMICs' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 427.
- [24] [25]
-Overfull \hbox (5.34401pt too wide) in paragraph at lines 435--435
-[][]\T1/cmr/bx/n/17.28 Strategies to deal with in-con-sis-tent self-reporting o
-ver
- []
-
-[26
-
-] [27] [28] [29] [30]
-Overfull \hbox (2.21909pt too wide) in paragraph at lines 479--479
-[]\T1/cmr/m/n/12 Flores-Hernández, Ser-gio, Pe-dro J. Saturno-Hernández, Hort-e
-n-sia Reyes-Morales, To-natiuh
- []
-
-
-Overfull \hbox (5.54546pt too wide) in paragraph at lines 479--479
-\T1/cmr/m/n/12 Barrientos-Gutiérrez, Sal-vador Vil-lal-pando, and Mauri-cio Her
-nández-Ávila. 2015. ^^P  Qual-
- []
-
-[31] [32] [33] [34] [35]
-
-LaTeX Warning: Float too large for page by 1.42188pt on input line 553.
-
-[36] [37] [38]
-
-LaTeX Warning: Float too large for page by 31.42921pt on input line 736.
-
-[39] [40] [41] [42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Panel or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 cross-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Measurement of di-a-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Employed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Use difference-in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 difference model,
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 915--915
-\T1/cmr/m/n/8 col-lec-tion within the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 used sur-vey, as a
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 915--915
-\T1/cmr/m/n/8 mea-sure how in-come
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 de-vel-oped be-tween
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 915--915
-\T1/cmr/m/n/8 di-ag-nosed and those
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 915--915
-\T1/cmr/m/n/8 with-out di-a-betes in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 the years fol-low-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Liu and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Working
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 915--915
-\T1/cmr/m/n/8 age pop-u-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 915--915
-\T1/cmr/m/n/8 re-duc-tion in em-ploy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Diabetes ex-oge-nous
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 915--915
-\T1/cmr/m/n/8 for men and women
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 based on Haus-man
- []
-
-
-Underfull \hbox (badness 2418) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Probit and bi-vari-ate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 pro-bit model us-ing
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 915--915
-\T1/cmr/m/n/8 parental di-a-betes as
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Seuring et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Elderly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 pop-u-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 Amer-i-cans
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 close the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 Mex-i-can
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Significant ad-verse
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 915--915
-\T1/cmr/m/n/8 re-la-tion-ship, with 7
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 915--915
-\T1/cmr/m/n/8 % points lower em-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 ploy-ment rates for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 neg-a-tive re-la-tion-ship
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 915--915
-\T1/cmr/m/n/8 be-comes in-signif-i-cant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 when us-ing in-stru-
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 915--915
-\T1/cmr/m/n/8 men-tal vari-able (IV)
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Diabetes en-doge-nous
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 915--915
-\T1/cmr/m/n/8 for women but not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Brown et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Mexican-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 American
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 work-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Find a neg-a-tive re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 la-tion-ship be-tween
- []
-
+although it is yet undefined on input line 435.
 
-Underfull \hbox (badness 1005) in paragraph at lines 915--915
-\T1/cmr/m/n/8 ment as well as the
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Probit and Heck-man
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Brown et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Exogenous: 25.2 %
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 915--915
-\T1/cmr/m/n/8 points less likely to
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Probit and Heck-man
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 915--915
-\T1/cmr/m/n/8 se-lec-tion model; un-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Minor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Follows
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 young
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 adults
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 in 1979
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 through-out
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Self-reported year of
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Average re-duc-tion of
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 915--915
-\T1/cmr/m/n/8 for women; em-ploy-
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 915--915
-\T1/cmr/m/n/8 women, while wages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 fixed ef-fects model
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 915--915
-\T1/cmr/m/n/8 (no in-di-vid-ual fixed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 ef-fects) us-ing logit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 model for se-lec-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Minor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Men and
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 915--915
-\T1/cmr/m/n/8 women 18
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Self-reported and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 HbA1c lev-els for
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 No sta-tis-ti-cally sig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 nif-i-cant re-la-tion-ship
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 915--915
-\T1/cmr/m/n/8 be-tween un-di-ag-nosed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 sig-nif-i-cantly re-lated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 with lower em-ploy-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 915--915
-\T1/cmr/m/n/8 men (-11 % points)
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 915--915
-\T1/cmr/m/n/8 and women (-19 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 (HbA1c >6.4 %),
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 915--915
-\T1/cmr/m/n/8 men (-8.3 % points)
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 915--915
-\T1/cmr/m/n/8 and women (-11 %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 di-a-betes on hours
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 lower em-ploy-ment
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 915--915
-\T1/cmr/m/n/8 nary out-comes, OLS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 for con-tin-u-ous out-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 MacE-wan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Men and
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 915--915
-\T1/cmr/m/n/8 women 15
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 915--915
-\T1/cmr/m/n/8 in-di-cates en-do-gene-ity
- []
 
+LaTeX Warning: Reference `fig:Kernel-weighted-local-polynomial_comb' on page 16
+ undefined on input line 441.
 
-Underfull \hbox (badness 1803) in paragraph at lines 915--915
-\T1/cmr/m/n/8 For women: Ex-oge-
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 915--915
-\T1/cmr/m/n/8 nif-i-cant and pos-i-tive
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Diabetes en-doge-nous
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 915--915
-\T1/cmr/m/n/8 up-wards bi-ased es-ti-
- []
 
+LaTeX Warning: Reference `fig:Kernel-weighted-local-polynomial_comb' on page 16
+ undefined on input line 441.
 
-Underfull \hbox (badness 2285) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Instrumental vari-able
- []
 
+LaTeX Warning: Reference `fig:Kernel-weighted-local-polynomial_comb' on page 16
+ undefined on input line 441.
 
-Underfull \hbox (badness 1097) in paragraph at lines 915--915
-\T1/cmr/m/n/8 fam-ily his-tory of di-
- []
 
+LaTeX Warning: Reference `fig:Kernel-weighted-local-polynomial_comb' on page 16
+ undefined on input line 441.
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Latif
+[16]
+Overfull \hbox (28.35211pt too wide) in paragraph at lines 454--455
+[]\T1/cmr/m/n/12 may sys-tem-at-i-cally over-re-port []|   [][], lead-ing to fa
+lse pos-i-tives. This may be unintentionally---
  []
 
+[17]
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Men and
- []
+LaTeX Warning: Citation 'Thoolen2006' on page 18 undefined on input line 458.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Cross-
- []
+LaTeX Warning: Citation 'Paddison2011' on page 18 undefined on input line 458.
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 915--915
-\T1/cmr/m/n/8 (-7.1 % points) and
- []
+LaTeX Warning: Citation 'Nouwen2011' on page 18 undefined on input line 461.
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 915--915
-\T1/cmr/m/n/8 with the ef-fects ap-
- []
+LaTeX Warning: Citation 'Slade2012' on page 18 undefined on input line 461.
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 915--915
-\T1/cmr/m/n/8 pear-ing over-stated (-
- []
+LaTeX Warning: Citation 'Baird2014' on page 18 undefined on input line 461.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Overestimation if
- []
+LaTeX Warning: Citation 'Gong2015' on page 18 undefined on input line 461.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-\T1/cmr/m/n/8 en-do-gene-ity un-ac-
- []
+LaTeX Warning: Citation 'Thornton2008' on page 18 undefined on input line 461.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
-[]|\T1/cmr/m/n/8 Zhang et
- []
+LaTeX Warning: Citation 'Zhao2013a' on page 18 undefined on input line 461.
 
-[44
 
+LaTeX Warning: Citation 'Liu2014' on page 18 undefined on input line 462.
 
 
+LaTeX Warning: Citation 'Dillon2014' on page 18 undefined on input line 462.
 
 
+LaTeX Warning: Citation 'Dillon2014' on page 18 undefined on input line 462.
 
+[18] [19]
 
+LaTeX Warning: Reference `tab:Self-reported-diabetes-and' on page 20 undefined 
+on input line 512.
 
+[20]
 
+LaTeX Warning: Reference `tab:Self-reported-diabetes-and' on page 21 undefined 
+on input line 514.
 
-] [45] [46] [47] [48] [49]
-Package epstopdf Info: Source file: <figures/lpoly_combined.eps>
-(epstopdf)                    date: 2017-02-08 17:20:46
-(epstopdf)                    size: 103603 bytes
-(epstopdf)             Output file: <figures/lpoly_combined-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2017-02-08 17:22:09
-(epstopdf)                    size: 39293 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/lpoly_combined-eps
--converted-to.pdf figures/lpoly_combined.eps>
-(epstopdf)             \includegraphics on input line 922.
-Package epstopdf Info: Output file is already uptodate.
 
-<figures/lpoly_combined-eps-converted-to.pdf, id=615, 397.485pt x 289.08pt>
-File: figures/lpoly_combined-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Warning: Reference `tab:Self-reported-diabetes-interaction' on page 21 un
+defined on input line 518.
 
-<use figures/lpoly_combined-eps-converted-to.pdf>
-Package pdftex.def Info: figures/lpoly_combined-eps-converted-to.pdf used on in
-put line 922.
-(pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
-Package epstopdf Info: Source file: <figures/kdensity_hba1c_inconsist.eps>
-(epstopdf)                    date: 2017-02-20 14:57:22
-(epstopdf)                    size: 28804 bytes
-(epstopdf)             Output file: <figures/kdensity_hba1c_inconsist-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2017-02-20 14:57:28
-(epstopdf)                    size: 12835 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/kdensity_hba1c_inc
-onsist-eps-converted-to.pdf figures/kdensity_hba1c_inconsist.eps>
-(epstopdf)             \includegraphics on input line 931.
-Package epstopdf Info: Output file is already uptodate.
 
-<figures/kdensity_hba1c_inconsist-eps-converted-to.pdf, id=616, 397.485pt x 289
-.08pt>
-File: figures/kdensity_hba1c_inconsist-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use figures/kdensity_hba1c_inconsist-eps-converted-to.pdf>
-Package pdftex.def Info: figures/kdensity_hba1c_inconsist-eps-converted-to.pdf 
-used on input line 931.
-(pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
+LaTeX Warning: Reference `tab:Self-reported-diabetes' on page 21 undefined on i
+nput line 518.
 
+[21]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `tab:Self-reported-diabetes-selection_LPM' on page 22 
+undefined on input line 523.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
-[50
 
- <./figures/lpoly_combined-eps-converted-to.pdf>] [51 <./figures/kdensity_hba1c
-_inconsist-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
- (./full_article.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
-Package rerunfilecheck Info: File `full_article.out' has not changed.
-(rerunfilecheck)             Checksum: 0C2070A1D97F07FBD869D2C55AD6436A;870.
+LaTeX Warning: Citation 'Mundlak1978' on page 22 undefined on input line 524.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Citation 'Bell2015' on page 22 undefined on input line 524.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Citation 'Mundlak1978' on page 22 undefined on input line 524.
 
-Package logreq Info: Writing requests to 'full_article.run.xml'.
-\openout1 = `full_article.run.xml'.
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> \@empty ##
+                     1\xdef \UL@spfactor {\the \spacefactor }
+l.588 \DIFdelFL{#1}
+                   %DIFDELCMD < {\ifmmode%%%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 935.
- ) 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+<argument> \@empty ^{##
+                       1}\xdef \UL@spfactor {\the \spacefactor }
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFdeltex #1->{\protect \color {red}\sout {#1}}
+                                                
+l.589 \DIFdelFL{^{#1}}
+                      %DIFDELCMD < \else%%%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in math mode.
+<argument> \(^{##
+                 1}\)
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Limit controls must follow a math operator.
+<recently read> \limits 
+                        
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I'm ignoring this misplaced \limits or \nolimits command.
+
+! Extra }, or forgotten $.
+\UL@onmath ...L@leadtype \LA@hskip \p@ plus1fill}}
+                                                  \egroup 
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@onmath ...pe \LA@hskip \p@ plus1fill}}\egroup 
+                                                  
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFdeltex #1->{\protect \color {red}\sout {#1}}
+                                                
+l.590 \DIFdelFL{\(^{#1}\)}
+                          %DIFDELCMD < \fi}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.599 \DIFdelendFL \DIFaddbeginFL \midrule
+                                          
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.600 \addlinespace
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.600 \addlinespace
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.600 \addlinespace
+                   
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.600 \addlinespace
+                   
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 26709 strings out of 493304
- 489807 string characters out of 6139871
- 1198732 words of memory out of 5000000
- 29547 multiletter control sequences out of 15000+600000
- 28696 words of font info for 85 fonts, out of 8000000 for 9000
+ 26276 strings out of 493304
+ 477018 string characters out of 6139871
+ 1158590 words of memory out of 5000000
+ 29219 multiletter control sequences out of 15000+600000
+ 33372 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 71i,14n,147p,10415b,1623s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfti1200.pfb>
-Output written on full_article.pdf (51 pages, 533582 bytes).
-PDF statistics:
- 751 PDF objects out of 1000 (max. 8388607)
- 610 compressed objects within 7 object streams
- 172 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71i,17n,147p,10407b,1431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+!  ==> Fatal error occurred, no output PDF file produced!

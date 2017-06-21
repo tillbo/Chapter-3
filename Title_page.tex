@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsfonts,amsmath,amssymb}
+
+
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+%\pagenumbering{gobble}
+
+
+
+
+
+
+% paper margins
+\usepackage{geometry}
+\geometry{
+letterpaper,
+left=25mm,
+right=30mm,
+top=20mm,
+bottom=30mm,
+}   
+
+\usepackage[affil-it]{authblk}	        
+
+
+\makeatletter
+\def\@maketitle{%
+	\newpage
+	\null
+	\vskip 2em%
+	\begin{center}%
+		\let \footnote \thanks
+		{\Large\bfseries \@title \par}%
+		\vskip 1.5em%
+		{\normalsize
+			\lineskip .5em%
+			\begin{tabular}[t]{c}%
+				\@author
+			\end{tabular}\par}%
+		\vskip 1em%
+		{\normalsize \@date}%
+	\end{center}%
+	\par
+	\vskip 1.5em}
+\makeatother      
+\begin{document}
+	\title{The impact of diabetes on labor market outcomes in Mexico: a panel data and biomarker analysis}
+	
+	\author[a,b]{Till Seuring%
+		\thanks{Corresponding author}}
+	\author[c]{Pieter Serneels}
+	\author[d]{Marc Suhrcke}
+	
+	\affil[a]{Leibniz Institute for Prevention Research and Epidemiology - BIPS\\ Research Group for Evidence-Based Public Health\\ Achterstr. 30\\ 28359 Bremen\\ Germany\\ Email: seuring@leibniz-bips.de\\
+		Phone: +49 421 218 569 23}
+	\affil[b]{Norwich Medical School\\ University of East Anglia\\ Norwich Research Park\\ Norwich\\ Norfolk\\ NR47TJ\\ UK}
+	\affil[c]{School of International Development\\ University of East Anglia\\ Norwich Research Park\\ Norwich\\ Norfolk\\ NR47TJ\\ UK\\ Email: p.serneels@uea.ac.uk}
+	\affil[d]{Centre for Health Economics\\ University of York\\ Heslington\\ York\\ YO105DD\\ UK\\ Email: marc.suhrcke@york.ac.uk}
+	\date{}
+	
+	
+	
+	
+	
+	\maketitle 
+	\thispagestyle{empty}
+	\clearpage
+
+
+\maketitle 
+\thispagestyle{empty}
+\clearpage
+\end{document}

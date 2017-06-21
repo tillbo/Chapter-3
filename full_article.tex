@@ -16,13 +16,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,pdfborder={0 0 0}}
-%\usepackage{latexml}
 \newcommand{\truncateit}[1]{\truncate{0.8\textwidth}{#1}}
 \newcommand{\scititle}[1]{\title[\truncateit{#1}]{#1}}
-%\usepackage{lmodern}
 \usepackage[T1]{fontenc}
-%\usepackage[latin9]{inputenc}
-%\pagenumbering{gobble}
+
 
 \providecommand{\tabularnewline}{\\}
 \usepackage[nolist]{acronym}
@@ -49,7 +46,6 @@
 \usepackage{multirow}
 \usepackage{graphicx}
 \usepackage[Export]{adjustbox}
-%\newcommand{\sym}[1]{\ensuremath{^{#1}}} % for symbols in Table
 %landscape pages
 \usepackage{pdflscape}
 \newcommand{\comment}[1]{}  %allows multiline comments
@@ -89,9 +85,8 @@ bottom=30mm,
 %limiting tables to only float within section
 \usepackage{placeins}
   
-%use for commands only working with pdf
   
-% formatation
+% formating
 
 \usepackage{listings}
 \lstset{ %
@@ -134,31 +129,17 @@ bottom=30mm,
 \newcolumntype{Z}{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}X} %left aligned X columns http://tex.stackexchange.com/questions/97180/how-to-get-column-alignment-in-tabularx
 \newcolumntype{z}{>{\hsize=.5\hsize\\\raggedright\let\newline\\\arraybackslash\hspace{0pt}}X} %left aligned X columns http://tex.stackexchange.com/questions/97180/how-to-get-column-alignment-in-tabularx
 \newcolumntype{y}{>{\hsize=.5\hsize}Y} % small columns
-	        
-\usepackage[firstpage]{draftwatermark}	        
+  
+
 \begin{document}
-\title{The impact of diabetes on labor market outcomes in Mexico: a panel data and biomarker analysis\thanks{Till Seuring is a post-doctoral researcher at the Leibniz Institute for Prevention Research and Epidemiology - BIPS and his email is seuring@leibniz-bips.de,  Pieter Serneels is Associate Professor at University of East Anglia and can be contacted at p.serneels@uea.ac.uk, Marc Suhrcke is Professor at the University of York and his email is marc.suhrcke@york.ac.uk. Till Seuring is corresponding author.}}
-
-\author[1,2]{Till Seuring}
-\author[2]{Pieter Serneels}
-\author[3]{Marc Suhrcke}
-
-\affil[1]{Leibniz Institute for Prevention Research and Epidemiology - BIPS}
-\affil[2]{University of East Anglia}
-\affil[3]{University of York}
-
-
-
-
-
-\maketitle 
+	
 \begin{abstract}
 There remain gaps in the understanding of the economic consequences of diabetes, in particular in a context where diabetes often remains undiagnosed, including low- and middle-income countries. We investigate the impact of diabetes on labor outcomes in Mexico using panel and biomarker data applying fixed effects estimation to account for potential endogeneity and using biomarker information to include previously undiagnosed diabetes. We find strong evidence for adverse effects of self-reported diabetes on the probability of being employed, in particular in agricultural work, but not on wages or hours worked and the employment probability falls gradually as time since diagnosis progresses. In the biomarker analysis we observe that 18\% of all observations are false negatives, i.e. do not report diabetes but exhibit glycated hemoglobin (HbA1c) levels above the clinical threshold. The estimated employment impact of tested (everybody with $HbA1c \geq 6.5\%$) suggests no effects for men but similar effects for women compared to self-reported diabetes. Further analysis reveals that there is no effect of diabetes on labor outcomes for undiagnosed women or men. The results highlight both the importance of the economic impact of diabetes, and the need to take into account undiagnosed patients.
 \end{abstract}
 
 Keywords: diabetes, productivity, biomarker, Mexico, panel data
 
-JEL: I10; J01
+JEL: I14, I15, J22, J31, D83
 
 
 \section{\label{sec:Introduction4}Introduction }
@@ -406,17 +387,15 @@ male wages and female working hours. No significant effects are found for the un
 Overall, the biomarker results indicate that undiagnosed diabetes is very prevalent in
 Mexico, but appears to have no statistically significant effects on labor outcomes, in contrast to self-reported diabetes (though the coefficients are not always significantly different from each other in statistical terms).
 
-To further investigate the smaller impact of undiagnosed diabetes, we look at potential mediators of the impact of diabetes. People self-reporting diabetes could have a different profile in terms of diabetes complications or self-reported health compared to those undiagnosed. First, we therefore include a battery of indicators for other chronic diseases that are often related to diabetes. In detail, we control for overweight and obesity (based on anthropometric measures of \ac{BMI}) and self-reports of a diagnosis of hypertension and heart disease. If those diagnosed with diabetes are more likely to experience adverse labor outcomes because they are more likely to suffer from one of these diseases, then accounting for them should lead to a reduction in the coefficient of self-reported diabetes. Table \ref{tab:Diagnosed_undiagnosed_condensed}, panel A, indicates only small absolute reductions in the coefficients of self-reported diabetes ($\beta_{1}+\beta_{3}$). 
+To further investigate the smaller impact of undiagnosed diabetes, we look at potential mediators of the impact of diabetes. People self-reporting diabetes may have a different profile in terms of diabetes complications or self-reported health compared to those undiagnosed. First, we therefore include a range of indicators for other chronic diseases that are often related to diabetes. More specifically, we control for being overweight or obese (based on anthropometric measures of \ac{BMI}) and self-reported hypertension and heart disease. If those diagnosed with diabetes are more likely to experience adverse labor outcomes because they are more likely to suffer from one of these conditions, then accounting for them should lead to a reduction in the coefficient of self-reported diabetes. Table \ref{tab:Diagnosed_undiagnosed_condensed}, panel A, indicates only small reductions in the coefficients of self-reported diabetes ($\beta_{1}+\beta_{3}$). 
 
 \begin{center}
 	\textbf{Table \ref{tab:Diagnosed_undiagnosed_condensed} about here}
 \end{center}
 
-Controlling for subjective health instead of chronic diseases, the results reported in Table \ref{tab:Diagnosed_undiagnosed_condensed}, panel B, show somewhat bigger coefficient changes. The overall effect of self-reported diabetes on male employment chances is now comparatively smaller and statistically insignificant. The effect for male undiagnosed diabetes is still close to zero. For women, the coefficient for self-reported diabetes is also smaller, while the effect for undiagnosed diabetes remains the same. For all other outcomes we do not observe important changes.   
+Controlling for subjective health instead of chronic diseases, the results reported in Table \ref{tab:Diagnosed_undiagnosed_condensed}, panel B, show a somewhat bigger change in coefficients. The overall effect of self-reported diabetes on the probability of male employment is now comparatively smaller and becomes statistically insignificant. The effect for male undiagnosed diabetes remains close to zero. For women, the coefficient for self-reported diabetes is also reduced, while the effect for undiagnosed diabetes remains the same. We do not observe major changes for all other outcomes.   
 
-It appears that differences in health between the two groups play a role in explaining some of the differences between self-reported and undiagnosed diabetes, with those self-reporting being in a somewhat worse health status. However, other unobserved factors appear to be still important.
-
-
+This suggests that the  discrepancies in health between the two groups play a role in explaining some of the differences between self-reported and undiagnosed diabetes, with the former being in a somewhat worse health state. However, other unobserved factors appear to be still important.
 
 It is interesting to contrast these results with those obtained from \textcite{BrownIII2011}, one of two other studies that analyze biomarker data. Using data for a Mexican American population the paper finds that once diabetes is diagnosed, the level of blood glucose has
 little effect on labor outcomes. This is similar to our findings and may not be surprising given that HbA1c levels only provide a picture of blood glucose levels over the last three months and may therefore not be representative of blood glucose levels in the longer period
@@ -491,10 +470,6 @@ Alternatively we also test if using an alternative strategy, i.e. assuming that 
 
 \end{appendix}
 
-\subsection*{Acknowledgments}
-
-We are grateful to the participants at the European Health Economics Association PhD-Supervisor conference September 2015 in Paris, the Health, Education and Labor Market Outcomes Workshop at the WifOR Institute in October 2015 in Darmstadt, Germany, seminar participants at the Centre for Health Economics at York University, and Max Bachmann for helpful comments.
-
 
 
 
@@ -566,7 +541,7 @@ We are grateful to the participants at the European Health Economics Association
 					Wealth index        &       -0.00&       -0.02&        0.09&       -0.00\\
 					&      (1.02)&      (1.00)&      (1.07)&      (1.02)\\           
 					\midrule
-					Observations        &    21388&       27341&        2785&        3623\\
+					N        &    \multicolumn{1}{c}{21388}&       \multicolumn{1}{c}{273410}&        \multicolumn{1}{c}{2785}&        \multicolumn{1}{c}{3623}\\
 					\bottomrule
 				\end{tabular}
 				\begin{tablenotes}
@@ -577,7 +552,7 @@ We are grateful to the participants at the European Health Economics Association
 	\end{adjustbox}
 \end{table}
 
-
+\clearpage
 \begin{table}[p]
 	\caption{\label{tab:Self-reported-diabetes-and}Labor outcomes and self-reported diabetes}
 	\begin{center}
@@ -592,17 +567,16 @@ We are grateful to the participants at the European Health Economics Association
 						&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						Panel A: all labor outcomes &&&&&&\\ 
+						\textbf{Panel A: all labor outcomes} &&&&&&\\ 
 						Self-reported&    -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
 						&   (.025)         &   (.024)         &   (.067)         &   (.158)         &  (1.499)         &  (2.517)         \\
 						
 						Hausman test    &  255.260         &  388.822         &  278.355         &  904.858         & 4101.669         &  976.631         \\
 						\hspace*{10mm}p-value&     .000         &     .000         &     .000         &     .000         &     .000         &     .000         \\
-						N               &    21388         &    27341         &    13828         &     7068         &    17616         &     9112         \\
-						\midrule
-						\addlinespace
-						Panel B: interaction with labor types &&&&&&\\ 
-						\addlinespace
+	
+						\\[2ex]
+						\textbf{Panel B: interaction with labor types} &&&&&&\\ 
+
 						Agricultural worker&         &         &    -.078\sym{*}  &    -.280         &   -3.577\sym{***}&   -4.473\sym{*}  \\
 						&         &         &   (.044)         &   (.186)         &   (.800)         &  (2.702)         \\
 						Self-employed   &         &         &     .028         &    -.144\sym{*}  &   -1.452\sym{**} &   -4.713\sym{***}\\
@@ -617,11 +591,12 @@ We are grateful to the participants at the European Health Economics Association
 						
 						Hausman test    &         &         &  280.491         &  912.537         & 4086.461         &  995.171         \\
 						\hspace*{10mm}p-value&         &         &     .000         &     .000         &     .000         &     .000         \\
-						N               &         &         &    13828         &     7068         &    17616         &     9112         \\
+						\midrule
+						N               &    \multicolumn{1}{c}{21388}         &    \multicolumn{1}{c}{27341}   &    \multicolumn{1}{c}{13828}         &     \multicolumn{1}{c}{7068}         &    \multicolumn{1}{c}{17616}         &     \multicolumn{1}{c}{9112}         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Reference category: dependent non-agricultural worker or employee. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. Reference category: dependent non-agricultural worker or employee. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -629,7 +604,7 @@ We are grateful to the participants at the European Health Economics Association
 	\end{center}
 \end{table} 
 
-
+\clearpage
 \begin{table}[p]
 	\caption{\label{tab:Self-reported-diabetes-selection_LPM}Selection into types of work and self-reported diabetes}
 	\begin{center}
@@ -650,11 +625,11 @@ We are grateful to the participants at the European Health Economics Association
 						
 						Hausman test    & 2196.390         & 2005.383         & 1249.080         & 1126.933         &                  &   86.400         \\
 						\hspace*{10mm} p-value         &     .000         &     .000         &     .000         &     .000         &                  &     .000         \\
-						N               &    20719         &    20719         &    20719         &    26577         &    26577         &    26577         \\
+						N               &    \multicolumn{1}{c}{20719}         &    \multicolumn{1}{c}{20719}         &    \multicolumn{1}{c}{20719}         &    \multicolumn{1}{c}{26577}         &    \multicolumn{1}{c}{26577}         &    \multicolumn{1}{c}{26577}         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Individual fixed effects regression. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. The hausman test for female agricultural employment could not be calculated due to the random effects model results being equivalent to pooled OLS.  \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -662,9 +637,9 @@ We are grateful to the participants at the European Health Economics Association
 	\end{center}
 \end{table}
 
+\clearpage
 
-
-\begin{table}[!ht]
+\begin{table}[p]
 	\caption{\label{tab:Self-reported-diabetes-duration_employ}Relationship between self-reported years since diagnosis and employment probabilities using continuous duration and duration splines.}
 	\begin{center}
 		%\resizebox{\linewidth}{!}{%
@@ -690,7 +665,7 @@ We are grateful to the participants at the European Health Economics Association
 						Hausman test    &                  &                  &  153.024         &                  &                  &  200.073         \\
 						\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 						\addlinespace
-						\textit{\textbf{Panel B: splines}}&&&&&&\\
+						\textbf{Panel B: splines}&&&&&&\\
 						Years since SR diagnosis  &&&&&&\\
 						\hspace*{10mm}0--4&    -.007         &    -.007         &    -.026\sym{*}  &    -.010         &    -.015\sym{**} &    -.017         \\
 						&   (.007)         &   (.006)         &   (.014)         &   (.007)         &   (.006)         &   (.016)         \\
@@ -704,16 +679,15 @@ We are grateful to the participants at the European Health Economics Association
 						Hausman test    &                  &                  &  161.953         &                  &                  &  198.692         \\
 						\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 						N               &     \multicolumn{1}{c}{8217}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{16292}         &    \multicolumn{1}{c}{10467}         &    \multicolumn{1}{c}{22407}         &    \multicolumn{1}{c}{22407}         \\
-						\midrule
+						\\[2ex]
 						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Log hourly wages}} \\
-						\textit{\textbf{Panel A: linear}} &&&&&&\\
+						\textbf{Panel A: linear} &&&&&&\\
 						Years since SR diagnosis &  .001         &     .010\sym{**} &    -.019         &    -.014\sym{*}  &    -.009         &    -.073\sym{**} \\
 						&   (.006)         &   (.005)         &   (.018)         &   (.008)         &   (.008)         &   (.029)         \\
 						
 						Hausman test    &                  &                  &  838.213         &                  &                  &   93.232         \\
 						\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
-						\addlinespace                
-						\textit{\textbf{Panel B: splines}}&&&&&&\\
+												\textit{\textbf{Panel B: splines}}&&&&&&\\
 						Years since SR diagnosis&&&&&&\\
 						\hspace*{10mm}0--4&      .034\sym{*}  &     .046\sym{***}&     .033         &     .027         &     .030         &     .015         \\
 						&   (.017)         &   (.016)         &   (.055)         &   (.031)         &   (.026)         &   (.138)         \\
@@ -727,9 +701,9 @@ We are grateful to the participants at the European Health Economics Association
 						Hausman test    &                  &                  & 1037.290         &                  &                  &   96.266         \\
 						\hspace*{10mm} p-value         &                  &                  &     .000         &                  &                  &     .000         \\
 						N               &     \multicolumn{1}{c}{5509}         &    \multicolumn{1}{c}{10767}         &    \multicolumn{1}{c}{10767}         &     \multicolumn{1}{c}{2874}         &     \multicolumn{1}{c}{5741}         &     \multicolumn{1}{c}{5741}         \\
-						\midrule
+						\\[2ex]
 						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Dependent variable: Weekly working hours}} \\
-						\textit{\textbf{Panel A: linear}} &&&&&&\\
+						\textbf{Panel A: linear} &&&&&&\\
 						Years since SR diagnosis  & .069         &     .048         &     .181         &    -.020         &    -.124         &     .208         \\
 						&   (.124)         &   (.102)         &   (.330)         &   (.187)         &   (.127)         &   (.652)         \\
 						
@@ -753,7 +727,7 @@ We are grateful to the participants at the European Health Economics Association
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} The table presents the results of three estimation methods. Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. All models include variables for  states, urbanization level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. The OLS and pooled OLS models additionally control for age. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -761,8 +735,8 @@ We are grateful to the participants at the European Health Economics Association
 	\end{center}
 \end{table}
 
-
-\begin{table}[ht]
+\clearpage
+\begin{table}[p]
 	\caption{\label{tab:Biomarker_observations}Number of observations with diabetes (HbA1c $\geq 6.5\%$) and self-reported diabetes.}
 	\begin{center}
 		\begin{adjustbox}{max width=\linewidth}
@@ -794,9 +768,9 @@ We are grateful to the participants at the European Health Economics Association
 \end{table}
 
 
+\clearpage
 
-
-\begin{table}[h]
+\begin{table}[p]
 	\caption{\label{tab:Biomarker_results}Biomarker results}
 	\begin{center}
 		\begin{adjustbox}{max width=\linewidth}
@@ -810,13 +784,15 @@ We are grateful to the participants at the European Health Economics Association
 						&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel A: Diabetes (self-reported)}} \\ 
+						\multicolumn{7}{l}{\textbf{Panel A: Diabetes (self-reported)}} \\ 
 						Self-reported diabetes&    -.051\sym{**} &    -.044\sym{*}  &    -.010         &    -.040         &    -.293         &    -.751         \\
 						&   (.026)         &   (.023)         &   (.065)         &   (.113)         &  (1.305)         &  (2.178)         \\
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Diabetes (biomarker)}} \\
+						\\[2ex]
+						\multicolumn{7}{l}{\textbf{Panel B: Diabetes (biomarker)}} \\
 						Biomarker diabetes (HbA1c $\geq 6.5$)&    -.012         &    -.031\sym{*}  &    -.007         &    -.057         &    -.088         &    1.153         \\
 						&   (.016)         &   (.018)         &   (.044)         &   (.070)         &   (.844)         &  (1.462)         \\
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel C: Interacting self-reported and biomarker diabetes}} \\
+						\\[2ex]
+						\multicolumn{7}{l}{\textbf{Panel C: Interacting self-reported and biomarker diabetes}} \\
 						Self-reported diabetes but tested negative ($\beta_{1}$)&    -.030         &    -.001         &     .328\sym{*}  &    -.002         &    1.756         &    6.183         \\
 						&   (.056)         &   (.050)         &   (.192)         &   (.226)         &  (3.248)         &  (4.356)         \\
 						Biomarker diabetes but not self-reported (HbA1c $\geq 6.5$) ($\beta_{2}$)&     .006         &    -.017         &     .017         &    -.054         &     .168         &    2.577         \\
@@ -826,7 +802,8 @@ We are grateful to the participants at the European Health Economics Association
 						All self-reported ($\beta_{1}+\beta_{3}$)&    -.059\sym{**}         &    -.043         &    -.068         &    -.012         &    -.755         &   -4.700\sym{*}         \\
 						&   (.029)         &   (.031)         &   (.084)         &   (.136)         &  (1.570)         &  (2.777)         \\                
 						F-test (p-value): $\beta_{1}+\beta_{3} = \beta_{2}$&     .111         &     .564         &     .462         &     .818         &     .674         &     .056         \\
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel D: HbA1c levels}} \\ 
+						\\[2ex]
+						\multicolumn{7}{l}{\textbf{Panel D: HbA1c levels}} \\ 
 						Self-reported diabetes&    -.050         &    -.013         &     .223\sym{*}  &     .029         &    1.650         &    3.464         \\
 						&   (.065)         &   (.041)         &   (.117)         &   (.178)         &  (2.504)         &  (3.527)         \\
 						HbA1c if $\geq 6.5$  &     .001         &    -.003         &     .002         &    -.005         &    -.005         &     .256         \\
@@ -846,9 +823,9 @@ We are grateful to the participants at the European Health Economics Association
 	\end{center}
 \end{table}
 
+\clearpage
 
-
-\begin{table}[h]
+\begin{table}[p]
 	\caption{\label{tab:Diagnosed_undiagnosed_condensed}Self-reported diabetes, biomarkers, diabetes severity and self-reported health and their association with labor outcomes}
 	\begin{center}
 		\begin{adjustbox}{max width=\linewidth} 
@@ -862,7 +839,7 @@ We are grateful to the participants at the European Health Economics Association
 						&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel A: Controlling for other chronic diseases}} \\ 
+						\multicolumn{7}{l}{\textbf{Panel A: Controlling for other chronic diseases}} \\ 
 						Self-reported diabetes but tested negative ($\beta_{1}$)&    -.016         &     .008         &     .340\sym{*}  &     .033         &    2.021         &    6.769         \\
 						&   (.056)         &   (.050)         &   (.195)         &   (.227)         &  (3.277)         &  (4.390)         \\
 						Biomarker diabetes but not self-reported (HbA1c $\geq 6.5$) ($\beta_{2}$)&.004         &    -.015         &     .013         &    -.036         &     .124         &    2.372         \\
@@ -871,9 +848,10 @@ We are grateful to the participants at the European Health Economics Association
 						&   (.062)         &   (.058)         &   (.210)         &   (.260)         &  (3.609)         &  (5.173)         \\
 						All self-reported ($\beta_{1}+\beta_{3}$)&    -.051\sym{*}         &    -.043         &    -.058         &     .063         &    -.640         &   -4.752\sym{*}         \\
 						&   (.029)         &   (.031)         &   (.085)         &   (.138)         &  (1.584)         &  (2.807)         \\
-						F-test: $\beta_{1}+\beta_{3} = \beta_{2}$&     .180         &     .535         &     .548         &     .592         &     .729         &     .063         \\                
-						
-						\multicolumn{7}{l}{\hspace*{10mm}\textbf{Panel B: Controlling for self-reported health}} \\ 
+						F-test: $\beta_{1}+\beta_{3} = \beta_{2}$&     .180         &     .535         &     .548         &     .592         &     .729         &     .063         \\ 
+						N               &     \multicolumn{1}{c}{2785}         &     \multicolumn{1}{c}{3621}         &     \multicolumn{1}{c}{1803}         &      \multicolumn{1}{c}{882}         &     \multicolumn{1}{c}{2300}         &     \multicolumn{1}{c}{1142}         \\               
+						\\[2ex]
+						\multicolumn{7}{l}{\textbf{Panel B: Controlling for self-reported health}} \\ 
 						Self-reported diabetes but tested negative ($\beta_{1}$)&     -.013         &     .007         &     .353\sym{*}  &     .043         &    2.189         &    4.672         \\
 						&   (.056)         &   (.050)         &   (.193)         &   (.225)         &  (3.257)         &  (4.374)         \\
 						Biomarker diabetes but not self-reported (HbA1c $\geq 6.5$) ($\beta_{2}$)&       .005         &    -.018         &     .020         &    -.052         &     .116         &    2.728\sym{*}  \\
@@ -883,7 +861,7 @@ We are grateful to the participants at the European Health Economics Association
 						All self-reported ($\beta_{1}+\beta_{3}$)&    -.041         &    -.034         &    -.064         &     .066         &    -.356         &   -5.053\sym{*}         \\
 						&   (.029)         &   (.031)         &   (.085)         &   (.139)         &  (1.586)         &  (2.831)         \\
 						F-test: $\beta_{1}+\beta_{3} = \beta_{2}$&     .256         &     .719         &     .473         &     .521         &     .831         &     .043         \\                
-						
+						N               &     \multicolumn{1}{c}{2785}         &     \multicolumn{1}{c}{3621}         &     \multicolumn{1}{c}{1803}         &      \multicolumn{1}{c}{883}         &     \multicolumn{1}{c}{2302}         &     \multicolumn{1}{c}{1143}         \\
 						
 						\bottomrule
 					\end{tabular}
@@ -896,7 +874,9 @@ We are grateful to the participants at the European Health Economics Association
 	\end{center}
 \end{table}
 
-\begin{table}[h!]
+\clearpage
+
+\begin{table}[p]
 	\caption{\label{tab:Inconsistencies}Inconsistencies in diabetes self-report in MxFLS.}
 	\begin{center}
 		\begin{adjustbox}{max width=\linewidth} 
@@ -916,7 +896,7 @@ We are grateful to the participants at the European Health Economics Association
 \end{table}
 
 
-\newpage
+\clearpage
 {\scriptsize
 	\begin{landscape}
 		\begin{tabularx}{\linewidth}{m m m m b b b b m}
@@ -948,7 +928,7 @@ We are grateful to the participants at the European Health Economics Association
 \begin{figure}[h!]
 	\caption{\label{fig:kdens_inconsistency_hba1c}Kernel density of HbA1c values for those with one inconsistent and two inconsistent reports.}%
 	\begin{center}
-		\includegraphics[width=.5\linewidth]{figures/kdensity_hba1c_inconsist.eps}\\
+		\includegraphics[width=.7\linewidth]{figures/kdensity_hba1c_inconsist.eps}\\
 	\end{center}
 \end{figure}
 

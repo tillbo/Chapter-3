@@ -1,17 +1,17 @@
 [0] Config.pm:318> INFO - This is Biber 1.8
 [0] Config.pm:321> INFO - Logfile is 'full_article.blg'
-[37] biber:275> INFO - === Do Jun  8, 2017, 15:27:40
-[37] Biber.pm:333> INFO - Reading 'full_article.bcf'
-[82] Biber.pm:630> INFO - Found 64 citekeys in bib section 0
-[91] Biber.pm:3053> INFO - Processing section 0
+[36] biber:275> INFO - === Mi Jun 14, 2017, 16:31:52
+[36] Biber.pm:333> INFO - Reading 'full_article.bcf'
+[77] Biber.pm:630> INFO - Found 64 citekeys in bib section 0
+[88] Biber.pm:3053> INFO - Processing section 0
 [101] Biber.pm:3190> INFO - Looking for bibtex format file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib' for section 0
-[132] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[181] bibtex.pm:808> INFO - Found BibTeX data source '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib'
-[191] Utils.pm:169> WARN - Duplicate entry key: 'Strauss2007' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
-[286] Utils.pm:169> WARN - BibTeX subsystem: /tmp/9FiEu_S2jE/Second_Mexico_paper.bib_6356.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[387] Biber.pm:2939> INFO - Overriding locale 'de_DE.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[387] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
-[387] Biber.pm:2949> INFO - No sort tailoring available for locale 'de_DE.UTF-8'
-[595] bbl.pm:482> INFO - Writing 'full_article.bbl' with encoding 'UTF-8'
-[610] bbl.pm:555> INFO - Output to full_article.bbl
-[610] Biber.pm:105> INFO - WARNINGS: 2
+[131] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[182] bibtex.pm:808> INFO - Found BibTeX data source '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib'
+[185] Utils.pm:169> WARN - Duplicate entry key: 'Strauss2007' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[287] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Zt6RWNjOCR/Second_Mexico_paper.bib_11731.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[393] Biber.pm:2939> INFO - Overriding locale 'de_DE.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[393] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[394] Biber.pm:2949> INFO - No sort tailoring available for locale 'de_DE.UTF-8'
+[594] bbl.pm:482> INFO - Writing 'full_article.bbl' with encoding 'UTF-8'
+[612] bbl.pm:555> INFO - Output to full_article.bbl
+[612] Biber.pm:105> INFO - WARNINGS: 2
