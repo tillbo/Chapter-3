@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.19)  21 JUN 2017 16:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.19)  27 JUN 2017 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1525,27 +1525,27 @@ LaTeX Warning: Label `tab:rev_Diab_employment' multiply defined.
 )
 \openout1 = `full_article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 158.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1576,7 +1576,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 134.
+Package hyperref Info: Link coloring OFF on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1586,9 +1586,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 158.
+LaTeX Info: Redefining \pageref on input line 158.
+LaTeX Info: Redefining \nameref on input line 158.
 
 (./full_article.out) (./full_article.out)
 \@outlinefile=\write5
@@ -1602,8 +1602,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'full_article.bbl' found.
  (./full_article.bbl)
-Package biblatex Info: Reference section=0 on input line 134.
-Package biblatex Info: Reference segment=0 on input line 134.
+Package biblatex Info: Reference section=0 on input line 158.
+Package biblatex Info: Reference segment=0 on input line 158.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1653,16 +1653,16 @@ fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count362
-LaTeX Font Info:    Try loading font information for U+lasy on input line 134.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 158.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 134.
+LaTeX Font Info:    Try loading font information for U+msa on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 134.
+LaTeX Font Info:    Try loading font information for U+msb on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1670,618 +1670,621 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c__siunitx_mathtt_int=\count363
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] [3]
 Package acronym Info: Label `acro:MxFLS' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 158.
+although it is yet undefined on input line 188.
 Package acronym Info: Label `acro:FE' newly defined as it shall be overridden
-although it is yet undefined on input line 158.
- [3]
+although it is yet undefined on input line 188.
+ [4]
 Package acronym Info: Label `acro:LMIC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 167.
+although it is yet undefined on input line 197.
 Package acronym Info: Label `acro:IV' newly defined as it shall be overridden
-although it is yet undefined on input line 167.
- [4]
+although it is yet undefined on input line 197.
+ [5]
 Package acronym Info: Label `acro:HbA1c' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 169.
- [5] [6] [7] [8] [9]
+although it is yet undefined on input line 199.
+ [6] [7] [8] [9] [10]
 Package acronym Info: Label `acro:WHO' newly defined as it shall be overridden
-although it is yet undefined on input line 203.
- [10]
-[11]
+although it is yet undefined on input line 233.
+
+[11] [12]
 Package acronym Info: Label `acro:LPM' newly defined as it shall be overridden
-although it is yet undefined on input line 242.
- [12] [13] [14] [15]
-
-LaTeX Warning: Reference `tab:Self-reported-diabetes' on page 16 undefined on i
-nput line 305.
-
-[16] [17]
+although it is yet undefined on input line 272.
+ [13] [14] [15] [16] [17] [18]
 Package acronym Info: Label `acro:OLS' newly defined as it shall be overridden
-although it is yet undefined on input line 333.
- [18] [19] [20]
+although it is yet undefined on input line 363.
+ [19] [20] [21]
 Package acronym Info: Label `acro:BMI' newly defined as it shall be overridden
-although it is yet undefined on input line 390.
- [21] [22] [23]
+although it is yet undefined on input line 420.
+ [22] [23] [24]
 Package acronym Info: Label `acro:LMICs' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 427.
- [24] [25]
-Overfull \hbox (5.34401pt too wide) in paragraph at lines 435--435
+although it is yet undefined on input line 457.
+ [25]
+[26]
+Overfull \hbox (5.34401pt too wide) in paragraph at lines 465--465
 [][]\T1/cmr/bx/n/17.28 Strategies to deal with in-con-sis-tent self-reporting o
 ver
  []
 
-[26
+[27
 
-] [27] [28] [29] [30]
-Overfull \hbox (2.21909pt too wide) in paragraph at lines 479--479
+] [28] [29] [30] [31]
+Overfull \hbox (2.21909pt too wide) in paragraph at lines 511--511
 []\T1/cmr/m/n/12 Flores-Hernández, Ser-gio, Pe-dro J. Saturno-Hernández, Hort-e
 n-sia Reyes-Morales, To-natiuh
  []
 
 
-Overfull \hbox (5.54546pt too wide) in paragraph at lines 479--479
+Overfull \hbox (5.54546pt too wide) in paragraph at lines 511--511
 \T1/cmr/m/n/12 Barrientos-Gutiérrez, Sal-vador Vil-lal-pando, and Mauri-cio Her
 nández-Ávila. 2015. ^^P  Qual-
  []
 
-[31] [32] [33] [34] [35]
+[32] [33] [34] [35] [36]
 
-LaTeX Warning: Float too large for page by 1.42188pt on input line 553.
+LaTeX Warning: Float too large for page by 1.42188pt on input line 585.
 
-[36] [37] [38]
+[37] [38] [39]
 
-LaTeX Warning: Float too large for page by 31.42921pt on input line 736.
+LaTeX Warning: Float too large for page by 31.42921pt on input line 768.
 
-[39] [40] [41] [42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+[40] [41] [42] [43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Panel or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 cross-
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 915--915
+Underfull \hbox (badness 1728) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Measurement of di-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Employed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Use difference-in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 difference model,
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 915--915
+Underfull \hbox (badness 1939) in paragraph at lines 948--948
 \T1/cmr/m/n/8 col-lec-tion within the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 used sur-vey, as a
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 915--915
+Underfull \hbox (badness 1412) in paragraph at lines 948--948
 \T1/cmr/m/n/8 mea-sure how in-come
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 de-vel-oped be-tween
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 915--915
+Underfull \hbox (badness 2662) in paragraph at lines 948--948
 \T1/cmr/m/n/8 di-ag-nosed and those
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 915--915
+Underfull \hbox (badness 6825) in paragraph at lines 948--948
 \T1/cmr/m/n/8 with-out di-a-betes in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 the years fol-low-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Liu and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Working
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 915--915
+Underfull \hbox (badness 5008) in paragraph at lines 948--948
 \T1/cmr/m/n/8 age pop-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 915--915
+Underfull \hbox (badness 1297) in paragraph at lines 948--948
 \T1/cmr/m/n/8 re-duc-tion in em-ploy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Diabetes ex-oge-nous
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 915--915
+Underfull \hbox (badness 1286) in paragraph at lines 948--948
 \T1/cmr/m/n/8 for men and women
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 based on Haus-man
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 915--915
+Underfull \hbox (badness 2418) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Probit and bi-vari-ate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 pro-bit model us-ing
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 915--915
+Underfull \hbox (badness 3646) in paragraph at lines 948--948
 \T1/cmr/m/n/8 parental di-a-betes as
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 915--915
+Underfull \hbox (badness 2310) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Seuring et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Elderly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 pop-u-la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 Amer-i-cans
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 close the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 Mex-i-can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Significant ad-verse
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 915--915
+Underfull \hbox (badness 4492) in paragraph at lines 948--948
 \T1/cmr/m/n/8 re-la-tion-ship, with 7
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 915--915
+Underfull \hbox (badness 2409) in paragraph at lines 948--948
 \T1/cmr/m/n/8 % points lower em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 ploy-ment rates for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 neg-a-tive re-la-tion-ship
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 915--915
+Underfull \hbox (badness 4832) in paragraph at lines 948--948
 \T1/cmr/m/n/8 be-comes in-signif-i-cant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 when us-ing in-stru-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 915--915
+Underfull \hbox (badness 1946) in paragraph at lines 948--948
 \T1/cmr/m/n/8 men-tal vari-able (IV)
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 915--915
+Underfull \hbox (badness 7558) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Diabetes en-doge-nous
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 915--915
+Underfull \hbox (badness 3735) in paragraph at lines 948--948
 \T1/cmr/m/n/8 for women but not
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Brown et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Mexican-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 American
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 work-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 915--915
+Underfull \hbox (badness 2809) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Find a neg-a-tive re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 la-tion-ship be-tween
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 915--915
-\T1/cmr/m/n/8 ment as well as the
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
+\T1/cmr/m/n/8 HbA1c lev-els and
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
+\T1/cmr/m/n/8 the prob-a-bil-ity of
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Probit and Heck-man
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Brown et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 915--915
+Underfull \hbox (badness 2781) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Exogenous: 25.2 %
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 915--915
+Underfull \hbox (badness 2495) in paragraph at lines 948--948
 \T1/cmr/m/n/8 points less likely to
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 915--915
+Underfull \hbox (badness 1107) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Probit and Heck-man
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 915--915
+Underfull \hbox (badness 1762) in paragraph at lines 948--948
 \T1/cmr/m/n/8 se-lec-tion model; un-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Minor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Follows
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 young
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 adults
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 in 1979
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 through-out
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 915--915
+Underfull \hbox (badness 2111) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Self-reported year of
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 915--915
+Underfull \hbox (badness 1596) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Average re-duc-tion of
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 915--915
+Underfull \hbox (badness 2556) in paragraph at lines 948--948
 \T1/cmr/m/n/8 for women; em-ploy-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 915--915
+Underfull \hbox (badness 2237) in paragraph at lines 948--948
 \T1/cmr/m/n/8 women, while wages
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 fixed ef-fects model
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 915--915
+Underfull \hbox (badness 5711) in paragraph at lines 948--948
 \T1/cmr/m/n/8 (no in-di-vid-ual fixed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 ef-fects) us-ing logit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 model for se-lec-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Minor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Men and
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 915--915
+Underfull \hbox (badness 3769) in paragraph at lines 948--948
 \T1/cmr/m/n/8 women 18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Self-reported and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 HbA1c lev-els for
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 915--915
+Underfull \hbox (badness 7081) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 No sta-tis-ti-cally sig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 nif-i-cant re-la-tion-ship
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 915--915
+Underfull \hbox (badness 4316) in paragraph at lines 948--948
 \T1/cmr/m/n/8 be-tween un-di-ag-nosed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 sig-nif-i-cantly re-lated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 with lower em-ploy-
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 915--915
+Underfull \hbox (badness 2150) in paragraph at lines 948--948
 \T1/cmr/m/n/8 men (-11 % points)
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 915--915
+Underfull \hbox (badness 3557) in paragraph at lines 948--948
 \T1/cmr/m/n/8 and women (-19 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 (HbA1c >6.4 %),
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 915--915
+Underfull \hbox (badness 1102) in paragraph at lines 948--948
 \T1/cmr/m/n/8 men (-8.3 % points)
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 915--915
+Underfull \hbox (badness 3557) in paragraph at lines 948--948
 \T1/cmr/m/n/8 and women (-11 %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 di-a-betes on hours
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 lower em-ploy-ment
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 915--915
+Underfull \hbox (badness 1400) in paragraph at lines 948--948
 \T1/cmr/m/n/8 nary out-comes, OLS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 for con-tin-u-ous out-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 MacE-wan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Men and
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 915--915
+Underfull \hbox (badness 3769) in paragraph at lines 948--948
 \T1/cmr/m/n/8 women 15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 915--915
+Underfull \hbox (badness 2726) in paragraph at lines 948--948
 \T1/cmr/m/n/8 in-di-cates en-do-gene-ity
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 915--915
+Underfull \hbox (badness 1803) in paragraph at lines 948--948
 \T1/cmr/m/n/8 For women: Ex-oge-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 915--915
+Underfull \hbox (badness 2285) in paragraph at lines 948--948
 \T1/cmr/m/n/8 nif-i-cant and pos-i-tive
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 915--915
+Underfull \hbox (badness 7558) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Diabetes en-doge-nous
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 915--915
+Underfull \hbox (badness 2608) in paragraph at lines 948--948
 \T1/cmr/m/n/8 up-wards bi-ased es-ti-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 915--915
+Underfull \hbox (badness 2285) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Instrumental vari-able
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 915--915
+Underfull \hbox (badness 1097) in paragraph at lines 948--948
 \T1/cmr/m/n/8 fam-ily his-tory of di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Latif
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Men and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Cross-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 915--915
+Underfull \hbox (badness 1902) in paragraph at lines 948--948
 \T1/cmr/m/n/8 (-7.1 % points) and
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 915--915
+Underfull \hbox (badness 2277) in paragraph at lines 948--948
 \T1/cmr/m/n/8 with the ef-fects ap-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 915--915
+Underfull \hbox (badness 1014) in paragraph at lines 948--948
 \T1/cmr/m/n/8 pear-ing over-stated (-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Overestimation if
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \T1/cmr/m/n/8 en-do-gene-ity un-ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--915
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []|\T1/cmr/m/n/8 Zhang et
  []
 
-[44
+[45
 
 
 
@@ -2292,7 +2295,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 915--915
 
 
 
-] [45] [46] [47] [48] [49]
+] [46] [47] [48] [49] [50]
 Package epstopdf Info: Source file: <figures/lpoly_combined.eps>
 (epstopdf)                    date: 2017-02-08 17:20:46
 (epstopdf)                    size: 103603 bytes
@@ -2302,15 +2305,15 @@ f>
 (epstopdf)                    size: 39293 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/lpoly_combined-eps
 -converted-to.pdf figures/lpoly_combined.eps>
-(epstopdf)             \includegraphics on input line 922.
+(epstopdf)             \includegraphics on input line 955.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lpoly_combined-eps-converted-to.pdf, id=615, 397.485pt x 289.08pt>
+<figures/lpoly_combined-eps-converted-to.pdf, id=624, 397.485pt x 289.08pt>
 File: figures/lpoly_combined-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/lpoly_combined-eps-converted-to.pdf>
 Package pdftex.def Info: figures/lpoly_combined-eps-converted-to.pdf used on in
-put line 922.
+put line 955.
 (pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
 Package epstopdf Info: Source file: <figures/kdensity_hba1c_inconsist.eps>
 (epstopdf)                    date: 2017-02-20 14:57:22
@@ -2321,35 +2324,32 @@ rted-to.pdf>
 (epstopdf)                    size: 12835 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/kdensity_hba1c_inc
 onsist-eps-converted-to.pdf figures/kdensity_hba1c_inconsist.eps>
-(epstopdf)             \includegraphics on input line 931.
+(epstopdf)             \includegraphics on input line 964.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/kdensity_hba1c_inconsist-eps-converted-to.pdf, id=616, 397.485pt x 289
+<figures/kdensity_hba1c_inconsist-eps-converted-to.pdf, id=625, 397.485pt x 289
 .08pt>
 File: figures/kdensity_hba1c_inconsist-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/kdensity_hba1c_inconsist-eps-converted-to.pdf>
 Package pdftex.def Info: figures/kdensity_hba1c_inconsist-eps-converted-to.pdf 
-used on input line 931.
+used on input line 964.
 (pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
-[50
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 968.
+[51
 
- <./figures/lpoly_combined-eps-converted-to.pdf>] [51 <./figures/kdensity_hba1c
+ <./figures/lpoly_combined-eps-converted-to.pdf>] [52 <./figures/kdensity_hba1c
 _inconsist-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 968.
  (./full_article.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 968.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 968.
 Package rerunfilecheck Info: File `full_article.out' has not changed.
-(rerunfilecheck)             Checksum: 0C2070A1D97F07FBD869D2C55AD6436A;870.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: BA494397E277AD5564F28754C6BE467A;952.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2357,14 +2357,14 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'full_article.run.xml'.
 \openout1 = `full_article.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 935.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 968.
  ) 
 Here is how much of TeX's memory you used:
- 26709 strings out of 493304
- 489807 string characters out of 6139871
- 1198732 words of memory out of 5000000
- 29547 multiletter control sequences out of 15000+600000
- 28696 words of font info for 85 fonts, out of 8000000 for 9000
+ 26705 strings out of 493304
+ 489695 string characters out of 6139871
+ 1198798 words of memory out of 5000000
+ 29541 multiletter control sequences out of 15000+600000
+ 26569 words of font info for 76 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  71i,14n,147p,10415b,1623s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -2388,10 +2388,10 @@ e1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfti1200.pfb>
-Output written on full_article.pdf (51 pages, 533582 bytes).
+Output written on full_article.pdf (52 pages, 531813 bytes).
 PDF statistics:
- 751 PDF objects out of 1000 (max. 8388607)
- 610 compressed objects within 7 object streams
- 172 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
