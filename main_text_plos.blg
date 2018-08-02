@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main_text_plos.aux
+The style file: plos2015.bst
+Database file #1: /home/till/Dokumente/BibTex/Second_Mexico_paper.bib.bib
+Repeated entry---line 2077 of file /home/till/Dokumente/BibTex/Second_Mexico_paper.bib.bib
+ : @article{Yuan2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2719 of file /home/till/Dokumente/BibTex/Second_Mexico_paper.bib.bib
+ : @article{Barquera2008b
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2758 of file /home/till/Dokumente/BibTex/Second_Mexico_paper.bib.bib
+ : @article{Barquera2008b
+ :                       ,
+I'm skipping whatever remains of this entry
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in Gutierrez-delgado2009
+Warning--empty booktitle in Crimmins2015
+Warning--empty pages in Crimmins2015
+Warning--there's a number but no volume in Bergemann2011
+You've used 45 entries,
+            3058 wiz_defined-function locations,
+            971 strings with 19990 characters,
+and the built_in function-call counts, 123526 in all, are:
+= -- 15320
+> -- 658
+< -- 4
++ -- 415
+- -- 164
+* -- 11464
+:= -- 13494
+add.period$ -- 205
+call.type$ -- 45
+change.case$ -- 4
+chr.to.int$ -- 6
+cite$ -- 49
+duplicate$ -- 7424
+empty$ -- 12224
+format.name$ -- 200
+if$ -- 28372
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 422
+newline$ -- 258
+num.names$ -- 45
+pop$ -- 623
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 697
+stack$ -- 0
+substring$ -- 29250
+swap$ -- 1079
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 449
+width$ -- 47
+write$ -- 556
+(There were 3 error messages)

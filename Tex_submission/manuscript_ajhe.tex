@@ -159,8 +159,9 @@ bottom=30mm,
 \title{The impact of diabetes on labor market outcomes in Mexico: a panel data and biomarker analysis}
 \author{}
 \date{}
+\thispagestyle{empty}
 	\maketitle 
-	\thispagestyle{empty}
+	
 	\clearpage
 	
 \begin{abstract}
@@ -171,7 +172,7 @@ Keywords: diabetes, employment, wages, biomarker, Mexico, panel data
 
 JEL: I14, I15, J22, J31, D83
 
-
+\clearpage
 \section{\label{sec:Introduction4}Introduction }
 
 Diabetes, and particularly its most common variant, type 2 diabetes, has increased worldwide and is expected to continue to rise over the next decades \parencite{Risk2016}. The condition has become a problem for middle-income countries and high-income countries alike, with over two-thirds of people with diabetes living in the developing world \parencite{InternationalDiabetesFederation2015}. Mexicans and Mexican-Americans appear to be particularly affected by diabetes, also in comparison to other Latino populations \parencite{Schneiderman2014}. In Mexico, diabetes prevalence has grown from 6.7\% in 1994 to 14.4\% in 2006 \parencite{Barquera2013} and recent estimates suggest a 15.8\% prevalence rate in 2015 \parencite{InternationalDiabetesFederation2015}. Already now, diabetes is the number one cause of death in Mexico. 
@@ -194,7 +195,7 @@ The biomarker analysis reveals that clinically diagnosed diabetes entails a sign
 
 \section{\label{sec:labor  outcomes and diabetes literature}Diabetes and labor outcomes---what do we know?}
 
-A limited number of studies provides insights on the relationship between diabetes and labor outcomes.  Table \ref{tab:rev_Diab_employment} in the appendix summarizes the main findings of these studies, the characteristics of the sample, the estimation method they use and the approach to measure diabetes.  To the best of our knowledge only two studies exist for \acp{LMIC}. \textcite{Liu2014} exploit a natural experiment in China and find a significant reduction in income for those with a recent diagnosis of diabetes. A study for Mexico using cross-sectional data from 2005, finds a significant (p<0.01) reduction in employment probabilities for males by about 10 percentage points and for females by about 4.5 percentage points (p<0.1), using parental diabetes as an \ac{IV} \parencite{Seuring2015}.
+A limited number of studies provide insights on the relationship between diabetes and labor outcomes.  Table \ref{tab:rev_Diab_employment} in the appendix summarizes the main findings of these studies, the characteristics of the sample, the estimation method they use and the approach to measure diabetes.  To the best of our knowledge only two studies exist for \acp{LMIC}. \textcite{Liu2014} exploit a natural experiment in China and find a significant reduction in income for those with a recent diagnosis of diabetes. A study for Mexico using cross-sectional data from 2005, finds a significant (p<0.01) reduction in employment probabilities for males by about 10 percentage points and for females by about 4.5 percentage points (p<0.1), using parental diabetes as an \ac{IV} \parencite{Seuring2015}.
 
 More studies have investigated the effects of diabetes on labor outcomes in high-income countries. \textcite{Brown2005} consider an elderly population of Mexican-Americans living close to the Mexican border in the US, and find 7 percentage points lower employment rates for men with self-reported diabetes, while for women, the negative relationship becomes insignificant when using \ac{IV} estimation.  In a similar vein, \textcite{BrownIII2011}, again considering a cross-section of Mexican-Americans, detect a negative  relationship between the level of \ac{HbA1c} on one hand and the probability of employment or male wages on the other hand. Women remain again unaffected.  
 
@@ -315,7 +316,7 @@ Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{2}Dbio_{i}+\beta_{3}Dsr_{i}*Dbio_{i}+\be
 The interaction term changes the interpretation of $\beta_{1}$ and $\beta_{2}$, with $\beta_{1}$ now representing the effect of those aware of their condition but with \ac{HbA1c} levels below the diabetes threshold and $\beta_{2}$ those with undiagnosed diabetes, i.e. not self-reporting diabetes but with \ac{HbA1c} levels equal to or above the threshold. The interaction term $\beta_{3}$ shows the effect for those with self-reported diabetes and \ac{HbA1c} levels above the threshold. We then test if $\beta_{1} + \beta_{3} = \beta_{2}$, i.e. if self-reported diabetes is significantly different from undiagnosed diabetes.
 
 In a final step we investigate the effect of the severity of diabetes on labor outcomes,
-replacing $Dbio^{d}$ with $Dbio^{c}$ , a variable that is 0 for HbA1c < 6.5\% and takes the actual
+replacing $Dbio^{d}$ with $Dbio^{c}$, a variable that is 0 for HbA1c < 6.5\% and takes the actual
 value of \ac{HbA1c} for those with an $HbA1c \geq 6.5\%$ (Eq. \ref{eq:diab_hba1c}). This will allow us to investigate
 the effect of a one percentage point increase in \ac{HbA1c} levels for people with undiagnosed
 diabetes ($\beta_{2}$) as well as those with self-reported diabetes above the diabetes threshold
@@ -595,12 +596,12 @@ Alternatively we also test if using an alternative strategy, i.e. assuming that 
 					\begin{tabular}{l*{6}{S
 								S}}
 						\toprule
-						&\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Monthly work hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+						&\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Log hourly wages} &\multicolumn{2}{c}{Weekly work hours}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 						&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
 						\textbf{Panel A: all labor outcomes} &&&&&&\\ 
-						Self-reported&    -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
+						Self-reported diabetes&    -.054\sym{**} &    -.059\sym{**} &     .054         &     .081         &    -.524         &   -1.955         \\
 						&   (.025)         &   (.024)         &   (.067)         &   (.158)         &  (1.499)         &  (2.517)         \\
 						
 						Hausman test    &  255.260         &  388.822         &  278.355         &  904.858         & 4101.669         &  976.631         \\
