@@ -1,0 +1,38 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'full_article_initial_submission.blg'
+[85] biber:287> INFO - === Di Dez 18, 2018, 16:32:26
+[321] Biber.pm:348> INFO - Reading 'full_article_initial_submission.bcf'
+[585] Biber.pm:742> INFO - Found 45 citekeys in bib section 0
+[593] Biber.pm:3151> INFO - Processing section 0
+[648] Biber.pm:3308> INFO - Looking for bibtex format file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib' for section 0
+[2887] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[4701] bibtex.pm:974> INFO - Found BibTeX data source '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib'
+[4722] Utils.pm:147> WARN - Duplicate entry key: 'Strauss2007' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4733] Utils.pm:147> WARN - Duplicate entry key: 'Velasquez2010' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4735] Utils.pm:147> WARN - Duplicate entry key: 'Antillon2014' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4736] Utils.pm:147> WARN - Duplicate entry key: 'Yuan2015' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4738] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4739] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4744] Utils.pm:147> WARN - Duplicate entry key: 'Rivera2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4746] Utils.pm:147> WARN - Duplicate entry key: 'Zhao2013a' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4751] Utils.pm:147> WARN - Duplicate entry key: 'Vijan2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4752] Utils.pm:147> WARN - Duplicate entry key: 'Bastida2009' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[4842] Utils.pm:147> WARN - ISBN '1475-2840 (Electronic)$\backslash$r1475-2840 (Linking)' in entry 'Reynoso-Noveron2011' is invalid - run biber with '--validate_datamodel' for details.
+[4856] Utils.pm:147> WARN - ISBN '1432-0428 (Electronic)$\backslash$n0012-186X (Linking)' in entry 'Lim2011' is invalid - run biber with '--validate_datamodel' for details.
+[4885] Utils.pm:147> WARN - ISBN '0098-7484' in entry 'Gregg2012' is invalid - run biber with '--validate_datamodel' for details.
+[4904] Utils.pm:147> WARN - ISBN '0022-3166' in entry 'Barquera2008b' is invalid - run biber with '--validate_datamodel' for details.
+[5096] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Brown2005' is invalid - run biber with '--validate_datamodel' for details.
+[5131] Utils.pm:147> WARN - ISBN '1088-0224' in entry 'BrownIII2011' is invalid - run biber with '--validate_datamodel' for details.
+[5146] Utils.pm:147> WARN - ISBN '1098-3015' in entry 'Minor2011' is invalid - run biber with '--validate_datamodel' for details.
+[5207] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Latif2009' is invalid - run biber with '--validate_datamodel' for details.
+[5372] Utils.pm:147> WARN - ISBN '0168-8227' in entry 'Beagley2014' is invalid - run biber with '--validate_datamodel' for details.
+[5426] Utils.pm:147> WARN - ISBN '00129682' in entry 'Mundlak1978' is invalid - run biber with '--validate_datamodel' for details.
+[5631] Utils.pm:147> WARN - ISBN '1471-2458 (Electronic)$\backslash$r1471-2458 (Linking)' in entry 'Hanson2012' is invalid - run biber with '--validate_datamodel' for details.
+[5661] Utils.pm:147> WARN - BibTeX subsystem: /tmp/lToMKGEt5f/Second_Mexico_paper.bib_12873.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[6407] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6407] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6407] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[6407] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[6628] bbl.pm:519> INFO - Writing 'full_article_initial_submission.bbl' with encoding 'UTF-8'
+[7416] bbl.pm:615> INFO - Output to full_article_initial_submission.bbl
+[7416] Biber.pm:109> INFO - WARNINGS: 22

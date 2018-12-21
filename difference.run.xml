@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>full_article.bcf</file>
+      <file>difference.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>full_article.bbl</file>
+      <file>difference.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>full_article</infile>
+      <infile>difference</infile>
     </cmdline>
     <input>
-      <file>full_article.bcf</file>
+      <file>difference.bcf</file>
     </input>
     <output>
-      <file>full_article.bbl</file>
+      <file>difference.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>full_article.bbl</file>
+      <file>difference.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>full_article.bcf</file>
+      <file>difference.bcf</file>
     </requires>
     <requires type="editable">
       <file>/home/till/Dokumente/BibTex/Second_Mexico_paper.bib</file>

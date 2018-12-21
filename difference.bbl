@@ -1484,6 +1484,39 @@
       \verb :home/till/Dokumente/Mendeley Desktop/1-s2.0-S1570677X15000738-main.pdf:pdf
       \endverb
     \endentry
+    \entry{Mundlak1978}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d3ad9680b97dfd697a0d4f7d702bbf14}{%
+           family={Mundlak},
+           family_i={M\bibinitperiod},
+           given={Yair},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3ad9680b97dfd697a0d4f7d702bbf14}
+      \strng{fullhash}{d3ad9680b97dfd697a0d4f7d702bbf14}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1978}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In empirical analysis of data consisting of repeated observations on economic units (time series on a cross section) it is often assumed that the coefficients of the quantitative variables (slopes) are the same, whereas the coefficients of the qualitative variables (intercepts or effects) vary over units or periods.This is the constant-slope variable-intercept framework. In such an analysis an explicit account should be taken of the statistical dependence that exists between the quantitative variables and the effects. It is shown that when this is done, the random effect approach and the fixed effect approach yield the same estimate for the slopes, the "within" estimate. Any matrix combination of the "within" and "between" estimates is generally biased. When the "within" estimate is subject to a relatively large error a minimum mean square error can be applied, as is generally done in regression analysis. Such an estimator is developed here from a somewhat different point of departure.}
+      \field{isbn}{00129682}
+      \field{issn}{00129682}
+      \field{journaltitle}{Econometrica}
+      \field{number}{1}
+      \field{title}{{On the Pooling of Time Series and Cross Section Data}}
+      \field{volume}{46}
+      \field{year}{1978}
+      \field{pages}{69\bibrangedash 85}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.2307/1913646
+      \endverb
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/Mundlak - 1978 - On the Pooling of Time Series and Cross Section Data.pdf:pdf
+      \endverb
+    \endentry
     \entry{Peters2015}{article}{}
       \name{author}{4}{}{%
         {{hash=344541424b90be16a47968ae826590b8}{%

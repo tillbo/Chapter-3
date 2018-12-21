@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.4)  27 JUL 2018 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  10 AUG 2018 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,8 +214,8 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Title_page.aux) ) 
 Here is how much of TeX's memory you used:
  1991 strings out of 493029
- 23580 string characters out of 6136235
- 81906 words of memory out of 5000000
+ 23580 string characters out of 6136234
+ 81905 words of memory out of 5000000
  5525 multiletter control sequences out of 15000+600000
  15958 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
