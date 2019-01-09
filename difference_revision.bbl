@@ -323,13 +323,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Little is understood about the patterns and trends in adolescent and adult beverage intake in Mexico or most other countries. Here, we used nationally representative dietary intake, income, and food expenditure surveys, which included 416 adolescents (aged 12-18 y) and 2180 adults (aged {>}or=19 y) from the 1999 Mexican Nutrition Survey and 7464 adolescents and 21,113 adults from the 2006 Mexican Health and Nutrition Survey. We measured the volume and energy per day contributed by all beverages consumed by the sample subjects. In 2006, Mexican adolescents and adults obtained 20.1 and 22.3{\%}, respectively, of their energy intake from energy-containing beverages. Whole milk, carbonated and noncarbonated sugar-sweetened beverages, fruit juice with various sugar and water combinations added, and alcohol represented the 4 major categories of beverage intake. The trends from the dietary intake surveys showed very large increases in the intake of energy-containing beverages among adolescents and adults between 1999 and 2006. Income elasticities showed a high likelihood that intakes will increase as Mexican incomes continue to rise. Whereas the own-price elasticities for whole milk and sodas were both modest, intakes of these were increasing and higher than those for all other food groups. Energy intake trends and current levels of beverage intakes in Mexico are the highest recorded in a nationally representative survey and present major challenges for public health authorities.}
-      \field{issn}{1541-6100}
-      \field{journaltitle}{The Journal of nutrition}
+      \field{isbn}{0022-3166}
+      \field{issn}{0022-3166}
+      \field{journaltitle}{Journal of Nutrition}
       \field{number}{12}
-      \field{title}{{Energy intake from beverages is increasing among Mexican adolescents and adults.}}
+      \field{title}{{Energy Intake from Beverages Is Increasing among Mexican Adolescents and Adults}}
       \field{volume}{138}
       \field{year}{2008}
-      \field{pages}{2454\bibrangedash 61}
+      \field{pages}{2454\bibrangedash 2461}
       \range{pages}{8}
       \verb{doi}
       \verb 10.3945/jn.108.092163
@@ -337,7 +338,6 @@
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Barquera et al. - 2008 - Energy intake from beverages is increasing among Mexican adolescents and adults.pdf:pdf
       \endverb
-      \keyw{Adolescent,Adult,Beverages,Beverages: adverse effects,Child,Diabetes Mellitus,Energy Intake,Female,Food Habits,Humans,Male,Mexico,Middle Aged,Nutrition Surveys,Obesity,Obesity: etiology,Socioeconomic Factors,Type 2,Type 2: etiology,Young Adult}
     \endentry
     \entry{Basu2013}{article}{}
       \name{author}{4}{}{%
@@ -527,6 +527,8 @@
       \field{number}{25}
       \field{title}{{The effects of job displacement on the onset and progression}}
       \field{year}{2011}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Bergemann, Grönqvist, Gudbjörnsdottir - 2011 - The effects of job displacement on the onset and progression.pdf:pdf
       \endverb
@@ -677,7 +679,7 @@
       \endverb
       \keyw{80 and over,Adolescent,Adult,Age Factors,Aged,California,Delivery of Health Care,Delivery of Health Care: economics,Delivery of Health Care: statistics {\&} numerical da,Economic,Female,Humans,Lewbel,Male,Mental Health,Mental Health: economics,Mental Health: statistics {\&} numerical data,Middle Aged,Models,Mortality,Mortality: trends,Public Health,Public Health Practice,Public Health Practice: statistics {\&} numerical dat,Public Health: economics,Residence Characteristics,Sex Factors,Socioeconomic Factors,Substance-Related Disorders,Substance-Related Disorders: economics,Substance-Related Disorders: epidemiology,Young Adult}
     \endentry
-    \entry{Crimmins2015}{inproceedings}{}
+    \entry{Crimmins2015}{report}{}
       \name{author}{6}{}{%
         {{hash=9e6f4a075acba5fef72b702bc04e8ba1}{%
            family={Crimmins},
@@ -719,6 +721,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Health of the Mexican population: Results from the Mexican Family Life Survey (MxFLS)}}
+      \field{type}{techreport}
       \field{year}{2015}
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Crimmins et al. - 2015 - Health of the Mexican population Results from the Mexican Family Life Survey (MxFLS).pdf:pdf
@@ -1134,11 +1137,14 @@
       \verb http://linkinghub.elsevier.com/retrieve/pii/S2213858718300500
       \endverb
     \endentry
-    \entry{InternationalDiabetesFederation2015}{book}{}
+    \entry{InternationalDiabetesFederation2015}{report}{}
       \name{author}{1}{}{%
         {{hash=7385de445dfbe5dccb8159ecc664779a}{%
            family={{International\bibnamedelimb Diabetes\bibnamedelimb Federation}},
            family_i={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Diabetes Federation}%
       }
       \list{publisher}{1}{%
         {International Diabetes Federation}%
@@ -1153,6 +1159,7 @@
       \field{labeltitlesource}{title}
       \field{edition}{7}
       \field{title}{{Diabetes Atlas}}
+      \field{type}{techreport}
       \field{year}{2015}
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/International Diabetes Federation - 2009 - IDF Diabetes Atlas.pdf:pdf
@@ -1631,7 +1638,7 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Reynoso-Noverón et al. - 2011 - Estimated incidence of cardiovascular complications related to type 2 diabetes in Mexico using the UKPD.pdf:pdf
       \endverb
     \endentry
-    \entry{Rubalcava2013}{unpublished}{}
+    \entry{Rubalcava2013}{report}{}
       \name{author}{2}{}{%
         {{hash=5a3d2adb60d59bd52aa39d196314429e}{%
            family={Rubalcava},
@@ -1653,6 +1660,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{User's Guide for the Mexican Family Life Survey Third Round}}
+      \field{type}{techreport}
       \field{year}{2013}
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Rubalcava, Teruel - 2013 - User's Guide for the Mexican Family Life Survey Third Round.pdf:pdf
@@ -1733,6 +1741,9 @@
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Schaller, Stevens - 2015 - Short-run effects of job loss on health conditions, health insurance, and health care utilization.pdf:pdf
       \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167629615000788
+      \endverb
     \endentry
     \entry{Seuring2015}{article}{}
       \name{author}{3}{uniquelist=2}{%
@@ -1757,12 +1768,14 @@
       \field{sortinit}{S}
       \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
       \field{labelyear}{2015}
+      \field{labelmonth}{07}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This study explores the impact of diabetes on employment in Mexico using data from the Mexican Family Life Survey (MxFLS) (2005), taking into account the possible endogeneity of diabetes via an instrumental variable estimation strategy. We find that diabetes significantly decreases employment probabilities for men by about 10 percentage points (p{<} 0.01) and somewhat less so for women — 4.5 percentage points (p{<} 0.1) — without any indication of diabetes being endogenous. Further analysis shows that diabetes mainly affects the employment probabilities of men and women above the age of 44 and also has stronger effects on the poor than on the rich, particularly for men. We also find some indication for more adverse effects of diabetes on those in the large informal labour market compared to those in formal employment. Our results highlight — for the first time — the detrimental employment impact of diabetes in a developing country.}
       \field{issn}{1570677X}
       \field{journaltitle}{Economics {\&} Human Biology}
+      \field{month}{07}
       \field{title}{{The impact of diabetes on employment in Mexico}}
       \field{volume}{18}
       \field{year}{2015}
@@ -1772,7 +1785,7 @@
       \verb 10.1016/j.ehb.2015.04.002
       \endverb
       \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S1570677X15000349
+      \verb http://www.sciencedirect.com/science/article/pii/S1570677X15000349%20https://linkinghub.elsevier.com/retrieve/pii/S1570677X15000349
       \endverb
       \keyw{Diabetes,Employment,I10,Instrumental variable,J01,Mexico,employment}
     \endentry
@@ -2706,11 +2719,20 @@
       \endverb
       \keyw{African Continental Ancestry Group,African Continental Ancestry Group: genetics,Alleles,Animals,Asian Continental Ancestry Group,Asian Continental Ancestry Group: genetics,Cohort Studies,Diabetes Mellitus,Endoplasmic Reticulum,Endoplasmic Reticulum: genetics,European Continental Ancestry Group,European Continental Ancestry Group: genetics,Female,Genetic Predisposition to Disease,Genetic Predisposition to Disease: genetics,Genome-Wide Association Study,Haplotypes,Haplotypes: genetics,HeLa Cells,Humans,Indians,Lipid Metabolism,Lipid Metabolism: genetics,Liver,Liver: cytology,Liver: metabolism,Male,Messenger,Messenger: genetics,Messenger: metabolism,Mexico,Monocarboxylic Acid Transporters,Monocarboxylic Acid Transporters: genetics,Neanderthals,Neanderthals: genetics,North American,North American: genetics,Polymorphism,RNA,Single Nucleotide,Single Nucleotide: genetics,Triglycerides,Triglycerides: metabolism,Type 2,Type 2: genetics}
     \endentry
-    \entry{WorldHealthOrganization2011}{article}{}
+    \entry{WorldHealthOrganization2011}{book}{}
       \name{author}{1}{}{%
         {{hash=5d292a222024f1b13e98a059c94a9b75}{%
            family={{World\bibnamedelimb Health\bibnamedelimb Organization}},
            family_i={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
       }
       \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
       \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
@@ -2727,11 +2749,20 @@
       \verb :home/till/Dokumente/Mendeley Desktop/World Health Organization - 2011 - Use of glycated haemoglobin (HbA1c) in the diagnosis of diabetes mellitus abbreviated report of a WHO.pdf:pdf
       \endverb
     \endentry
-    \entry{WorldHealthOrganization2016}{article}{}
+    \entry{WorldHealthOrganization2016}{book}{}
       \name{author}{1}{}{%
         {{hash=5d292a222024f1b13e98a059c94a9b75}{%
            family={{World\bibnamedelimb Health\bibnamedelimb Organization}},
            family_i={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
       }
       \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
       \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
@@ -2798,7 +2829,7 @@
       \verb 10.1136/bmjopen-2014-006633
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Yuan et al. - 2015 - Validity of self-reported diabetes among middle-aged and older Chinese adults the China Health and Retirement Longi.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Yuan et al. - 2015 - Validity of self-reported diabetes among middle-aged and older Chinese adults the China Health and Retirement Lo(2).pdf:pdf
       \endverb
     \endentry
     \entry{Zajacova2010}{article}{}

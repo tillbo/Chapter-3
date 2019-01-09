@@ -1,0 +1,35 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'full_article_for_submission.blg'
+[37] biber:287> INFO - === Mi Jan  9, 2019, 09:35:27
+[121] Biber.pm:348> INFO - Reading 'full_article_for_submission.bcf'
+[252] Biber.pm:742> INFO - Found 44 citekeys in bib section 0
+[258] Biber.pm:3151> INFO - Processing section 0
+[284] Biber.pm:3308> INFO - Looking for bibtex format file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib' for section 0
+[1472] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[2489] bibtex.pm:974> INFO - Found BibTeX data source '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib'
+[2500] Utils.pm:147> WARN - Duplicate entry key: 'Vijan2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2501] Utils.pm:147> WARN - Duplicate entry key: 'Rivera2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2502] Utils.pm:147> WARN - Duplicate entry key: 'Antillon2014' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2503] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2503] Utils.pm:147> WARN - Duplicate entry key: 'Velasquez2010' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2504] Utils.pm:147> WARN - Duplicate entry key: 'Strauss2007' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2504] Utils.pm:147> WARN - Duplicate entry key: 'Bastida2009' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2507] Utils.pm:147> WARN - Duplicate entry key: 'Zhao2013a' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2509] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2512] Utils.pm:147> WARN - Duplicate entry key: 'Yuan2015' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2556] Utils.pm:147> WARN - ISBN '1475-2840 (Electronic)$\backslash$r1475-2840 (Linking)' in entry 'Reynoso-Noveron2011' is invalid - run biber with '--validate_datamodel' for details.
+[2565] Utils.pm:147> WARN - ISBN '1432-0428 (Electronic)$\backslash$n0012-186X (Linking)' in entry 'Lim2011' is invalid - run biber with '--validate_datamodel' for details.
+[2581] Utils.pm:147> WARN - ISBN '0098-7484' in entry 'Gregg2012' is invalid - run biber with '--validate_datamodel' for details.
+[2709] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Brown2005' is invalid - run biber with '--validate_datamodel' for details.
+[2731] Utils.pm:147> WARN - ISBN '1088-0224' in entry 'BrownIII2011' is invalid - run biber with '--validate_datamodel' for details.
+[2741] Utils.pm:147> WARN - ISBN '1098-3015' in entry 'Minor2011' is invalid - run biber with '--validate_datamodel' for details.
+[2764] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Latif2009' is invalid - run biber with '--validate_datamodel' for details.
+[2866] Utils.pm:147> WARN - ISBN '0168-8227' in entry 'Beagley2014' is invalid - run biber with '--validate_datamodel' for details.
+[3010] Utils.pm:147> WARN - BibTeX subsystem: /tmp/YzG1hhOqsX/Second_Mexico_paper.bib_6922.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[4413] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4413] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4413] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[4413] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[4949] bbl.pm:519> INFO - Writing 'full_article_for_submission.bbl' with encoding 'UTF-8'
+[5813] bbl.pm:615> INFO - Output to full_article_for_submission.bbl
+[5813] Biber.pm:109> INFO - WARNINGS: 19

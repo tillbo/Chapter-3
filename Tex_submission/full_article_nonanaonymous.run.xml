@@ -44,17 +44,19 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>manuscript_ajhe.bcf</file>
+      <file>full_article_nonanaonymous.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>manuscript_ajhe.bbl</file>
+      <file>full_article_nonanaonymous.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>biblatex.def</file>
-      <file>chicago-authordate.bbx</file>
-      <file>chicago-authordate.cbx</file>
+      <file>biblatex_.def</file>
+      <file>authoryear-comp.bbx</file>
+      <file>authoryear.bbx</file>
+      <file>standard.bbx</file>
+      <file>authoryear-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -63,22 +65,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>manuscript_ajhe</infile>
+      <infile>full_article_nonanaonymous</infile>
     </cmdline>
     <input>
-      <file>manuscript_ajhe.bcf</file>
+      <file>full_article_nonanaonymous.bcf</file>
     </input>
     <output>
-      <file>manuscript_ajhe.bbl</file>
+      <file>full_article_nonanaonymous.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>manuscript_ajhe.bbl</file>
+      <file>full_article_nonanaonymous.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>manuscript_ajhe.bcf</file>
+      <file>full_article_nonanaonymous.bcf</file>
     </requires>
     <requires type="editable">
-      <file>references.bib</file>
+      <file>References.bib</file>
     </requires>
   </external>
 </requests>

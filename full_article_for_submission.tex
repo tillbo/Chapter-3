@@ -19,7 +19,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{caption} %have period instead of colon for figures and Table captions
 \captionsetup[table]{labelsep=period}
-
+%\usepackage{nopageno}
   
 \providecommand{\tabularnewline}{\\}
 \usepackage[nolist]{acronym}
@@ -140,14 +140,17 @@ bottom=30mm,
 \makeatother        
 \begin{document}
 	\title{The impact of diabetes on labour market outcomes in Mexico: a panel data and biomarker analysis}
-	\author{}
+		\author{}
 	\date{}
- \maketitle 
+	\maketitle 
+
 	\thispagestyle{empty}
 	\clearpage
-	\begin{abstract}
-		Recent evidence for Mexico suggests important differences in health status between people with diagnosed and undiagnosed diabetes. However, there is at best scarce evidence on the economic consequences of diabetes, especially in contexts where the condition often remains undiagnosed, as is typically the case in low- and middle income countries. Using Mexican longitudinal as well as biomarker data we estimated the impact of diabetes and diabetes duration on employment probabilities, wages and working hours. We further explored how these effects differed for those with diagnosed and undiagnosed diabetes. For the longitudinal analyses nationally representative data from 11836 men and 13745 women 15 to 64 years old were taken from three waves (2002, 2005, 2009) of the Mexican Family Life Survey. We estimated a fixed effects model to account for unmeasured time-invariant confounders of diabetes. We found a reduction in the probability of being employed of 5.4 and 5.9 percentage points for men and women, respectively, but no effects on hours worked or wages. Employment probabilities fell gradually with each year since diagnosis. Using cross-sectional biomarker data, we observed that 68\% of those exhibiting glycated hemoglobin (HbA1c) levels above the clinical diabetes threshold did not self-report a diagnosis, hence were undiagnosed. Nevertheless, regression analysis revealed that there was no association of diabetes with labour outcomes for undiagnosed women or men. This suggests that results based on self-reported diabetes cannot be extended to the considerable population with undiagnosed diabetes, likely because of a selection of people in worse health and with a longer diabetes duration into the diagnosed population. An earlier diagnosis and improved treatment of diabetes therefore may prevent adverse health effects and related economic hardship in Mexico.
-	\end{abstract}
+
+	
+\begin{abstract}
+Recent evidence for Mexico suggests important differences in health status between people with diagnosed and undiagnosed diabetes. However, there is at best scarce evidence on the economic consequences of diabetes, especially in contexts where the condition often remains undiagnosed, as is typically the case in low- and middle income countries. Using Mexican longitudinal as well as biomarker data we estimated the impact of diabetes and diabetes duration on employment probabilities, wages and working hours. We further explored how these effects differed for those with diagnosed and undiagnosed diabetes. For the longitudinal analyses nationally representative data from 11836 men and 13745 women 15 to 64 years old were taken from three waves (2002, 2005, 2009) of the Mexican Family Life Survey. We estimated a fixed effects model to account for unmeasured time-invariant confounders of diabetes. We found a reduction in the probability of being employed of 5.4 and 5.9 percentage points for men and women, respectively, but no effects on hours worked or wages. Employment probabilities fell gradually with each year since diagnosis. Using cross-sectional biomarker data, we observed that 68\% of those exhibiting glycated hemoglobin (HbA1c) levels above the clinical diabetes threshold did not self-report a diagnosis, hence were undiagnosed. Nevertheless, regression analysis revealed that there was no association of diabetes with labour outcomes for undiagnosed women or men. This suggests that results based on self-reported diabetes cannot be extended to the considerable population with undiagnosed diabetes, likely because of a selection of people in worse health and with a longer diabetes duration into the diagnosed population. An earlier diagnosis and improved treatment of diabetes therefore may prevent adverse health effects and related economic hardship in Mexico.
+\end{abstract}
 \noindent Keywords: Mexico; diabetes; biomarker; wages; fixed effects; employment, working hours
 
 
@@ -655,8 +658,6 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 \clearpage
 
 \setcounter{table}{0} 
-\setcounter{page}{1}
-\nolinenumbers
 \renewcommand{\thetable}{\arabic{table}}
 
 \section*{Tables}
@@ -917,7 +918,6 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 \clearpage
 
 \setcounter{figure}{0}
-\setcounter{page}{1}
 \renewcommand{\thefigure}{\arabic{figure}}
 \section*{Figures}
 

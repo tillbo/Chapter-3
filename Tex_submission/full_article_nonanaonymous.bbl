@@ -22,7 +22,7 @@
     \entry{Alegre-Diaz2016}{article}{}
       \name{author}{15}{}{%
         {{hash=2c19871229176a39544626753accee70}{%
-           family={Alegre-Díaz},
+           family={Alegre-D\'\i{}az},
            family_i={A\bibinithyphendelim D\bibinitperiod},
            given={Jesus},
            given_i={J\bibinitperiod}}}%
@@ -32,9 +32,9 @@
            given={William},
            given_i={W\bibinitperiod}}}%
         {{hash=7a07a87222d308b590dcea399e0d9668}{%
-           family={López-Cervantes},
+           family={L\'{o}pez-Cervantes},
            family_i={L\bibinithyphendelim C\bibinitperiod},
-           given={Malaquías},
+           given={Malaqu\'\i{}as},
            given_i={M\bibinitperiod}}}%
         {{hash=ed80f99dbc1d261ec53549f7362d4685}{%
            family={Gnatiuc},
@@ -117,7 +117,7 @@
       \verb 10.1056/NEJMoa1605368
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Alegre-Díaz et al. - 2016 - Diabetes and Cause-Specific Mortality in Mexico City(2).pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Alegre-D\'\i{}az et al. - 2016 - Diabetes and Cause-Specific Mortality in Mexico City(2).pdf:pdf
       \endverb
       \verb{url}
       \verb http://www.nejm.org/doi/10.1056/NEJMoa1605368
@@ -155,23 +155,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/Angrist, Pischke - 2009 - Mostly Harmless Econometrics An Empiricist's Companion.pdf:pdf
       \endverb
     \endentry
-    \entry{Anonymous2007}{article}{}
-      \name{author}{1}{}{%
-        {{hash=7079c72c21415131774625ba1d64f4b0}{%
-           family={Anonymous},
-           family_i={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{7079c72c21415131774625ba1d64f4b0}
-      \strng{fullhash}{7079c72c21415131774625ba1d64f4b0}
-      \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
-      \field{labelyear}{2007}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Details omitted for double-blind reviewing}}
-      \field{year}{2007}
-    \endentry
     \entry{Ayyagari2011a}{article}{}
       \name{author}{3}{}{%
         {{hash=52d6924129603d6e540eaab1d607e584}{%
@@ -200,7 +183,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although the education-health relationship is well documented, pathways through which education influences health are not well understood. This study uses data from a 2003-2004 cross sectional supplemental survey of respondents to the longitudinal Health and Retirement Study (HRS) who had been diagnosed with diabetes mellitus to assess effects of education on health and mechanisms underlying the relationship. The supplemental survey provides rich detail on use of personal health care services (e.g., adherence to guidelines for diabetes care) and personal attributes which are plausibly largely time invariant and systematically related to years of schooling completed, including time preference, self-control, and self-confidence. Educational attainment, as measured by years of schooling completed, is systematically and positively related to time to onset of diabetes, and conditional on having been diagnosed with this disease on health outcomes, variables related to efficiency in health production, as well as use of diabetes specialists. However, the marginal effects of increasing educational attainment by a year are uniformly small. Accounting for other factors, including child health and child socioeconomic status which could affect years of schooling completed and adult health, adult cognition, income, and health insurance, and personal attributes from the supplemental survey, marginal effects of educational attainment tend to be lower than when these other factors are not included in the analysis, but they tend to remain statistically significant at conventional levels.}
-      \field{annotation}{From Duplicate 1 ( Education and Health: Evidence on Adults with Diabetes - Ayyagari, Padmaja; Grossman, Daniel; Sloan, Frank ) Accession Number: 1238589 Alternate Accession Number: EP58606793; Keywords: Diabetes;  Disease;  Education;  Health; Geographic Descriptors: U.S.; Geographic Region: Northern America; Publication Type: Journal Article; Update Code: 201106; Copyright: Copyright of International Journal of Health Care Finance {\&} Economics is the property of Springer Science {\&} Business Media B.V. and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - Duke U,AD - Duke U,AD - Yale U,L3 - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962,UR - http://dx.doi.org/10.1007/s10754-010-9087-x,UR - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962 From Duplicate 2 ( Education and Health: Evidence on Adults with Diabetes: Erratum - Ayyagari, Padmaja; Grossman, Daniel; Sloan, Frank ) Accession Number: 1261588 Alternate Accession Number: EP65183566; Keywords: Diabetes;  Health; Publication Type: Journal Article; Update Code: 201110; Copyright: Copyright of International Journal of Health Care Finance {\&} Economics is the property of Springer Science {\&} Business Media B.V. and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - Duke U,AD - Duke U,AD - Yale U,L3 - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962,UR - http://dx.doi.org/10.1007/s10754-011-9093-7,UR - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962}
+      \field{annotation}{From Duplicate 1 ( Education and Health: Evidence on Adults with Diabetes - Ayyagari, Padmaja; Grossman, Daniel; Sloan, Frank ) Accession Number: 1238589 Alternate Accession Number: EP58606793; Keywords: Diabetes;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Disease;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Education;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Health; Geographic Descriptors: U.S.; Geographic Region: Northern America; Publication Type: Journal Article; Update Code: 201106; Copyright: Copyright of International Journal of Health Care Finance {\&} Economics is the property of Springer Science {\&} Business Media B.V. and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - Duke U,AD - Duke U,AD - Yale U,L3 - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962,UR - http://dx.doi.org/10.1007/s10754-010-9087-x,UR - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962 From Duplicate 2 ( Education and Health: Evidence on Adults with Diabetes: Erratum - Ayyagari, Padmaja; Grossman, Daniel; Sloan, Frank ) Accession Number: 1261588 Alternate Accession Number: EP65183566; Keywords: Diabetes;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Health; Publication Type: Journal Article; Update Code: 201110; Copyright: Copyright of International Journal of Health Care Finance {\&} Economics is the property of Springer Science {\&} Business Media B.V. and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.,AD - Duke U,AD - Duke U,AD - Yale U,L3 - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962,UR - http://dx.doi.org/10.1007/s10754-011-9093-7,UR - http://springerlink.metapress.com/openurl.asp?genre=journal{\&}eissn=1573-6962}
       \field{issn}{1389-6563}
       \field{journaltitle}{International Journal of Health Care Finance and Economics}
       \field{month}{03}
@@ -444,48 +427,6 @@
       \endverb
       \keyw{Adult,Aged,Developing Countries,Diabetes Mellitus,Female,Global Health,Global Health: statistics {\&} numerical data,Humans,Male,Middle Aged,Prevalence,Type 2,Type 2: diagnosis,Type 2: epidemiology,Young Adult}
     \endentry
-    \entry{Bell2015}{article}{}
-      \name{author}{2}{}{%
-        {{hash=4701dbb85cad7f62ada7bff43f760087}{%
-           family={Bell},
-           family_i={B\bibinitperiod},
-           given={Andrew},
-           given_i={A\bibinitperiod}}}%
-        {{hash=dc246d3af9907e79d763cb41f18ed4db}{%
-           family={Jones},
-           family_i={J\bibinitperiod},
-           given={Kelvyn},
-           given_i={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{da066927ff36154188cd53797a1bcf0e}
-      \strng{fullhash}{da066927ff36154188cd53797a1bcf0e}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{2015}
-      \field{labelmonth}{01}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This article challenges the status of Fixed Effects models as the default modelling option when using time-series cross-sectional and panel data. We show that a complete understanding of the difference between within and between effects of predictor variables is important in considering what modelling strategy to use. We show that the main problem of Random Effects modelling - endogenous variables - is in fact a case of omitted variable bias that is readily solvable using a variant of the Mundlak (1978a) formulation. Consequently, Random Effects modelling provides everything that Fixed Effects modelling promises, and much more. Crucially it allows the modelling of time-invariant variables, and does so in a more parsimonious and explicit way than an alternative, Plümper and Troegers Fixed Effects Vector Decomposition (2007). It is also readily extendable to a Random Coefficients Model, allowing reliable, differential effects of variables without heavy parameterisation. As such we are arguing not simply for a technical solution to endogeneity, but for the substantive importance of modelling context, and the ability of Random Effects modelling to do so. Our empirical examples then show that failing to do this can lead to very misleading results. The distinctive focus of this paper is the stress on the substantive interpretation of the within and between relations. This has implications that extend beyond the realm of political science, to all datasets that have a multilevel structure.}
-      \field{issn}{2049-8470}
-      \field{journaltitle}{Political Science Research and Methods}
-      \field{month}{01}
-      \field{number}{1}
-      \field{title}{{Explaining Fixed Effects: Random Effects Modeling of Time-Series Cross-Sectional and Panel Data}}
-      \field{volume}{3}
-      \field{year}{2015}
-      \field{pages}{133\bibrangedash 153}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1017/psrm.2014.7
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Bell, Jones - 2015 - Explaining Fixed Effects Random Effects Modeling of Time-Series Cross-Sectional and Panel Data.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.journals.cambridge.org/abstract%7B%5C_%7DS2049847014000077
-      \endverb
-    \endentry
     \entry{Bello-Chavolla2017a}{article}{}
       \name{author}{4}{}{%
         {{hash=a8462762f3cf11973c665078a0e05f0a}{%
@@ -504,7 +445,7 @@
            given={Carlos\bibnamedelima A.},
            given_i={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=a70acca8af1d33fb7a35aa0116aaef25}{%
-           family={Hernández-Avila},
+           family={Hern\'{a}ndez-Avila},
            family_i={H\bibinithyphendelim A\bibinitperiod},
            given={Mauricio},
            given_i={M\bibinitperiod}}}%
@@ -546,12 +487,12 @@
            given={Annette},
            given_i={A\bibinitperiod}}}%
         {{hash=3899e90f60d3063c842cb00de701705c}{%
-           family={Grönqvist},
+           family={Gr\"{o}nqvist},
            family_i={G\bibinitperiod},
            given={Erik},
            given_i={E\bibinitperiod}}}%
         {{hash=6752192f5bece012eeacdacf6ae034f4}{%
-           family={Gudbjörnsdottir},
+           family={Gudbj\"{o}rnsdottir},
            family_i={G\bibinitperiod},
            given={Soffia},
            given_i={S\bibinitperiod}}}%
@@ -572,7 +513,7 @@
       \field{pages}{1\bibrangedash 37}
       \range{pages}{37}
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Bergemann, Grönqvist, Gudbjörnsdottir - 2011 - The effects of job displacement on the onset and progression.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Bergemann, Gr\"{o}nqvist, Gudbj\"{o}rnsdottir - 2011 - The effects of job displacement on the onset and progression.pdf:pdf
       \endverb
       \keyw{arne uhlendorff and gerard,berg and participants at,c14,diabetes,discussions with and comments,for population economics conference,from geert ridder,health,i18,in essen,j64,j65,jel-codes,matching,the 2010 european society,unemployment,van den,we are also,we have benefited from}
     \endentry
@@ -584,9 +525,9 @@
            given={H\bibnamedelima Shelton},
            given_i={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=603f193b608df99f1cab095a15d4d60c}{%
-           family={Pagán},
+           family={Pag\'{a}n},
            family_i={P\bibinitperiod},
-           given={José\bibnamedelima A.},
+           given={Jos\'{e}\bibnamedelima A.},
            given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=d1102702cf9f935be1f577c38fac9ea6}{%
            family={Bastida},
@@ -616,7 +557,7 @@
       \verb 10.1002/hec.942
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Brown, Pagán, Bastida - 2005 - The impact of diabetes on employment genetic IVs in a bivariate probit.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Brown, Pag\'{a}n, Bastida - 2005 - The impact of diabetes on employment genetic IVs in a bivariate probit.pdf:pdf
       \endverb
       \keyw{*diabetes mellitus,*employment,Absenteeism,African Americans,African Americans: genetics,African Americans: statistics {\&} numerical data,Aged,Cost of Illness,Diabetes Mellitus,Diabetes Mellitus: economics,Diabetes Mellitus: ethnology,Diabetes Mellitus: genetics,Efficiency,Employment,Employment: statistics {\&} numerical data,Female,Health Production I120,Hispanic,Humans,Male,Mexican Americans,Mexican Americans: genetics,Mexican Americans: statistics {\&} numerical data,Middle Aged,Models,Poverty,Poverty: economics,Poverty: ethnology,Statistical,Texas,Texas: epidemiology,Till,Time Allocation an,absenteeism,aged,all,article,demography,download,econlit,embase,epidemiological data,extracted,genetic predisposition,genetic variability,health economics,health survey,human,included,mortality,newsearch,physical disability,priority journal,productivity,pubmed,relevant,reviewed,selected{\_}papers,sex difference,social aspect}
     \endentry
@@ -721,58 +662,6 @@
       \endverb
       \keyw{80 and over,Adolescent,Adult,Age Factors,Aged,California,Delivery of Health Care,Delivery of Health Care: economics,Delivery of Health Care: statistics {\&} numerical da,Economic,Female,Humans,Lewbel,Male,Mental Health,Mental Health: economics,Mental Health: statistics {\&} numerical data,Middle Aged,Models,Mortality,Mortality: trends,Public Health,Public Health Practice,Public Health Practice: statistics {\&} numerical dat,Public Health: economics,Residence Characteristics,Sex Factors,Socioeconomic Factors,Substance-Related Disorders,Substance-Related Disorders: economics,Substance-Related Disorders: epidemiology,Young Adult}
     \endentry
-    \entry{Colchero2016}{article}{}
-      \name{author}{4}{}{%
-        {{hash=9e54cb66d595db1166293ef5b2d4b1d4}{%
-           family={Colchero},
-           family_i={C\bibinitperiod},
-           given={M\bibnamedelima Arantxa},
-           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=59261e8f5fb31c688d8e6a5bcf80a559}{%
-           family={Popkin},
-           family_i={P\bibinitperiod},
-           given={Barry\bibnamedelima M},
-           given_i={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=5466402c728df07ef132f07720d05c06}{%
-           family={Rivera},
-           family_i={R\bibinitperiod},
-           given={Juan\bibnamedelima A},
-           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=a0a86948174c5701989d4fad3ad21795}{%
-           family={Ng},
-           family_i={N\bibinitperiod},
-           given={Shu\bibnamedelima Wen},
-           given_i={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \strng{namehash}{5da4de5d1178509b4388ea8d9cbabde7}
-      \strng{fullhash}{b2fa96068c5497b7d07824bfb8c93bec}
-      \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
-      \field{labelyear}{2016}
-      \field{labelmonth}{01}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{STUDY QUESTION What has been the effect on purchases of beverages from stores in Mexico one year after implementation of the excise tax on sugar sweetened beverages? METHODS In this observational study the authors used data on the purchase of beverages in Mexico from January 2012 to December 2014 from an unbalanced panel of 6253 households providing 205 112 observations in 53 cities with more than 50 000 inhabitants. To test whether the post-tax trend in purchases was significantly different from the pretax trend, the authors used a difference in difference fixed effects model, which adjusts for both macroeconomic variables that can affect the purchase of beverages over time, and pre-existing trends. The variables used in the analysis included demographic information on household composition (age and sex of household members) and socioeconomic status (low, middle, and high). The authors compared the predicted volumes (mL/capita/day) of taxed and untaxed beverages purchased in 2014-the observed post-tax period-with the estimated volumes that would have been purchased if the tax had not been implemented (counterfactual) based on pretax trends. STUDY ANSWER AND LIMITATIONS Relative to the counterfactual in 2014, purchases of taxed beverages decreased by an average of 6{\%} (-12 mL/capita/day), and decreased at an increasing rate up to a 12{\%} decline by December 2014. All three socioeconomic groups reduced purchases of taxed beverages, but reductions were higher among the households of low socioeconomic status, averaging a 9{\%} decline during 2014, and up to a 17{\%} decrease by December 2014 compared with pretax trends. Purchases of untaxed beverages were 4{\%} (36 mL/capita/day) higher than the counterfactual, mainly driven by an increase in purchases of bottled plain water. WHAT THIS STUDY ADDS The tax on sugar sweetened beverages was associated with reductions in purchases of taxed beverages and increases in purchases of untaxed beverages. Continued monitoring is needed to understand purchases longer term, potential substitutions, and health implications. FUNDING, COMPETING INTERESTS, DATA SHARING This work was supported by grants from Bloomberg Philanthropies and the Robert Wood Johnson Foundation and by the Instituto Nacional de Salud Pública and the Carolina Population Center. The authors have no competing interests. No additional data are available.}
-      \field{isbn}{9781849808620}
-      \field{issn}{1756-1833}
-      \field{journaltitle}{British Medical Journal}
-      \field{month}{01}
-      \field{title}{{Beverage purchases from stores in Mexico under the excise tax on sugar sweetened beverages: observational study}}
-      \field{volume}{352}
-      \field{year}{2016}
-      \field{pages}{h6704}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1136/bmj.h6704
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Colchero et al. - 2016 - Beverage purchases from stores in Mexico under the excise tax on sugar sweetened beverages observational study.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.bmj.com/lookup/doi/10.1136/bmj.h6704%20http://www.ncbi.nlm.nih.gov/pubmed/26738745%20http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4986313
-      \endverb
-    \endentry
     \entry{Crimmins2015}{report}{}
       \name{author}{6}{}{%
         {{hash=9e6f4a075acba5fef72b702bc04e8ba1}{%
@@ -874,7 +763,7 @@
            given={Volkert\bibnamedelima Dirk},
            given_i={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
         {{hash=398ecc09fd87c9af2f39c07023bcb81d}{%
-           family={K{ø}ster-Rasmussen},
+           family={K{\o{}}ster-Rasmussen},
            family_i={K\bibinithyphendelim R\bibinitperiod},
            given={Rasmus},
            given_i={R\bibinitperiod}}}%
@@ -897,7 +786,7 @@
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{AIMS: The association between recent and more distant weight changes before and after the diagnosis of type 2 diabetes has been little researched. The aim of this study is to determine the influence of patients' weight history before diabetes diagnosis on the observed 6-year weight changes after diagnosis.$\backslash$n$\backslash$nMETHODS: A clinical cohort study combined with self-reported past weight history. In total 885 patients aged ≥40 years and newly diagnosed with clinical type 2 diabetes were included. Body weight was measured immediately after diabetes diagnosis and again at the 6-year follow up examination (median, 5.7 years). At diagnosis patients reported their weight 1 year and 10 years previously, and also at the age of 20. Multivariate linear regression analyses controlled for 20 baseline patient characteristics.$\backslash$n$\backslash$nRESULTS: The median (interquartile range) age at diagnosis was 63.2 (53.9; 71.4) years. Median body weight was 80.0 (72.0; 90.0) kg 10 years before diagnosis, 85.0 (75.0; 95.0) kg 1 year before diagnosis, 82.4 (72.0; 94.0) kg at diagnosis, and 80.0 (70.0; 91.1) kg at 6-year follow up. Each kg of weight gain during the year preceding the diagnosis was associated with a weight change (95{\%} CI) of -0.20 (-0.28; -0.13) kg during the follow up period. In all models age and body mass index at diagnosis predicted future weight changes, while the weight at age 20 (-0.01 (-0.06; 0.03) kg/kg), and the weight change from 10 years to 1 year before diagnosis (-0.01 (-0.06; 0.04) kg/kg), did not predict weight change after diagnosis.$\backslash$n$\backslash$nCONCLUSIONS: During the first on average 5.7 years after diagnosis of type 2 diabetes, patients generally follow a course of declining average weight, and these weight developments are related primarily to recent weight changes, body mass index, and age, but not to the more distant weight history.}
+      \field{abstract}{AIMS: The association between recent and more distant weight changes before and after the diagnosis of type 2 diabetes has been little researched. The aim of this study is to determine the influence of patients' weight history before diabetes diagnosis on the observed 6-year weight changes after diagnosis.$\backslash$n$\backslash$nMETHODS: A clinical cohort study combined with self-reported past weight history. In total 885 patients aged \x{fffd}\x{fffd}\x{fffd}40 years and newly diagnosed with clinical type 2 diabetes were included. Body weight was measured immediately after diabetes diagnosis and again at the 6-year follow up examination (median, 5.7 years). At diagnosis patients reported their weight 1 year and 10 years previously, and also at the age of 20. Multivariate linear regression analyses controlled for 20 baseline patient characteristics.$\backslash$n$\backslash$nRESULTS: The median (interquartile range) age at diagnosis was 63.2 (53.9; 71.4) years. Median body weight was 80.0 (72.0; 90.0) kg 10 years before diagnosis, 85.0 (75.0; 95.0) kg 1 year before diagnosis, 82.4 (72.0; 94.0) kg at diagnosis, and 80.0 (70.0; 91.1) kg at 6-year follow up. Each kg of weight gain during the year preceding the diagnosis was associated with a weight change (95{\%} CI) of -0.20 (-0.28; -0.13) kg during the follow up period. In all models age and body mass index at diagnosis predicted future weight changes, while the weight at age 20 (-0.01 (-0.06; 0.03) kg/kg), and the weight change from 10 years to 1 year before diagnosis (-0.01 (-0.06; 0.04) kg/kg), did not predict weight change after diagnosis.$\backslash$n$\backslash$nCONCLUSIONS: During the first on average 5.7 years after diagnosis of type 2 diabetes, patients generally follow a course of declining average weight, and these weight developments are related primarily to recent weight changes, body mass index, and age, but not to the more distant weight history.}
       \field{issn}{19326203}
       \field{journaltitle}{PLoS ONE}
       \field{number}{4}
@@ -932,7 +821,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Each year, many pregnant Muslim women fast during Ramadan. Using Indonesian cross-sectional data and building upon work of Almond and Mazumder (2011), I show that people who were prenatally exposed to Ramadan fasting have a poorer general health than others. As predicted by medical theory, this effect is especially pronounced among older people, who also more often report symptoms indicative of coronary heart problems and type 2 diabetes. Among exposed Muslims the share of males is lower, which is most likely caused by death before birth. I show that these effects are unlikely the result of common health shocks correlated to the occurrence of Ramadan, or of fasting mainly occurring among women who would have had unhealthier children anyway.}
-      \field{annotation}{Accession Number: 1278247; Keywords: Birth;  Children;  Deaths;  Diabetes;  Health;  Pregnancy;  Pregnant;  Women; Geographic Descriptors: Indonesia; Geographic Region: Asia; Publication Type: Journal Article; Update Code: 201201,AD - U Mainz and Free U Amsterdam,L3 - http://www.elsevier.com/wps/find/journaldescription.cws{\_}home/505560/description{\#}description,UR - http://dx.doi.org/10.1016/j.jhealeco.2011.07.014,UR - http://www.elsevier.com/wps/find/journaldescription.cws{\_}home/505560/description{\#}description}
+      \field{annotation}{Accession Number: 1278247; Keywords: Birth;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Children;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Deaths;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Diabetes;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Health;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Pregnancy;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Pregnant;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Women; Geographic Descriptors: Indonesia; Geographic Region: Asia; Publication Type: Journal Article; Update Code: 201201,AD - U Mainz and Free U Amsterdam,L3 - http://www.elsevier.com/wps/find/journaldescription.cws{\_}home/505560/description{\#}description,UR - http://dx.doi.org/10.1016/j.jhealeco.2011.07.014,UR - http://www.elsevier.com/wps/find/journaldescription.cws{\_}home/505560/description{\#}description}
       \field{issn}{01676296}
       \field{journaltitle}{Journal of Health Economics}
       \field{number}{6}
@@ -981,12 +870,12 @@
     \entry{Flores-Hernandez2015}{article}{}
       \name{author}{6}{}{%
         {{hash=35b3b875da926cb60a519a806fbf4592}{%
-           family={Flores-Hernández},
+           family={Flores-Hern\'{a}ndez},
            family_i={F\bibinithyphendelim H\bibinitperiod},
            given={Sergio},
            given_i={S\bibinitperiod}}}%
         {{hash=80e54ce8751f3fb42b9eb16f7d26e7b4}{%
-           family={Saturno-Hernández},
+           family={Saturno-Hern\'{a}ndez},
            family_i={S\bibinithyphendelim H\bibinitperiod},
            given={Pedro\bibnamedelima J.},
            given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
@@ -996,7 +885,7 @@
            given={Hortensia},
            given_i={H\bibinitperiod}}}%
         {{hash=81173ed217022c4045c28dd405b08a87}{%
-           family={Barrientos-Gutiérrez},
+           family={Barrientos-Guti\'{e}rrez},
            family_i={B\bibinithyphendelim G\bibinitperiod},
            given={Tonatiuh},
            given_i={T\bibinitperiod}}}%
@@ -1006,8 +895,8 @@
            given={Salvador},
            given_i={S\bibinitperiod}}}%
         {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{%
-           family={Hernández-Ávila},
-           family_i={H\bibinithyphendelim Á\bibinitperiod},
+           family={Hern\'{a}ndez-\'{A}vila},
+           family_i={H\bibinithyphendelim \'{A}\bibinitperiod},
            given={Mauricio},
            given_i={M\bibinitperiod}}}%
       }
@@ -1031,7 +920,7 @@
       \verb 10.1371/journal.pone.0133958
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Flores-Hernández et al. - 2015 - Quality of Diabetes Care The Challenges of an Increasing Epidemic in Mexico. Results from Two National.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Flores-Hern\'{a}ndez et al. - 2015 - Quality of Diabetes Care The Challenges of an Increasing Epidemic in Mexico. Results from Two National.pdf:pdf
       \endverb
       \verb{url}
       \verb http://dx.plos.org/10.1371/journal.pone.0133958
@@ -1131,102 +1020,6 @@
       \endverb
       \keyw{Aged,Blood Glucose,Body Mass Index,Counseling,Diabetes Mellitus,Diet,Exercise,Female,Group,Humans,Intervention Studies,Life Style,Male,Middle Aged,Overweight,Patient Education as Topic,Psychotherapy,Remission Induction,Risk Reduction Behavior,Social Support,Treatment Outcome,Type 2,Type 2: therapy,Weight Loss}
     \endentry
-    \entry{Gutierrez-delgado2009}{incollection}{}
-      \name{author}{2}{}{%
-        {{hash=4681cc79faf236b07271cd27cbd00bb8}{%
-           family={Gutiérrez-delgado},
-           family_i={G\bibinithyphendelim d\bibinitperiod},
-           given={Cristina},
-           given_i={C\bibinitperiod}}}%
-        {{hash=c71615cb8429f5d498ccd8e7f5ac2df9}{%
-           family={Guajardo-barrón},
-           family_i={G\bibinithyphendelim b\bibinitperiod},
-           given={Veronica},
-           given_i={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{59f9d5cf2c42fdabeb8b8f874e698d4e}
-      \strng{fullhash}{59f9d5cf2c42fdabeb8b8f874e698d4e}
-      \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
-      \field{labelyear}{2009}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Advances in Health Economics and Health Services Research}
-      \field{isbn}{978-1-84855-664-5}
-      \field{issn}{0731-2199}
-      \field{title}{{The double burden of disease in developing countries: The Mexican experience}}
-      \field{volume}{21}
-      \field{year}{2009}
-      \field{pages}{3\bibrangedash 22}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1108/S0731-2199(2009)0000021004
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Gutiérrez-delgado, Guajardo-barrón - 2009 - The double burden of disease in developing countries The Mexican experience.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Hanson2012}{article}{}
-      \name{author}{5}{}{%
-        {{hash=96e261996d3b2726d14d8017416634b6}{%
-           family={Hanson},
-           family_i={H\bibinitperiod},
-           given={M\bibnamedelima A},
-           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=3f8cd8defc38021fb48f46b36500e53e}{%
-           family={Gluckman},
-           family_i={G\bibinitperiod},
-           given={P\bibnamedelima D},
-           given_i={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=68b9ff8082a676d9e9a21b1961fa1e4f}{%
-           family={Ma},
-           family_i={M\bibinitperiod},
-           given={R\bibnamedelima C},
-           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=de035ec2929f610497453c50ffdb0c24}{%
-           family={Matzen},
-           family_i={M\bibinitperiod},
-           given={P},
-           given_i={P\bibinitperiod}}}%
-        {{hash=974352fb04a665e41f24c597d96a0818}{%
-           family={Biesma},
-           family_i={B\bibinitperiod},
-           given={R\bibnamedelima G},
-           given_i={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {BMC Public Health}%
-      }
-      \strng{namehash}{47dcb66d787a481552deaee6b9fb2e94}
-      \strng{fullhash}{e42efc01dd845780ae4464e22853b698}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{BACKGROUND: The global burden of diabetes and other non-communicable diseases is rising dramatically worldwide and is causing a double poor health burden in low- and middle-income countries. Early life influences play an important part in this scenario because maternal lifestyle and conditions such as gestational diabetes and obesity affect the risk of diabetes in the next generation. This indicates important periods during the lifecourse when interventions could have powerful affects in reducing incidence of non-communicable diseases. However, interventions to promote diet and lifestyle in prospective parents before conception have not received sufficient attention, especially in low- and middle-income countries undergoing socio-economic transition. DISCUSSION: Interventions to produce weight loss in adults or to reduce weight gain in pregnancy have had limited success and might be too late to produce the largest effects on the health of the child and his/her later risk of non-communicable diseases. A very important factor in the prevention of the developmental component of diabetes risk is the physiological state in which the parents enter pregnancy. We argue that the most promising strategy to improve prospective parents' body composition and lifestyle is the promotion of health literacy in adolescents. Multiple but integrated forms of community-based interventions that focus on nutrition, physical activity, family planning, breastfeeding and infant feeding practices are needed. They need to address the wider social economic context in which adolescents live and to be linked with existing public health programmes in sexual and reproductive health and maternal and child health initiatives. SUMMARY: Interventions aimed at ensuring a healthy body composition, diet and lifestyle before pregnancy offer a most effective solution in many settings, especially in low- and middle-income countries undergoing socio-economic transition. Preparing a mother, her partner and her future child for "the 1000 days", whether from planned or unplanned conception would break the cycle of risk and demonstrate benefit in the shortest possible time. Such interventions will be particularly important in adolescents and young women in disadvantaged groups and can improve the physiological status of the fetus as well as reduce the prevalence of pregnancy conditions such as gestational diabetes mellitus which both predispose to non-communicables diseases in both the mother and her child. Pre-conception interventions require equipping prospective parents with the necessary knowledge and skills to make healthy lifestyle choices for themselves and their children. Addressing the promotion of such health literacy in parents-to-be in low- and middle-income countries requires a wider social perspective. It requires a range of multisectoral agencies to work together and could be linked to the issues of women's empowerment, to reproductive health, to communicable disease prevention and to the Millennium Development Goals 4 and 5.}
-      \field{isbn}{1471-2458 (Electronic)$\backslash$r1471-2458 (Linking)}
-      \field{issn}{1471-2458}
-      \field{journaltitle}{BMC Public Health}
-      \field{number}{1}
-      \field{title}{{Early life opportunities for prevention of diabetes in low and middle income countries}}
-      \field{volume}{12}
-      \field{year}{2012}
-      \field{pages}{1025}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1186/1471-2458-12-1025
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Hanson et al. - 2012 - Early life opportunities for prevention of diabetes in low and middle income countries.pdf:pdf
-      \endverb
-      \verb{url}
-      \verb http://www.biomedcentral.com/content/pdf/1471-2458-12-1025.pdf
-      \endverb
-      \keyw{Adolescent,Developing Countries,Diabetes Mellitus/ prevention {\&} control,Diet,Female,Health Promotion/ methods,Humans,Life Style,Male,Parents/ education,Risk Factors}
-    \endentry
     \entry{Herrington2018}{article}{}
       \name{author}{14}{}{%
         {{hash=0b8520d9da42a6bcf8d6600ae63cb9f0}{%
@@ -1235,7 +1028,7 @@
            given={William\bibnamedelima G},
            given_i={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
         {{hash=2c19871229176a39544626753accee70}{%
-           family={Alegre-Díaz},
+           family={Alegre-D\'\i{}az},
            family_i={A\bibinithyphendelim D\bibinitperiod},
            given={Jesus},
            given_i={J\bibinitperiod}}}%
@@ -1252,7 +1045,7 @@
         {{hash=0e579cd93763d278c92efe87713ccfad}{%
            family={Ramirez-Reyes},
            family_i={R\bibinithyphendelim R\bibinitperiod},
-           given={Raúl},
+           given={Ra\'{u}l},
            given_i={R\bibinitperiod}}}%
         {{hash=4641d1b4026bc95c79a3b2506585d5d2}{%
            family={Hill},
@@ -1260,7 +1053,7 @@
            given={Michael},
            given_i={M\bibinitperiod}}}%
         {{hash=c98ca1ddb7bd92546bbd05bb004dbcf4}{%
-           family={Solano-Sánchez},
+           family={Solano-S\'{a}nchez},
            family_i={S\bibinithyphendelim S\bibinitperiod},
            given={Martha},
            given_i={M\bibinitperiod}}}%
@@ -1308,7 +1101,7 @@
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Background Diabetes is a cause of at least a third of all deaths in Mexican adults aged 35–74 years, with the excess mortality due mainly to vascular disease, renal disease, infection, and acute diabetic crises. We aimed to analyse the effect of diabetes duration and glycaemic control on death rate ratios {\{}(RRs){\}} for these causes and to assess the relevance to cause-specific mortality of undiagnosed diabetes. Methods About 100 000 women and 50 000 men aged 35 years or older from Mexico City were recruited into a blood-based prospective study between April 14, 1998, and Sept 28, 2004, and followed up until Jan 1, 2016, for cause-specific mortality. Participants who, at recruitment, reported any chronic disease other than diabetes and those who had missing data for {\{}HbA1c{\}} or diabetes duration were excluded. We used Cox models to estimate the associations of undiagnosed or previously diagnosed diabetes (almost all type 2) with risk of mortality from vascular disease, renal disease, and infection, exploring among those with previously diagnosed diabetes the independent relevance of diabetes duration ({\{}{<}{\}}5 years, ≥5 to {\{}{<}{\}}10 years, or ≥10 years) and {\{}HbA1c{\}} ({\{}{<}{\}}9{\%}, ≥9{\%} to {\{}{<}{\}}11{\%}, or ≥11{\%}). We also estimated the association of {\{}HbA1c{\}} with mortality in participants without diabetes at recruitment. Findings 133 662 participants were aged 35–74 years and had complete data and no other chronic disease. 16 940 (13{\%}) had previously diagnosed diabetes, 6541 (5{\%}) had undiagnosed diabetes, and 110 181 (82{\%}) had no diabetes. Among participants with previously diagnosed diabetes, glycaemic control was poor (median {\{}HbA1c{\}} 8{·}9{\%} {\{}[IQR{\}} 7{·}0–10{·}9]), and was worse in those with longer duration of disease at recruitment. Compared with participants without diabetes, the death {\{}RRs{\}} at ages 35–74 years for the combination of vascular, renal, or infectious causes were 3{·}0 (95{\%} {\{}CI{\}} 2{·}7–3{·}4) in those with undiagnosed diabetes, 4{·}5 (4{·}0–5{·}0) for the 5042 participants with a diabetes duration of less than 5 years, 6{·}6 (6{·}1–7{·}1) for the 7713 participants with a duration of 5 years to less than 10 years, and 11{·}7 (10{·}7–12{·}7) for the 4185 participants with a duration of at least 10 years. Similarly, the death {\{}RRs{\}} were 5{·}2 (4{·}8–5{·}7) for those with {\{}HbA1c{\}} less than 9{\%}, 6{·}8 (6{·}2–7{·}4) for those with {\{}HbA1c{\}} of 9{\%} to less than 11{\%}, and 10{·}5 (9{·}7–11{·}5) for those with {\{}HbA1c{\}} of at least 11{\%}. Diabetes was not strongly associated with the combination of deaths from other causes apart from acute glycaemic crises. Among participants without diabetes, higher {\{}HbA1c{\}} was not positively related to mortality. Interpretation In Mexico, the rates of death from causes strongly associated with diabetes increased steeply with duration of diabetes and were higher still among people with poor glycaemic control. Delaying the onset of type 2 diabetes, as well as improving its treatment, is essential to reduce premature adult mortality in Mexico. Funding Wellcome Trust, the Mexican Health Ministry, the Mexican National Council of Science and Technology, Cancer Research {\{}UK,{\}} British Heart Foundation, and the {\{}UK{\}} Medical Research Council Population Health Research Unit.}
+      \field{abstract}{Background Diabetes is a cause of at least a third of all deaths in Mexican adults aged 35\x{fffd}\x{fffd}\x{fffd}74 years, with the excess mortality due mainly to vascular disease, renal disease, infection, and acute diabetic crises. We aimed to analyse the effect of diabetes duration and glycaemic control on death rate ratios {\{}(RRs){\}} for these causes and to assess the relevance to cause-specific mortality of undiagnosed diabetes. Methods About 100\x{fffd}\x{fffd}\x{fffd}000 women and 50\x{fffd}\x{fffd}\x{fffd}000 men aged 35 years or older from Mexico City were recruited into a blood-based prospective study between April 14, 1998, and Sept 28, 2004, and followed up until Jan 1, 2016, for cause-specific mortality. Participants who, at recruitment, reported any chronic disease other than diabetes and those who had missing data for {\{}HbA1c{\}} or diabetes duration were excluded. We used Cox models to estimate the associations of undiagnosed or previously diagnosed diabetes (almost all type 2) with risk of mortality from vascular disease, renal disease, and infection, exploring among those with previously diagnosed diabetes the independent relevance of diabetes duration ({\{}{<}{\}}5 years, \x{fffd}\x{fffd}\x{fffd}5 to {\{}{<}{\}}10 years, or \x{fffd}\x{fffd}\x{fffd}10 years) and {\{}HbA1c{\}} ({\{}{<}{\}}9{\%}, \x{fffd}\x{fffd}\x{fffd}9{\%} to {\{}{<}{\}}11{\%}, or \x{fffd}\x{fffd}\x{fffd}11{\%}). We also estimated the association of {\{}HbA1c{\}} with mortality in participants without diabetes at recruitment. Findings 133\x{fffd}\x{fffd}\x{fffd}662 participants were aged 35\x{fffd}\x{fffd}\x{fffd}74 years and had complete data and no other chronic disease. 16\x{fffd}\x{fffd}\x{fffd}940 (13{\%}) had previously diagnosed diabetes, 6541 (5{\%}) had undiagnosed diabetes, and 110\x{fffd}\x{fffd}\x{fffd}181 (82{\%}) had no diabetes. Among participants with previously diagnosed diabetes, glycaemic control was poor (median {\{}HbA1c{\}} 8{{$\textperiodcentered$}}9{\%} {\{}[IQR{\}} 7{{$\textperiodcentered$}}0\x{fffd}\x{fffd}\x{fffd}10{{$\textperiodcentered$}}9]), and was worse in those with longer duration of disease at recruitment. Compared with participants without diabetes, the death {\{}RRs{\}} at ages 35\x{fffd}\x{fffd}\x{fffd}74 years for the combination of vascular, renal, or infectious causes were 3{{$\textperiodcentered$}}0 (95{\%} {\{}CI{\}} 2{{$\textperiodcentered$}}7\x{fffd}\x{fffd}\x{fffd}3{{$\textperiodcentered$}}4) in those with undiagnosed diabetes, 4{{$\textperiodcentered$}}5 (4{{$\textperiodcentered$}}0\x{fffd}\x{fffd}\x{fffd}5{{$\textperiodcentered$}}0) for the 5042 participants with a diabetes duration of less than 5 years, 6{{$\textperiodcentered$}}6 (6{{$\textperiodcentered$}}1\x{fffd}\x{fffd}\x{fffd}7{{$\textperiodcentered$}}1) for the 7713 participants with a duration of 5 years to less than 10 years, and 11{{$\textperiodcentered$}}7 (10{{$\textperiodcentered$}}7\x{fffd}\x{fffd}\x{fffd}12{{$\textperiodcentered$}}7) for the 4185 participants with a duration of at least 10 years. Similarly, the death {\{}RRs{\}} were 5{{$\textperiodcentered$}}2 (4{{$\textperiodcentered$}}8\x{fffd}\x{fffd}\x{fffd}5{{$\textperiodcentered$}}7) for those with {\{}HbA1c{\}} less than 9{\%}, 6{{$\textperiodcentered$}}8 (6{{$\textperiodcentered$}}2\x{fffd}\x{fffd}\x{fffd}7{{$\textperiodcentered$}}4) for those with {\{}HbA1c{\}} of 9{\%} to less than 11{\%}, and 10{{$\textperiodcentered$}}5 (9{{$\textperiodcentered$}}7\x{fffd}\x{fffd}\x{fffd}11{{$\textperiodcentered$}}5) for those with {\{}HbA1c{\}} of at least 11{\%}. Diabetes was not strongly associated with the combination of deaths from other causes apart from acute glycaemic crises. Among participants without diabetes, higher {\{}HbA1c{\}} was not positively related to mortality. Interpretation In Mexico, the rates of death from causes strongly associated with diabetes increased steeply with duration of diabetes and were higher still among people with poor glycaemic control. Delaying the onset of type 2 diabetes, as well as improving its treatment, is essential to reduce premature adult mortality in Mexico. Funding Wellcome Trust, the Mexican Health Ministry, the Mexican National Council of Science and Technology, Cancer Research {\{}UK,{\}} British Heart Foundation, and the {\{}UK{\}} Medical Research Council Population Health Research Unit.}
       \field{issn}{22138587}
       \field{journaltitle}{The Lancet Diabetes {\&} Endocrinology}
       \field{number}{18}
@@ -1681,39 +1474,6 @@
       \verb :home/till/Dokumente/Mendeley Desktop/1-s2.0-S1570677X15000738-main.pdf:pdf
       \endverb
     \endentry
-    \entry{Mundlak1978}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d3ad9680b97dfd697a0d4f7d702bbf14}{%
-           family={Mundlak},
-           family_i={M\bibinitperiod},
-           given={Yair},
-           given_i={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{d3ad9680b97dfd697a0d4f7d702bbf14}
-      \strng{fullhash}{d3ad9680b97dfd697a0d4f7d702bbf14}
-      \field{sortinit}{M}
-      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
-      \field{labelyear}{1978}
-      \field{datelabelsource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In empirical analysis of data consisting of repeated observations on economic units (time series on a cross section) it is often assumed that the coefficients of the quantitative variables (slopes) are the same, whereas the coefficients of the qualitative variables (intercepts or effects) vary over units or periods.This is the constant-slope variable-intercept framework. In such an analysis an explicit account should be taken of the statistical dependence that exists between the quantitative variables and the effects. It is shown that when this is done, the random effect approach and the fixed effect approach yield the same estimate for the slopes, the "within" estimate. Any matrix combination of the "within" and "between" estimates is generally biased. When the "within" estimate is subject to a relatively large error a minimum mean square error can be applied, as is generally done in regression analysis. Such an estimator is developed here from a somewhat different point of departure.}
-      \field{isbn}{00129682}
-      \field{issn}{00129682}
-      \field{journaltitle}{Econometrica}
-      \field{number}{1}
-      \field{title}{{On the Pooling of Time Series and Cross Section Data}}
-      \field{volume}{46}
-      \field{year}{1978}
-      \field{pages}{69\bibrangedash 85}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.2307/1913646
-      \endverb
-      \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Mundlak - 1978 - On the Pooling of Time Series and Cross Section Data.pdf:pdf
-      \endverb
-    \endentry
     \entry{Peters2015}{article}{}
       \name{author}{4}{}{%
         {{hash=344541424b90be16a47968ae826590b8}{%
@@ -1765,7 +1525,7 @@
     \entry{Reynoso-Noveron2011}{article}{}
       \name{author}{7}{}{%
         {{hash=b235092bafe0a9c7e45bb7fb74e4b00a}{%
-           family={Reynoso-Noverón},
+           family={Reynoso-Nover\'{o}n},
            family_i={R\bibinithyphendelim N\bibinitperiod},
            given={Nancy},
            given_i={N\bibinitperiod}}}%
@@ -1790,8 +1550,8 @@
            given={Salvador},
            given_i={S\bibinitperiod}}}%
         {{hash=d11d6c9fdfdcb861297fd3704181d8d7}{%
-           family={Hernández-Ávila},
-           family_i={H\bibinithyphendelim Á\bibinitperiod},
+           family={Hern\'{a}ndez-\'{A}vila},
+           family_i={H\bibinithyphendelim \'{A}\bibinitperiod},
            given={Mauricio},
            given_i={M\bibinitperiod}}}%
         {{hash=6ff44f43806a6758de1fb4f78cb8c3e1}{%
@@ -1825,7 +1585,7 @@
       \verb 10.1186/1475-2840-10-1
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Reynoso-Noverón et al. - 2011 - Estimated incidence of cardiovascular complications related to type 2 diabetes in Mexico using the UKPD.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Reynoso-Nover\'{o}n et al. - 2011 - Estimated incidence of cardiovascular complications related to type 2 diabetes in Mexico using the UKPD.pdf:pdf
       \endverb
     \endentry
     \entry{Rubalcava2013}{report}{}
@@ -1854,6 +1614,42 @@
       \field{year}{2013}
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Rubalcava, Teruel - 2013 - User's Guide for the Mexican Family Life Survey Third Round.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Sacks2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a37333ef3402a428c6b1e8cb387df6a6}{%
+           family={Sacks},
+           family_i={S\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           given_i={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a37333ef3402a428c6b1e8cb387df6a6}
+      \strng{fullhash}{a37333ef3402a428c6b1e8cb387df6a6}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2011}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0149-5992}
+      \field{journaltitle}{Diabetes Care}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{A1C Versus Glucose Testing: A Comparison}}
+      \field{volume}{34}
+      \field{year}{2011}
+      \field{pages}{518\bibrangedash 523}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.2337/dc10-1546
+      \endverb
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/Sacks - 2011 - A1C Versus Glucose Testing A Comparison.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://care.diabetesjournals.org/cgi/doi/10.2337/dc10-1546
       \endverb
     \endentry
     \entry{Schaller2015}{article}{}
@@ -1899,48 +1695,136 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0167629615000788
       \endverb
     \endentry
-    \entry{Schunck2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=4690444aa78e53200b1d8b26011d66a5}{%
-           family={Schunck},
+    \entry{Seuring2015a}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{hash=d24331a0c933ad61da85a34c65b30ff8}{%
+           family={Seuring},
            family_i={S\bibinitperiod},
-           given={Reinhard},
-           given_i={R\bibinitperiod}}}%
-        {{hash=f0ff30c2d474357ec22dbda9f40cdb08}{%
-           family={Perales},
-           family_i={P\bibinitperiod},
-           given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           given={Till},
+           given_i={T\bibinitperiod}}}%
+        {{hash=da785e1f6f58de2c0fcb5814fb5cce55}{%
+           family={Archangelidi},
+           family_i={A\bibinitperiod},
+           given={Olga},
+           given_i={O\bibinitperiod}}}%
+        {{hash=f2d6b1d2772c5e287338e266972983b8}{%
+           family={Suhrcke},
+           family_i={S\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
       }
-      \strng{namehash}{02d6af0346d0d833669c7c744d0f9d41}
-      \strng{fullhash}{02d6af0346d0d833669c7c744d0f9d41}
+      \strng{namehash}{ceabce1b76c6fb3bf8880d594b8a86d8}
+      \strng{fullhash}{dc9f3acd9391c9cd136177ae698051d1}
       \field{sortinit}{S}
       \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{2017}
+      \field{labelyear}{2015}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{One typically analyzes clustered data using random- or fixed-effects models. Fixed-effects models allow consistent estimation of the effects of level-one variables, even if there is unobserved heterogeneity at level two. However, these models cannot estimate the effects of level-two variables. Hybrid and correlated random-effects models are flexible modeling specifications that separate within- and between-cluster effects and allow for both consistent estimation of level-one effects and inclusion of level-two variables. In this article, we elaborate on the separation of within- and between-cluster effects in generalized linear mixed models. These models present a unifying framework for an entire class of models whose response variables follow a distribution from the exponential family (for example, linear, logit, probit, ordered probit and logit, Poisson, and negative binomial models). We introduce the user-written command xthybrid, a shell for the meglm command. xthybrid can fit a variety of hybrid and correlated random-effects models.}
-      \field{eprinttype}{arXiv}
-      \field{isbn}{9796964600}
-      \field{issn}{1536867X}
-      \field{journaltitle}{Stata Journal}
-      \field{number}{1}
-      \field{title}{{Within- and between-cluster effects in generalized linear mixed models: A discussion of approaches and the xthybrid command}}
-      \field{volume}{17}
-      \field{year}{2017}
-      \field{pages}{89\bibrangedash 115}
-      \range{pages}{27}
+      \field{issn}{1170-7690}
+      \field{journaltitle}{PharmacoEconomics}
+      \field{number}{8}
+      \field{title}{{The Economic Costs of Type 2 Diabetes: A Global Systematic Review}}
+      \field{volume}{33}
+      \field{year}{2015}
+      \field{pages}{811\bibrangedash 831}
+      \range{pages}{21}
       \verb{doi}
-      \verb The Stata Journal
-      \endverb
-      \verb{eprint}
-      \verb The Stata Journal
+      \verb 10.1007/s40273-015-0268-9
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Schunck.Perales.2017.SJ.xthybrid.pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Seuring, Archangelidi, Suhrcke - 2015 - The Economic Costs of Type 2 Diabetes A Global Systematic Review.pdf:pdf
       \endverb
-      \keyw{Correlated random effects,Fixed effects,Generalize linear mixed models,Hybrid model,Meglm,Mundlak model,Random effects,St0468,Xthybrid}
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007%7B%5C%%7D2Fs40273-015-0268-9
+      \endverb
+    \endentry
+    \entry{Seuring2015}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{hash=d24331a0c933ad61da85a34c65b30ff8}{%
+           family={Seuring},
+           family_i={S\bibinitperiod},
+           given={Till},
+           given_i={T\bibinitperiod}}}%
+        {{hash=d8fb21d96662a55fe9609fc990f4d00e}{%
+           family={Goryakin},
+           family_i={G\bibinitperiod},
+           given={Yevgeniy},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=f2d6b1d2772c5e287338e266972983b8}{%
+           family={Suhrcke},
+           family_i={S\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a8fc9d3aa2949f06980712556b3e03d}
+      \strng{fullhash}{29003dd58dd7d7be2d6eb8e0b7281c6f}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2015}
+      \field{labelmonth}{07}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study explores the impact of diabetes on employment in Mexico using data from the Mexican Family Life Survey (MxFLS) (2005), taking into account the possible endogeneity of diabetes via an instrumental variable estimation strategy. We find that diabetes significantly decreases employment probabilities for men by about 10 percentage points (p{<} 0.01) and somewhat less so for women \x{fffd}\x{fffd}\x{fffd} 4.5 percentage points (p{<} 0.1) \x{fffd}\x{fffd}\x{fffd} without any indication of diabetes being endogenous. Further analysis shows that diabetes mainly affects the employment probabilities of men and women above the age of 44 and also has stronger effects on the poor than on the rich, particularly for men. We also find some indication for more adverse effects of diabetes on those in the large informal labour market compared to those in formal employment. Our results highlight \x{fffd}\x{fffd}\x{fffd} for the first time \x{fffd}\x{fffd}\x{fffd} the detrimental employment impact of diabetes in a developing country.}
+      \field{issn}{1570677X}
+      \field{journaltitle}{Economics {\&} Human Biology}
+      \field{month}{07}
+      \field{title}{{The impact of diabetes on employment in Mexico}}
+      \field{volume}{18}
+      \field{year}{2015}
+      \field{pages}{85\bibrangedash 100}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.ehb.2015.04.002
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1570677X15000349%20https://linkinghub.elsevier.com/retrieve/pii/S1570677X15000349
+      \endverb
+      \keyw{Diabetes,Employment,I10,Instrumental variable,J01,Mexico,employment}
+    \endentry
+    \entry{Seuring2018}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{hash=d24331a0c933ad61da85a34c65b30ff8}{%
+           family={Seuring},
+           family_i={S\bibinitperiod},
+           given={Till},
+           given_i={T\bibinitperiod}}}%
+        {{hash=f2d6b1d2772c5e287338e266972983b8}{%
+           family={Suhrcke},
+           family_i={S\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
+        {{hash=ee0761fc541281897372aed09ee091cf}{%
+           family={Serneels},
+           family_i={S\bibinitperiod},
+           given={Pieter},
+           given_i={P\bibinitperiod}}}%
+        {{hash=78d515d273bff922f60ad8a6e9b467f3}{%
+           family={Bachmann},
+           family_i={B\bibinitperiod},
+           given={Max},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7b7e19f113422c21f76074c59e3a61f}
+      \strng{fullhash}{c4b25bff866c41ce2cb5eda1ffb38e6b}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IZA Discussion Papers}
+      \field{number}{11817}
+      \field{title}{{Diabetes , Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models Diabetes , Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models}}
+      \field{year}{2018}
+      \verb{file}
+      \verb :home/till/Dropbox/PhD/China{\_}Paper/Submission/IZA/Seuring et al. - 2018 - Diabetes , Employment and Behavioural Risk Factors in China Marginal Structural Models versus Fixed Effects Mod.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ftp.iza.org/dp11817.pdf
+      \endverb
+      \keyw{China,behavioural risk factors,diabetes,employment,marginal structural model}
     \endentry
     \entry{Slade2012}{article}{}
       \name{author}{1}{}{%
@@ -1959,7 +1843,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Diabetes is a very common and serious chronic disease, and one of the fastest growing disease burdens in the United States. Further, health behaviors, such as exercise, smoking, drinking, as well as weight status, are instrumental to diabetes management and the reduction of its medical consequences. Nine waves of the Health and Retirement Study are used to model the role of a recent diabetes diagnosis and medication on present and subsequent weight status, exercise, drinking, and smoking activity. Several non-linear dynamic population average probit models are estimated. Results suggest that compared to non-diagnosed individuals at risk for high blood sugar, diagnosed diabetics respond initially in terms of increasing exercise, losing weight, and curbing smoking and drinking behavior, but the effect diminishes after diagnosis. Evidence of recidivism is also found in these outcomes, especially weight status and physical activity, suggesting that some behavioral responses to diabetes may be short-lived.}
-      \field{annotation}{Accession Number: 1316537; Keywords: Diabetes;  Diabetic;  Disease;  Health;  Individual;  Smoking; Geographic Descriptors: U.S.; Geographic Region: Northern America; Publication Type: Journal Article; Update Code: 201208,AD - U IL,L3 - http://www.sciencedirect.com/science/journal/01676296,UR - http://dx.doi.org/10.1016/j.jhealeco.2012.04.001,UR - http://www.sciencedirect.com/science/journal/01676296}
+      \field{annotation}{Accession Number: 1316537; Keywords: Diabetes;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Diabetic;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Disease;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Health;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Individual;\x{fffd}\x{fffd}\x{fffd}\x{fffd}Smoking; Geographic Descriptors: U.S.; Geographic Region: Northern America; Publication Type: Journal Article; Update Code: 201208,AD - U IL,L3 - http://www.sciencedirect.com/science/journal/01676296,UR - http://dx.doi.org/10.1016/j.jhealeco.2012.04.001,UR - http://www.sciencedirect.com/science/journal/01676296}
       \field{issn}{01676296}
       \field{journaltitle}{Journal of Health Economics}
       \field{number}{3}
@@ -2044,7 +1928,7 @@
            given={Suzanne\bibnamedelimb B.\bibnamedelimi R.},
            given_i={S\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
         {{hash=aafa0ae2c337ef615fddc5f608cec3c7}{%
-           family={Moreno-Macías},
+           family={Moreno-Mac\'\i{}as},
            family_i={M\bibinithyphendelim M\bibinitperiod},
            given={Hortensia},
            given_i={H\bibinitperiod}}}%
@@ -2059,24 +1943,24 @@
            given={Claire},
            given_i={C\bibinitperiod}}}%
         {{hash=c8b9e00be43a4aa54c60498c0a41f18b}{%
-           family={Márquez-Luna},
+           family={M\'{a}rquez-Luna},
            family_i={M\bibinithyphendelim L\bibinitperiod},
            given={Carla},
            given_i={C\bibinitperiod}}}%
         {{hash=029f96e15041c937b0c7a1d844bb77a2}{%
-           family={García-Ortíz},
+           family={Garc\'\i{}a-Ort\'\i{}z},
            family_i={G\bibinithyphendelim O\bibinitperiod},
            given={Humberto},
            given_i={H\bibinitperiod}}}%
         {{hash=f7300a69c9493304160908a99151d4a6}{%
-           family={{José\bibnamedelimb Gómez-Vázquez}},
+           family={{Jos\'{e}\bibnamedelimb G\'{o}mez-V\'{a}zquez}},
            family_i={J\bibinitperiod},
-           given={María},
+           given={Mar\'\i{}a},
            given_i={M\bibinitperiod}}}%
         {{hash=da295a1266650265b098d590c7084419}{%
            family={Burtt},
            family_i={B\bibinitperiod},
-           given={Noël\bibnamedelima P.},
+           given={No\"{e}l\bibnamedelima P.},
            given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=8dd8373a9de5a67a478ab6a30d4a34da}{%
            family={Aguilar-Salinas},
@@ -2084,7 +1968,7 @@
            given={Carlos\bibnamedelima a.},
            given_i={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
         {{hash=2d8124d218d28b44da4b6a84204f3b85}{%
-           family={González-Villalpando},
+           family={Gonz\'{a}lez-Villalpando},
            family_i={G\bibinithyphendelim V\bibinitperiod},
            given={Clicerio},
            given_i={C\bibinitperiod}}}%
@@ -2104,7 +1988,7 @@
            given={Christopher\bibnamedelima a.},
            given_i={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
         {{hash=4cda3cb5456884d6218484130e4e44cf}{%
-           family={Tusié-Luna},
+           family={Tusi\'{e}-Luna},
            family_i={T\bibinithyphendelim L\bibinitperiod},
            given={Teresa},
            given_i={T\bibinitperiod}}}%
@@ -2119,7 +2003,7 @@
            given={Amy\bibnamedelima L.},
            given_i={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=c8b9e00be43a4aa54c60498c0a41f18b}{%
-           family={Márquez-Luna},
+           family={M\'{a}rquez-Luna},
            family_i={M\bibinithyphendelim L\bibinitperiod},
            given={Carla},
            given_i={C\bibinitperiod}}}%
@@ -2134,9 +2018,9 @@
            given={Stephan},
            given_i={S\bibinitperiod}}}%
         {{hash=f7300a69c9493304160908a99151d4a6}{%
-           family={{José\bibnamedelimb Gómez-Vázquez}},
+           family={{Jos\'{e}\bibnamedelimb G\'{o}mez-V\'{a}zquez}},
            family_i={J\bibinitperiod},
-           given={María},
+           given={Mar\'\i{}a},
            given_i={M\bibinitperiod}}}%
         {{hash=fbe26592dedec52a8c78e4f13cb9de29}{%
            family={Manning},
@@ -2144,12 +2028,12 @@
            given={Alisa\bibnamedelima K.},
            given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{hash=aafa0ae2c337ef615fddc5f608cec3c7}{%
-           family={Moreno-Macías},
+           family={Moreno-Mac\'\i{}as},
            family_i={M\bibinithyphendelim M\bibinitperiod},
            given={Hortensia},
            given_i={H\bibinitperiod}}}%
         {{hash=029f96e15041c937b0c7a1d844bb77a2}{%
-           family={García-Ortíz},
+           family={Garc\'\i{}a-Ort\'\i{}z},
            family_i={G\bibinithyphendelim O\bibinitperiod},
            given={Humberto},
            given_i={H\bibinitperiod}}}%
@@ -2161,7 +2045,7 @@
         {{hash=da295a1266650265b098d590c7084419}{%
            family={Burtt},
            family_i={B\bibinitperiod},
-           given={Noël\bibnamedelima P.},
+           given={No\"{e}l\bibnamedelima P.},
            given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=8dd8373a9de5a67a478ab6a30d4a34da}{%
            family={Aguilar-Salinas},
@@ -2179,7 +2063,7 @@
            given={Daniel\bibnamedelima O.},
            given_i={D\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
         {{hash=ad0c5766bcd0be2ab316a712d7f5685e}{%
-           family={Fernández-López},
+           family={Fern\'{a}ndez-L\'{o}pez},
            family_i={F\bibinithyphendelim L\bibinitperiod},
            given={Juan\bibnamedelima Carlos},
            given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
@@ -2199,7 +2083,7 @@
            given={Jose\bibnamedelima C.},
            given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=4cda3cb5456884d6218484130e4e44cf}{%
-           family={Tusié-Luna},
+           family={Tusi\'{e}-Luna},
            family_i={T\bibinithyphendelim L\bibinitperiod},
            given={Teresa},
            given_i={T\bibinitperiod}}}%
@@ -2214,14 +2098,14 @@
            given={Christopher\bibnamedelima a.},
            given_i={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
         {{hash=b96af732244c7a84028b9592194f2a77}{%
-           family={Aguilar-Delfín},
+           family={Aguilar-Delf\'\i{}n},
            family_i={A\bibinithyphendelim D\bibinitperiod},
            given={Irma},
            given_i={I\bibinitperiod}}}%
         {{hash=184de89ec498db5c3503ad19e5dd314a}{%
-           family={Martínez-Hernández},
+           family={Mart\'\i{}nez-Hern\'{a}ndez},
            family_i={M\bibinithyphendelim H\bibinitperiod},
-           given={Angélica},
+           given={Ang\'{e}lica},
            given_i={A\bibinitperiod}}}%
         {{hash=1899aa7361c0fef1c0b97ef2fa02794c}{%
            family={Centeno-Cruz},
@@ -2244,17 +2128,17 @@
            given={Sergio},
            given_i={S\bibinitperiod}}}%
         {{hash=da4b3db62802fd74db796b187838ecba}{%
-           family={Córdova},
+           family={C\'{o}rdova},
            family_i={C\bibinitperiod},
            given={Emilio},
            given_i={E\bibinitperiod}}}%
         {{hash=0f50d1052822fc55e3e825514c43185a}{%
-           family={Rodríguez-Arellano},
+           family={Rodr\'\i{}guez-Arellano},
            family_i={R\bibinithyphendelim A\bibinitperiod},
            given={Eunice},
            given_i={E\bibinitperiod}}}%
         {{hash=db833ed41513ac2065e42bdbfc72f6b7}{%
-           family={Soberón},
+           family={Sober\'{o}n},
            family_i={S\bibinitperiod},
            given={Xavier},
            given_i={X\bibinitperiod}}}%
@@ -2269,14 +2153,14 @@
            given={Jose\bibnamedelima C.},
            given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
         {{hash=2d8124d218d28b44da4b6a84204f3b85}{%
-           family={González-Villalpando},
+           family={Gonz\'{a}lez-Villalpando},
            family_i={G\bibinithyphendelim V\bibinitperiod},
            given={Clicerio},
            given_i={C\bibinitperiod}}}%
         {{hash=2335ff9bd0611cafb3a97d10b3bed84a}{%
-           family={González-Villalpando},
+           family={Gonz\'{a}lez-Villalpando},
            family_i={G\bibinithyphendelim V\bibinitperiod},
-           given={María\bibnamedelima Elena},
+           given={Mar\'\i{}a\bibnamedelima Elena},
            given_i={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
         {{hash=cb9d30f0327d9bc42053a3de39de34b5}{%
            family={Haiman},
@@ -2314,12 +2198,12 @@
            given={Laura},
            given_i={L\bibinitperiod}}}%
         {{hash=376b6c6ba3f80d4d1de3580643b81554}{%
-           family={Ordóñez-Sánchez},
+           family={Ord\'{o}\~{n}ez-S\'{a}nchez},
            family_i={O\bibinithyphendelim S\bibinitperiod},
-           given={María\bibnamedelima Luisa},
+           given={Mar\'\i{}a\bibnamedelima Luisa},
            given_i={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=7114173a4fb4342532cad0cc0cea10de}{%
-           family={Rodríguez-Guillén},
+           family={Rodr\'\i{}guez-Guill\'{e}n},
            family_i={R\bibinithyphendelim G\bibinitperiod},
            given={Rosario},
            given_i={R\bibinitperiod}}}%
@@ -2329,24 +2213,24 @@
            given={Ivette},
            given_i={I\bibinitperiod}}}%
         {{hash=9196a38fbdcfbed0e48ffb60c3dfe56f}{%
-           family={Rodríguez-Torres},
+           family={Rodr\'\i{}guez-Torres},
            family_i={R\bibinithyphendelim T\bibinitperiod},
            given={Maribel},
            given_i={M\bibinitperiod}}}%
         {{hash=c815369ffa674ead1f953e3611a9440e}{%
-           family={Muñoz-Hernández},
+           family={Mu\~{n}oz-Hern\'{a}ndez},
            family_i={M\bibinithyphendelim H\bibinitperiod},
            given={Linda\bibnamedelima Liliana},
            given_i={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=731d5ce400d406dd5a83a13230d6d25f}{%
-           family={Sáenz},
+           family={S\'{a}enz},
            family_i={S\bibinitperiod},
            given={Tamara},
            given_i={T\bibinitperiod}}}%
         {{hash=b658adc83dcd05316c61ce67da3325f2}{%
-           family={Gómez},
+           family={G\'{o}mez},
            family_i={G\bibinitperiod},
-           given={Donají},
+           given={Donaj\'\i{}},
            given_i={D\bibinitperiod}}}%
         {{hash=26a5b15f0d0932ada92ac312872a155e}{%
            family={Alvirde},
@@ -2356,7 +2240,7 @@
         {{hash=da295a1266650265b098d590c7084419}{%
            family={Burtt},
            family_i={B\bibinitperiod},
-           given={Noël\bibnamedelima P.},
+           given={No\"{e}l\bibnamedelima P.},
            given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=786d34599bfa8d73f16eef8f787f5ab1}{%
            family={Onofrio},
@@ -2404,7 +2288,7 @@
            given={Wendy},
            given_i={W\bibinitperiod}}}%
         {{hash=c41de4fbb3704867f6c0bcf4d9f1125d}{%
-           family={Prüfer},
+           family={Pr\"{u}fer},
            family_i={P\bibinitperiod},
            given={Kay},
            given_i={K\bibinitperiod}}}%
@@ -2464,7 +2348,7 @@
            given={Anatoli\bibnamedelima P.},
            given_i={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=a56a962b934c52144dc25b6666c05483}{%
-           family={Pääbo},
+           family={P\"{a}\"{a}bo},
            family_i={P\bibinitperiod},
            given={Svante},
            given_i={S\bibinitperiod}}}%
@@ -2596,7 +2480,7 @@
         {{hash=da295a1266650265b098d590c7084419}{%
            family={Burtt},
            family_i={B\bibinitperiod},
-           given={Noël\bibnamedelima P.},
+           given={No\"{e}l\bibnamedelima P.},
            given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=41ffca76c1f20ef3b5c20b488ef5b582}{%
            family={Atzmon},
@@ -2751,7 +2635,7 @@
         {{hash=da295a1266650265b098d590c7084419}{%
            family={Burtt},
            family_i={B\bibinitperiod},
-           given={Noël\bibnamedelima P.},
+           given={No\"{e}l\bibnamedelima P.},
            given_i={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
         {{hash=d272e62b0fd74603ef8d0185c3a7cc9d}{%
            family={Cortes},
@@ -2784,7 +2668,7 @@
            given={Carlos\bibnamedelima a.},
            given_i={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
         {{hash=2d8124d218d28b44da4b6a84204f3b85}{%
-           family={González-Villalpando},
+           family={Gonz\'{a}lez-Villalpando},
            family_i={G\bibinithyphendelim V\bibinitperiod},
            given={Clicerio},
            given_i={C\bibinitperiod}}}%
@@ -2794,7 +2678,7 @@
            given={Lorena},
            given_i={L\bibinitperiod}}}%
         {{hash=4cda3cb5456884d6218484130e4e44cf}{%
-           family={Tusié-Luna},
+           family={Tusi\'{e}-Luna},
            family_i={T\bibinithyphendelim L\bibinitperiod},
            given={Teresa},
            given_i={T\bibinitperiod}}}%
@@ -2808,7 +2692,7 @@
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Performing genetic studies in multiple human populations can identify disease risk alleles that are common in one population but rare in others, with the potential to illuminate pathophysiology, health disparities, and the population genetic origins of disease alleles. Here we analysed 9.2 million single nucleotide polymorphisms (SNPs) in each of 8,214 Mexicans and other Latin Americans: 3,848 with type 2 diabetes and 4,366 non-diabetic controls. In addition to replicating previous findings, we identified a novel locus associated with type 2 diabetes at genome-wide significance spanning the solute carriers SLC16A11 and SLC16A13 (P = 3.9 × 10(-13); odds ratio (OR) = 1.29). The association was stronger in younger, leaner people with type 2 diabetes, and replicated in independent samples (P = 1.1 × 10(-4); OR = 1.20). The risk haplotype carries four amino acid substitutions, all in SLC16A11; it is present at {\~{}}50{\%} frequency in Native American samples and {\~{}}10{\%} in east Asian, but is rare in European and African samples. Analysis of an archaic genome sequence indicated that the risk haplotype introgressed into modern humans via admixture with Neanderthals. The SLC16A11 messenger RNA is expressed in liver, and V5-tagged SLC16A11 protein localizes to the endoplasmic reticulum. Expression of SLC16A11 in heterologous cells alters lipid metabolism, most notably causing an increase in intracellular triacylglycerol levels. Despite type 2 diabetes having been well studied by genome-wide association studies in other populations, analysis in Mexican and Latin American individuals identified SLC16A11 as a novel candidate gene for type 2 diabetes with a possible role in triacylglycerol metabolism.}
+      \field{abstract}{Performing genetic studies in multiple human populations can identify disease risk alleles that are common in one population but rare in others, with the potential to illuminate pathophysiology, health disparities, and the population genetic origins of disease alleles. Here we analysed 9.2 million single nucleotide polymorphisms (SNPs) in each of 8,214 Mexicans and other Latin Americans: 3,848 with type 2 diabetes and 4,366 non-diabetic controls. In addition to replicating previous findings, we identified a novel locus associated with type 2 diabetes at genome-wide significance spanning the solute carriers SLC16A11 and SLC16A13 (P = 3.9 \x{fffd}\x{fffd} 10(-13); odds ratio (OR) = 1.29). The association was stronger in younger, leaner people with type 2 diabetes, and replicated in independent samples (P = 1.1 \x{fffd}\x{fffd} 10(-4); OR = 1.20). The risk haplotype carries four amino acid substitutions, all in SLC16A11; it is present at {\~{}}50{\%} frequency in Native American samples and {\~{}}10{\%} in east Asian, but is rare in European and African samples. Analysis of an archaic genome sequence indicated that the risk haplotype introgressed into modern humans via admixture with Neanderthals. The SLC16A11 messenger RNA is expressed in liver, and V5-tagged SLC16A11 protein localizes to the endoplasmic reticulum. Expression of SLC16A11 in heterologous cells alters lipid metabolism, most notably causing an increase in intracellular triacylglycerol levels. Despite type 2 diabetes having been well studied by genome-wide association studies in other populations, analysis in Mexican and Latin American individuals identified SLC16A11 as a novel candidate gene for type 2 diabetes with a possible role in triacylglycerol metabolism.}
       \field{issn}{0028-0836}
       \field{journaltitle}{Nature}
       \field{month}{12}
@@ -2828,6 +2712,68 @@
       \verb http://www.nature.com/doifinder/10.1038/nature12828
       \endverb
       \keyw{African Continental Ancestry Group,African Continental Ancestry Group: genetics,Alleles,Animals,Asian Continental Ancestry Group,Asian Continental Ancestry Group: genetics,Cohort Studies,Diabetes Mellitus,Endoplasmic Reticulum,Endoplasmic Reticulum: genetics,European Continental Ancestry Group,European Continental Ancestry Group: genetics,Female,Genetic Predisposition to Disease,Genetic Predisposition to Disease: genetics,Genome-Wide Association Study,Haplotypes,Haplotypes: genetics,HeLa Cells,Humans,Indians,Lipid Metabolism,Lipid Metabolism: genetics,Liver,Liver: cytology,Liver: metabolism,Male,Messenger,Messenger: genetics,Messenger: metabolism,Mexico,Monocarboxylic Acid Transporters,Monocarboxylic Acid Transporters: genetics,Neanderthals,Neanderthals: genetics,North American,North American: genetics,Polymorphism,RNA,Single Nucleotide,Single Nucleotide: genetics,Triglycerides,Triglycerides: metabolism,Type 2,Type 2: genetics}
+    \endentry
+    \entry{WorldHealthOrganization2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d292a222024f1b13e98a059c94a9b75}{%
+           family={{World\bibnamedelimb Health\bibnamedelimb Organization}},
+           family_i={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Executive Summary This report is an addendum to the diagnostic criteria published in the 2006 WHO/IDF report \x{fffd}\x{fffd}\x{fffd}Definition and diagnosis of diabetes mellitus and intermediate hyperglycaemia\x{fffd}\x{fffd}\x{fffd} , and addresses the use of HbA1c in diagnosing diabetes mellitus. This report does not invalidate the 2006 recommendations on the use of plasma glucose measurements to diagnose diabetes. A WHO expert consultation was held from 28 to 30 March 2009. A systematic review was conducted on the use of HbA1c as a diagnostic test for diabetes mellitus. The evidence was summarized and its quality evaluated using the GRADE methodology. The recommendation was formulated and its strength was rated on a two-point scale, based on the quality of evidence and the applicability and performance of the method in different settings. The WHO Consultation concluded that HbA1c can be used as a diagnostic test for diabetes, provided that stringent quality assurance tests are in place and assays are standardised to criteria aligned to the international reference values, and there are no conditions present which preclude its accurate measurement. An HbA1c of 6.5{\%} is recommended as the cut point for diagnosing diabetes. A value less than 6.5{\%} does not exclude diabetes diagnosed using glucose tests. The expert group concluded that there is currently insufficient evidence to make any formal recommendation on the interpretation of HbA1c levels below 6.5{\%}. GRADE quality of evidence: moderate GRADE strength of recommendation: conditional}
+      \field{title}{{Use of glycated haemoglobin (HbA1c) in the diagnosis of diabetes mellitus: abbreviated report of a WHO consultation}}
+      \field{year}{2011}
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/World Health Organization - 2011 - Use of glycated haemoglobin (HbA1c) in the diagnosis of diabetes mellitus abbreviated report of a WHO.pdf:pdf
+      \endverb
+    \endentry
+    \entry{WorldHealthOrganization2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d292a222024f1b13e98a059c94a9b75}{%
+           family={{World\bibnamedelimb Health\bibnamedelimb Organization}},
+           family_i={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Global Report on Diabetes}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :home/till/Dokumente/Mendeley Desktop/World Health Organization - 2016 - Global Report on Diabetes.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://apps.who.int/iris/bitstream/10665/204871/1/9789241565257%7B%5C_%7Deng.pdf
+      \endverb
     \endentry
     \entry{Yuan2015}{article}{}
       \name{author}{5}{}{%

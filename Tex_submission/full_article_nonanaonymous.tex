@@ -2,55 +2,17 @@
 \usepackage{setspace}
 \doublespacing
 \usepackage[affil-it]{authblk}
-\usepackage{graphicx}
-\usepackage[space]{grffile}
-\usepackage{latexsym}
-\usepackage{textcomp}
-\usepackage{longtable}
+
 \usepackage[flushleft]{threeparttable} 
 \usepackage{multirow,booktabs}
-\usepackage{ltablex,array} % to scale longtables
-\usepackage{lipsum}
 \usepackage{amsfonts,amsmath,amssymb}
-\usepackage{url}
-\usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,pdfborder={0 0 0}}
-\usepackage[T1]{fontenc}
 \usepackage{caption} %have period instead of colon for figures and Table captions
 \captionsetup[table]{labelsep=period}
-
-  
-\providecommand{\tabularnewline}{\\}
-\usepackage[nolist]{acronym}
-\newacro{BMI} {body mass index}  
-\newacro{LMIC} {low- and middle-income country}
-\acrodefplural{LMIC}[LMICs]{low- and middle-income countries}  
-\newacro{MIC} {middle-income country}
-\acrodefplural{MIC}[MICs]{middle-income countries}  
-\newacro{HIC} {high-income country}  
-\acrodefplural{HIC}[HICs]{high-income countries}
-\newacro{FE} {fixed effects}  
-\newacro{HbA1c} {glycated hemoglobin}  
-\newacro{IDF} {International Diabetes Federation}  
-\newacro{IV} {instrumental variable}  
-\newacro{LPM} {linear probability model}  
-\newacro{MxFLS} {Mexican Family Life Survey}  
-\newacro{OLS} {ordinary least squares}  
-\newacro{RE} {random effects}
-\newacro{p.p.} {percentage points}    
-\newacro{US} {United States}
-\newacro{WHO} {World Health Organization} 
-\newacro{WB} {within-between} 
-\newacro{USA} {United States of America}   
-\usepackage{longtable}
-\usepackage{booktabs}
-\usepackage{multirow}
-\usepackage{graphicx}
 \usepackage[Export]{adjustbox}
 %landscape pages
 \usepackage{pdflscape}
-\newcommand{\comment}[1]{}  %allows multiline comments
 \usepackage[english]{babel}% Recommended
 \usepackage{csquotes}
 \usepackage{lineno} %line numbers
@@ -65,22 +27,16 @@ uniquename=false,
 url=false,
 isbn=false,
 doi=true]{biblatex}
-%\DeclareLanguageMapping{english}{english-apa}
+
 \DeclareNameAlias{sortname}{first-last}
-%\renewcommand*{\nameyeardelim}{\addcomma\space}
-
-
 \AtEveryBibitem{\clearfield{month}}
 	
-\addbibresource{/home/till/Dokumente/BibTex/Second_Mexico_paper.bib}
+\addbibresource{References.bib}
 
 %SPECIFIC FORMATING RULES OF JOURNAL
 
 \renewcommand{\thesection}{\arabic{section}.}
 \renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
-
-
-
 
 
 % paper margins
@@ -114,6 +70,27 @@ bottom=30mm,
 }
 
 	        
+\usepackage[nolist]{acronym}
+\newacro{BMI} {body mass index}  
+\newacro{LMIC} {low- and middle-income country}
+\acrodefplural{LMIC}[LMICs]{low- and middle-income countries}  
+\newacro{MIC} {middle-income country}
+\acrodefplural{MIC}[MICs]{middle-income countries}  
+\newacro{HIC} {high-income country}  
+\acrodefplural{HIC}[HICs]{high-income countries}
+\newacro{FE} {fixed effects}  
+\newacro{HbA1c} {glycated hemoglobin}  
+\newacro{IDF} {International Diabetes Federation}  
+\newacro{IV} {instrumental variable}  
+\newacro{LPM} {linear probability model}  
+\newacro{MxFLS} {Mexican Family Life Survey}  
+\newacro{OLS} {ordinary least squares}  
+\newacro{RE} {random effects}
+\newacro{p.p.} {percentage points}    
+\newacro{US} {United States}
+\newacro{WHO} {World Health Organization} 
+\newacro{WB} {within-between} 
+\newacro{USA} {United States of America}   
 	        
       
 
@@ -140,14 +117,33 @@ bottom=30mm,
 \makeatother        
 \begin{document}
 	\title{The impact of diabetes on labour market outcomes in Mexico: a panel data and biomarker analysis}
-	\author{}
-	\date{}
- \maketitle 
+	
+	\author[a,b,c]{Till Seuring%
+		\thanks{Corresponding author.}}
+	\author[c]{Pieter Serneels}
+	\author[d,e]{Marc Suhrcke}
+	
+	\affil[a]{Leibniz Institute for Prevention Research and Epidemiology - BIPS\\ Research Group for Evidence-Based Public Health\\ Achterstr. 30\\ 28359 Bremen\\ Germany\\ Email: seuring@leibniz-bips.de\\
+		Phone: +49 421 218 569 23}
+	\affil[b]{Health Sciences Bremen\\ Institute for Public Health and Nursing\\ University of Bremen\\ Bremen\\ Germany}
+	\affil[c]{ University of East Anglia\\ Norwich Research Park\\ Norwich\\ Norfolk\\ UK}
+	\affil[d]{University of York\\ Heslington\\ York\\ UK}
+	\affil[e]{Luxembourg Institute of Socio-Economic Research\\ Esch-sur-Alzette/Belval\\ Luxembourg}
+	\date{}	
+	
+	
+	
+	\maketitle 
+	
+	\noindent Funding statement: No funding was received to support this project. \\
+	Declarations of interest: none
 	\thispagestyle{empty}
 	\clearpage
-	\begin{abstract}
-		Recent evidence for Mexico suggests important differences in health status between people with diagnosed and undiagnosed diabetes. However, there is at best scarce evidence on the economic consequences of diabetes, especially in contexts where the condition often remains undiagnosed, as is typically the case in low- and middle income countries. Using Mexican longitudinal as well as biomarker data we estimated the impact of diabetes and diabetes duration on employment probabilities, wages and working hours. We further explored how these effects differed for those with diagnosed and undiagnosed diabetes. For the longitudinal analyses nationally representative data from 11836 men and 13745 women 15 to 64 years old were taken from three waves (2002, 2005, 2009) of the Mexican Family Life Survey. We estimated a fixed effects model to account for unmeasured time-invariant confounders of diabetes. We found a reduction in the probability of being employed of 5.4 and 5.9 percentage points for men and women, respectively, but no effects on hours worked or wages. Employment probabilities fell gradually with each year since diagnosis. Using cross-sectional biomarker data, we observed that 68\% of those exhibiting glycated hemoglobin (HbA1c) levels above the clinical diabetes threshold did not self-report a diagnosis, hence were undiagnosed. Nevertheless, regression analysis revealed that there was no association of diabetes with labour outcomes for undiagnosed women or men. This suggests that results based on self-reported diabetes cannot be extended to the considerable population with undiagnosed diabetes, likely because of a selection of people in worse health and with a longer diabetes duration into the diagnosed population. An earlier diagnosis and improved treatment of diabetes therefore may prevent adverse health effects and related economic hardship in Mexico.
-	\end{abstract}
+
+	
+\begin{abstract}
+Recent evidence for Mexico suggests important differences in health status between people with diagnosed and undiagnosed diabetes. However, there is at best scarce evidence on the economic consequences of diabetes, especially in contexts where the condition often remains undiagnosed, as is typically the case in low- and middle income countries. Using Mexican longitudinal as well as biomarker data we estimated the impact of diabetes and diabetes duration on employment probabilities, wages and working hours. We further explored how these effects differed for those with diagnosed and undiagnosed diabetes. For the longitudinal analyses nationally representative data from 11836 men and 13745 women 15 to 64 years old were taken from three waves (2002, 2005, 2009) of the Mexican Family Life Survey. We estimated a fixed effects model to account for unmeasured time-invariant confounders of diabetes. We found a reduction in the probability of being employed of 5.4 and 5.9 percentage points for men and women, respectively, but no effects on hours worked or wages. Employment probabilities fell gradually with each year since diagnosis. Using cross-sectional biomarker data, we observed that 68\% of those exhibiting glycated hemoglobin (HbA1c) levels above the clinical diabetes threshold did not self-report a diagnosis, hence were undiagnosed. Nevertheless, regression analysis revealed that there was no association of diabetes with labour outcomes for undiagnosed women or men. This suggests that results based on self-reported diabetes cannot be extended to the considerable population with undiagnosed diabetes, likely because of a selection of people in worse health and with a longer diabetes duration into the diagnosed population. An earlier diagnosis and improved treatment of diabetes therefore may prevent adverse health effects and related economic hardship in Mexico.
+\end{abstract}
 \noindent Keywords: Mexico; diabetes; biomarker; wages; fixed effects; employment, working hours
 
 
@@ -351,7 +347,7 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 \begin{figure}[h!]
 	\caption{\label{fig:kdens_inconsistency_hba1c}Kernel density of HbA1c values for those with one inconsistent and two inconsistent reports.}%
 	\begin{center}
-		\includegraphics[width=.7\linewidth]{figures/kdensity_hba1c_inconsist.eps}\\
+		\includegraphics[width=.7\linewidth]{figures/FigureS1.pdf}\\
 	\end{center}
 \end{figure}
 
@@ -925,7 +921,7 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 \begin{figure}[!ht]
 	\caption{\label{fig:Kernel-weighted-local-polynomial_comb}Employment, wages, working hours and years since self-reported diabetes:  Kernel-weighted local polynomial regression}%
 	\begin{center}
-		\includegraphics[width=\linewidth]{figures/lpoly_combined.pdf}\\
+		\includegraphics[width=\linewidth]{figures/Figure1.pdf}\\
 		\footnotesize{\textit{Notes} The shaded areas indicate the 95\% confidence intervals.}
 	\end{center}
 \end{figure}
