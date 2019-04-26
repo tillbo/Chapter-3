@@ -302,17 +302,20 @@
       \field{sortinit}{B}
       \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
       \field{labelyear}{2008}
+      \field{labelmonth}{12}
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Little is understood about the patterns and trends in adolescent and adult beverage intake in Mexico or most other countries. Here, we used nationally representative dietary intake, income, and food expenditure surveys, which included 416 adolescents (aged 12-18 y) and 2180 adults (aged {>}or=19 y) from the 1999 Mexican Nutrition Survey and 7464 adolescents and 21,113 adults from the 2006 Mexican Health and Nutrition Survey. We measured the volume and energy per day contributed by all beverages consumed by the sample subjects. In 2006, Mexican adolescents and adults obtained 20.1 and 22.3{\%}, respectively, of their energy intake from energy-containing beverages. Whole milk, carbonated and noncarbonated sugar-sweetened beverages, fruit juice with various sugar and water combinations added, and alcohol represented the 4 major categories of beverage intake. The trends from the dietary intake surveys showed very large increases in the intake of energy-containing beverages among adolescents and adults between 1999 and 2006. Income elasticities showed a high likelihood that intakes will increase as Mexican incomes continue to rise. Whereas the own-price elasticities for whole milk and sodas were both modest, intakes of these were increasing and higher than those for all other food groups. Energy intake trends and current levels of beverage intakes in Mexico are the highest recorded in a nationally representative survey and present major challenges for public health authorities.}
-      \field{issn}{1541-6100}
-      \field{journaltitle}{The Journal of nutrition}
+      \field{isbn}{0022-3166}
+      \field{issn}{0022-3166}
+      \field{journaltitle}{Journal of Nutrition}
+      \field{month}{12}
       \field{number}{12}
-      \field{title}{{Energy intake from beverages is increasing among Mexican adolescents and adults.}}
+      \field{title}{{Energy Intake from Beverages Is Increasing among Mexican Adolescents and Adults}}
       \field{volume}{138}
       \field{year}{2008}
-      \field{pages}{2454\bibrangedash 61}
+      \field{pages}{2454\bibrangedash 2461}
       \range{pages}{8}
       \verb{doi}
       \verb 10.3945/jn.108.092163
@@ -320,7 +323,6 @@
       \verb{file}
       \verb :home/till/Dokumente/Mendeley Desktop/Barquera et al. - 2008 - Energy intake from beverages is increasing among Mexican adolescents and adults.pdf:pdf
       \endverb
-      \keyw{Adolescent,Adult,Beverages,Beverages: adverse effects,Child,Diabetes Mellitus,Energy Intake,Female,Food Habits,Humans,Male,Mexico,Middle Aged,Nutrition Surveys,Obesity,Obesity: etiology,Socioeconomic Factors,Type 2,Type 2: etiology,Young Adult}
     \endentry
     \entry{Basu2013}{article}{}
       \name{author}{4}{}{%
@@ -1646,7 +1648,7 @@
       \verb 10.2337/dc10-1546
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Sacks - 2011 - A1C Versus Glucose Testing A Comparison.pdf:pdf
+      \verb :home/till/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/To, Measurement - Unknown - A1C Versus Glucose Testing.pdf:pdf
       \endverb
       \verb{url}
       \verb http://care.diabetesjournals.org/cgi/doi/10.2337/dc10-1546
@@ -1816,7 +1818,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{IZA Discussion Papers}
       \field{number}{11817}
-      \field{title}{{Diabetes , Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models Diabetes , Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models}}
+      \field{title}{{Diabetes, Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models Diabetes , Employment and Behavioural Risk Factors in China : Marginal Structural Models versus Fixed Effects Models}}
       \field{year}{2018}
       \verb{file}
       \verb :home/till/Dropbox/PhD/China{\_}Paper/Submission/IZA/Seuring et al. - 2018 - Diabetes , Employment and Behavioural Risk Factors in China Marginal Structural Models versus Fixed Effects Mod.pdf:pdf
@@ -2823,7 +2825,7 @@
       \verb 10.1136/bmjopen-2014-006633
       \endverb
       \verb{file}
-      \verb :home/till/Dokumente/Mendeley Desktop/Yuan et al. - 2015 - Validity of self-reported diabetes among middle-aged and older Chinese adults the China Health and Retirement Lo(2).pdf:pdf
+      \verb :home/till/Dokumente/Mendeley Desktop/Yuan et al. - 2015 - Validity of self-reported diabetes among middle-aged and older Chinese adults the China Health and Retirement Longi.pdf:pdf
       \endverb
     \endentry
     \entry{Zajacova2010}{article}{}

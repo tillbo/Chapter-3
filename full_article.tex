@@ -187,24 +187,27 @@ To investigate the relationship between self-reported diabetes and three labour 
 
 
 \begin{equation}
-Y_{it}=\beta_{0}+\beta_{1}(D_{it}-\overline{D}_{i})+\beta_{2}(X_{it}-\overline{X}_i)+\beta_{3}\overline{D}_{i}+\beta_{4}\overline{X}_i+(u_{i}+e_{it}),\label{eq:cha4_employed}
+Y_{it}=\beta_{0}+\beta_{1}(D_{it}-\overline{D}_{i})+\beta_{2}(X_{it}-\overline{X}_i)+e_{it},\label{eq:cha4_employed}
 \end{equation}
 
-The fixed effects model uses only the  within-person variation for identification, i.e. the difference between the diabetes indicator $D_{it}$ and its cluster mean $\overline{D}_{i}$, so that $\beta_{1}$ represented the within-person variation of diabetes over time. The same applies to the other time-varying covariates $X_{it}$. $Y_{it}$ was a binary variable taking a value of $1$ if respondent $i$ reported being in employment at time $t$ and $0$ otherwise. For ease of interpretation we chose to estimate a linear probability model for the effects of diabetes on employment.
+The fixed effects model used only the  within-person variation for identification, i.e. the difference between the diabetes indicator $D_{it}$ and its cluster mean $\overline{D}_{i}$, so that $\beta_{1}$ represented the within-person variation of diabetes over time. The same applied to the other time-varying covariates $X_{it}$. $Y_{it}$ was a binary variable taking a value of $1$ if respondent $i$ reported being in employment at time $t$ and $0$ otherwise. For ease of interpretation we chose to estimate a linear probability model for the effects of diabetes on employment.
 
 To estimate the effect on working hours and wages, our empirical models were estimated conditional on being in employment. $Y_{it}$ represented the log hourly wage or the weekly working hours over the last year, for respondent $i$ at time $t$.
 
-We also included time variant confounders---as the fixed effects model accounts for time invariant confounding only. We controlled for changes in the level of urbanization, the level of education, the state of residence, marital status, the number of children below the age of six in the household, a quadratic age term and calendar year dummies.  We also control for household wealth approximated by a household asset index. We composed an indicator using principal component of household assets and housing following Filmer et al. (2001) \parencite{Filmer2001}. The asset index reflected owning a vehicle, a second house, a washing machine, dryer, stove, refrigerator or furniture, any electric appliances, any domestic appliances, a bicycle, farm animals, and accounted for the physical condition of the house, proxied by the type of floor material and water access. In our main regression models we did not account for \ac{BMI}. While part of the effect of diabetes may be due to potential adverse effects of obesity, including \ac{BMI} as a control variable in the model would have led to attenuated estimates if the diagnosis of diabetes also had an effect on \ac{BMI}, which has been shown to be the case in other studies \parencite{Slade2012,DeFineOlivarius2015,Seuring2018}. Similarly, we did not control for any diseases that were likely consequences of diabetes, such as heart disease or other micro- and macro-vascular complications \parencite{WorldHealthOrganization2016}, as this would prevent any causal interpretation of the relationship of diabetes with our labour market outcomes \parencite{Angrist2009a}. Nonetheless, we carried out a robustness analysis controlling for obesity. Stata 15 was used for all analyses \parencite{StataCorp2017}.
+In the main \ac{FE} models we only included calender year dummies as time-variant control variables. Other potential time-variant control variables to account for socioeconomic, demographic, geographic or health changes throughout the observation period could have been affected by the onset of diabetes, and were not controlled for as this would have prevented a causal interpretation of the relationship of diabetes with our labour market outcomes \parencite{Angrist2009a}. So is it thinkable that a diabetes diagnosis affected the place of residence, for example as people move back to their family to receive additional help. Diabetes may also have affected a person's chances to become married, as potential  spouses could be deterred by a diabetes diagnosis and the potential health consequences it entails. Similarly, we did not account for changes in wealth, in particular because changes in employment outcomes due to diabetes would more than likely have affected the overall wealth of the person and its household. We also did not account for \ac{BMI}. While part of the effect of diabetes may be due to potential adverse effects of obesity, including \ac{BMI} as a control variable in the model would have lead to attenuated estimates if the diagnosis of diabetes also had an effect on \ac{BMI}, which has been shown to be the case in other studies \parencite{Slade2012,DeFineOlivarius2015,Seuring2018}. Similarly, we did not control for any diseases that were likely consequences of diabetes, such as heart disease or other micro- and macro-vascular complications \parencite{WorldHealthOrganization2016}. Nonetheless, we carry out a robustness analysis where we control for  the level of urbanization, the level of education, the state of residence, marital status, the number of children below the age of six in the household and household wealth approximated by a household asset index. We composed an indicator using principal component of household assets and housing following Filmer et al. (2001) (Filmer and Pritchett 2001). The asset index reflected owning a vehicle, a second house, a washing machine, dryer, stove, refrigerator or furniture, any electric appliances, any domestic appliances, a bicycle, farm animals, and accounted for the physical condition of the house, proxied by the type of floor material and water access.controlling for obesity. Stata 15 was used for all analyses \parencite{StataCorp2017}.
 
 
 \subsection{Labour outcomes and time since diagnosis}
 
-The chronic nature and irreversibility of diabetes provide good reason to explore the long term effects post diagnosis.  To do this we replaced the binary diabetes indicator of Eq \ref{eq:cha4_employed} with a continuous variable indicating years since the diagnosis was first reported. Simultaneous inclusion of year dummies and time since diagnosis (which varies by one unit in each time period) would typically not allow separate identification of the coefficient of time since diagnosis. In this case, identification relied on the presence of people without diabetes in the sample, for which diabetes duration did not increase.
+The chronic nature and irreversibility of diabetes provide good reason to explore the long term effects post diagnosis.  To do this we replaced the binary diabetes indicator of Eq \ref{eq:cha4_employed} with a continuous variable indicating years since the diagnosis was first reported. The simultaneous inclusion of variables that increase at the same rate between survey years in a \ac{FE} model is not possible due to perfect collinearity. In our case this caused the problem of identifying the effect of time since diagnosis separate from the effect of other linear time trends such as age or the year of the survey.  To deal with this problem, we opted for the estimation of an interaction effect of the time since diagnosis at baseline with the survey year. Unfortunately, this strategy excluded everybody that only received a diabetes diagnosis after entering the sample.
+\begin{equation}
+Y_{it}=\beta_{0}+\beta_{1}(Syears_{it}-\overline{Syears}_i)+\beta_{1}Dyears_{i0}*(Syears_{it}-\overline{Syears}_i)+e_{it},\label{eq:cha4_employed}
+\end{equation}
 
 We also considered a spline function that allowed for non-linear effects over time, with $g(Dyears_{it})=\sum_{n=1}^{N}\delta_{n}\cdot max\{Dyears_{it}-\eta_{n-1}\}I_{in}$
 and $I_{in}=1[\eta_{n-1}\leq Dyears_{it}<\eta_{n}]$, with $\eta_{n}$ being the place of the $n$-th node for $n=1,2,\ldots,N$. The coefficient $\delta_{n}$ captured the effect of diabetes for the $n$-th interval. The effects are linear if $\delta_{1}=\delta_{2}=,\ldots,=\delta_{n}$.
 
-Based on visual inspection (Fig. \ref{fig:Kernel-weighted-local-polynomial_comb} on page \pageref{fig:Kernel-weighted-local-polynomial_comb}) we chose three nodes located at 3, 7 and 12 years after diagnosis. The first three years should capture any immediate effects of the diagnosis, the years four to seven any effects during time of adaptation to the disease and the later terms the long term effects. We also estimated a non-linear model using dummy variables for duration groups rather than splines, applying the same duration cut-offs. Because the year of diagnosis was only reported in the third wave, time since diagnosis was not available for those who were not interviewed in the third round.  A reported diagnosis in the year of the interview was counted as 'one year since diagnosis'.
+Based on visual inspection (Fig. \ref{fig:Kernel-weighted-local-polynomial_comb} on page \pageref{fig:Kernel-weighted-local-polynomial_comb}) we chose three nodes located at 3, 7 and 12 years after diagnosis. The first three years should capture any immediate effects of the diagnosis, the years four to seven any effects during time of adaptation to the disease and the later terms the long term effects. We also estimated a non-linear model using dummy variables for duration groups rather than splines, applying the same duration cut-offs. Because the year of diagnosis was only reported in the third wave, time since diagnosis for previous survey waves was not available for those who were not interviewed in the third round.  A reported diagnosis in the year of the interview was counted as 'one year since diagnosis'.
 
 \subsection{\label{sec:Biomarker Strategy}Labour outcomes and biometrically measured diabetes}
 
@@ -231,7 +234,7 @@ Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{2}Dbio_{i}+v_{i}+u_{i}.\label{eq:diab_ud
 
 This changed the interpretation of $Dbio_{i}$, which now reflected the effect on those with undiagnosed diabetes, i.e. the respondents not self-reporting diabetes but with \ac{HbA1c} levels equal to or above the threshold. 
 
-We further investigated the effect of the severity of diabetes on labour outcomes, replacing $Dbio$ with $Dbio^{c}$, a variable that was $0$ for \ac{HbA1c} < 6.5\% and increased by one for every percentage point increase in \ac{HbA1c} for those with an $HbA1c \geq 6.5\%$ (Eq \ref{eq:diab_hba1c}). This allowed us to investigate the effect of a one percentage point increase in \ac{HbA1c} levels for people with undiagnosed diabetes ($\beta_{2}$) as well as for those with self-reported diabetes ($\beta_{3}$).
+We further investigated the effect of the severity of diabetes on labour outcomes, replacing $Dbio$ with $Dbio^{c}$, a variable that was $0$ for \ac{HbA1c} < 6.5\% and increased by one for every percentage point increase in \ac{HbA1c} for those with an $HbA1c \geq 6.5\%$ (Eq \ref{eq:diab_hba1c}). This allowed us to investigate the effect of changes in \ac{HbA1c} levels for people with undiagnosed diabetes ($\beta_{2}$) as well as for those with self-reported diabetes ($\beta_{3}$).
 
 \begin{equation}
 Y_{i}=\beta_{0}+\beta_{1}Dsr_{i}+\beta_{2}Dbio^{c}_{i}+\beta_{3}Dsr_{i}*HbA1c_{i}+\beta_{4}X_{i}+v_{i}+u_{i}.\label{eq:diab_hba1c}
@@ -372,17 +375,17 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{2}{c}{Employment}    &\multicolumn{2}{c}{Weekly working hours} &\multicolumn{2}{c}{Log hourly wages}  \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						Early onset&    0.133         &   -0.206\sym{**} &   14.856\sym{*}  &  -18.250\sym{*}  &   -0.490         &    0.375\sym{***}\\
-						&  (0.176)         &  (0.086)         &  (8.329)         &  (9.515)         &  (0.337)         &  (0.057)         \\
-						Late onset&  -0.059\sym{**} &   -0.047\sym{*}  &   -0.936         &   -1.346         &    0.071         &    0.074         \\
-						&  (0.026)         &  (0.025)         &  (1.510)         &  (2.553)         &  (0.068)         &  (0.161)         \\
+						Early onset    &    0.138         &   -0.218\sym{**} &   14.142\sym{*}  &  -18.976\sym{*}  &   -0.488         &    0.363\sym{***}\\
+						&  (0.176)         &  (0.086)         &  (8.464)         &  (9.855)         &  (0.323)         &  (0.039)         \\
+						Late onset    &   -0.082\sym{***}&   -0.050\sym{**} &   -1.534         &   -1.433         &    0.020         &    0.064         \\
+						&  (0.025)         &  (0.025)         &  (1.498)         &  (2.554)         &  (0.066)         &  (0.163)         \\
 						
 						\midrule
 						N         &    21388         &    27339         &    13828         &     7068         &    17616         &     9112         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include calendar year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -403,16 +406,16 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{2}{c}{Non-agric.}       &\multicolumn{2}{c}{Agriculture}      &\multicolumn{2}{c}{Self-employed}    \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						Early onset &      0.030         &   -0.105         &   -0.226         &   -0.068         &    0.328\sym{**} &   -0.027         \\
-						&  (0.216)         &  (0.074)         &  (0.139)         &  (0.047)         &  (0.161)         &  (0.048)         \\
-						Late onset &   -0.007         &    0.007         &   -0.001         &   -0.018\sym{**} &   -0.054\sym{**} &   -0.029         \\
+						Early onset&    0.033         &   -0.101         &   -0.231\sym{*}  &   -0.064         &    0.330\sym{**} &   -0.049         \\
+						&  (0.217)         &  (0.072)         &  (0.139)         &  (0.046)         &  (0.162)         &  (0.055)         \\
+						Late onset&   -0.029         &    0.008         &   -0.005         &   -0.018\sym{**} &   -0.054\sym{**} &   -0.033\sym{*}  \\
 						&  (0.029)         &  (0.019)         &  (0.022)         &  (0.009)         &  (0.026)         &  (0.019)         \\
 						\midrule
-						N         &    20719         &    26575         &    20719         &    26575         &    20719         &    26575         \\
+						N         &20814         &26708         &20814         &26708         &20814         &26708         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include calendar year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -435,16 +438,18 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Monthly work hours} &\multicolumn{2}{c}{Log hourly wages} \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						Early onset&  -0.005         &    0.007         &                  &                  &                  &                  \\
-						&  (0.017)         &  (0.013)         &                  &                  &                  &                  \\
-						Late onset&   -0.012\sym{**} &   -0.008\sym{**} &    0.088         &    0.303         &   -0.007         &   -0.059\sym{***}\\
-						&  (0.005)         &  (0.004)         &  (0.275)         &  (0.505)         &  (0.013)         &  (0.022)         \\
+						Survey year&    0.002\sym{***}&    0.003\sym{***}&   -0.018         &    0.163\sym{**} &    0.013\sym{***}&    0.020\sym{***}\\
+						&  (0.001)         &  (0.001)         &  (0.048)         &  (0.078)         &  (0.003)         &  (0.004)         \\
+						Years since diagnosis at baseline (early onset) $\times$ Survey year&   -0.003         &    0.001         &    0.198         &   -2.915\sym{***}&   -0.009         &    0.263\sym{***}\\
+						&  (0.003)         &  (0.001)         &  (0.233)         &  (0.039)         &  (0.019)         &  (0.002)         \\
+						Years since diagnosis at baseline (late onset) $\times$ Survey year&   -0.003\sym{***}&   -0.001         &    0.007         &    0.047         &   -0.004         &   -0.010\sym{***}\\
+						&  (0.001)         &  (0.001)         &  (0.062)         &  (0.108)         &  (0.003)         &  (0.003)         \\
 						\midrule
-						N         &    16308         &    22450         &    13592         &     7394         &    10778         &     5748         \\
+						N         &    21181         &    26928         &    17481         &     9046         &    13750         &     7026         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} The effects of early onset diabetes on wages and working hours could not be estimated due to no within-variation for diabetes. Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes}  Robust standard errors in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -452,57 +457,6 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 	\end{center}
 \end{table}
 
-\clearpage
-
-\subsection*{Random effects model}
-
-\begin{table}[!ht]
-	\caption{\label{tab:Self-reported-diabetes-duration_RE}{\bf Relationship between self-reported years since diagnosis and employment probabilities using continuous duration and duration splines (random effects).}}
-	\begin{center}
-		%\resizebox{\linewidth}{!}{%
-		\begin{adjustbox}{max width=\linewidth}
-			\begin{threeparttable}
-				{
-					\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-					\begin{tabular}{l*{6}{S S}}
-						\toprule
-						&\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Weekly work hours}&\multicolumn{2}{c}{Log hourly wages} \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
-						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
-						\midrule
-						\textit{\textbf{Panel A: linear effect}} &&&&&&\\
-						Years since diagnosis&  -0.007\sym{***}&   -0.004\sym{***}&    0.039         &   -0.130         &    0.010\sym{**} &   -0.009         \\
-						&  (0.002)         &  (0.001)         &  (0.102)         &  (0.127)         &  (0.005)         &  (0.008)         \\
-						\textit{\textbf{Panel B: splines}} &&&&&&\\
-						Years since SR diagnosis  &&&&&&\\              &                  &                  &                  &                  &                  \\
-						0--3 &     -0.008         &   -0.015\sym{**} &   -0.035         &    0.507         &    0.038\sym{**} &    0.034         \\
-						&  (0.006)         &  (0.006)         &  (0.346)         &  (0.614)         &  (0.017)         &  (0.029)         \\
-						4--7   &    0.001         &    0.004         &    0.242         &   -0.570         &   -0.032         &   -0.048         \\
-						&  (0.011)         &  (0.011)         &  (0.665)         &  (1.062)         &  (0.032)         &  (0.052)         \\
-						8--12   &   -0.008         &    0.002         &   -0.116         &   -0.080         &   -0.003         &   -0.074         \\
-						&  (0.015)         &  (0.011)         &  (0.855)         &  (1.098)         &  (0.041)         &  (0.050)         \\
-						13+   &    -0.012         &   -0.004         &    0.035         &   -0.339         &    0.029         &    0.011         \\
-						&  (0.008)         &  (0.003)         &  (0.410)         &  (0.241)         &  (0.018)         &  (0.017)         \\
-						\textit{\textbf{Panel C: dummies}} &&&&&&\\
-						0--3&   -0.036\sym{*}  &   -0.041\sym{**} &   -0.821         &    1.091         &    0.134\sym{**} &    0.021         \\
-						&  (0.021)         &  (0.021)         &  (1.154)         &  (1.826)         &  (0.054)         &  (0.083)         \\
-						4--7&   -0.014         &   -0.056\sym{**} &    0.877         &    1.200         &    0.093         &   -0.003         \\
-						&  (0.022)         &  (0.023)         &  (1.375)         &  (2.530)         &  (0.059)         &  (0.118)         \\
-						8--12 &  -0.069\sym{*}  &   -0.043         &    0.427         &    0.302         &   -0.070         &   -0.148         \\
-						&  (0.037)         &  (0.030)         &  (2.288)         &  (2.995)         &  (0.101)         &  (0.117)         \\
-						13+ &   -0.121\sym{***}&   -0.043         &   -0.568         &   -2.104         &    0.242\sym{*}  &   -0.279\sym{*}  \\
-						&  (0.045)         &  (0.031)         &  (2.280)         &  (3.088)         &  (0.126)         &  (0.153)         \\
-						\midrule
-						N         &    16308         &    22450         &    13592         &     7394         &    10778         &     5748         \\
-						\bottomrule
-					\end{tabular}
-					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
-					\end{tablenotes}
-				}
-			\end{threeparttable}
-		\end{adjustbox}
-	\end{center}
-\end{table}
 
 \clearpage
 
@@ -720,14 +674,14 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{2}{c}{Employment}       &\multicolumn{2}{c}{Weekly work hours}&\multicolumn{2}{c}{Log hourly wages} \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
-						Diabetes  &   -0.054\sym{**} &   -0.059\sym{**} &   -0.506         &   -1.998         &    0.055         &    0.081         \\
-						&  (0.025)         &  (0.024)         &  (1.499)         &  (2.511)         &  (0.068)         &  (0.158)         \\
+						Diabetes  &   -0.076\sym{***}&   -0.062\sym{**} &   -1.116         &   -2.104         &    0.006         &    0.070         \\
+						&  (0.025)         &  (0.024)         &  (1.487)         &  (2.520)         &  (0.065)         &  (0.160)         \\
 						\midrule
-						N         &    21388         &    27339         &    17616         &     9112         &    13828         &     7068         \\
+						N         &    21483         &    27463         &    17701         &     9162         &    13907         &     7113         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include calendar year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -749,14 +703,14 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{3}{c}{Males}                               &\multicolumn{3}{c}{Females}                             \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
 						&\multicolumn{1}{c}{Non-agric.}&\multicolumn{1}{c}{Agric.}&\multicolumn{1}{c}{Self-employed}&\multicolumn{1}{c}{Non-agric.}&\multicolumn{1}{c}{Agric.}&\multicolumn{1}{c}{Self-employed}\\
 						\midrule
-						Diabetes  &   -0.006         &   -0.008         &   -0.043         &   -0.001         &   -0.022\sym{**} &   -0.029         \\
+						Diabetes  &   -0.026         &   -0.012         &   -0.043         &    0.001         &   -0.021\sym{**} &   -0.034\sym{*}  \\
 						&  (0.029)         &  (0.022)         &  (0.026)         &  (0.018)         &  (0.009)         &  (0.018)         \\
 						\midrule
-						N         &    20719         &    20719         &    20719         &    26575         &    26575         &    26575         \\
+						N         &    20811         &    20811         &    20811         &    26697         &    26697         &    26697         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. All models include calendar year dummies. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
@@ -779,33 +733,41 @@ We then tested if the respondents we categorized as not having a diabetes diagno
 						&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}&\multicolumn{1}{c}{Males}&\multicolumn{1}{c}{Females}\\
 						\midrule
 						\textit{\textbf{Panel A: linear effect}} &&&&&&\\
-						Years since diagnosis &   -0.016\sym{***}&   -0.009\sym{*}  &    0.185         &    0.115         &   -0.016         &   -0.067\sym{**} \\
-						&  (0.006)         &  (0.005)         &  (0.334)         &  (0.652)         &  (0.018)         &  (0.029)         \\
+						Survey year     &    0.018\sym{***}&    0.010\sym{***}&   -0.018         &    0.162\sym{**} &    0.013\sym{***}&    0.020\sym{***}\\
+						&  (0.002)         &  (0.002)         &  (0.048)         &  (0.078)         &  (0.003)         &  (0.004)         \\
+						Years since diagnosis at baseline $\times$ Survey year&   -0.002\sym{**} &   -0.001         &    0.012         &    0.045         &   -0.004         &   -0.010\sym{***}\\
+						&  (0.001)         &  (0.001)         &  (0.061)         &  (0.108)         &  (0.003)         &  (0.003)         \\
 						\textit{\textbf{Panel B: splines}} &&&&&&\\
-						Years since SR diagnosis  &&&&&&\\
-						0--3 &    -0.013         &   -0.018         &    0.708         &    2.953         &   -0.005         &    0.047         \\
-						&  (0.014)         &  (0.016)         &  (0.857)         &  (2.700)         &  (0.054)         &  (0.124)         \\
-						4--7 &    -0.011         &   -0.002         &    0.215         &   -2.517         &   -0.032         &   -0.131         \\
-						&  (0.014)         &  (0.014)         &  (0.761)         &  (1.752)         &  (0.046)         &  (0.101)         \\
-						8--12 &    0.003         &   -0.003         &   -1.153         &    1.144         &   -0.009         &   -0.053         \\
-						&  (0.021)         &  (0.014)         &  (1.252)         &  (1.635)         &  (0.065)         &  (0.061)         \\
-						13+ &    -0.039\sym{***}&   -0.015         &    0.720         &    0.184         &   -0.007         &   -0.096\sym{***}\\
-						&  (0.014)         &  (0.010)         &  (0.943)         &  (1.414)         &  (0.057)         &  (0.037)         \\
+						Survey year     &    0.002\sym{***}&    0.003\sym{***}&   -0.014         &    0.161\sym{**} &    0.013\sym{***}&    0.020\sym{***}\\
+						&  (0.001)         &  (0.001)         &  (0.048)         &  (0.078)         &  (0.003)         &  (0.004)         \\
+						Interaction: Years since diagnosis at baseline with survey year &&&&&&\\
+						\hspace*{10mm}0--3&   -0.006\sym{*}  &    0.001         &   -0.036         &    0.264         &   -0.003         &   -0.032\sym{**} \\
+						&  (0.004)         &  (0.003)         &  (0.206)         &  (0.234)         &  (0.013)         &  (0.014)         \\
+						\hspace*{10mm}4--7 &    0.007         &   -0.004         &   -0.304         &   -0.292         &   -0.021         &    0.016         \\
+						&  (0.008)         &  (0.004)         &  (0.469)         &  (0.478)         &  (0.024)         &  (0.024)         \\
+						\hspace*{10mm}8--12 &   -0.015\sym{*}  &   -0.002         &    0.399         &   -0.838         &    0.045\sym{*}  &    0.011         \\
+						&  (0.009)         &  (0.005)         &  (0.514)         &  (0.638)         &  (0.027)         &  (0.032)         \\
+						\hspace*{10mm}13+ &    0.003         &    0.001         &    0.182         &    2.091\sym{***}&   -0.027\sym{**} &   -0.032         \\
+						&  (0.002)         &  (0.001)         &  (0.211)         &  (0.584)         &  (0.012)         &  (0.028)         \\
 						\textit{\textbf{Panel C: dummies}} &&&&&&\\
-						0--3&    0.005         &   -0.007         &    0.352         &   17.309\sym{*}  &    0.223         &   -0.447         \\
-						&  (0.052)         &  (0.059)         &  (3.123)         &  (9.975)         &  (0.186)         &  (0.549)         \\
-						4--7&    -0.031         &   -0.049         &    2.860         &   10.878         &    0.047         &   -0.568         \\
-						&  (0.042)         &  (0.050)         &  (2.664)         &  (9.504)         &  (0.127)         &  (0.544)         \\
-						8--12&    -0.066         &   -0.026         &   -0.709         &   13.733         &   -0.133         &   -0.873\sym{*}  \\
-						&  (0.063)         &  (0.059)         &  (4.181)         &  (9.695)         &  (0.207)         &  (0.521)         \\
-						13+&   -0.134         &   -0.062         &   -3.379         &   13.309         &    0.164         &   -0.882\sym{**} \\
-						&  (0.098)         &  (0.068)         &  (4.715)         &  (9.239)         &  (0.284)         &  (0.446)         \\
+						Survey year     &    0.002\sym{***}&    0.003\sym{***}&   -0.013         &    0.163\sym{**} &    0.013\sym{***}&    0.020\sym{***}\\
+						&  (0.001)         &  (0.001)         &  (0.048)         &  (0.078)         &  (0.003)         &  (0.004)         \\
+						Interaction: Years since diagnosis at baseline with survey year &&&&&&\\
+						\hspace*{10mm}0--3&   -0.024\sym{**} &   -0.007         &   -0.224         &    0.212         &   -0.033         &   -0.072\sym{*}  \\
+						&  (0.011)         &  (0.009)         &  (0.668)         &  (0.613)         &  (0.040)         &  (0.043)         \\
+						\hspace*{10mm}4--7 &   -0.017         &    0.005         &   -1.161         &    0.712         &   -0.033         &   -0.077         \\
+						&  (0.015)         &  (0.009)         &  (0.759)         &  (1.176)         &  (0.047)         &  (0.047)         \\
+						\hspace*{10mm}8--12 &   -0.029         &   -0.041\sym{***}&   -0.427         &   -3.317\sym{*}  &    0.049         &   -0.023         \\
+						&  (0.020)         &  (0.013)         &  (1.161)         &  (1.846)         &  (0.069)         &  (0.117)         \\
+						\hspace*{10mm}13+ &   -0.042\sym{**} &   -0.010         &    1.746         &    1.750         &   -0.160\sym{**} &   -0.136\sym{***}\\
+						&  (0.021)         &  (0.014)         &  (1.426)         &  (2.272)         &  (0.070)         &  (0.016)         \\
 						\midrule
-						N         &    16298         &    22427         &    10771         &     5746         &    13583         &     7391         \\
+									\midrule
+						N               &    21198         &    26957         &    17492         &     9053         &    13758         &     7033         \\
 						\bottomrule
 					\end{tabular}
 					\begin{tablenotes}
-						\item \footnotesize \textit{Notes} Panel A presents the results of the linear specifications. Panel B presents the results of the non-linear specifications. Robust standard errors in parentheses. All models include variables for  states, urbanization, level of education, marital status, number of children < 6, wealth, health insurance status, age squared and one dummy variable for each calendar year. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
+						\item \footnotesize \textit{Notes} Robust standard errors in parentheses. \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\).
 					\end{tablenotes}
 				}
 			\end{threeparttable}
