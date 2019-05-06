@@ -1,0 +1,36 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'difference_new.blg'
+[38] biber:287> INFO - === Mo Mai  6, 2019, 21:53:49
+[128] Biber.pm:348> INFO - Reading 'difference_new.bcf'
+[259] Biber.pm:742> INFO - Found 44 citekeys in bib section 0
+[264] Biber.pm:3151> INFO - Processing section 0
+[290] Biber.pm:3308> INFO - Looking for bibtex format file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib' for section 0
+[1450] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[2427] bibtex.pm:974> INFO - Found BibTeX data source '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib'
+[2436] Utils.pm:147> WARN - Duplicate entry key: 'Vijan2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2442] Utils.pm:147> WARN - Duplicate entry key: 'Yuan2015' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2445] Utils.pm:147> WARN - Duplicate entry key: 'Strauss2007' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2445] Utils.pm:147> WARN - Duplicate entry key: 'Antillon2014' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2446] Utils.pm:147> WARN - Duplicate entry key: 'Velasquez2010' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2448] Utils.pm:147> WARN - Duplicate entry key: 'Bastida2009' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2449] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2449] Utils.pm:147> WARN - Duplicate entry key: 'Zhao2013a' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2450] Utils.pm:147> WARN - Duplicate entry key: 'Rivera2004' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2451] Utils.pm:147> WARN - Duplicate entry key: 'Barquera2008b' in file '/home/till/Dokumente/BibTex/Second_Mexico_paper.bib', skipping ...
+[2493] Utils.pm:147> WARN - ISBN '1475-2840 (Electronic)$\backslash$r1475-2840 (Linking)' in entry 'Reynoso-Noveron2011' is invalid - run biber with '--validate_datamodel' for details.
+[2502] Utils.pm:147> WARN - ISBN '1432-0428 (Electronic)$\backslash$n0012-186X (Linking)' in entry 'Lim2011' is invalid - run biber with '--validate_datamodel' for details.
+[2522] Utils.pm:147> WARN - ISBN '0098-7484' in entry 'Gregg2012' is invalid - run biber with '--validate_datamodel' for details.
+[2533] Utils.pm:147> WARN - ISBN '0022-3166' in entry 'Barquera2008b' is invalid - run biber with '--validate_datamodel' for details.
+[2647] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Brown2005' is invalid - run biber with '--validate_datamodel' for details.
+[2669] Utils.pm:147> WARN - ISBN '1088-0224' in entry 'BrownIII2011' is invalid - run biber with '--validate_datamodel' for details.
+[2679] Utils.pm:147> WARN - ISBN '1098-3015' in entry 'Minor2011' is invalid - run biber with '--validate_datamodel' for details.
+[2704] Utils.pm:147> WARN - ISBN '1057-9230' in entry 'Latif2009' is invalid - run biber with '--validate_datamodel' for details.
+[2807] Utils.pm:147> WARN - ISBN '0168-8227' in entry 'Beagley2014' is invalid - run biber with '--validate_datamodel' for details.
+[2955] Utils.pm:147> WARN - BibTeX subsystem: /tmp/r54JTY10HD/Second_Mexico_paper.bib_20526.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[3334] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3334] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3334] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3334] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[3457] bbl.pm:519> INFO - Writing 'difference_new.bbl' with encoding 'UTF-8'
+[3897] bbl.pm:615> INFO - Output to difference_new.bbl
+[3897] Biber.pm:109> INFO - WARNINGS: 20
